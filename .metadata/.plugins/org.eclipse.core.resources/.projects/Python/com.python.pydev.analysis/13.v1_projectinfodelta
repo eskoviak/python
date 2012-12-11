@@ -1,9 +1,8 @@
-INSTUPlist1
-/Volumes/Ed One/Projects/MyPlayground-git/python/Python/list1.py
-INFOS:&&2|1|2|0&&2|3|2|0&&2|4|2|0&&2|5|2|0&&2|6|2|0&&2|7|2|0
-front_x=3
-test=6
-list1=2
-match_ends=1
+INSTUPlist2
 /Volumes/Ed One/Projects/MyPlayground-git/python/Python/list2.py
+INFOS:&&2|1|2|0&&2|3|2|0&&2|4|2|0&&2|5|2|0
 list2=2
+test=4
+linear_merge=3
+main=5
+remove_adjacent=1
