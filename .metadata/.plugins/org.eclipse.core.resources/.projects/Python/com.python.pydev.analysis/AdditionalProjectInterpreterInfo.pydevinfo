@@ -2,12 +2,24 @@
 -- START DISKCACHE
 /Volumes/Ed One/Projects/MyPlayground-git/python/.metadata/.plugins/org.eclipse.core.resources/.projects/Python/com.python.pydev.analysis/v1_indexcache
 .v1_indexcache
+list2|0|/Volumes/Ed One/Projects/MyPlayground-git/python/Python/list2.py
+list1|0|/Volumes/Ed One/Projects/MyPlayground-git/python/Python/list1.py
 -- END DISKCACHE
 -- START DICTIONARY
-0
+2
+2=list2
+1=list1
 -- END DICTIONARY
 -- START TREE 1
-0
+8
+fro|1|front_x!10@
+lin|1|linear_merge!18@
+mai|2|main!10@main!18@
+mat|1|match_ends!10@
+rem|1|remove_adjacent!18@
+sor|1|sort_last!10@
+tes|2|test!18@test!10@
+tup|1|tuple_last!10@
 -- END TREE
 -- START TREE 2
 0
