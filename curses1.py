@@ -25,7 +25,7 @@ curses.echo()
 str_list = []
 str_list.append('Hi ')
 stdscr.border()
-stdscr.addstr(4,1,'Enter your name:  ')
+stdscr.addstr(4,1,'Enter your moniker:  ')
 input = stdscr.getstr(5,1)
 str_list.append(str(input))
 stdscr.addstr(6,1,''.join(str_list))
