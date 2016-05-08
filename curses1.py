@@ -27,7 +27,7 @@ str_list.append('Hi ')
 stdscr.border()
 stdscr.addstr(4,1,'Enter your name:  ')
 input = stdscr.getstr(5,1)
-str_list.append(str(input, 'utf-8'))
+str_list.append(str(input))
 stdscr.addstr(6,1,''.join(str_list))
 
 while 1:
