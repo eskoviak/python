@@ -5,6 +5,10 @@ import xmltodict
 infile = 'smalldoc.xml'
 
 with io.open(infile) as file:
-  print(json.dumps(xmltodict.parse(file.read())))
+  
+
+print('Here is the data
+')
+print(json.dumps(xmltodict.parse(file.read())))
 
 
