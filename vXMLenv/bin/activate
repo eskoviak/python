@@ -11,6 +11,14 @@ deactivate () {
         export PATH
         unset _OLD_VIRTUAL_PATH
     fi
+
+    unset LD_LIBRARY_PATH
+    if ! [ -z "${_OLD_LD_LIBRARY_PATH+_}" ] ; then
+	LD_LIBRARY_PATH="$_OLD_LD_LIBRARY_PATH"
+        export LD_LIBRARY_PATH
+	unset _OLD_LD_LIBRARY_PATH
+    fi
+ 
     if ! [ -z "${_OLD_VIRTUAL_PYTHONHOME+_}" ] ; then
         PYTHONHOME="$_OLD_VIRTUAL_PYTHONHOME"
         export PYTHONHOME
@@ -42,6 +50,10 @@ deactivate nondestructive
 
 VIRTUAL_ENV="/home/pi/Projects/python/vXMLenv"
 export VIRTUAL_ENV
+ 
+_OLD_LD_LIBRARY_PATH="$LD_LIBRARY_PATH"
+LD_LIBRARY_PATH="/usr/local/lib"
+export LD_LIBRARY_PATH
 
 _OLD_VIRTUAL_PATH="$PATH"
 PATH="$VIRTUAL_ENV/bin:$PATH"
