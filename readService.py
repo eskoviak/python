@@ -6,10 +6,13 @@ import urllib
 # TODO Get Environment from user
 ENVB = 'http://ap-karafb-dev:8181/api/policies/'
 
-# Get Policy number; replace space with '+'
-policyNumber = raw_input('Enter Policy Number: ').replace(' ', '+')
+# Get user's choice
+choice = raw_input('Enter (U)rl or (F)ile name: (U/f): ')
 
-if policyNumber != 'output.dat':
+
+if choice == 'U' or choice == 'u':
+  # Get Policy number; replace space with '+'
+  policyNumber = raw_input('Enter Policy Number: ').replace(' ', '+')
   print ('Call Url: ' + ENVB+ policyNumber)
 
   data = urllib.urlopen(ENVB+policyNumber).read()
@@ -21,7 +24,8 @@ if policyNumber != 'output.dat':
   outfile.write(json.dumps(dataJSON,indent=4))
   outfile.close()
 else:
-  infile = open('output.dat', 'r')
+  filename = raw_input('Enter filename: ')
+  infile = open(filename, 'r')
   dataJSON = json.loads(infile.read())
   infile.close()
 
