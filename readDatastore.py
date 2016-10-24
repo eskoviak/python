@@ -4,8 +4,8 @@ import json
 
 
 
-def create_client(project_id):
-    return datastore.Client(project_id)
+def create_client(project_id, namespace):
+    return datastore.Client(project_id,namespace)
 
 def get_obs(client):
     query = client.query(kind='data')
@@ -14,9 +14,10 @@ def get_obs(client):
 
 
 if __name__ == '__main__':
-    project_id = '5629499534213120'
+    project_id = 'spartan-thunder-130321'
+    namespace= 'myhealth'
 
-    client = create_client(project_id)
+    client = create_client(project_id, namespace)
     obs = get_obs(client)
     for item in obs:
         print json.loads(item)
