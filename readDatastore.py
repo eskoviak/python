@@ -25,8 +25,6 @@ if __name__ == '__main__':
 
     client = create_client(project_id, namespace)
     obs = get_obs(client)
-    # for item in obs:
-    #     print json.loads(item)
-    print len(obs)
+    for item in obs:
 
         
