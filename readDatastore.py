@@ -26,5 +26,7 @@ if __name__ == '__main__':
     client = create_client(project_id, namespace)
     obs = get_obs(client)
     for item in obs:
+	print('===')
+	print(item['observationDate'])
 
         
