@@ -20,15 +20,19 @@ if __name__ == '__main__':
     client = create_client(project_id, namespace)
     # this lets google create key of kind 'healthFact'
     # key = client.key('healthFact')
-    with client.transaction():
-        incomplete_key = client.key('healthFact')
-        entry = datastore.Entity(key=incomplete_key)
+    #with client.transaction():
+    incomplete_key = client.key('healthFact')
+    entry = datastore.Entity(key=incomplete_key)
 
-        entry.update({
-            'observationDate' : datetime.datetime.utcnow(),
-            'source' : 'Omron',
-            'type' : 'BodyFat',
-            'value' : { 'value' : 14.1, 'units' : '%' }
-        })
+    entry.update({
+        'observationDate' : datetime.datetime.utcnow(),
+        'source' : u'Omron',
+        'type' : u'BodyFat',
+        'value' : u"{ u'value' : 14.1, u'units' : u'%' }"
+    })
 
-        client.put(entry)
+#    entry['observationDate'] = datetime.datetime.utcnow()
+#    entry['source'] = 'Omron'
+#    entry['type'] = 'BodyFat'
+#    entry['value'] = "{ 'value' : 14.1, 'units' : '%'}"
+    client.put(entry)
