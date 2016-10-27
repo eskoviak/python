@@ -25,14 +25,10 @@ if __name__ == '__main__':
     entry = datastore.Entity(key=incomplete_key)
 
     entry.update({
-        'observationDate' : datetime.datetime.utcnow(),
+        'observationDate' : datetime.datetime(2016, 10, 27, 6, 00, 00),
         'source' : u'Omron',
-        'type' : u'BodyFat',
-        'value' : u"{ u'value' : 14.1, u'units' : u'%' }"
+        'type' : u'BodyFat', 
+        'value' : u"{ 'value' : 14.6, u'units' : '%' }"
     })
 
-#    entry['observationDate'] = datetime.datetime.utcnow()
-#    entry['source'] = 'Omron'
-#    entry['type'] = 'BodyFat'
-#    entry['value'] = "{ 'value' : 14.1, 'units' : '%'}"
     client.put(entry)
