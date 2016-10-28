@@ -18,17 +18,15 @@ if __name__ == '__main__':
     namespace = 'myhealth'
 
     client = create_client(project_id, namespace)
-    # this lets google create key of kind 'healthFact'
-    # key = client.key('healthFact')
-    #with client.transaction():
     incomplete_key = client.key('healthFact')
     entry = datastore.Entity(key=incomplete_key)
 
     entry.update({
-        'observationDate' : datetime.datetime(2016, 10, 27, 6, 00, 00),
+        'observationDate' : datetime.datetime(2016, 10, 27, 11, 30, 00),
         'source' : u'Omron',
-        'type' : u'BodyFat', 
-        'value' : u"{ 'value' : 14.6, u'units' : '%' }"
-    })
+        'type' : u'Blood Pressure', 
+#        'value' : u"{ 'value' : 171.0, 'units' : 'lbm' }"
+        'value' : (u"{[{'name' : 'systolic', { 'value' : 126, 'units' : 'mmHg'}},"
+                   u"{'name' : 'diastolic', { 'value' : 73, 'units' : 'mmHg'}}]}"))
 
     client.put(entry)
