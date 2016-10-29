@@ -3,14 +3,20 @@
 # File bloodPressure.py
 
 import datetime
+import json
 
-if __name__ == '__main__':
+
+def makeBPEntry(date, systolic, diasotlic, hr):
     entry = dict()
-    entry['observationDate']=datetime.datetime(2016,10,27,11,00,00)
-    entry['source'] = 'Omron'
-    entry['type'] = 'BloodPressure'
-    
-    for item in {'systolic', 'diastolic', 'heartrate'}:
-	
+    entry['observationDate']=date
+    entry['source'] = u'Omron'
+    entry['type'] = u'BloodPressure'
 
+    values = dict()    
+    values['systolic'] = {'value':123,'units':'mmHg'}
+    values['diastolic'] = {'value':76,'units':'mmHg'}
+    values['heartRate'] = {'value':60,'units':'bpm'} 
+
+    entry['value'] = json.dumps(values)
     print(entry)
+if __name__ == '__main__':
