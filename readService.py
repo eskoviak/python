@@ -4,7 +4,8 @@ import json
 import urllib
 
 environments = { 'ENVA' : 'http://ap-karafa-dev:8181/api/policies/',
-    'ENVB' : 'http://ap-karafb-dev:8181/api/policies/'}
+    'ENVB' : 'http://ap-karafb-dev:8181/api/policies/',
+     'localhost' : 'http://localhost:8181/api/policies/'}
 
 def loadFile(filename):
   infile = open(filename, 'r')
@@ -24,9 +25,11 @@ if __name__ == '__main__':
       print('Choose environment:')
       for key in environments.keys():
         print(key)
-      inKey = raw_input('--> ').upper()
+      inKey = raw_input('--> ')
       if (inKey in environments):
         break
+      else:
+        print("Not in list.  Try again")
 
     # Get Policy number; replace space with '+'
     policyNumber = raw_input('Enter Policy Number: ').replace(" ", "%20").upper()
