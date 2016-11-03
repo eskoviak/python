@@ -6,17 +6,20 @@ import datetime
 import json
 
 
-def makeBPEntry(date, systolic, diasotlic, hr):
+def makeBPEntry(date, systolic, diastolic, hr):
     entry = dict()
     entry['observationDate']=date
     entry['source'] = u'Omron'
     entry['type'] = u'BloodPressure'
 
     values = dict()    
-    values['systolic'] = {'value':123,'units':'mmHg'}
-    values['diastolic'] = {'value':76,'units':'mmHg'}
-    values['heartRate'] = {'value':60,'units':'bpm'} 
+    values['systolic'] = {'value' : systolic,'units':'mmHg'}
+    values['diastolic'] = {'value' : diastolic,'units':'mmHg'}
+    values['heartRate'] = {'value': hr,'units':'bpm'} 
 
     entry['value'] = json.dumps(values)
-    print(entry)
+    return entry
+
 if __name__ == '__main__':
+    entry = makeBPEntry(datetime.datetime.utcnow(), 123, 76, 60)
+    print(entry)
