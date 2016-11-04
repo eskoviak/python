@@ -1,70 +1,2967 @@
 {
-    "list": {
-        "sort": "n", 
-        "end": 8, 
-        "item": [
-            {
-                "ndbno": "15119", 
-                "group": "Finfish and Shellfish Products", 
-                "name": "Fish, tuna, light, canned in oil, drained solids", 
-                "ds": "SR", 
-                "offset": 0
-            }, 
-            {
-                "ndbno": "15183", 
-                "group": "Finfish and Shellfish Products", 
-                "name": "Fish, tuna, light, canned in oil, without salt, drained solids", 
-                "ds": "SR", 
-                "offset": 1
-            }, 
-            {
-                "ndbno": "15121", 
-                "group": "Finfish and Shellfish Products", 
-                "name": "Fish, tuna, light, canned in water, drained solids", 
-                "ds": "SR", 
-                "offset": 2
-            }, 
-            {
-                "ndbno": "15184", 
-                "group": "Finfish and Shellfish Products", 
-                "name": "Fish, tuna, light, canned in water, without salt, drained solids", 
-                "ds": "SR", 
-                "offset": 3
-            }, 
-            {
-                "ndbno": "15124", 
-                "group": "Finfish and Shellfish Products", 
-                "name": "Fish, tuna, white, canned in oil, drained solids", 
-                "ds": "SR", 
-                "offset": 4
-            }, 
-            {
-                "ndbno": "15185", 
-                "group": "Finfish and Shellfish Products", 
-                "name": "Fish, tuna, white, canned in oil, without salt, drained solids", 
-                "ds": "SR", 
-                "offset": 5
-            }, 
-            {
-                "ndbno": "15126", 
-                "group": "Finfish and Shellfish Products", 
-                "name": "Fish, tuna, white, canned in water, drained solids", 
-                "ds": "SR", 
-                "offset": 6
-            }, 
-            {
-                "ndbno": "15186", 
-                "group": "Finfish and Shellfish Products", 
-                "name": "Fish, tuna, white, canned in water, without salt, drained solids", 
-                "ds": "SR", 
-                "offset": 7
-            }
-        ], 
+    "report": {
+        "food": {
+            "manu": "", 
+            "cn": "", 
+            "ndbno": "03172", 
+            "nutrients": [
+                {
+                    "group": "Proximates", 
+                    "name": "Water", 
+                    "nutrient_id": 255, 
+                    "measures": [
+                        {
+                            "eqv": 31.2, 
+                            "qty": 1.0, 
+                            "value": 27.61, 
+                            "label": "fl oz"
+                        }, 
+                        {
+                            "eqv": 127.0, 
+                            "qty": 1.0, 
+                            "value": 112.4, 
+                            "label": "jar"
+                        }, 
+                        {
+                            "eqv": 125.0, 
+                            "qty": 1.0, 
+                            "value": 110.62, 
+                            "label": "bottle Heinz Strained (4 fl oz)"
+                        }, 
+                        {
+                            "eqv": 125.0, 
+                            "qty": 1.0, 
+                            "value": 110.62, 
+                            "label": "bottle Gerber Second Foods (4 fl oz)"
+                        }, 
+                        {
+                            "eqv": 125.0, 
+                            "qty": 1.0, 
+                            "value": 110.62, 
+                            "label": "bottle Beech-Nut Stage 3 (4 fl oz)"
+                        }
+                    ], 
+                    "value": 88.5, 
+                    "dp": 14, 
+                    "sourcecode": "", 
+                    "se": "", 
+                    "unit": "g"
+                }, 
+                {
+                    "group": "Proximates", 
+                    "name": "Energy", 
+                    "nutrient_id": 208, 
+                    "measures": [
+                        {
+                            "eqv": 31.2, 
+                            "qty": 1.0, 
+                            "value": 14.0, 
+                            "label": "fl oz"
+                        }, 
+                        {
+                            "eqv": 127.0, 
+                            "qty": 1.0, 
+                            "value": 57.0, 
+                            "label": "jar"
+                        }, 
+                        {
+                            "eqv": 125.0, 
+                            "qty": 1.0, 
+                            "value": 56.0, 
+                            "label": "bottle Heinz Strained (4 fl oz)"
+                        }, 
+                        {
+                            "eqv": 125.0, 
+                            "qty": 1.0, 
+                            "value": 56.0, 
+                            "label": "bottle Gerber Second Foods (4 fl oz)"
+                        }, 
+                        {
+                            "eqv": 125.0, 
+                            "qty": 1.0, 
+                            "value": 56.0, 
+                            "label": "bottle Beech-Nut Stage 3 (4 fl oz)"
+                        }
+                    ], 
+                    "value": 45.0, 
+                    "dp": "", 
+                    "sourcecode": "", 
+                    "se": "", 
+                    "unit": "kcal"
+                }, 
+                {
+                    "group": "Proximates", 
+                    "name": "Energy", 
+                    "nutrient_id": 268, 
+                    "measures": [
+                        {
+                            "eqv": 31.2, 
+                            "qty": 1.0, 
+                            "value": 58.0, 
+                            "label": "fl oz"
+                        }, 
+                        {
+                            "eqv": 127.0, 
+                            "qty": 1.0, 
+                            "value": 236.0, 
+                            "label": "jar"
+                        }, 
+                        {
+                            "eqv": 125.0, 
+                            "qty": 1.0, 
+                            "value": 232.0, 
+                            "label": "bottle Heinz Strained (4 fl oz)"
+                        }, 
+                        {
+                            "eqv": 125.0, 
+                            "qty": 1.0, 
+                            "value": 232.0, 
+                            "label": "bottle Gerber Second Foods (4 fl oz)"
+                        }, 
+                        {
+                            "eqv": 125.0, 
+                            "qty": 1.0, 
+                            "value": 232.0, 
+                            "label": "bottle Beech-Nut Stage 3 (4 fl oz)"
+                        }
+                    ], 
+                    "value": 186.0, 
+                    "dp": "", 
+                    "sourcecode": "", 
+                    "se": "", 
+                    "unit": "kJ"
+                }, 
+                {
+                    "group": "Proximates", 
+                    "name": "Protein", 
+                    "nutrient_id": 203, 
+                    "measures": [
+                        {
+                            "eqv": 31.2, 
+                            "qty": 1.0, 
+                            "value": 0.19, 
+                            "label": "fl oz"
+                        }, 
+                        {
+                            "eqv": 127.0, 
+                            "qty": 1.0, 
+                            "value": 0.76, 
+                            "label": "jar"
+                        }, 
+                        {
+                            "eqv": 125.0, 
+                            "qty": 1.0, 
+                            "value": 0.75, 
+                            "label": "bottle Heinz Strained (4 fl oz)"
+                        }, 
+                        {
+                            "eqv": 125.0, 
+                            "qty": 1.0, 
+                            "value": 0.75, 
+                            "label": "bottle Gerber Second Foods (4 fl oz)"
+                        }, 
+                        {
+                            "eqv": 125.0, 
+                            "qty": 1.0, 
+                            "value": 0.75, 
+                            "label": "bottle Beech-Nut Stage 3 (4 fl oz)"
+                        }
+                    ], 
+                    "value": 0.6, 
+                    "dp": 21, 
+                    "sourcecode": "", 
+                    "se": "0.000", 
+                    "unit": "g"
+                }, 
+                {
+                    "group": "Proximates", 
+                    "name": "Total lipid (fat)", 
+                    "nutrient_id": 204, 
+                    "measures": [
+                        {
+                            "eqv": 31.2, 
+                            "qty": 1.0, 
+                            "value": 0.09, 
+                            "label": "fl oz"
+                        }, 
+                        {
+                            "eqv": 127.0, 
+                            "qty": 1.0, 
+                            "value": 0.38, 
+                            "label": "jar"
+                        }, 
+                        {
+                            "eqv": 125.0, 
+                            "qty": 1.0, 
+                            "value": 0.38, 
+                            "label": "bottle Heinz Strained (4 fl oz)"
+                        }, 
+                        {
+                            "eqv": 125.0, 
+                            "qty": 1.0, 
+                            "value": 0.38, 
+                            "label": "bottle Gerber Second Foods (4 fl oz)"
+                        }, 
+                        {
+                            "eqv": 125.0, 
+                            "qty": 1.0, 
+                            "value": 0.38, 
+                            "label": "bottle Beech-Nut Stage 3 (4 fl oz)"
+                        }
+                    ], 
+                    "value": 0.3, 
+                    "dp": 21, 
+                    "sourcecode": "", 
+                    "se": "0.000", 
+                    "unit": "g"
+                }, 
+                {
+                    "group": "Proximates", 
+                    "name": "Ash", 
+                    "nutrient_id": 207, 
+                    "measures": [
+                        {
+                            "eqv": 31.2, 
+                            "qty": 1.0, 
+                            "value": 0.12, 
+                            "label": "fl oz"
+                        }, 
+                        {
+                            "eqv": 127.0, 
+                            "qty": 1.0, 
+                            "value": 0.51, 
+                            "label": "jar"
+                        }, 
+                        {
+                            "eqv": 125.0, 
+                            "qty": 1.0, 
+                            "value": 0.5, 
+                            "label": "bottle Heinz Strained (4 fl oz)"
+                        }, 
+                        {
+                            "eqv": 125.0, 
+                            "qty": 1.0, 
+                            "value": 0.5, 
+                            "label": "bottle Gerber Second Foods (4 fl oz)"
+                        }, 
+                        {
+                            "eqv": 125.0, 
+                            "qty": 1.0, 
+                            "value": 0.5, 
+                            "label": "bottle Beech-Nut Stage 3 (4 fl oz)"
+                        }
+                    ], 
+                    "value": 0.4, 
+                    "dp": 17, 
+                    "sourcecode": "", 
+                    "se": "0.000", 
+                    "unit": "g"
+                }, 
+                {
+                    "group": "Proximates", 
+                    "name": "Carbohydrate, by difference", 
+                    "nutrient_id": 205, 
+                    "measures": [
+                        {
+                            "eqv": 31.2, 
+                            "qty": 1.0, 
+                            "value": 3.18, 
+                            "label": "fl oz"
+                        }, 
+                        {
+                            "eqv": 127.0, 
+                            "qty": 1.0, 
+                            "value": 12.95, 
+                            "label": "jar"
+                        }, 
+                        {
+                            "eqv": 125.0, 
+                            "qty": 1.0, 
+                            "value": 12.75, 
+                            "label": "bottle Heinz Strained (4 fl oz)"
+                        }, 
+                        {
+                            "eqv": 125.0, 
+                            "qty": 1.0, 
+                            "value": 12.75, 
+                            "label": "bottle Gerber Second Foods (4 fl oz)"
+                        }, 
+                        {
+                            "eqv": 125.0, 
+                            "qty": 1.0, 
+                            "value": 12.75, 
+                            "label": "bottle Beech-Nut Stage 3 (4 fl oz)"
+                        }
+                    ], 
+                    "value": 10.2, 
+                    "dp": "", 
+                    "sourcecode": "", 
+                    "se": "", 
+                    "unit": "g"
+                }, 
+                {
+                    "group": "Proximates", 
+                    "name": "Fiber, total dietary", 
+                    "nutrient_id": 291, 
+                    "measures": [
+                        {
+                            "eqv": 31.2, 
+                            "qty": 1.0, 
+                            "value": 0.0, 
+                            "label": "fl oz"
+                        }, 
+                        {
+                            "eqv": 127.0, 
+                            "qty": 1.0, 
+                            "value": 0.1, 
+                            "label": "jar"
+                        }, 
+                        {
+                            "eqv": 125.0, 
+                            "qty": 1.0, 
+                            "value": 0.1, 
+                            "label": "bottle Heinz Strained (4 fl oz)"
+                        }, 
+                        {
+                            "eqv": 125.0, 
+                            "qty": 1.0, 
+                            "value": 0.1, 
+                            "label": "bottle Gerber Second Foods (4 fl oz)"
+                        }, 
+                        {
+                            "eqv": 125.0, 
+                            "qty": 1.0, 
+                            "value": 0.1, 
+                            "label": "bottle Beech-Nut Stage 3 (4 fl oz)"
+                        }
+                    ], 
+                    "value": 0.1, 
+                    "dp": "", 
+                    "sourcecode": "", 
+                    "se": "", 
+                    "unit": "g"
+                }, 
+                {
+                    "group": "Proximates", 
+                    "name": "Sugars, total", 
+                    "nutrient_id": 269, 
+                    "measures": [
+                        {
+                            "eqv": 31.2, 
+                            "qty": 1.0, 
+                            "value": 2.58, 
+                            "label": "fl oz"
+                        }, 
+                        {
+                            "eqv": 127.0, 
+                            "qty": 1.0, 
+                            "value": 10.49, 
+                            "label": "jar"
+                        }, 
+                        {
+                            "eqv": 125.0, 
+                            "qty": 1.0, 
+                            "value": 10.32, 
+                            "label": "bottle Heinz Strained (4 fl oz)"
+                        }, 
+                        {
+                            "eqv": 125.0, 
+                            "qty": 1.0, 
+                            "value": 10.32, 
+                            "label": "bottle Gerber Second Foods (4 fl oz)"
+                        }, 
+                        {
+                            "eqv": 125.0, 
+                            "qty": 1.0, 
+                            "value": 10.32, 
+                            "label": "bottle Beech-Nut Stage 3 (4 fl oz)"
+                        }
+                    ], 
+                    "value": 8.26, 
+                    "dp": "", 
+                    "sourcecode": "", 
+                    "se": "", 
+                    "unit": "g"
+                }, 
+                {
+                    "group": "Minerals", 
+                    "name": "Calcium, Ca", 
+                    "nutrient_id": 301, 
+                    "measures": [
+                        {
+                            "eqv": 31.2, 
+                            "qty": 1.0, 
+                            "value": 4.0, 
+                            "label": "fl oz"
+                        }, 
+                        {
+                            "eqv": 127.0, 
+                            "qty": 1.0, 
+                            "value": 15.0, 
+                            "label": "jar"
+                        }, 
+                        {
+                            "eqv": 125.0, 
+                            "qty": 1.0, 
+                            "value": 15.0, 
+                            "label": "bottle Heinz Strained (4 fl oz)"
+                        }, 
+                        {
+                            "eqv": 125.0, 
+                            "qty": 1.0, 
+                            "value": 15.0, 
+                            "label": "bottle Gerber Second Foods (4 fl oz)"
+                        }, 
+                        {
+                            "eqv": 125.0, 
+                            "qty": 1.0, 
+                            "value": 15.0, 
+                            "label": "bottle Beech-Nut Stage 3 (4 fl oz)"
+                        }
+                    ], 
+                    "value": 12.0, 
+                    "dp": 19, 
+                    "sourcecode": "", 
+                    "se": "", 
+                    "unit": "mg"
+                }, 
+                {
+                    "group": "Minerals", 
+                    "name": "Iron, Fe", 
+                    "nutrient_id": 303, 
+                    "measures": [
+                        {
+                            "eqv": 31.2, 
+                            "qty": 1.0, 
+                            "value": 0.05, 
+                            "label": "fl oz"
+                        }, 
+                        {
+                            "eqv": 127.0, 
+                            "qty": 1.0, 
+                            "value": 0.22, 
+                            "label": "jar"
+                        }, 
+                        {
+                            "eqv": 125.0, 
+                            "qty": 1.0, 
+                            "value": 0.21, 
+                            "label": "bottle Heinz Strained (4 fl oz)"
+                        }, 
+                        {
+                            "eqv": 125.0, 
+                            "qty": 1.0, 
+                            "value": 0.21, 
+                            "label": "bottle Gerber Second Foods (4 fl oz)"
+                        }, 
+                        {
+                            "eqv": 125.0, 
+                            "qty": 1.0, 
+                            "value": 0.21, 
+                            "label": "bottle Beech-Nut Stage 3 (4 fl oz)"
+                        }
+                    ], 
+                    "value": 0.17, 
+                    "dp": 24, 
+                    "sourcecode": "", 
+                    "se": "0.040", 
+                    "unit": "mg"
+                }, 
+                {
+                    "group": "Minerals", 
+                    "name": "Magnesium, Mg", 
+                    "nutrient_id": 304, 
+                    "measures": [
+                        {
+                            "eqv": 31.2, 
+                            "qty": 1.0, 
+                            "value": 3.0, 
+                            "label": "fl oz"
+                        }, 
+                        {
+                            "eqv": 127.0, 
+                            "qty": 1.0, 
+                            "value": 11.0, 
+                            "label": "jar"
+                        }, 
+                        {
+                            "eqv": 125.0, 
+                            "qty": 1.0, 
+                            "value": 11.0, 
+                            "label": "bottle Heinz Strained (4 fl oz)"
+                        }, 
+                        {
+                            "eqv": 125.0, 
+                            "qty": 1.0, 
+                            "value": 11.0, 
+                            "label": "bottle Gerber Second Foods (4 fl oz)"
+                        }, 
+                        {
+                            "eqv": 125.0, 
+                            "qty": 1.0, 
+                            "value": 11.0, 
+                            "label": "bottle Beech-Nut Stage 3 (4 fl oz)"
+                        }
+                    ], 
+                    "value": 9.0, 
+                    "dp": 5, 
+                    "sourcecode": "", 
+                    "se": "0.000", 
+                    "unit": "mg"
+                }, 
+                {
+                    "group": "Minerals", 
+                    "name": "Phosphorus, P", 
+                    "nutrient_id": 305, 
+                    "measures": [
+                        {
+                            "eqv": 31.2, 
+                            "qty": 1.0, 
+                            "value": 3.0, 
+                            "label": "fl oz"
+                        }, 
+                        {
+                            "eqv": 127.0, 
+                            "qty": 1.0, 
+                            "value": 14.0, 
+                            "label": "jar"
+                        }, 
+                        {
+                            "eqv": 125.0, 
+                            "qty": 1.0, 
+                            "value": 14.0, 
+                            "label": "bottle Heinz Strained (4 fl oz)"
+                        }, 
+                        {
+                            "eqv": 125.0, 
+                            "qty": 1.0, 
+                            "value": 14.0, 
+                            "label": "bottle Gerber Second Foods (4 fl oz)"
+                        }, 
+                        {
+                            "eqv": 125.0, 
+                            "qty": 1.0, 
+                            "value": 14.0, 
+                            "label": "bottle Beech-Nut Stage 3 (4 fl oz)"
+                        }
+                    ], 
+                    "value": 11.0, 
+                    "dp": 3, 
+                    "sourcecode": "", 
+                    "se": "", 
+                    "unit": "mg"
+                }, 
+                {
+                    "group": "Minerals", 
+                    "name": "Potassium, K", 
+                    "nutrient_id": 306, 
+                    "measures": [
+                        {
+                            "eqv": 31.2, 
+                            "qty": 1.0, 
+                            "value": 57.0, 
+                            "label": "fl oz"
+                        }, 
+                        {
+                            "eqv": 127.0, 
+                            "qty": 1.0, 
+                            "value": 234.0, 
+                            "label": "jar"
+                        }, 
+                        {
+                            "eqv": 125.0, 
+                            "qty": 1.0, 
+                            "value": 230.0, 
+                            "label": "bottle Heinz Strained (4 fl oz)"
+                        }, 
+                        {
+                            "eqv": 125.0, 
+                            "qty": 1.0, 
+                            "value": 230.0, 
+                            "label": "bottle Gerber Second Foods (4 fl oz)"
+                        }, 
+                        {
+                            "eqv": 125.0, 
+                            "qty": 1.0, 
+                            "value": 230.0, 
+                            "label": "bottle Beech-Nut Stage 3 (4 fl oz)"
+                        }
+                    ], 
+                    "value": 184.0, 
+                    "dp": 16, 
+                    "sourcecode": "", 
+                    "se": "", 
+                    "unit": "mg"
+                }, 
+                {
+                    "group": "Minerals", 
+                    "name": "Sodium, Na", 
+                    "nutrient_id": 307, 
+                    "measures": [
+                        {
+                            "eqv": 31.2, 
+                            "qty": 1.0, 
+                            "value": 0.0, 
+                            "label": "fl oz"
+                        }, 
+                        {
+                            "eqv": 127.0, 
+                            "qty": 1.0, 
+                            "value": 0.0, 
+                            "label": "jar"
+                        }, 
+                        {
+                            "eqv": 125.0, 
+                            "qty": 1.0, 
+                            "value": 0.0, 
+                            "label": "bottle Heinz Strained (4 fl oz)"
+                        }, 
+                        {
+                            "eqv": 125.0, 
+                            "qty": 1.0, 
+                            "value": 0.0, 
+                            "label": "bottle Gerber Second Foods (4 fl oz)"
+                        }, 
+                        {
+                            "eqv": 125.0, 
+                            "qty": 1.0, 
+                            "value": 0.0, 
+                            "label": "bottle Beech-Nut Stage 3 (4 fl oz)"
+                        }
+                    ], 
+                    "value": 0.0, 
+                    "dp": "", 
+                    "sourcecode": "", 
+                    "se": "", 
+                    "unit": "mg"
+                }, 
+                {
+                    "group": "Minerals", 
+                    "name": "Zinc, Zn", 
+                    "nutrient_id": 309, 
+                    "measures": [
+                        {
+                            "eqv": 31.2, 
+                            "qty": 1.0, 
+                            "value": 0.02, 
+                            "label": "fl oz"
+                        }, 
+                        {
+                            "eqv": 127.0, 
+                            "qty": 1.0, 
+                            "value": 0.08, 
+                            "label": "jar"
+                        }, 
+                        {
+                            "eqv": 125.0, 
+                            "qty": 1.0, 
+                            "value": 0.08, 
+                            "label": "bottle Heinz Strained (4 fl oz)"
+                        }, 
+                        {
+                            "eqv": 125.0, 
+                            "qty": 1.0, 
+                            "value": 0.08, 
+                            "label": "bottle Gerber Second Foods (4 fl oz)"
+                        }, 
+                        {
+                            "eqv": 125.0, 
+                            "qty": 1.0, 
+                            "value": 0.08, 
+                            "label": "bottle Beech-Nut Stage 3 (4 fl oz)"
+                        }
+                    ], 
+                    "value": 0.06, 
+                    "dp": 5, 
+                    "sourcecode": "", 
+                    "se": "0.011", 
+                    "unit": "mg"
+                }, 
+                {
+                    "group": "Minerals", 
+                    "name": "Copper, Cu", 
+                    "nutrient_id": 312, 
+                    "measures": [
+                        {
+                            "eqv": 31.2, 
+                            "qty": 1.0, 
+                            "value": 0.014, 
+                            "label": "fl oz"
+                        }, 
+                        {
+                            "eqv": 127.0, 
+                            "qty": 1.0, 
+                            "value": 0.058, 
+                            "label": "jar"
+                        }, 
+                        {
+                            "eqv": 125.0, 
+                            "qty": 1.0, 
+                            "value": 0.058, 
+                            "label": "bottle Heinz Strained (4 fl oz)"
+                        }, 
+                        {
+                            "eqv": 125.0, 
+                            "qty": 1.0, 
+                            "value": 0.058, 
+                            "label": "bottle Gerber Second Foods (4 fl oz)"
+                        }, 
+                        {
+                            "eqv": 125.0, 
+                            "qty": 1.0, 
+                            "value": 0.058, 
+                            "label": "bottle Beech-Nut Stage 3 (4 fl oz)"
+                        }
+                    ], 
+                    "value": 0.046, 
+                    "dp": "", 
+                    "sourcecode": "", 
+                    "se": "", 
+                    "unit": "mg"
+                }, 
+                {
+                    "group": "Minerals", 
+                    "name": "Selenium, Se", 
+                    "nutrient_id": 317, 
+                    "measures": [
+                        {
+                            "eqv": 31.2, 
+                            "qty": 1.0, 
+                            "value": 0.0, 
+                            "label": "fl oz"
+                        }, 
+                        {
+                            "eqv": 127.0, 
+                            "qty": 1.0, 
+                            "value": 0.1, 
+                            "label": "jar"
+                        }, 
+                        {
+                            "eqv": 125.0, 
+                            "qty": 1.0, 
+                            "value": 0.1, 
+                            "label": "bottle Heinz Strained (4 fl oz)"
+                        }, 
+                        {
+                            "eqv": 125.0, 
+                            "qty": 1.0, 
+                            "value": 0.1, 
+                            "label": "bottle Gerber Second Foods (4 fl oz)"
+                        }, 
+                        {
+                            "eqv": 125.0, 
+                            "qty": 1.0, 
+                            "value": 0.1, 
+                            "label": "bottle Beech-Nut Stage 3 (4 fl oz)"
+                        }
+                    ], 
+                    "value": 0.1, 
+                    "dp": "", 
+                    "sourcecode": "", 
+                    "se": "", 
+                    "unit": "\u00b5g"
+                }, 
+                {
+                    "group": "Vitamins", 
+                    "name": "Vitamin C, total ascorbic acid", 
+                    "nutrient_id": 401, 
+                    "measures": [
+                        {
+                            "eqv": 31.2, 
+                            "qty": 1.0, 
+                            "value": 19.5, 
+                            "label": "fl oz"
+                        }, 
+                        {
+                            "eqv": 127.0, 
+                            "qty": 1.0, 
+                            "value": 79.4, 
+                            "label": "jar"
+                        }, 
+                        {
+                            "eqv": 125.0, 
+                            "qty": 1.0, 
+                            "value": 78.1, 
+                            "label": "bottle Heinz Strained (4 fl oz)"
+                        }, 
+                        {
+                            "eqv": 125.0, 
+                            "qty": 1.0, 
+                            "value": 78.1, 
+                            "label": "bottle Gerber Second Foods (4 fl oz)"
+                        }, 
+                        {
+                            "eqv": 125.0, 
+                            "qty": 1.0, 
+                            "value": 78.1, 
+                            "label": "bottle Beech-Nut Stage 3 (4 fl oz)"
+                        }
+                    ], 
+                    "value": 62.5, 
+                    "dp": 7, 
+                    "sourcecode": "", 
+                    "se": "", 
+                    "unit": "mg"
+                }, 
+                {
+                    "group": "Vitamins", 
+                    "name": "Thiamin", 
+                    "nutrient_id": 404, 
+                    "measures": [
+                        {
+                            "eqv": 31.2, 
+                            "qty": 1.0, 
+                            "value": 0.014, 
+                            "label": "fl oz"
+                        }, 
+                        {
+                            "eqv": 127.0, 
+                            "qty": 1.0, 
+                            "value": 0.057, 
+                            "label": "jar"
+                        }, 
+                        {
+                            "eqv": 125.0, 
+                            "qty": 1.0, 
+                            "value": 0.056, 
+                            "label": "bottle Heinz Strained (4 fl oz)"
+                        }, 
+                        {
+                            "eqv": 125.0, 
+                            "qty": 1.0, 
+                            "value": 0.056, 
+                            "label": "bottle Gerber Second Foods (4 fl oz)"
+                        }, 
+                        {
+                            "eqv": 125.0, 
+                            "qty": 1.0, 
+                            "value": 0.056, 
+                            "label": "bottle Beech-Nut Stage 3 (4 fl oz)"
+                        }
+                    ], 
+                    "value": 0.045, 
+                    "dp": 25, 
+                    "sourcecode": "", 
+                    "se": "0.008", 
+                    "unit": "mg"
+                }, 
+                {
+                    "group": "Vitamins", 
+                    "name": "Riboflavin", 
+                    "nutrient_id": 405, 
+                    "measures": [
+                        {
+                            "eqv": 31.2, 
+                            "qty": 1.0, 
+                            "value": 0.009, 
+                            "label": "fl oz"
+                        }, 
+                        {
+                            "eqv": 127.0, 
+                            "qty": 1.0, 
+                            "value": 0.036, 
+                            "label": "jar"
+                        }, 
+                        {
+                            "eqv": 125.0, 
+                            "qty": 1.0, 
+                            "value": 0.035, 
+                            "label": "bottle Heinz Strained (4 fl oz)"
+                        }, 
+                        {
+                            "eqv": 125.0, 
+                            "qty": 1.0, 
+                            "value": 0.035, 
+                            "label": "bottle Gerber Second Foods (4 fl oz)"
+                        }, 
+                        {
+                            "eqv": 125.0, 
+                            "qty": 1.0, 
+                            "value": 0.035, 
+                            "label": "bottle Beech-Nut Stage 3 (4 fl oz)"
+                        }
+                    ], 
+                    "value": 0.028, 
+                    "dp": 25, 
+                    "sourcecode": "", 
+                    "se": "0.000", 
+                    "unit": "mg"
+                }, 
+                {
+                    "group": "Vitamins", 
+                    "name": "Niacin", 
+                    "nutrient_id": 406, 
+                    "measures": [
+                        {
+                            "eqv": 31.2, 
+                            "qty": 1.0, 
+                            "value": 0.075, 
+                            "label": "fl oz"
+                        }, 
+                        {
+                            "eqv": 127.0, 
+                            "qty": 1.0, 
+                            "value": 0.304, 
+                            "label": "jar"
+                        }, 
+                        {
+                            "eqv": 125.0, 
+                            "qty": 1.0, 
+                            "value": 0.299, 
+                            "label": "bottle Heinz Strained (4 fl oz)"
+                        }, 
+                        {
+                            "eqv": 125.0, 
+                            "qty": 1.0, 
+                            "value": 0.299, 
+                            "label": "bottle Gerber Second Foods (4 fl oz)"
+                        }, 
+                        {
+                            "eqv": 125.0, 
+                            "qty": 1.0, 
+                            "value": 0.299, 
+                            "label": "bottle Beech-Nut Stage 3 (4 fl oz)"
+                        }
+                    ], 
+                    "value": 0.239, 
+                    "dp": 25, 
+                    "sourcecode": "", 
+                    "se": "0.013", 
+                    "unit": "mg"
+                }, 
+                {
+                    "group": "Vitamins", 
+                    "name": "Pantothenic acid", 
+                    "nutrient_id": 410, 
+                    "measures": [
+                        {
+                            "eqv": 31.2, 
+                            "qty": 1.0, 
+                            "value": 0.043, 
+                            "label": "fl oz"
+                        }, 
+                        {
+                            "eqv": 127.0, 
+                            "qty": 1.0, 
+                            "value": 0.174, 
+                            "label": "jar"
+                        }, 
+                        {
+                            "eqv": 125.0, 
+                            "qty": 1.0, 
+                            "value": 0.171, 
+                            "label": "bottle Heinz Strained (4 fl oz)"
+                        }, 
+                        {
+                            "eqv": 125.0, 
+                            "qty": 1.0, 
+                            "value": 0.171, 
+                            "label": "bottle Gerber Second Foods (4 fl oz)"
+                        }, 
+                        {
+                            "eqv": 125.0, 
+                            "qty": 1.0, 
+                            "value": 0.171, 
+                            "label": "bottle Beech-Nut Stage 3 (4 fl oz)"
+                        }
+                    ], 
+                    "value": 0.137, 
+                    "dp": "", 
+                    "sourcecode": "", 
+                    "se": "", 
+                    "unit": "mg"
+                }, 
+                {
+                    "group": "Vitamins", 
+                    "name": "Vitamin B-6", 
+                    "nutrient_id": 415, 
+                    "measures": [
+                        {
+                            "eqv": 31.2, 
+                            "qty": 1.0, 
+                            "value": 0.017, 
+                            "label": "fl oz"
+                        }, 
+                        {
+                            "eqv": 127.0, 
+                            "qty": 1.0, 
+                            "value": 0.069, 
+                            "label": "jar"
+                        }, 
+                        {
+                            "eqv": 125.0, 
+                            "qty": 1.0, 
+                            "value": 0.068, 
+                            "label": "bottle Heinz Strained (4 fl oz)"
+                        }, 
+                        {
+                            "eqv": 125.0, 
+                            "qty": 1.0, 
+                            "value": 0.068, 
+                            "label": "bottle Gerber Second Foods (4 fl oz)"
+                        }, 
+                        {
+                            "eqv": 125.0, 
+                            "qty": 1.0, 
+                            "value": 0.068, 
+                            "label": "bottle Beech-Nut Stage 3 (4 fl oz)"
+                        }
+                    ], 
+                    "value": 0.054, 
+                    "dp": 8, 
+                    "sourcecode": "", 
+                    "se": "", 
+                    "unit": "mg"
+                }, 
+                {
+                    "group": "Vitamins", 
+                    "name": "Folate, total", 
+                    "nutrient_id": 417, 
+                    "measures": [
+                        {
+                            "eqv": 31.2, 
+                            "qty": 1.0, 
+                            "value": 8.0, 
+                            "label": "fl oz"
+                        }, 
+                        {
+                            "eqv": 127.0, 
+                            "qty": 1.0, 
+                            "value": 33.0, 
+                            "label": "jar"
+                        }, 
+                        {
+                            "eqv": 125.0, 
+                            "qty": 1.0, 
+                            "value": 32.0, 
+                            "label": "bottle Heinz Strained (4 fl oz)"
+                        }, 
+                        {
+                            "eqv": 125.0, 
+                            "qty": 1.0, 
+                            "value": 32.0, 
+                            "label": "bottle Gerber Second Foods (4 fl oz)"
+                        }, 
+                        {
+                            "eqv": 125.0, 
+                            "qty": 1.0, 
+                            "value": 32.0, 
+                            "label": "bottle Beech-Nut Stage 3 (4 fl oz)"
+                        }
+                    ], 
+                    "value": 26.0, 
+                    "dp": 9, 
+                    "sourcecode": "", 
+                    "se": "0.500", 
+                    "unit": "\u00b5g"
+                }, 
+                {
+                    "group": "Vitamins", 
+                    "name": "Folic acid", 
+                    "nutrient_id": 431, 
+                    "measures": [
+                        {
+                            "eqv": 31.2, 
+                            "qty": 1.0, 
+                            "value": 0.0, 
+                            "label": "fl oz"
+                        }, 
+                        {
+                            "eqv": 127.0, 
+                            "qty": 1.0, 
+                            "value": 0.0, 
+                            "label": "jar"
+                        }, 
+                        {
+                            "eqv": 125.0, 
+                            "qty": 1.0, 
+                            "value": 0.0, 
+                            "label": "bottle Heinz Strained (4 fl oz)"
+                        }, 
+                        {
+                            "eqv": 125.0, 
+                            "qty": 1.0, 
+                            "value": 0.0, 
+                            "label": "bottle Gerber Second Foods (4 fl oz)"
+                        }, 
+                        {
+                            "eqv": 125.0, 
+                            "qty": 1.0, 
+                            "value": 0.0, 
+                            "label": "bottle Beech-Nut Stage 3 (4 fl oz)"
+                        }
+                    ], 
+                    "value": 0.0, 
+                    "dp": "", 
+                    "sourcecode": "", 
+                    "se": "", 
+                    "unit": "\u00b5g"
+                }, 
+                {
+                    "group": "Vitamins", 
+                    "name": "Folate, food", 
+                    "nutrient_id": 432, 
+                    "measures": [
+                        {
+                            "eqv": 31.2, 
+                            "qty": 1.0, 
+                            "value": 8.0, 
+                            "label": "fl oz"
+                        }, 
+                        {
+                            "eqv": 127.0, 
+                            "qty": 1.0, 
+                            "value": 33.0, 
+                            "label": "jar"
+                        }, 
+                        {
+                            "eqv": 125.0, 
+                            "qty": 1.0, 
+                            "value": 32.0, 
+                            "label": "bottle Heinz Strained (4 fl oz)"
+                        }, 
+                        {
+                            "eqv": 125.0, 
+                            "qty": 1.0, 
+                            "value": 32.0, 
+                            "label": "bottle Gerber Second Foods (4 fl oz)"
+                        }, 
+                        {
+                            "eqv": 125.0, 
+                            "qty": 1.0, 
+                            "value": 32.0, 
+                            "label": "bottle Beech-Nut Stage 3 (4 fl oz)"
+                        }
+                    ], 
+                    "value": 26.0, 
+                    "dp": 9, 
+                    "sourcecode": "", 
+                    "se": "0.500", 
+                    "unit": "\u00b5g"
+                }, 
+                {
+                    "group": "Vitamins", 
+                    "name": "Folate, DFE", 
+                    "nutrient_id": 435, 
+                    "measures": [
+                        {
+                            "eqv": 31.2, 
+                            "qty": 1.0, 
+                            "value": 8.0, 
+                            "label": "fl oz"
+                        }, 
+                        {
+                            "eqv": 127.0, 
+                            "qty": 1.0, 
+                            "value": 33.0, 
+                            "label": "jar"
+                        }, 
+                        {
+                            "eqv": 125.0, 
+                            "qty": 1.0, 
+                            "value": 32.0, 
+                            "label": "bottle Heinz Strained (4 fl oz)"
+                        }, 
+                        {
+                            "eqv": 125.0, 
+                            "qty": 1.0, 
+                            "value": 32.0, 
+                            "label": "bottle Gerber Second Foods (4 fl oz)"
+                        }, 
+                        {
+                            "eqv": 125.0, 
+                            "qty": 1.0, 
+                            "value": 32.0, 
+                            "label": "bottle Beech-Nut Stage 3 (4 fl oz)"
+                        }
+                    ], 
+                    "value": 26.0, 
+                    "dp": "", 
+                    "sourcecode": "", 
+                    "se": "", 
+                    "unit": "\u00b5g"
+                }, 
+                {
+                    "group": "Vitamins", 
+                    "name": "Choline, total", 
+                    "nutrient_id": 421, 
+                    "measures": [
+                        {
+                            "eqv": 31.2, 
+                            "qty": 1.0, 
+                            "value": 1.9, 
+                            "label": "fl oz"
+                        }, 
+                        {
+                            "eqv": 127.0, 
+                            "qty": 1.0, 
+                            "value": 7.9, 
+                            "label": "jar"
+                        }, 
+                        {
+                            "eqv": 125.0, 
+                            "qty": 1.0, 
+                            "value": 7.8, 
+                            "label": "bottle Heinz Strained (4 fl oz)"
+                        }, 
+                        {
+                            "eqv": 125.0, 
+                            "qty": 1.0, 
+                            "value": 7.8, 
+                            "label": "bottle Gerber Second Foods (4 fl oz)"
+                        }, 
+                        {
+                            "eqv": 125.0, 
+                            "qty": 1.0, 
+                            "value": 7.8, 
+                            "label": "bottle Beech-Nut Stage 3 (4 fl oz)"
+                        }
+                    ], 
+                    "value": 6.2, 
+                    "dp": "", 
+                    "sourcecode": "", 
+                    "se": "", 
+                    "unit": "mg"
+                }, 
+                {
+                    "group": "Vitamins", 
+                    "name": "Vitamin B-12", 
+                    "nutrient_id": 418, 
+                    "measures": [
+                        {
+                            "eqv": 31.2, 
+                            "qty": 1.0, 
+                            "value": 0.0, 
+                            "label": "fl oz"
+                        }, 
+                        {
+                            "eqv": 127.0, 
+                            "qty": 1.0, 
+                            "value": 0.0, 
+                            "label": "jar"
+                        }, 
+                        {
+                            "eqv": 125.0, 
+                            "qty": 1.0, 
+                            "value": 0.0, 
+                            "label": "bottle Heinz Strained (4 fl oz)"
+                        }, 
+                        {
+                            "eqv": 125.0, 
+                            "qty": 1.0, 
+                            "value": 0.0, 
+                            "label": "bottle Gerber Second Foods (4 fl oz)"
+                        }, 
+                        {
+                            "eqv": 125.0, 
+                            "qty": 1.0, 
+                            "value": 0.0, 
+                            "label": "bottle Beech-Nut Stage 3 (4 fl oz)"
+                        }
+                    ], 
+                    "value": 0.0, 
+                    "dp": "", 
+                    "sourcecode": "", 
+                    "se": "", 
+                    "unit": "\u00b5g"
+                }, 
+                {
+                    "group": "Vitamins", 
+                    "name": "Vitamin B-12, added", 
+                    "nutrient_id": 578, 
+                    "measures": [
+                        {
+                            "eqv": 31.2, 
+                            "qty": 1.0, 
+                            "value": 0.0, 
+                            "label": "fl oz"
+                        }, 
+                        {
+                            "eqv": 127.0, 
+                            "qty": 1.0, 
+                            "value": 0.0, 
+                            "label": "jar"
+                        }, 
+                        {
+                            "eqv": 125.0, 
+                            "qty": 1.0, 
+                            "value": 0.0, 
+                            "label": "bottle Heinz Strained (4 fl oz)"
+                        }, 
+                        {
+                            "eqv": 125.0, 
+                            "qty": 1.0, 
+                            "value": 0.0, 
+                            "label": "bottle Gerber Second Foods (4 fl oz)"
+                        }, 
+                        {
+                            "eqv": 125.0, 
+                            "qty": 1.0, 
+                            "value": 0.0, 
+                            "label": "bottle Beech-Nut Stage 3 (4 fl oz)"
+                        }
+                    ], 
+                    "value": 0.0, 
+                    "dp": "", 
+                    "sourcecode": "", 
+                    "se": "", 
+                    "unit": "\u00b5g"
+                }, 
+                {
+                    "group": "Vitamins", 
+                    "name": "Vitamin A, RAE", 
+                    "nutrient_id": 320, 
+                    "measures": [
+                        {
+                            "eqv": 31.2, 
+                            "qty": 1.0, 
+                            "value": 1.0, 
+                            "label": "fl oz"
+                        }, 
+                        {
+                            "eqv": 127.0, 
+                            "qty": 1.0, 
+                            "value": 4.0, 
+                            "label": "jar"
+                        }, 
+                        {
+                            "eqv": 125.0, 
+                            "qty": 1.0, 
+                            "value": 4.0, 
+                            "label": "bottle Heinz Strained (4 fl oz)"
+                        }, 
+                        {
+                            "eqv": 125.0, 
+                            "qty": 1.0, 
+                            "value": 4.0, 
+                            "label": "bottle Gerber Second Foods (4 fl oz)"
+                        }, 
+                        {
+                            "eqv": 125.0, 
+                            "qty": 1.0, 
+                            "value": 4.0, 
+                            "label": "bottle Beech-Nut Stage 3 (4 fl oz)"
+                        }
+                    ], 
+                    "value": 3.0, 
+                    "dp": "", 
+                    "sourcecode": "", 
+                    "se": "", 
+                    "unit": "\u00b5g"
+                }, 
+                {
+                    "group": "Vitamins", 
+                    "name": "Retinol", 
+                    "nutrient_id": 319, 
+                    "measures": [
+                        {
+                            "eqv": 31.2, 
+                            "qty": 1.0, 
+                            "value": 0.0, 
+                            "label": "fl oz"
+                        }, 
+                        {
+                            "eqv": 127.0, 
+                            "qty": 1.0, 
+                            "value": 0.0, 
+                            "label": "jar"
+                        }, 
+                        {
+                            "eqv": 125.0, 
+                            "qty": 1.0, 
+                            "value": 0.0, 
+                            "label": "bottle Heinz Strained (4 fl oz)"
+                        }, 
+                        {
+                            "eqv": 125.0, 
+                            "qty": 1.0, 
+                            "value": 0.0, 
+                            "label": "bottle Gerber Second Foods (4 fl oz)"
+                        }, 
+                        {
+                            "eqv": 125.0, 
+                            "qty": 1.0, 
+                            "value": 0.0, 
+                            "label": "bottle Beech-Nut Stage 3 (4 fl oz)"
+                        }
+                    ], 
+                    "value": 0.0, 
+                    "dp": "", 
+                    "sourcecode": "", 
+                    "se": "", 
+                    "unit": "\u00b5g"
+                }, 
+                {
+                    "group": "Vitamins", 
+                    "name": "Carotene, beta", 
+                    "nutrient_id": 321, 
+                    "measures": [
+                        {
+                            "eqv": 31.2, 
+                            "qty": 1.0, 
+                            "value": 3.0, 
+                            "label": "fl oz"
+                        }, 
+                        {
+                            "eqv": 127.0, 
+                            "qty": 1.0, 
+                            "value": 11.0, 
+                            "label": "jar"
+                        }, 
+                        {
+                            "eqv": 125.0, 
+                            "qty": 1.0, 
+                            "value": 11.0, 
+                            "label": "bottle Heinz Strained (4 fl oz)"
+                        }, 
+                        {
+                            "eqv": 125.0, 
+                            "qty": 1.0, 
+                            "value": 11.0, 
+                            "label": "bottle Gerber Second Foods (4 fl oz)"
+                        }, 
+                        {
+                            "eqv": 125.0, 
+                            "qty": 1.0, 
+                            "value": 11.0, 
+                            "label": "bottle Beech-Nut Stage 3 (4 fl oz)"
+                        }
+                    ], 
+                    "value": 9.0, 
+                    "dp": "", 
+                    "sourcecode": "", 
+                    "se": "", 
+                    "unit": "\u00b5g"
+                }, 
+                {
+                    "group": "Vitamins", 
+                    "name": "Carotene, alpha", 
+                    "nutrient_id": 322, 
+                    "measures": [
+                        {
+                            "eqv": 31.2, 
+                            "qty": 1.0, 
+                            "value": 1.0, 
+                            "label": "fl oz"
+                        }, 
+                        {
+                            "eqv": 127.0, 
+                            "qty": 1.0, 
+                            "value": 3.0, 
+                            "label": "jar"
+                        }, 
+                        {
+                            "eqv": 125.0, 
+                            "qty": 1.0, 
+                            "value": 2.0, 
+                            "label": "bottle Heinz Strained (4 fl oz)"
+                        }, 
+                        {
+                            "eqv": 125.0, 
+                            "qty": 1.0, 
+                            "value": 2.0, 
+                            "label": "bottle Gerber Second Foods (4 fl oz)"
+                        }, 
+                        {
+                            "eqv": 125.0, 
+                            "qty": 1.0, 
+                            "value": 2.0, 
+                            "label": "bottle Beech-Nut Stage 3 (4 fl oz)"
+                        }
+                    ], 
+                    "value": 2.0, 
+                    "dp": "", 
+                    "sourcecode": "", 
+                    "se": "", 
+                    "unit": "\u00b5g"
+                }, 
+                {
+                    "group": "Vitamins", 
+                    "name": "Cryptoxanthin, beta", 
+                    "nutrient_id": 334, 
+                    "measures": [
+                        {
+                            "eqv": 31.2, 
+                            "qty": 1.0, 
+                            "value": 15.0, 
+                            "label": "fl oz"
+                        }, 
+                        {
+                            "eqv": 127.0, 
+                            "qty": 1.0, 
+                            "value": 60.0, 
+                            "label": "jar"
+                        }, 
+                        {
+                            "eqv": 125.0, 
+                            "qty": 1.0, 
+                            "value": 59.0, 
+                            "label": "bottle Heinz Strained (4 fl oz)"
+                        }, 
+                        {
+                            "eqv": 125.0, 
+                            "qty": 1.0, 
+                            "value": 59.0, 
+                            "label": "bottle Gerber Second Foods (4 fl oz)"
+                        }, 
+                        {
+                            "eqv": 125.0, 
+                            "qty": 1.0, 
+                            "value": 59.0, 
+                            "label": "bottle Beech-Nut Stage 3 (4 fl oz)"
+                        }
+                    ], 
+                    "value": 47.0, 
+                    "dp": "", 
+                    "sourcecode": "", 
+                    "se": "", 
+                    "unit": "\u00b5g"
+                }, 
+                {
+                    "group": "Vitamins", 
+                    "name": "Vitamin A, IU", 
+                    "nutrient_id": 318, 
+                    "measures": [
+                        {
+                            "eqv": 31.2, 
+                            "qty": 1.0, 
+                            "value": 17.0, 
+                            "label": "fl oz"
+                        }, 
+                        {
+                            "eqv": 127.0, 
+                            "qty": 1.0, 
+                            "value": 70.0, 
+                            "label": "jar"
+                        }, 
+                        {
+                            "eqv": 125.0, 
+                            "qty": 1.0, 
+                            "value": 69.0, 
+                            "label": "bottle Heinz Strained (4 fl oz)"
+                        }, 
+                        {
+                            "eqv": 125.0, 
+                            "qty": 1.0, 
+                            "value": 69.0, 
+                            "label": "bottle Gerber Second Foods (4 fl oz)"
+                        }, 
+                        {
+                            "eqv": 125.0, 
+                            "qty": 1.0, 
+                            "value": 69.0, 
+                            "label": "bottle Beech-Nut Stage 3 (4 fl oz)"
+                        }
+                    ], 
+                    "value": 55.0, 
+                    "dp": 18, 
+                    "sourcecode": "", 
+                    "se": "7.000", 
+                    "unit": "IU"
+                }, 
+                {
+                    "group": "Vitamins", 
+                    "name": "Lycopene", 
+                    "nutrient_id": 337, 
+                    "measures": [
+                        {
+                            "eqv": 31.2, 
+                            "qty": 1.0, 
+                            "value": 0.0, 
+                            "label": "fl oz"
+                        }, 
+                        {
+                            "eqv": 127.0, 
+                            "qty": 1.0, 
+                            "value": 0.0, 
+                            "label": "jar"
+                        }, 
+                        {
+                            "eqv": 125.0, 
+                            "qty": 1.0, 
+                            "value": 0.0, 
+                            "label": "bottle Heinz Strained (4 fl oz)"
+                        }, 
+                        {
+                            "eqv": 125.0, 
+                            "qty": 1.0, 
+                            "value": 0.0, 
+                            "label": "bottle Gerber Second Foods (4 fl oz)"
+                        }, 
+                        {
+                            "eqv": 125.0, 
+                            "qty": 1.0, 
+                            "value": 0.0, 
+                            "label": "bottle Beech-Nut Stage 3 (4 fl oz)"
+                        }
+                    ], 
+                    "value": 0.0, 
+                    "dp": "", 
+                    "sourcecode": "", 
+                    "se": "", 
+                    "unit": "\u00b5g"
+                }, 
+                {
+                    "group": "Vitamins", 
+                    "name": "Lutein + zeaxanthin", 
+                    "nutrient_id": 338, 
+                    "measures": [
+                        {
+                            "eqv": 31.2, 
+                            "qty": 1.0, 
+                            "value": 35.0, 
+                            "label": "fl oz"
+                        }, 
+                        {
+                            "eqv": 127.0, 
+                            "qty": 1.0, 
+                            "value": 144.0, 
+                            "label": "jar"
+                        }, 
+                        {
+                            "eqv": 125.0, 
+                            "qty": 1.0, 
+                            "value": 141.0, 
+                            "label": "bottle Heinz Strained (4 fl oz)"
+                        }, 
+                        {
+                            "eqv": 125.0, 
+                            "qty": 1.0, 
+                            "value": 141.0, 
+                            "label": "bottle Gerber Second Foods (4 fl oz)"
+                        }, 
+                        {
+                            "eqv": 125.0, 
+                            "qty": 1.0, 
+                            "value": 141.0, 
+                            "label": "bottle Beech-Nut Stage 3 (4 fl oz)"
+                        }
+                    ], 
+                    "value": 113.0, 
+                    "dp": "", 
+                    "sourcecode": "", 
+                    "se": "", 
+                    "unit": "\u00b5g"
+                }, 
+                {
+                    "group": "Vitamins", 
+                    "name": "Vitamin E (alpha-tocopherol)", 
+                    "nutrient_id": 323, 
+                    "measures": [
+                        {
+                            "eqv": 31.2, 
+                            "qty": 1.0, 
+                            "value": 0.01, 
+                            "label": "fl oz"
+                        }, 
+                        {
+                            "eqv": 127.0, 
+                            "qty": 1.0, 
+                            "value": 0.05, 
+                            "label": "jar"
+                        }, 
+                        {
+                            "eqv": 125.0, 
+                            "qty": 1.0, 
+                            "value": 0.05, 
+                            "label": "bottle Heinz Strained (4 fl oz)"
+                        }, 
+                        {
+                            "eqv": 125.0, 
+                            "qty": 1.0, 
+                            "value": 0.05, 
+                            "label": "bottle Gerber Second Foods (4 fl oz)"
+                        }, 
+                        {
+                            "eqv": 125.0, 
+                            "qty": 1.0, 
+                            "value": 0.05, 
+                            "label": "bottle Beech-Nut Stage 3 (4 fl oz)"
+                        }
+                    ], 
+                    "value": 0.04, 
+                    "dp": "", 
+                    "sourcecode": "", 
+                    "se": "", 
+                    "unit": "mg"
+                }, 
+                {
+                    "group": "Vitamins", 
+                    "name": "Vitamin E, added", 
+                    "nutrient_id": 573, 
+                    "measures": [
+                        {
+                            "eqv": 31.2, 
+                            "qty": 1.0, 
+                            "value": 0.0, 
+                            "label": "fl oz"
+                        }, 
+                        {
+                            "eqv": 127.0, 
+                            "qty": 1.0, 
+                            "value": 0.0, 
+                            "label": "jar"
+                        }, 
+                        {
+                            "eqv": 125.0, 
+                            "qty": 1.0, 
+                            "value": 0.0, 
+                            "label": "bottle Heinz Strained (4 fl oz)"
+                        }, 
+                        {
+                            "eqv": 125.0, 
+                            "qty": 1.0, 
+                            "value": 0.0, 
+                            "label": "bottle Gerber Second Foods (4 fl oz)"
+                        }, 
+                        {
+                            "eqv": 125.0, 
+                            "qty": 1.0, 
+                            "value": 0.0, 
+                            "label": "bottle Beech-Nut Stage 3 (4 fl oz)"
+                        }
+                    ], 
+                    "value": 0.0, 
+                    "dp": "", 
+                    "sourcecode": "", 
+                    "se": "", 
+                    "unit": "mg"
+                }, 
+                {
+                    "group": "Vitamins", 
+                    "name": "Vitamin D (D2 + D3)", 
+                    "nutrient_id": 328, 
+                    "measures": [
+                        {
+                            "eqv": 31.2, 
+                            "qty": 1.0, 
+                            "value": 0.0, 
+                            "label": "fl oz"
+                        }, 
+                        {
+                            "eqv": 127.0, 
+                            "qty": 1.0, 
+                            "value": 0.0, 
+                            "label": "jar"
+                        }, 
+                        {
+                            "eqv": 125.0, 
+                            "qty": 1.0, 
+                            "value": 0.0, 
+                            "label": "bottle Heinz Strained (4 fl oz)"
+                        }, 
+                        {
+                            "eqv": 125.0, 
+                            "qty": 1.0, 
+                            "value": 0.0, 
+                            "label": "bottle Gerber Second Foods (4 fl oz)"
+                        }, 
+                        {
+                            "eqv": 125.0, 
+                            "qty": 1.0, 
+                            "value": 0.0, 
+                            "label": "bottle Beech-Nut Stage 3 (4 fl oz)"
+                        }
+                    ], 
+                    "value": 0.0, 
+                    "dp": "", 
+                    "sourcecode": "", 
+                    "se": "", 
+                    "unit": "\u00b5g"
+                }, 
+                {
+                    "group": "Vitamins", 
+                    "name": "Vitamin D", 
+                    "nutrient_id": 324, 
+                    "measures": [
+                        {
+                            "eqv": 31.2, 
+                            "qty": 1.0, 
+                            "value": 0.0, 
+                            "label": "fl oz"
+                        }, 
+                        {
+                            "eqv": 127.0, 
+                            "qty": 1.0, 
+                            "value": 0.0, 
+                            "label": "jar"
+                        }, 
+                        {
+                            "eqv": 125.0, 
+                            "qty": 1.0, 
+                            "value": 0.0, 
+                            "label": "bottle Heinz Strained (4 fl oz)"
+                        }, 
+                        {
+                            "eqv": 125.0, 
+                            "qty": 1.0, 
+                            "value": 0.0, 
+                            "label": "bottle Gerber Second Foods (4 fl oz)"
+                        }, 
+                        {
+                            "eqv": 125.0, 
+                            "qty": 1.0, 
+                            "value": 0.0, 
+                            "label": "bottle Beech-Nut Stage 3 (4 fl oz)"
+                        }
+                    ], 
+                    "value": 0.0, 
+                    "dp": "", 
+                    "sourcecode": "", 
+                    "se": "", 
+                    "unit": "IU"
+                }, 
+                {
+                    "group": "Vitamins", 
+                    "name": "Vitamin K (phylloquinone)", 
+                    "nutrient_id": 430, 
+                    "measures": [
+                        {
+                            "eqv": 31.2, 
+                            "qty": 1.0, 
+                            "value": 0.0, 
+                            "label": "fl oz"
+                        }, 
+                        {
+                            "eqv": 127.0, 
+                            "qty": 1.0, 
+                            "value": 0.1, 
+                            "label": "jar"
+                        }, 
+                        {
+                            "eqv": 125.0, 
+                            "qty": 1.0, 
+                            "value": 0.1, 
+                            "label": "bottle Heinz Strained (4 fl oz)"
+                        }, 
+                        {
+                            "eqv": 125.0, 
+                            "qty": 1.0, 
+                            "value": 0.1, 
+                            "label": "bottle Gerber Second Foods (4 fl oz)"
+                        }, 
+                        {
+                            "eqv": 125.0, 
+                            "qty": 1.0, 
+                            "value": 0.1, 
+                            "label": "bottle Beech-Nut Stage 3 (4 fl oz)"
+                        }
+                    ], 
+                    "value": 0.1, 
+                    "dp": "", 
+                    "sourcecode": "", 
+                    "se": "", 
+                    "unit": "\u00b5g"
+                }, 
+                {
+                    "group": "Lipids", 
+                    "name": "Fatty acids, total saturated", 
+                    "nutrient_id": 606, 
+                    "measures": [
+                        {
+                            "eqv": 31.2, 
+                            "qty": 1.0, 
+                            "value": 0.011, 
+                            "label": "fl oz"
+                        }, 
+                        {
+                            "eqv": 127.0, 
+                            "qty": 1.0, 
+                            "value": 0.044, 
+                            "label": "jar"
+                        }, 
+                        {
+                            "eqv": 125.0, 
+                            "qty": 1.0, 
+                            "value": 0.044, 
+                            "label": "bottle Heinz Strained (4 fl oz)"
+                        }, 
+                        {
+                            "eqv": 125.0, 
+                            "qty": 1.0, 
+                            "value": 0.044, 
+                            "label": "bottle Gerber Second Foods (4 fl oz)"
+                        }, 
+                        {
+                            "eqv": 125.0, 
+                            "qty": 1.0, 
+                            "value": 0.044, 
+                            "label": "bottle Beech-Nut Stage 3 (4 fl oz)"
+                        }
+                    ], 
+                    "value": 0.035, 
+                    "dp": "", 
+                    "sourcecode": "", 
+                    "se": "", 
+                    "unit": "g"
+                }, 
+                {
+                    "group": "Lipids", 
+                    "name": "4:0", 
+                    "nutrient_id": 607, 
+                    "measures": [
+                        {
+                            "eqv": 31.2, 
+                            "qty": 1.0, 
+                            "value": 0.0, 
+                            "label": "fl oz"
+                        }, 
+                        {
+                            "eqv": 127.0, 
+                            "qty": 1.0, 
+                            "value": 0.0, 
+                            "label": "jar"
+                        }, 
+                        {
+                            "eqv": 125.0, 
+                            "qty": 1.0, 
+                            "value": 0.0, 
+                            "label": "bottle Heinz Strained (4 fl oz)"
+                        }, 
+                        {
+                            "eqv": 125.0, 
+                            "qty": 1.0, 
+                            "value": 0.0, 
+                            "label": "bottle Gerber Second Foods (4 fl oz)"
+                        }, 
+                        {
+                            "eqv": 125.0, 
+                            "qty": 1.0, 
+                            "value": 0.0, 
+                            "label": "bottle Beech-Nut Stage 3 (4 fl oz)"
+                        }
+                    ], 
+                    "value": 0.0, 
+                    "dp": "", 
+                    "sourcecode": "", 
+                    "se": "", 
+                    "unit": "g"
+                }, 
+                {
+                    "group": "Lipids", 
+                    "name": "6:0", 
+                    "nutrient_id": 608, 
+                    "measures": [
+                        {
+                            "eqv": 31.2, 
+                            "qty": 1.0, 
+                            "value": 0.0, 
+                            "label": "fl oz"
+                        }, 
+                        {
+                            "eqv": 127.0, 
+                            "qty": 1.0, 
+                            "value": 0.0, 
+                            "label": "jar"
+                        }, 
+                        {
+                            "eqv": 125.0, 
+                            "qty": 1.0, 
+                            "value": 0.0, 
+                            "label": "bottle Heinz Strained (4 fl oz)"
+                        }, 
+                        {
+                            "eqv": 125.0, 
+                            "qty": 1.0, 
+                            "value": 0.0, 
+                            "label": "bottle Gerber Second Foods (4 fl oz)"
+                        }, 
+                        {
+                            "eqv": 125.0, 
+                            "qty": 1.0, 
+                            "value": 0.0, 
+                            "label": "bottle Beech-Nut Stage 3 (4 fl oz)"
+                        }
+                    ], 
+                    "value": 0.0, 
+                    "dp": "", 
+                    "sourcecode": "", 
+                    "se": "", 
+                    "unit": "g"
+                }, 
+                {
+                    "group": "Lipids", 
+                    "name": "8:0", 
+                    "nutrient_id": 609, 
+                    "measures": [
+                        {
+                            "eqv": 31.2, 
+                            "qty": 1.0, 
+                            "value": 0.0, 
+                            "label": "fl oz"
+                        }, 
+                        {
+                            "eqv": 127.0, 
+                            "qty": 1.0, 
+                            "value": 0.0, 
+                            "label": "jar"
+                        }, 
+                        {
+                            "eqv": 125.0, 
+                            "qty": 1.0, 
+                            "value": 0.0, 
+                            "label": "bottle Heinz Strained (4 fl oz)"
+                        }, 
+                        {
+                            "eqv": 125.0, 
+                            "qty": 1.0, 
+                            "value": 0.0, 
+                            "label": "bottle Gerber Second Foods (4 fl oz)"
+                        }, 
+                        {
+                            "eqv": 125.0, 
+                            "qty": 1.0, 
+                            "value": 0.0, 
+                            "label": "bottle Beech-Nut Stage 3 (4 fl oz)"
+                        }
+                    ], 
+                    "value": 0.0, 
+                    "dp": "", 
+                    "sourcecode": "", 
+                    "se": "", 
+                    "unit": "g"
+                }, 
+                {
+                    "group": "Lipids", 
+                    "name": "10:0", 
+                    "nutrient_id": 610, 
+                    "measures": [
+                        {
+                            "eqv": 31.2, 
+                            "qty": 1.0, 
+                            "value": 0.0, 
+                            "label": "fl oz"
+                        }, 
+                        {
+                            "eqv": 127.0, 
+                            "qty": 1.0, 
+                            "value": 0.0, 
+                            "label": "jar"
+                        }, 
+                        {
+                            "eqv": 125.0, 
+                            "qty": 1.0, 
+                            "value": 0.0, 
+                            "label": "bottle Heinz Strained (4 fl oz)"
+                        }, 
+                        {
+                            "eqv": 125.0, 
+                            "qty": 1.0, 
+                            "value": 0.0, 
+                            "label": "bottle Gerber Second Foods (4 fl oz)"
+                        }, 
+                        {
+                            "eqv": 125.0, 
+                            "qty": 1.0, 
+                            "value": 0.0, 
+                            "label": "bottle Beech-Nut Stage 3 (4 fl oz)"
+                        }
+                    ], 
+                    "value": 0.0, 
+                    "dp": "", 
+                    "sourcecode": "", 
+                    "se": "", 
+                    "unit": "g"
+                }, 
+                {
+                    "group": "Lipids", 
+                    "name": "12:0", 
+                    "nutrient_id": 611, 
+                    "measures": [
+                        {
+                            "eqv": 31.2, 
+                            "qty": 1.0, 
+                            "value": 0.0, 
+                            "label": "fl oz"
+                        }, 
+                        {
+                            "eqv": 127.0, 
+                            "qty": 1.0, 
+                            "value": 0.0, 
+                            "label": "jar"
+                        }, 
+                        {
+                            "eqv": 125.0, 
+                            "qty": 1.0, 
+                            "value": 0.0, 
+                            "label": "bottle Heinz Strained (4 fl oz)"
+                        }, 
+                        {
+                            "eqv": 125.0, 
+                            "qty": 1.0, 
+                            "value": 0.0, 
+                            "label": "bottle Gerber Second Foods (4 fl oz)"
+                        }, 
+                        {
+                            "eqv": 125.0, 
+                            "qty": 1.0, 
+                            "value": 0.0, 
+                            "label": "bottle Beech-Nut Stage 3 (4 fl oz)"
+                        }
+                    ], 
+                    "value": 0.0, 
+                    "dp": "", 
+                    "sourcecode": "", 
+                    "se": "", 
+                    "unit": "g"
+                }, 
+                {
+                    "group": "Lipids", 
+                    "name": "14:0", 
+                    "nutrient_id": 612, 
+                    "measures": [
+                        {
+                            "eqv": 31.2, 
+                            "qty": 1.0, 
+                            "value": 0.0, 
+                            "label": "fl oz"
+                        }, 
+                        {
+                            "eqv": 127.0, 
+                            "qty": 1.0, 
+                            "value": 0.0, 
+                            "label": "jar"
+                        }, 
+                        {
+                            "eqv": 125.0, 
+                            "qty": 1.0, 
+                            "value": 0.0, 
+                            "label": "bottle Heinz Strained (4 fl oz)"
+                        }, 
+                        {
+                            "eqv": 125.0, 
+                            "qty": 1.0, 
+                            "value": 0.0, 
+                            "label": "bottle Gerber Second Foods (4 fl oz)"
+                        }, 
+                        {
+                            "eqv": 125.0, 
+                            "qty": 1.0, 
+                            "value": 0.0, 
+                            "label": "bottle Beech-Nut Stage 3 (4 fl oz)"
+                        }
+                    ], 
+                    "value": 0.0, 
+                    "dp": "", 
+                    "sourcecode": "", 
+                    "se": "", 
+                    "unit": "g"
+                }, 
+                {
+                    "group": "Lipids", 
+                    "name": "16:0", 
+                    "nutrient_id": 613, 
+                    "measures": [
+                        {
+                            "eqv": 31.2, 
+                            "qty": 1.0, 
+                            "value": 0.011, 
+                            "label": "fl oz"
+                        }, 
+                        {
+                            "eqv": 127.0, 
+                            "qty": 1.0, 
+                            "value": 0.044, 
+                            "label": "jar"
+                        }, 
+                        {
+                            "eqv": 125.0, 
+                            "qty": 1.0, 
+                            "value": 0.044, 
+                            "label": "bottle Heinz Strained (4 fl oz)"
+                        }, 
+                        {
+                            "eqv": 125.0, 
+                            "qty": 1.0, 
+                            "value": 0.044, 
+                            "label": "bottle Gerber Second Foods (4 fl oz)"
+                        }, 
+                        {
+                            "eqv": 125.0, 
+                            "qty": 1.0, 
+                            "value": 0.044, 
+                            "label": "bottle Beech-Nut Stage 3 (4 fl oz)"
+                        }
+                    ], 
+                    "value": 0.035, 
+                    "dp": "", 
+                    "sourcecode": "", 
+                    "se": "", 
+                    "unit": "g"
+                }, 
+                {
+                    "group": "Lipids", 
+                    "name": "18:0", 
+                    "nutrient_id": 614, 
+                    "measures": [
+                        {
+                            "eqv": 31.2, 
+                            "qty": 1.0, 
+                            "value": 0.0, 
+                            "label": "fl oz"
+                        }, 
+                        {
+                            "eqv": 127.0, 
+                            "qty": 1.0, 
+                            "value": 0.0, 
+                            "label": "jar"
+                        }, 
+                        {
+                            "eqv": 125.0, 
+                            "qty": 1.0, 
+                            "value": 0.0, 
+                            "label": "bottle Heinz Strained (4 fl oz)"
+                        }, 
+                        {
+                            "eqv": 125.0, 
+                            "qty": 1.0, 
+                            "value": 0.0, 
+                            "label": "bottle Gerber Second Foods (4 fl oz)"
+                        }, 
+                        {
+                            "eqv": 125.0, 
+                            "qty": 1.0, 
+                            "value": 0.0, 
+                            "label": "bottle Beech-Nut Stage 3 (4 fl oz)"
+                        }
+                    ], 
+                    "value": 0.0, 
+                    "dp": "", 
+                    "sourcecode": "", 
+                    "se": "", 
+                    "unit": "g"
+                }, 
+                {
+                    "group": "Lipids", 
+                    "name": "Fatty acids, total monounsaturated", 
+                    "nutrient_id": 645, 
+                    "measures": [
+                        {
+                            "eqv": 31.2, 
+                            "qty": 1.0, 
+                            "value": 0.016, 
+                            "label": "fl oz"
+                        }, 
+                        {
+                            "eqv": 127.0, 
+                            "qty": 1.0, 
+                            "value": 0.064, 
+                            "label": "jar"
+                        }, 
+                        {
+                            "eqv": 125.0, 
+                            "qty": 1.0, 
+                            "value": 0.062, 
+                            "label": "bottle Heinz Strained (4 fl oz)"
+                        }, 
+                        {
+                            "eqv": 125.0, 
+                            "qty": 1.0, 
+                            "value": 0.062, 
+                            "label": "bottle Gerber Second Foods (4 fl oz)"
+                        }, 
+                        {
+                            "eqv": 125.0, 
+                            "qty": 1.0, 
+                            "value": 0.062, 
+                            "label": "bottle Beech-Nut Stage 3 (4 fl oz)"
+                        }
+                    ], 
+                    "value": 0.05, 
+                    "dp": "", 
+                    "sourcecode": "", 
+                    "se": "", 
+                    "unit": "g"
+                }, 
+                {
+                    "group": "Lipids", 
+                    "name": "16:1 undifferentiated", 
+                    "nutrient_id": 626, 
+                    "measures": [
+                        {
+                            "eqv": 31.2, 
+                            "qty": 1.0, 
+                            "value": 0.002, 
+                            "label": "fl oz"
+                        }, 
+                        {
+                            "eqv": 127.0, 
+                            "qty": 1.0, 
+                            "value": 0.006, 
+                            "label": "jar"
+                        }, 
+                        {
+                            "eqv": 125.0, 
+                            "qty": 1.0, 
+                            "value": 0.006, 
+                            "label": "bottle Heinz Strained (4 fl oz)"
+                        }, 
+                        {
+                            "eqv": 125.0, 
+                            "qty": 1.0, 
+                            "value": 0.006, 
+                            "label": "bottle Gerber Second Foods (4 fl oz)"
+                        }, 
+                        {
+                            "eqv": 125.0, 
+                            "qty": 1.0, 
+                            "value": 0.006, 
+                            "label": "bottle Beech-Nut Stage 3 (4 fl oz)"
+                        }
+                    ], 
+                    "value": 0.005, 
+                    "dp": "", 
+                    "sourcecode": "", 
+                    "se": "", 
+                    "unit": "g"
+                }, 
+                {
+                    "group": "Lipids", 
+                    "name": "18:1 undifferentiated", 
+                    "nutrient_id": 617, 
+                    "measures": [
+                        {
+                            "eqv": 31.2, 
+                            "qty": 1.0, 
+                            "value": 0.014, 
+                            "label": "fl oz"
+                        }, 
+                        {
+                            "eqv": 127.0, 
+                            "qty": 1.0, 
+                            "value": 0.057, 
+                            "label": "jar"
+                        }, 
+                        {
+                            "eqv": 125.0, 
+                            "qty": 1.0, 
+                            "value": 0.056, 
+                            "label": "bottle Heinz Strained (4 fl oz)"
+                        }, 
+                        {
+                            "eqv": 125.0, 
+                            "qty": 1.0, 
+                            "value": 0.056, 
+                            "label": "bottle Gerber Second Foods (4 fl oz)"
+                        }, 
+                        {
+                            "eqv": 125.0, 
+                            "qty": 1.0, 
+                            "value": 0.056, 
+                            "label": "bottle Beech-Nut Stage 3 (4 fl oz)"
+                        }
+                    ], 
+                    "value": 0.045, 
+                    "dp": "", 
+                    "sourcecode": "", 
+                    "se": "", 
+                    "unit": "g"
+                }, 
+                {
+                    "group": "Lipids", 
+                    "name": "20:1", 
+                    "nutrient_id": 628, 
+                    "measures": [
+                        {
+                            "eqv": 31.2, 
+                            "qty": 1.0, 
+                            "value": 0.0, 
+                            "label": "fl oz"
+                        }, 
+                        {
+                            "eqv": 127.0, 
+                            "qty": 1.0, 
+                            "value": 0.0, 
+                            "label": "jar"
+                        }, 
+                        {
+                            "eqv": 125.0, 
+                            "qty": 1.0, 
+                            "value": 0.0, 
+                            "label": "bottle Heinz Strained (4 fl oz)"
+                        }, 
+                        {
+                            "eqv": 125.0, 
+                            "qty": 1.0, 
+                            "value": 0.0, 
+                            "label": "bottle Gerber Second Foods (4 fl oz)"
+                        }, 
+                        {
+                            "eqv": 125.0, 
+                            "qty": 1.0, 
+                            "value": 0.0, 
+                            "label": "bottle Beech-Nut Stage 3 (4 fl oz)"
+                        }
+                    ], 
+                    "value": 0.0, 
+                    "dp": "", 
+                    "sourcecode": "", 
+                    "se": "", 
+                    "unit": "g"
+                }, 
+                {
+                    "group": "Lipids", 
+                    "name": "22:1 undifferentiated", 
+                    "nutrient_id": 630, 
+                    "measures": [
+                        {
+                            "eqv": 31.2, 
+                            "qty": 1.0, 
+                            "value": 0.0, 
+                            "label": "fl oz"
+                        }, 
+                        {
+                            "eqv": 127.0, 
+                            "qty": 1.0, 
+                            "value": 0.0, 
+                            "label": "jar"
+                        }, 
+                        {
+                            "eqv": 125.0, 
+                            "qty": 1.0, 
+                            "value": 0.0, 
+                            "label": "bottle Heinz Strained (4 fl oz)"
+                        }, 
+                        {
+                            "eqv": 125.0, 
+                            "qty": 1.0, 
+                            "value": 0.0, 
+                            "label": "bottle Gerber Second Foods (4 fl oz)"
+                        }, 
+                        {
+                            "eqv": 125.0, 
+                            "qty": 1.0, 
+                            "value": 0.0, 
+                            "label": "bottle Beech-Nut Stage 3 (4 fl oz)"
+                        }
+                    ], 
+                    "value": 0.0, 
+                    "dp": "", 
+                    "sourcecode": "", 
+                    "se": "", 
+                    "unit": "g"
+                }, 
+                {
+                    "group": "Lipids", 
+                    "name": "Fatty acids, total polyunsaturated", 
+                    "nutrient_id": 646, 
+                    "measures": [
+                        {
+                            "eqv": 31.2, 
+                            "qty": 1.0, 
+                            "value": 0.019, 
+                            "label": "fl oz"
+                        }, 
+                        {
+                            "eqv": 127.0, 
+                            "qty": 1.0, 
+                            "value": 0.076, 
+                            "label": "jar"
+                        }, 
+                        {
+                            "eqv": 125.0, 
+                            "qty": 1.0, 
+                            "value": 0.075, 
+                            "label": "bottle Heinz Strained (4 fl oz)"
+                        }, 
+                        {
+                            "eqv": 125.0, 
+                            "qty": 1.0, 
+                            "value": 0.075, 
+                            "label": "bottle Gerber Second Foods (4 fl oz)"
+                        }, 
+                        {
+                            "eqv": 125.0, 
+                            "qty": 1.0, 
+                            "value": 0.075, 
+                            "label": "bottle Beech-Nut Stage 3 (4 fl oz)"
+                        }
+                    ], 
+                    "value": 0.06, 
+                    "dp": "", 
+                    "sourcecode": "", 
+                    "se": "", 
+                    "unit": "g"
+                }, 
+                {
+                    "group": "Lipids", 
+                    "name": "18:2 undifferentiated", 
+                    "nutrient_id": 618, 
+                    "measures": [
+                        {
+                            "eqv": 31.2, 
+                            "qty": 1.0, 
+                            "value": 0.014, 
+                            "label": "fl oz"
+                        }, 
+                        {
+                            "eqv": 127.0, 
+                            "qty": 1.0, 
+                            "value": 0.057, 
+                            "label": "jar"
+                        }, 
+                        {
+                            "eqv": 125.0, 
+                            "qty": 1.0, 
+                            "value": 0.056, 
+                            "label": "bottle Heinz Strained (4 fl oz)"
+                        }, 
+                        {
+                            "eqv": 125.0, 
+                            "qty": 1.0, 
+                            "value": 0.056, 
+                            "label": "bottle Gerber Second Foods (4 fl oz)"
+                        }, 
+                        {
+                            "eqv": 125.0, 
+                            "qty": 1.0, 
+                            "value": 0.056, 
+                            "label": "bottle Beech-Nut Stage 3 (4 fl oz)"
+                        }
+                    ], 
+                    "value": 0.045, 
+                    "dp": "", 
+                    "sourcecode": "", 
+                    "se": "", 
+                    "unit": "g"
+                }, 
+                {
+                    "group": "Lipids", 
+                    "name": "18:3 undifferentiated", 
+                    "nutrient_id": 619, 
+                    "measures": [
+                        {
+                            "eqv": 31.2, 
+                            "qty": 1.0, 
+                            "value": 0.005, 
+                            "label": "fl oz"
+                        }, 
+                        {
+                            "eqv": 127.0, 
+                            "qty": 1.0, 
+                            "value": 0.019, 
+                            "label": "jar"
+                        }, 
+                        {
+                            "eqv": 125.0, 
+                            "qty": 1.0, 
+                            "value": 0.019, 
+                            "label": "bottle Heinz Strained (4 fl oz)"
+                        }, 
+                        {
+                            "eqv": 125.0, 
+                            "qty": 1.0, 
+                            "value": 0.019, 
+                            "label": "bottle Gerber Second Foods (4 fl oz)"
+                        }, 
+                        {
+                            "eqv": 125.0, 
+                            "qty": 1.0, 
+                            "value": 0.019, 
+                            "label": "bottle Beech-Nut Stage 3 (4 fl oz)"
+                        }
+                    ], 
+                    "value": 0.015, 
+                    "dp": "", 
+                    "sourcecode": "", 
+                    "se": "", 
+                    "unit": "g"
+                }, 
+                {
+                    "group": "Lipids", 
+                    "name": "18:4", 
+                    "nutrient_id": 627, 
+                    "measures": [
+                        {
+                            "eqv": 31.2, 
+                            "qty": 1.0, 
+                            "value": 0.0, 
+                            "label": "fl oz"
+                        }, 
+                        {
+                            "eqv": 127.0, 
+                            "qty": 1.0, 
+                            "value": 0.0, 
+                            "label": "jar"
+                        }, 
+                        {
+                            "eqv": 125.0, 
+                            "qty": 1.0, 
+                            "value": 0.0, 
+                            "label": "bottle Heinz Strained (4 fl oz)"
+                        }, 
+                        {
+                            "eqv": 125.0, 
+                            "qty": 1.0, 
+                            "value": 0.0, 
+                            "label": "bottle Gerber Second Foods (4 fl oz)"
+                        }, 
+                        {
+                            "eqv": 125.0, 
+                            "qty": 1.0, 
+                            "value": 0.0, 
+                            "label": "bottle Beech-Nut Stage 3 (4 fl oz)"
+                        }
+                    ], 
+                    "value": 0.0, 
+                    "dp": "", 
+                    "sourcecode": "", 
+                    "se": "", 
+                    "unit": "g"
+                }, 
+                {
+                    "group": "Lipids", 
+                    "name": "20:4 undifferentiated", 
+                    "nutrient_id": 620, 
+                    "measures": [
+                        {
+                            "eqv": 31.2, 
+                            "qty": 1.0, 
+                            "value": 0.0, 
+                            "label": "fl oz"
+                        }, 
+                        {
+                            "eqv": 127.0, 
+                            "qty": 1.0, 
+                            "value": 0.0, 
+                            "label": "jar"
+                        }, 
+                        {
+                            "eqv": 125.0, 
+                            "qty": 1.0, 
+                            "value": 0.0, 
+                            "label": "bottle Heinz Strained (4 fl oz)"
+                        }, 
+                        {
+                            "eqv": 125.0, 
+                            "qty": 1.0, 
+                            "value": 0.0, 
+                            "label": "bottle Gerber Second Foods (4 fl oz)"
+                        }, 
+                        {
+                            "eqv": 125.0, 
+                            "qty": 1.0, 
+                            "value": 0.0, 
+                            "label": "bottle Beech-Nut Stage 3 (4 fl oz)"
+                        }
+                    ], 
+                    "value": 0.0, 
+                    "dp": "", 
+                    "sourcecode": "", 
+                    "se": "", 
+                    "unit": "g"
+                }, 
+                {
+                    "group": "Lipids", 
+                    "name": "20:5 n-3 (EPA)", 
+                    "nutrient_id": 629, 
+                    "measures": [
+                        {
+                            "eqv": 31.2, 
+                            "qty": 1.0, 
+                            "value": 0.0, 
+                            "label": "fl oz"
+                        }, 
+                        {
+                            "eqv": 127.0, 
+                            "qty": 1.0, 
+                            "value": 0.0, 
+                            "label": "jar"
+                        }, 
+                        {
+                            "eqv": 125.0, 
+                            "qty": 1.0, 
+                            "value": 0.0, 
+                            "label": "bottle Heinz Strained (4 fl oz)"
+                        }, 
+                        {
+                            "eqv": 125.0, 
+                            "qty": 1.0, 
+                            "value": 0.0, 
+                            "label": "bottle Gerber Second Foods (4 fl oz)"
+                        }, 
+                        {
+                            "eqv": 125.0, 
+                            "qty": 1.0, 
+                            "value": 0.0, 
+                            "label": "bottle Beech-Nut Stage 3 (4 fl oz)"
+                        }
+                    ], 
+                    "value": 0.0, 
+                    "dp": "", 
+                    "sourcecode": "", 
+                    "se": "", 
+                    "unit": "g"
+                }, 
+                {
+                    "group": "Lipids", 
+                    "name": "22:5 n-3 (DPA)", 
+                    "nutrient_id": 631, 
+                    "measures": [
+                        {
+                            "eqv": 31.2, 
+                            "qty": 1.0, 
+                            "value": 0.0, 
+                            "label": "fl oz"
+                        }, 
+                        {
+                            "eqv": 127.0, 
+                            "qty": 1.0, 
+                            "value": 0.0, 
+                            "label": "jar"
+                        }, 
+                        {
+                            "eqv": 125.0, 
+                            "qty": 1.0, 
+                            "value": 0.0, 
+                            "label": "bottle Heinz Strained (4 fl oz)"
+                        }, 
+                        {
+                            "eqv": 125.0, 
+                            "qty": 1.0, 
+                            "value": 0.0, 
+                            "label": "bottle Gerber Second Foods (4 fl oz)"
+                        }, 
+                        {
+                            "eqv": 125.0, 
+                            "qty": 1.0, 
+                            "value": 0.0, 
+                            "label": "bottle Beech-Nut Stage 3 (4 fl oz)"
+                        }
+                    ], 
+                    "value": 0.0, 
+                    "dp": "", 
+                    "sourcecode": "", 
+                    "se": "", 
+                    "unit": "g"
+                }, 
+                {
+                    "group": "Lipids", 
+                    "name": "22:6 n-3 (DHA)", 
+                    "nutrient_id": 621, 
+                    "measures": [
+                        {
+                            "eqv": 31.2, 
+                            "qty": 1.0, 
+                            "value": 0.0, 
+                            "label": "fl oz"
+                        }, 
+                        {
+                            "eqv": 127.0, 
+                            "qty": 1.0, 
+                            "value": 0.0, 
+                            "label": "jar"
+                        }, 
+                        {
+                            "eqv": 125.0, 
+                            "qty": 1.0, 
+                            "value": 0.0, 
+                            "label": "bottle Heinz Strained (4 fl oz)"
+                        }, 
+                        {
+                            "eqv": 125.0, 
+                            "qty": 1.0, 
+                            "value": 0.0, 
+                            "label": "bottle Gerber Second Foods (4 fl oz)"
+                        }, 
+                        {
+                            "eqv": 125.0, 
+                            "qty": 1.0, 
+                            "value": 0.0, 
+                            "label": "bottle Beech-Nut Stage 3 (4 fl oz)"
+                        }
+                    ], 
+                    "value": 0.0, 
+                    "dp": "", 
+                    "sourcecode": "", 
+                    "se": "", 
+                    "unit": "g"
+                }, 
+                {
+                    "group": "Lipids", 
+                    "name": "Cholesterol", 
+                    "nutrient_id": 601, 
+                    "measures": [
+                        {
+                            "eqv": 31.2, 
+                            "qty": 1.0, 
+                            "value": 0.0, 
+                            "label": "fl oz"
+                        }, 
+                        {
+                            "eqv": 127.0, 
+                            "qty": 1.0, 
+                            "value": 0.0, 
+                            "label": "jar"
+                        }, 
+                        {
+                            "eqv": 125.0, 
+                            "qty": 1.0, 
+                            "value": 0.0, 
+                            "label": "bottle Heinz Strained (4 fl oz)"
+                        }, 
+                        {
+                            "eqv": 125.0, 
+                            "qty": 1.0, 
+                            "value": 0.0, 
+                            "label": "bottle Gerber Second Foods (4 fl oz)"
+                        }, 
+                        {
+                            "eqv": 125.0, 
+                            "qty": 1.0, 
+                            "value": 0.0, 
+                            "label": "bottle Beech-Nut Stage 3 (4 fl oz)"
+                        }
+                    ], 
+                    "value": 0.0, 
+                    "dp": "", 
+                    "sourcecode": "", 
+                    "se": "", 
+                    "unit": "mg"
+                }, 
+                {
+                    "group": "Other", 
+                    "name": "Alcohol, ethyl", 
+                    "nutrient_id": 221, 
+                    "measures": [
+                        {
+                            "eqv": 31.2, 
+                            "qty": 1.0, 
+                            "value": 0.0, 
+                            "label": "fl oz"
+                        }, 
+                        {
+                            "eqv": 127.0, 
+                            "qty": 1.0, 
+                            "value": 0.0, 
+                            "label": "jar"
+                        }, 
+                        {
+                            "eqv": 125.0, 
+                            "qty": 1.0, 
+                            "value": 0.0, 
+                            "label": "bottle Heinz Strained (4 fl oz)"
+                        }, 
+                        {
+                            "eqv": 125.0, 
+                            "qty": 1.0, 
+                            "value": 0.0, 
+                            "label": "bottle Gerber Second Foods (4 fl oz)"
+                        }, 
+                        {
+                            "eqv": 125.0, 
+                            "qty": 1.0, 
+                            "value": 0.0, 
+                            "label": "bottle Beech-Nut Stage 3 (4 fl oz)"
+                        }
+                    ], 
+                    "value": 0.0, 
+                    "dp": "", 
+                    "sourcecode": "", 
+                    "se": "", 
+                    "unit": "g"
+                }, 
+                {
+                    "group": "Other", 
+                    "name": "Caffeine", 
+                    "nutrient_id": 262, 
+                    "measures": [
+                        {
+                            "eqv": 31.2, 
+                            "qty": 1.0, 
+                            "value": 0.0, 
+                            "label": "fl oz"
+                        }, 
+                        {
+                            "eqv": 127.0, 
+                            "qty": 1.0, 
+                            "value": 0.0, 
+                            "label": "jar"
+                        }, 
+                        {
+                            "eqv": 125.0, 
+                            "qty": 1.0, 
+                            "value": 0.0, 
+                            "label": "bottle Heinz Strained (4 fl oz)"
+                        }, 
+                        {
+                            "eqv": 125.0, 
+                            "qty": 1.0, 
+                            "value": 0.0, 
+                            "label": "bottle Gerber Second Foods (4 fl oz)"
+                        }, 
+                        {
+                            "eqv": 125.0, 
+                            "qty": 1.0, 
+                            "value": 0.0, 
+                            "label": "bottle Beech-Nut Stage 3 (4 fl oz)"
+                        }
+                    ], 
+                    "value": 0.0, 
+                    "dp": "", 
+                    "sourcecode": "", 
+                    "se": "", 
+                    "unit": "mg"
+                }, 
+                {
+                    "group": "Other", 
+                    "name": "Theobromine", 
+                    "nutrient_id": 263, 
+                    "measures": [
+                        {
+                            "eqv": 31.2, 
+                            "qty": 1.0, 
+                            "value": 0.0, 
+                            "label": "fl oz"
+                        }, 
+                        {
+                            "eqv": 127.0, 
+                            "qty": 1.0, 
+                            "value": 0.0, 
+                            "label": "jar"
+                        }, 
+                        {
+                            "eqv": 125.0, 
+                            "qty": 1.0, 
+                            "value": 0.0, 
+                            "label": "bottle Heinz Strained (4 fl oz)"
+                        }, 
+                        {
+                            "eqv": 125.0, 
+                            "qty": 1.0, 
+                            "value": 0.0, 
+                            "label": "bottle Gerber Second Foods (4 fl oz)"
+                        }, 
+                        {
+                            "eqv": 125.0, 
+                            "qty": 1.0, 
+                            "value": 0.0, 
+                            "label": "bottle Beech-Nut Stage 3 (4 fl oz)"
+                        }
+                    ], 
+                    "value": 0.0, 
+                    "dp": "", 
+                    "sourcecode": "", 
+                    "se": "", 
+                    "unit": "mg"
+                }
+            ], 
+            "cf": 3.92, 
+            "nf": 6.25, 
+            "rd": "", 
+            "r": "0%", 
+            "pf": 3.36, 
+            "sn": "", 
+            "ff": 8.37, 
+            "fg": "Baby Foods", 
+            "sd": "BABYFOOD,JUICE,ORANGE", 
+            "ds": "Standard Reference", 
+            "name": "Babyfood, juice, orange"
+        }, 
         "sr": "28", 
-        "q": "Canned tuna", 
-        "start": 0, 
-        "group": "", 
-        "total": 8, 
-        "ds": "any"
+        "sources": [], 
+        "langual": [], 
+        "footnotes": [], 
+        "type": "Full"
     }
 }
