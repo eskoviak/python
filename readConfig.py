@@ -4,7 +4,7 @@ import os
 
 fp_default = 'configuration.cfg'
 
-def readKey(fp, key):
+def readKey(fp, searchKey):
   if (not os.path.exists(fp)):
     fp = fp_default
 
@@ -13,9 +13,9 @@ def readKey(fp, key):
     if (line[0] == '#' or line.__len__ == 0):
       continue
 
-    #print(line)
     (key,value) = line.split("=")
-    print("Key: " + key + ", Value: " + value)
+    if ( key == searchKey):
+      return value
 
 if __name__ == "__main__":
   readKey("configuration.cfg", "")

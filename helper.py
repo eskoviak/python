@@ -1,6 +1,6 @@
 #!/usr/bin/env python
 
-import calcBMR
+import readConfig
 
 if __name__ == "__main__":
-  print(calcBMR.calcBMR(169.9, .151))
+  print(readConfig.readKey("configuration.cfg", "api.data.key.gov"))
