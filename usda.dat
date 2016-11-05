@@ -2,8 +2,8 @@
     "report": {
         "food": {
             "manu": "", 
-            "cn": "", 
-            "ndbno": "03172", 
+            "cn": "URMIS #3358, Pork tenderloin", 
+            "ndbno": "10218", 
             "nutrients": [
                 {
                     "group": "Proximates", 
@@ -11,38 +11,20 @@
                     "nutrient_id": 255, 
                     "measures": [
                         {
-                            "eqv": 31.2, 
-                            "qty": 1.0, 
-                            "value": 27.61, 
-                            "label": "fl oz"
+                            "eqv": 85.0, 
+                            "qty": 3.0, 
+                            "value": 63.72, 
+                            "label": "oz"
                         }, 
                         {
-                            "eqv": 127.0, 
+                            "eqv": 505.0, 
                             "qty": 1.0, 
-                            "value": 112.4, 
-                            "label": "jar"
-                        }, 
-                        {
-                            "eqv": 125.0, 
-                            "qty": 1.0, 
-                            "value": 110.62, 
-                            "label": "bottle Heinz Strained (4 fl oz)"
-                        }, 
-                        {
-                            "eqv": 125.0, 
-                            "qty": 1.0, 
-                            "value": 110.62, 
-                            "label": "bottle Gerber Second Foods (4 fl oz)"
-                        }, 
-                        {
-                            "eqv": 125.0, 
-                            "qty": 1.0, 
-                            "value": 110.62, 
-                            "label": "bottle Beech-Nut Stage 3 (4 fl oz)"
+                            "value": 378.6, 
+                            "label": "roast (Yield from 1 raw roast, with refuse, weighing 504g)"
                         }
                     ], 
-                    "value": 88.5, 
-                    "dp": 14, 
+                    "value": 74.97, 
+                    "dp": "", 
                     "sourcecode": "", 
                     "se": "", 
                     "unit": "g"
@@ -53,37 +35,19 @@
                     "nutrient_id": 208, 
                     "measures": [
                         {
-                            "eqv": 31.2, 
-                            "qty": 1.0, 
-                            "value": 14.0, 
-                            "label": "fl oz"
+                            "eqv": 85.0, 
+                            "qty": 3.0, 
+                            "value": 102.0, 
+                            "label": "oz"
                         }, 
                         {
-                            "eqv": 127.0, 
+                            "eqv": 505.0, 
                             "qty": 1.0, 
-                            "value": 57.0, 
-                            "label": "jar"
-                        }, 
-                        {
-                            "eqv": 125.0, 
-                            "qty": 1.0, 
-                            "value": 56.0, 
-                            "label": "bottle Heinz Strained (4 fl oz)"
-                        }, 
-                        {
-                            "eqv": 125.0, 
-                            "qty": 1.0, 
-                            "value": 56.0, 
-                            "label": "bottle Gerber Second Foods (4 fl oz)"
-                        }, 
-                        {
-                            "eqv": 125.0, 
-                            "qty": 1.0, 
-                            "value": 56.0, 
-                            "label": "bottle Beech-Nut Stage 3 (4 fl oz)"
+                            "value": 606.0, 
+                            "label": "roast (Yield from 1 raw roast, with refuse, weighing 504g)"
                         }
                     ], 
-                    "value": 45.0, 
+                    "value": 120.0, 
                     "dp": "", 
                     "sourcecode": "", 
                     "se": "", 
@@ -95,37 +59,19 @@
                     "nutrient_id": 268, 
                     "measures": [
                         {
-                            "eqv": 31.2, 
-                            "qty": 1.0, 
-                            "value": 58.0, 
-                            "label": "fl oz"
+                            "eqv": 85.0, 
+                            "qty": 3.0, 
+                            "value": 427.0, 
+                            "label": "oz"
                         }, 
                         {
-                            "eqv": 127.0, 
+                            "eqv": 505.0, 
                             "qty": 1.0, 
-                            "value": 236.0, 
-                            "label": "jar"
-                        }, 
-                        {
-                            "eqv": 125.0, 
-                            "qty": 1.0, 
-                            "value": 232.0, 
-                            "label": "bottle Heinz Strained (4 fl oz)"
-                        }, 
-                        {
-                            "eqv": 125.0, 
-                            "qty": 1.0, 
-                            "value": 232.0, 
-                            "label": "bottle Gerber Second Foods (4 fl oz)"
-                        }, 
-                        {
-                            "eqv": 125.0, 
-                            "qty": 1.0, 
-                            "value": 232.0, 
-                            "label": "bottle Beech-Nut Stage 3 (4 fl oz)"
+                            "value": 2535.0, 
+                            "label": "roast (Yield from 1 raw roast, with refuse, weighing 504g)"
                         }
                     ], 
-                    "value": 186.0, 
+                    "value": 502.0, 
                     "dp": "", 
                     "sourcecode": "", 
                     "se": "", 
@@ -137,40 +83,22 @@
                     "nutrient_id": 203, 
                     "measures": [
                         {
-                            "eqv": 31.2, 
-                            "qty": 1.0, 
-                            "value": 0.19, 
-                            "label": "fl oz"
+                            "eqv": 85.0, 
+                            "qty": 3.0, 
+                            "value": 17.55, 
+                            "label": "oz"
                         }, 
                         {
-                            "eqv": 127.0, 
+                            "eqv": 505.0, 
                             "qty": 1.0, 
-                            "value": 0.76, 
-                            "label": "jar"
-                        }, 
-                        {
-                            "eqv": 125.0, 
-                            "qty": 1.0, 
-                            "value": 0.75, 
-                            "label": "bottle Heinz Strained (4 fl oz)"
-                        }, 
-                        {
-                            "eqv": 125.0, 
-                            "qty": 1.0, 
-                            "value": 0.75, 
-                            "label": "bottle Gerber Second Foods (4 fl oz)"
-                        }, 
-                        {
-                            "eqv": 125.0, 
-                            "qty": 1.0, 
-                            "value": 0.75, 
-                            "label": "bottle Beech-Nut Stage 3 (4 fl oz)"
+                            "value": 104.28, 
+                            "label": "roast (Yield from 1 raw roast, with refuse, weighing 504g)"
                         }
                     ], 
-                    "value": 0.6, 
-                    "dp": 21, 
+                    "value": 20.65, 
+                    "dp": "", 
                     "sourcecode": "", 
-                    "se": "0.000", 
+                    "se": "", 
                     "unit": "g"
                 }, 
                 {
@@ -179,40 +107,22 @@
                     "nutrient_id": 204, 
                     "measures": [
                         {
-                            "eqv": 31.2, 
-                            "qty": 1.0, 
-                            "value": 0.09, 
-                            "label": "fl oz"
+                            "eqv": 85.0, 
+                            "qty": 3.0, 
+                            "value": 3.0, 
+                            "label": "oz"
                         }, 
                         {
-                            "eqv": 127.0, 
+                            "eqv": 505.0, 
                             "qty": 1.0, 
-                            "value": 0.38, 
-                            "label": "jar"
-                        }, 
-                        {
-                            "eqv": 125.0, 
-                            "qty": 1.0, 
-                            "value": 0.38, 
-                            "label": "bottle Heinz Strained (4 fl oz)"
-                        }, 
-                        {
-                            "eqv": 125.0, 
-                            "qty": 1.0, 
-                            "value": 0.38, 
-                            "label": "bottle Gerber Second Foods (4 fl oz)"
-                        }, 
-                        {
-                            "eqv": 125.0, 
-                            "qty": 1.0, 
-                            "value": 0.38, 
-                            "label": "bottle Beech-Nut Stage 3 (4 fl oz)"
+                            "value": 17.83, 
+                            "label": "roast (Yield from 1 raw roast, with refuse, weighing 504g)"
                         }
                     ], 
-                    "value": 0.3, 
-                    "dp": 21, 
+                    "value": 3.53, 
+                    "dp": "", 
                     "sourcecode": "", 
-                    "se": "0.000", 
+                    "se": "", 
                     "unit": "g"
                 }, 
                 {
@@ -221,40 +131,22 @@
                     "nutrient_id": 207, 
                     "measures": [
                         {
-                            "eqv": 31.2, 
-                            "qty": 1.0, 
-                            "value": 0.12, 
-                            "label": "fl oz"
+                            "eqv": 85.0, 
+                            "qty": 3.0, 
+                            "value": 0.86, 
+                            "label": "oz"
                         }, 
                         {
-                            "eqv": 127.0, 
+                            "eqv": 505.0, 
                             "qty": 1.0, 
-                            "value": 0.51, 
-                            "label": "jar"
-                        }, 
-                        {
-                            "eqv": 125.0, 
-                            "qty": 1.0, 
-                            "value": 0.5, 
-                            "label": "bottle Heinz Strained (4 fl oz)"
-                        }, 
-                        {
-                            "eqv": 125.0, 
-                            "qty": 1.0, 
-                            "value": 0.5, 
-                            "label": "bottle Gerber Second Foods (4 fl oz)"
-                        }, 
-                        {
-                            "eqv": 125.0, 
-                            "qty": 1.0, 
-                            "value": 0.5, 
-                            "label": "bottle Beech-Nut Stage 3 (4 fl oz)"
+                            "value": 5.1, 
+                            "label": "roast (Yield from 1 raw roast, with refuse, weighing 504g)"
                         }
                     ], 
-                    "value": 0.4, 
-                    "dp": 17, 
+                    "value": 1.01, 
+                    "dp": "", 
                     "sourcecode": "", 
-                    "se": "0.000", 
+                    "se": "", 
                     "unit": "g"
                 }, 
                 {
@@ -263,37 +155,19 @@
                     "nutrient_id": 205, 
                     "measures": [
                         {
-                            "eqv": 31.2, 
-                            "qty": 1.0, 
-                            "value": 3.18, 
-                            "label": "fl oz"
+                            "eqv": 85.0, 
+                            "qty": 3.0, 
+                            "value": 0.0, 
+                            "label": "oz"
                         }, 
                         {
-                            "eqv": 127.0, 
+                            "eqv": 505.0, 
                             "qty": 1.0, 
-                            "value": 12.95, 
-                            "label": "jar"
-                        }, 
-                        {
-                            "eqv": 125.0, 
-                            "qty": 1.0, 
-                            "value": 12.75, 
-                            "label": "bottle Heinz Strained (4 fl oz)"
-                        }, 
-                        {
-                            "eqv": 125.0, 
-                            "qty": 1.0, 
-                            "value": 12.75, 
-                            "label": "bottle Gerber Second Foods (4 fl oz)"
-                        }, 
-                        {
-                            "eqv": 125.0, 
-                            "qty": 1.0, 
-                            "value": 12.75, 
-                            "label": "bottle Beech-Nut Stage 3 (4 fl oz)"
+                            "value": 0.0, 
+                            "label": "roast (Yield from 1 raw roast, with refuse, weighing 504g)"
                         }
                     ], 
-                    "value": 10.2, 
+                    "value": 0.0, 
                     "dp": "", 
                     "sourcecode": "", 
                     "se": "", 
@@ -305,37 +179,19 @@
                     "nutrient_id": 291, 
                     "measures": [
                         {
-                            "eqv": 31.2, 
+                            "eqv": 85.0, 
+                            "qty": 3.0, 
+                            "value": 0.0, 
+                            "label": "oz"
+                        }, 
+                        {
+                            "eqv": 505.0, 
                             "qty": 1.0, 
                             "value": 0.0, 
-                            "label": "fl oz"
-                        }, 
-                        {
-                            "eqv": 127.0, 
-                            "qty": 1.0, 
-                            "value": 0.1, 
-                            "label": "jar"
-                        }, 
-                        {
-                            "eqv": 125.0, 
-                            "qty": 1.0, 
-                            "value": 0.1, 
-                            "label": "bottle Heinz Strained (4 fl oz)"
-                        }, 
-                        {
-                            "eqv": 125.0, 
-                            "qty": 1.0, 
-                            "value": 0.1, 
-                            "label": "bottle Gerber Second Foods (4 fl oz)"
-                        }, 
-                        {
-                            "eqv": 125.0, 
-                            "qty": 1.0, 
-                            "value": 0.1, 
-                            "label": "bottle Beech-Nut Stage 3 (4 fl oz)"
+                            "label": "roast (Yield from 1 raw roast, with refuse, weighing 504g)"
                         }
                     ], 
-                    "value": 0.1, 
+                    "value": 0.0, 
                     "dp": "", 
                     "sourcecode": "", 
                     "se": "", 
@@ -347,37 +203,19 @@
                     "nutrient_id": 269, 
                     "measures": [
                         {
-                            "eqv": 31.2, 
-                            "qty": 1.0, 
-                            "value": 2.58, 
-                            "label": "fl oz"
+                            "eqv": 85.0, 
+                            "qty": 3.0, 
+                            "value": 0.0, 
+                            "label": "oz"
                         }, 
                         {
-                            "eqv": 127.0, 
+                            "eqv": 505.0, 
                             "qty": 1.0, 
-                            "value": 10.49, 
-                            "label": "jar"
-                        }, 
-                        {
-                            "eqv": 125.0, 
-                            "qty": 1.0, 
-                            "value": 10.32, 
-                            "label": "bottle Heinz Strained (4 fl oz)"
-                        }, 
-                        {
-                            "eqv": 125.0, 
-                            "qty": 1.0, 
-                            "value": 10.32, 
-                            "label": "bottle Gerber Second Foods (4 fl oz)"
-                        }, 
-                        {
-                            "eqv": 125.0, 
-                            "qty": 1.0, 
-                            "value": 10.32, 
-                            "label": "bottle Beech-Nut Stage 3 (4 fl oz)"
+                            "value": 0.0, 
+                            "label": "roast (Yield from 1 raw roast, with refuse, weighing 504g)"
                         }
                     ], 
-                    "value": 8.26, 
+                    "value": 0.0, 
                     "dp": "", 
                     "sourcecode": "", 
                     "se": "", 
@@ -389,38 +227,20 @@
                     "nutrient_id": 301, 
                     "measures": [
                         {
-                            "eqv": 31.2, 
-                            "qty": 1.0, 
-                            "value": 4.0, 
-                            "label": "fl oz"
+                            "eqv": 85.0, 
+                            "qty": 3.0, 
+                            "value": 5.0, 
+                            "label": "oz"
                         }, 
                         {
-                            "eqv": 127.0, 
+                            "eqv": 505.0, 
                             "qty": 1.0, 
-                            "value": 15.0, 
-                            "label": "jar"
-                        }, 
-                        {
-                            "eqv": 125.0, 
-                            "qty": 1.0, 
-                            "value": 15.0, 
-                            "label": "bottle Heinz Strained (4 fl oz)"
-                        }, 
-                        {
-                            "eqv": 125.0, 
-                            "qty": 1.0, 
-                            "value": 15.0, 
-                            "label": "bottle Gerber Second Foods (4 fl oz)"
-                        }, 
-                        {
-                            "eqv": 125.0, 
-                            "qty": 1.0, 
-                            "value": 15.0, 
-                            "label": "bottle Beech-Nut Stage 3 (4 fl oz)"
+                            "value": 30.0, 
+                            "label": "roast (Yield from 1 raw roast, with refuse, weighing 504g)"
                         }
                     ], 
-                    "value": 12.0, 
-                    "dp": 19, 
+                    "value": 6.0, 
+                    "dp": "", 
                     "sourcecode": "", 
                     "se": "", 
                     "unit": "mg"
@@ -431,40 +251,22 @@
                     "nutrient_id": 303, 
                     "measures": [
                         {
-                            "eqv": 31.2, 
-                            "qty": 1.0, 
-                            "value": 0.05, 
-                            "label": "fl oz"
+                            "eqv": 85.0, 
+                            "qty": 3.0, 
+                            "value": 0.82, 
+                            "label": "oz"
                         }, 
                         {
-                            "eqv": 127.0, 
+                            "eqv": 505.0, 
                             "qty": 1.0, 
-                            "value": 0.22, 
-                            "label": "jar"
-                        }, 
-                        {
-                            "eqv": 125.0, 
-                            "qty": 1.0, 
-                            "value": 0.21, 
-                            "label": "bottle Heinz Strained (4 fl oz)"
-                        }, 
-                        {
-                            "eqv": 125.0, 
-                            "qty": 1.0, 
-                            "value": 0.21, 
-                            "label": "bottle Gerber Second Foods (4 fl oz)"
-                        }, 
-                        {
-                            "eqv": 125.0, 
-                            "qty": 1.0, 
-                            "value": 0.21, 
-                            "label": "bottle Beech-Nut Stage 3 (4 fl oz)"
+                            "value": 4.9, 
+                            "label": "roast (Yield from 1 raw roast, with refuse, weighing 504g)"
                         }
                     ], 
-                    "value": 0.17, 
-                    "dp": 24, 
+                    "value": 0.97, 
+                    "dp": "", 
                     "sourcecode": "", 
-                    "se": "0.040", 
+                    "se": "", 
                     "unit": "mg"
                 }, 
                 {
@@ -473,40 +275,22 @@
                     "nutrient_id": 304, 
                     "measures": [
                         {
-                            "eqv": 31.2, 
-                            "qty": 1.0, 
-                            "value": 3.0, 
-                            "label": "fl oz"
+                            "eqv": 85.0, 
+                            "qty": 3.0, 
+                            "value": 23.0, 
+                            "label": "oz"
                         }, 
                         {
-                            "eqv": 127.0, 
+                            "eqv": 505.0, 
                             "qty": 1.0, 
-                            "value": 11.0, 
-                            "label": "jar"
-                        }, 
-                        {
-                            "eqv": 125.0, 
-                            "qty": 1.0, 
-                            "value": 11.0, 
-                            "label": "bottle Heinz Strained (4 fl oz)"
-                        }, 
-                        {
-                            "eqv": 125.0, 
-                            "qty": 1.0, 
-                            "value": 11.0, 
-                            "label": "bottle Gerber Second Foods (4 fl oz)"
-                        }, 
-                        {
-                            "eqv": 125.0, 
-                            "qty": 1.0, 
-                            "value": 11.0, 
-                            "label": "bottle Beech-Nut Stage 3 (4 fl oz)"
+                            "value": 136.0, 
+                            "label": "roast (Yield from 1 raw roast, with refuse, weighing 504g)"
                         }
                     ], 
-                    "value": 9.0, 
-                    "dp": 5, 
+                    "value": 27.0, 
+                    "dp": "", 
                     "sourcecode": "", 
-                    "se": "0.000", 
+                    "se": "", 
                     "unit": "mg"
                 }, 
                 {
@@ -515,38 +299,20 @@
                     "nutrient_id": 305, 
                     "measures": [
                         {
-                            "eqv": 31.2, 
-                            "qty": 1.0, 
-                            "value": 3.0, 
-                            "label": "fl oz"
+                            "eqv": 85.0, 
+                            "qty": 3.0, 
+                            "value": 207.0, 
+                            "label": "oz"
                         }, 
                         {
-                            "eqv": 127.0, 
+                            "eqv": 505.0, 
                             "qty": 1.0, 
-                            "value": 14.0, 
-                            "label": "jar"
-                        }, 
-                        {
-                            "eqv": 125.0, 
-                            "qty": 1.0, 
-                            "value": 14.0, 
-                            "label": "bottle Heinz Strained (4 fl oz)"
-                        }, 
-                        {
-                            "eqv": 125.0, 
-                            "qty": 1.0, 
-                            "value": 14.0, 
-                            "label": "bottle Gerber Second Foods (4 fl oz)"
-                        }, 
-                        {
-                            "eqv": 125.0, 
-                            "qty": 1.0, 
-                            "value": 14.0, 
-                            "label": "bottle Beech-Nut Stage 3 (4 fl oz)"
+                            "value": 1227.0, 
+                            "label": "roast (Yield from 1 raw roast, with refuse, weighing 504g)"
                         }
                     ], 
-                    "value": 11.0, 
-                    "dp": 3, 
+                    "value": 243.0, 
+                    "dp": "", 
                     "sourcecode": "", 
                     "se": "", 
                     "unit": "mg"
@@ -557,38 +323,20 @@
                     "nutrient_id": 306, 
                     "measures": [
                         {
-                            "eqv": 31.2, 
-                            "qty": 1.0, 
-                            "value": 57.0, 
-                            "label": "fl oz"
+                            "eqv": 85.0, 
+                            "qty": 3.0, 
+                            "value": 334.0, 
+                            "label": "oz"
                         }, 
                         {
-                            "eqv": 127.0, 
+                            "eqv": 505.0, 
                             "qty": 1.0, 
-                            "value": 234.0, 
-                            "label": "jar"
-                        }, 
-                        {
-                            "eqv": 125.0, 
-                            "qty": 1.0, 
-                            "value": 230.0, 
-                            "label": "bottle Heinz Strained (4 fl oz)"
-                        }, 
-                        {
-                            "eqv": 125.0, 
-                            "qty": 1.0, 
-                            "value": 230.0, 
-                            "label": "bottle Gerber Second Foods (4 fl oz)"
-                        }, 
-                        {
-                            "eqv": 125.0, 
-                            "qty": 1.0, 
-                            "value": 230.0, 
-                            "label": "bottle Beech-Nut Stage 3 (4 fl oz)"
+                            "value": 1985.0, 
+                            "label": "roast (Yield from 1 raw roast, with refuse, weighing 504g)"
                         }
                     ], 
-                    "value": 184.0, 
-                    "dp": 16, 
+                    "value": 393.0, 
+                    "dp": "", 
                     "sourcecode": "", 
                     "se": "", 
                     "unit": "mg"
@@ -599,37 +347,19 @@
                     "nutrient_id": 307, 
                     "measures": [
                         {
-                            "eqv": 31.2, 
-                            "qty": 1.0, 
-                            "value": 0.0, 
-                            "label": "fl oz"
+                            "eqv": 85.0, 
+                            "qty": 3.0, 
+                            "value": 44.0, 
+                            "label": "oz"
                         }, 
                         {
-                            "eqv": 127.0, 
+                            "eqv": 505.0, 
                             "qty": 1.0, 
-                            "value": 0.0, 
-                            "label": "jar"
-                        }, 
-                        {
-                            "eqv": 125.0, 
-                            "qty": 1.0, 
-                            "value": 0.0, 
-                            "label": "bottle Heinz Strained (4 fl oz)"
-                        }, 
-                        {
-                            "eqv": 125.0, 
-                            "qty": 1.0, 
-                            "value": 0.0, 
-                            "label": "bottle Gerber Second Foods (4 fl oz)"
-                        }, 
-                        {
-                            "eqv": 125.0, 
-                            "qty": 1.0, 
-                            "value": 0.0, 
-                            "label": "bottle Beech-Nut Stage 3 (4 fl oz)"
+                            "value": 263.0, 
+                            "label": "roast (Yield from 1 raw roast, with refuse, weighing 504g)"
                         }
                     ], 
-                    "value": 0.0, 
+                    "value": 52.0, 
                     "dp": "", 
                     "sourcecode": "", 
                     "se": "", 
@@ -641,40 +371,22 @@
                     "nutrient_id": 309, 
                     "measures": [
                         {
-                            "eqv": 31.2, 
-                            "qty": 1.0, 
-                            "value": 0.02, 
-                            "label": "fl oz"
+                            "eqv": 85.0, 
+                            "qty": 3.0, 
+                            "value": 1.59, 
+                            "label": "oz"
                         }, 
                         {
-                            "eqv": 127.0, 
+                            "eqv": 505.0, 
                             "qty": 1.0, 
-                            "value": 0.08, 
-                            "label": "jar"
-                        }, 
-                        {
-                            "eqv": 125.0, 
-                            "qty": 1.0, 
-                            "value": 0.08, 
-                            "label": "bottle Heinz Strained (4 fl oz)"
-                        }, 
-                        {
-                            "eqv": 125.0, 
-                            "qty": 1.0, 
-                            "value": 0.08, 
-                            "label": "bottle Gerber Second Foods (4 fl oz)"
-                        }, 
-                        {
-                            "eqv": 125.0, 
-                            "qty": 1.0, 
-                            "value": 0.08, 
-                            "label": "bottle Beech-Nut Stage 3 (4 fl oz)"
+                            "value": 9.44, 
+                            "label": "roast (Yield from 1 raw roast, with refuse, weighing 504g)"
                         }
                     ], 
-                    "value": 0.06, 
-                    "dp": 5, 
+                    "value": 1.87, 
+                    "dp": "", 
                     "sourcecode": "", 
-                    "se": "0.011", 
+                    "se": "", 
                     "unit": "mg"
                 }, 
                 {
@@ -683,37 +395,43 @@
                     "nutrient_id": 312, 
                     "measures": [
                         {
-                            "eqv": 31.2, 
-                            "qty": 1.0, 
-                            "value": 0.014, 
-                            "label": "fl oz"
+                            "eqv": 85.0, 
+                            "qty": 3.0, 
+                            "value": 0.076, 
+                            "label": "oz"
                         }, 
                         {
-                            "eqv": 127.0, 
+                            "eqv": 505.0, 
                             "qty": 1.0, 
-                            "value": 0.058, 
-                            "label": "jar"
-                        }, 
-                        {
-                            "eqv": 125.0, 
-                            "qty": 1.0, 
-                            "value": 0.058, 
-                            "label": "bottle Heinz Strained (4 fl oz)"
-                        }, 
-                        {
-                            "eqv": 125.0, 
-                            "qty": 1.0, 
-                            "value": 0.058, 
-                            "label": "bottle Gerber Second Foods (4 fl oz)"
-                        }, 
-                        {
-                            "eqv": 125.0, 
-                            "qty": 1.0, 
-                            "value": 0.058, 
-                            "label": "bottle Beech-Nut Stage 3 (4 fl oz)"
+                            "value": 0.449, 
+                            "label": "roast (Yield from 1 raw roast, with refuse, weighing 504g)"
                         }
                     ], 
-                    "value": 0.046, 
+                    "value": 0.089, 
+                    "dp": "", 
+                    "sourcecode": "", 
+                    "se": "", 
+                    "unit": "mg"
+                }, 
+                {
+                    "group": "Minerals", 
+                    "name": "Manganese, Mn", 
+                    "nutrient_id": 315, 
+                    "measures": [
+                        {
+                            "eqv": 85.0, 
+                            "qty": 3.0, 
+                            "value": 0.012, 
+                            "label": "oz"
+                        }, 
+                        {
+                            "eqv": 505.0, 
+                            "qty": 1.0, 
+                            "value": 0.071, 
+                            "label": "roast (Yield from 1 raw roast, with refuse, weighing 504g)"
+                        }
+                    ], 
+                    "value": 0.014, 
                     "dp": "", 
                     "sourcecode": "", 
                     "se": "", 
@@ -725,37 +443,19 @@
                     "nutrient_id": 317, 
                     "measures": [
                         {
-                            "eqv": 31.2, 
-                            "qty": 1.0, 
-                            "value": 0.0, 
-                            "label": "fl oz"
+                            "eqv": 85.0, 
+                            "qty": 3.0, 
+                            "value": 25.8, 
+                            "label": "oz"
                         }, 
                         {
-                            "eqv": 127.0, 
+                            "eqv": 505.0, 
                             "qty": 1.0, 
-                            "value": 0.1, 
-                            "label": "jar"
-                        }, 
-                        {
-                            "eqv": 125.0, 
-                            "qty": 1.0, 
-                            "value": 0.1, 
-                            "label": "bottle Heinz Strained (4 fl oz)"
-                        }, 
-                        {
-                            "eqv": 125.0, 
-                            "qty": 1.0, 
-                            "value": 0.1, 
-                            "label": "bottle Gerber Second Foods (4 fl oz)"
-                        }, 
-                        {
-                            "eqv": 125.0, 
-                            "qty": 1.0, 
-                            "value": 0.1, 
-                            "label": "bottle Beech-Nut Stage 3 (4 fl oz)"
+                            "value": 153.0, 
+                            "label": "roast (Yield from 1 raw roast, with refuse, weighing 504g)"
                         }
                     ], 
-                    "value": 0.1, 
+                    "value": 30.3, 
                     "dp": "", 
                     "sourcecode": "", 
                     "se": "", 
@@ -767,38 +467,20 @@
                     "nutrient_id": 401, 
                     "measures": [
                         {
-                            "eqv": 31.2, 
-                            "qty": 1.0, 
-                            "value": 19.5, 
-                            "label": "fl oz"
+                            "eqv": 85.0, 
+                            "qty": 3.0, 
+                            "value": 0.0, 
+                            "label": "oz"
                         }, 
                         {
-                            "eqv": 127.0, 
+                            "eqv": 505.0, 
                             "qty": 1.0, 
-                            "value": 79.4, 
-                            "label": "jar"
-                        }, 
-                        {
-                            "eqv": 125.0, 
-                            "qty": 1.0, 
-                            "value": 78.1, 
-                            "label": "bottle Heinz Strained (4 fl oz)"
-                        }, 
-                        {
-                            "eqv": 125.0, 
-                            "qty": 1.0, 
-                            "value": 78.1, 
-                            "label": "bottle Gerber Second Foods (4 fl oz)"
-                        }, 
-                        {
-                            "eqv": 125.0, 
-                            "qty": 1.0, 
-                            "value": 78.1, 
-                            "label": "bottle Beech-Nut Stage 3 (4 fl oz)"
+                            "value": 0.0, 
+                            "label": "roast (Yield from 1 raw roast, with refuse, weighing 504g)"
                         }
                     ], 
-                    "value": 62.5, 
-                    "dp": 7, 
+                    "value": 0.0, 
+                    "dp": "", 
                     "sourcecode": "", 
                     "se": "", 
                     "unit": "mg"
@@ -809,40 +491,22 @@
                     "nutrient_id": 404, 
                     "measures": [
                         {
-                            "eqv": 31.2, 
-                            "qty": 1.0, 
-                            "value": 0.014, 
-                            "label": "fl oz"
+                            "eqv": 85.0, 
+                            "qty": 3.0, 
+                            "value": 0.835, 
+                            "label": "oz"
                         }, 
                         {
-                            "eqv": 127.0, 
+                            "eqv": 505.0, 
                             "qty": 1.0, 
-                            "value": 0.057, 
-                            "label": "jar"
-                        }, 
-                        {
-                            "eqv": 125.0, 
-                            "qty": 1.0, 
-                            "value": 0.056, 
-                            "label": "bottle Heinz Strained (4 fl oz)"
-                        }, 
-                        {
-                            "eqv": 125.0, 
-                            "qty": 1.0, 
-                            "value": 0.056, 
-                            "label": "bottle Gerber Second Foods (4 fl oz)"
-                        }, 
-                        {
-                            "eqv": 125.0, 
-                            "qty": 1.0, 
-                            "value": 0.056, 
-                            "label": "bottle Beech-Nut Stage 3 (4 fl oz)"
+                            "value": 4.959, 
+                            "label": "roast (Yield from 1 raw roast, with refuse, weighing 504g)"
                         }
                     ], 
-                    "value": 0.045, 
-                    "dp": 25, 
+                    "value": 0.982, 
+                    "dp": "", 
                     "sourcecode": "", 
-                    "se": "0.008", 
+                    "se": "", 
                     "unit": "mg"
                 }, 
                 {
@@ -851,40 +515,22 @@
                     "nutrient_id": 405, 
                     "measures": [
                         {
-                            "eqv": 31.2, 
-                            "qty": 1.0, 
-                            "value": 0.009, 
-                            "label": "fl oz"
+                            "eqv": 85.0, 
+                            "qty": 3.0, 
+                            "value": 0.286, 
+                            "label": "oz"
                         }, 
                         {
-                            "eqv": 127.0, 
+                            "eqv": 505.0, 
                             "qty": 1.0, 
-                            "value": 0.036, 
-                            "label": "jar"
-                        }, 
-                        {
-                            "eqv": 125.0, 
-                            "qty": 1.0, 
-                            "value": 0.035, 
-                            "label": "bottle Heinz Strained (4 fl oz)"
-                        }, 
-                        {
-                            "eqv": 125.0, 
-                            "qty": 1.0, 
-                            "value": 0.035, 
-                            "label": "bottle Gerber Second Foods (4 fl oz)"
-                        }, 
-                        {
-                            "eqv": 125.0, 
-                            "qty": 1.0, 
-                            "value": 0.035, 
-                            "label": "bottle Beech-Nut Stage 3 (4 fl oz)"
+                            "value": 1.702, 
+                            "label": "roast (Yield from 1 raw roast, with refuse, weighing 504g)"
                         }
                     ], 
-                    "value": 0.028, 
-                    "dp": 25, 
+                    "value": 0.337, 
+                    "dp": "", 
                     "sourcecode": "", 
-                    "se": "0.000", 
+                    "se": "", 
                     "unit": "mg"
                 }, 
                 {
@@ -893,40 +539,22 @@
                     "nutrient_id": 406, 
                     "measures": [
                         {
-                            "eqv": 31.2, 
-                            "qty": 1.0, 
-                            "value": 0.075, 
-                            "label": "fl oz"
+                            "eqv": 85.0, 
+                            "qty": 3.0, 
+                            "value": 5.618, 
+                            "label": "oz"
                         }, 
                         {
-                            "eqv": 127.0, 
+                            "eqv": 505.0, 
                             "qty": 1.0, 
-                            "value": 0.304, 
-                            "label": "jar"
-                        }, 
-                        {
-                            "eqv": 125.0, 
-                            "qty": 1.0, 
-                            "value": 0.299, 
-                            "label": "bottle Heinz Strained (4 fl oz)"
-                        }, 
-                        {
-                            "eqv": 125.0, 
-                            "qty": 1.0, 
-                            "value": 0.299, 
-                            "label": "bottle Gerber Second Foods (4 fl oz)"
-                        }, 
-                        {
-                            "eqv": 125.0, 
-                            "qty": 1.0, 
-                            "value": 0.299, 
-                            "label": "bottle Beech-Nut Stage 3 (4 fl oz)"
+                            "value": 33.381, 
+                            "label": "roast (Yield from 1 raw roast, with refuse, weighing 504g)"
                         }
                     ], 
-                    "value": 0.239, 
-                    "dp": 25, 
+                    "value": 6.61, 
+                    "dp": "", 
                     "sourcecode": "", 
-                    "se": "0.013", 
+                    "se": "", 
                     "unit": "mg"
                 }, 
                 {
@@ -935,37 +563,19 @@
                     "nutrient_id": 410, 
                     "measures": [
                         {
-                            "eqv": 31.2, 
-                            "qty": 1.0, 
-                            "value": 0.043, 
-                            "label": "fl oz"
+                            "eqv": 85.0, 
+                            "qty": 3.0, 
+                            "value": 0.711, 
+                            "label": "oz"
                         }, 
                         {
-                            "eqv": 127.0, 
+                            "eqv": 505.0, 
                             "qty": 1.0, 
-                            "value": 0.174, 
-                            "label": "jar"
-                        }, 
-                        {
-                            "eqv": 125.0, 
-                            "qty": 1.0, 
-                            "value": 0.171, 
-                            "label": "bottle Heinz Strained (4 fl oz)"
-                        }, 
-                        {
-                            "eqv": 125.0, 
-                            "qty": 1.0, 
-                            "value": 0.171, 
-                            "label": "bottle Gerber Second Foods (4 fl oz)"
-                        }, 
-                        {
-                            "eqv": 125.0, 
-                            "qty": 1.0, 
-                            "value": 0.171, 
-                            "label": "bottle Beech-Nut Stage 3 (4 fl oz)"
+                            "value": 4.227, 
+                            "label": "roast (Yield from 1 raw roast, with refuse, weighing 504g)"
                         }
                     ], 
-                    "value": 0.137, 
+                    "value": 0.837, 
                     "dp": "", 
                     "sourcecode": "", 
                     "se": "", 
@@ -977,38 +587,20 @@
                     "nutrient_id": 415, 
                     "measures": [
                         {
-                            "eqv": 31.2, 
-                            "qty": 1.0, 
-                            "value": 0.017, 
-                            "label": "fl oz"
+                            "eqv": 85.0, 
+                            "qty": 3.0, 
+                            "value": 0.65, 
+                            "label": "oz"
                         }, 
                         {
-                            "eqv": 127.0, 
+                            "eqv": 505.0, 
                             "qty": 1.0, 
-                            "value": 0.069, 
-                            "label": "jar"
-                        }, 
-                        {
-                            "eqv": 125.0, 
-                            "qty": 1.0, 
-                            "value": 0.068, 
-                            "label": "bottle Heinz Strained (4 fl oz)"
-                        }, 
-                        {
-                            "eqv": 125.0, 
-                            "qty": 1.0, 
-                            "value": 0.068, 
-                            "label": "bottle Gerber Second Foods (4 fl oz)"
-                        }, 
-                        {
-                            "eqv": 125.0, 
-                            "qty": 1.0, 
-                            "value": 0.068, 
-                            "label": "bottle Beech-Nut Stage 3 (4 fl oz)"
+                            "value": 3.863, 
+                            "label": "roast (Yield from 1 raw roast, with refuse, weighing 504g)"
                         }
                     ], 
-                    "value": 0.054, 
-                    "dp": 8, 
+                    "value": 0.765, 
+                    "dp": "", 
                     "sourcecode": "", 
                     "se": "", 
                     "unit": "mg"
@@ -1019,40 +611,22 @@
                     "nutrient_id": 417, 
                     "measures": [
                         {
-                            "eqv": 31.2, 
-                            "qty": 1.0, 
-                            "value": 8.0, 
-                            "label": "fl oz"
+                            "eqv": 85.0, 
+                            "qty": 3.0, 
+                            "value": 0.0, 
+                            "label": "oz"
                         }, 
                         {
-                            "eqv": 127.0, 
+                            "eqv": 505.0, 
                             "qty": 1.0, 
-                            "value": 33.0, 
-                            "label": "jar"
-                        }, 
-                        {
-                            "eqv": 125.0, 
-                            "qty": 1.0, 
-                            "value": 32.0, 
-                            "label": "bottle Heinz Strained (4 fl oz)"
-                        }, 
-                        {
-                            "eqv": 125.0, 
-                            "qty": 1.0, 
-                            "value": 32.0, 
-                            "label": "bottle Gerber Second Foods (4 fl oz)"
-                        }, 
-                        {
-                            "eqv": 125.0, 
-                            "qty": 1.0, 
-                            "value": 32.0, 
-                            "label": "bottle Beech-Nut Stage 3 (4 fl oz)"
+                            "value": 0.0, 
+                            "label": "roast (Yield from 1 raw roast, with refuse, weighing 504g)"
                         }
                     ], 
-                    "value": 26.0, 
-                    "dp": 9, 
+                    "value": 0.0, 
+                    "dp": "", 
                     "sourcecode": "", 
-                    "se": "0.500", 
+                    "se": "", 
                     "unit": "\u00b5g"
                 }, 
                 {
@@ -1061,34 +635,16 @@
                     "nutrient_id": 431, 
                     "measures": [
                         {
-                            "eqv": 31.2, 
-                            "qty": 1.0, 
+                            "eqv": 85.0, 
+                            "qty": 3.0, 
                             "value": 0.0, 
-                            "label": "fl oz"
+                            "label": "oz"
                         }, 
                         {
-                            "eqv": 127.0, 
+                            "eqv": 505.0, 
                             "qty": 1.0, 
                             "value": 0.0, 
-                            "label": "jar"
-                        }, 
-                        {
-                            "eqv": 125.0, 
-                            "qty": 1.0, 
-                            "value": 0.0, 
-                            "label": "bottle Heinz Strained (4 fl oz)"
-                        }, 
-                        {
-                            "eqv": 125.0, 
-                            "qty": 1.0, 
-                            "value": 0.0, 
-                            "label": "bottle Gerber Second Foods (4 fl oz)"
-                        }, 
-                        {
-                            "eqv": 125.0, 
-                            "qty": 1.0, 
-                            "value": 0.0, 
-                            "label": "bottle Beech-Nut Stage 3 (4 fl oz)"
+                            "label": "roast (Yield from 1 raw roast, with refuse, weighing 504g)"
                         }
                     ], 
                     "value": 0.0, 
@@ -1103,40 +659,22 @@
                     "nutrient_id": 432, 
                     "measures": [
                         {
-                            "eqv": 31.2, 
-                            "qty": 1.0, 
-                            "value": 8.0, 
-                            "label": "fl oz"
+                            "eqv": 85.0, 
+                            "qty": 3.0, 
+                            "value": 0.0, 
+                            "label": "oz"
                         }, 
                         {
-                            "eqv": 127.0, 
+                            "eqv": 505.0, 
                             "qty": 1.0, 
-                            "value": 33.0, 
-                            "label": "jar"
-                        }, 
-                        {
-                            "eqv": 125.0, 
-                            "qty": 1.0, 
-                            "value": 32.0, 
-                            "label": "bottle Heinz Strained (4 fl oz)"
-                        }, 
-                        {
-                            "eqv": 125.0, 
-                            "qty": 1.0, 
-                            "value": 32.0, 
-                            "label": "bottle Gerber Second Foods (4 fl oz)"
-                        }, 
-                        {
-                            "eqv": 125.0, 
-                            "qty": 1.0, 
-                            "value": 32.0, 
-                            "label": "bottle Beech-Nut Stage 3 (4 fl oz)"
+                            "value": 0.0, 
+                            "label": "roast (Yield from 1 raw roast, with refuse, weighing 504g)"
                         }
                     ], 
-                    "value": 26.0, 
-                    "dp": 9, 
+                    "value": 0.0, 
+                    "dp": "", 
                     "sourcecode": "", 
-                    "se": "0.500", 
+                    "se": "", 
                     "unit": "\u00b5g"
                 }, 
                 {
@@ -1145,37 +683,19 @@
                     "nutrient_id": 435, 
                     "measures": [
                         {
-                            "eqv": 31.2, 
-                            "qty": 1.0, 
-                            "value": 8.0, 
-                            "label": "fl oz"
+                            "eqv": 85.0, 
+                            "qty": 3.0, 
+                            "value": 0.0, 
+                            "label": "oz"
                         }, 
                         {
-                            "eqv": 127.0, 
+                            "eqv": 505.0, 
                             "qty": 1.0, 
-                            "value": 33.0, 
-                            "label": "jar"
-                        }, 
-                        {
-                            "eqv": 125.0, 
-                            "qty": 1.0, 
-                            "value": 32.0, 
-                            "label": "bottle Heinz Strained (4 fl oz)"
-                        }, 
-                        {
-                            "eqv": 125.0, 
-                            "qty": 1.0, 
-                            "value": 32.0, 
-                            "label": "bottle Gerber Second Foods (4 fl oz)"
-                        }, 
-                        {
-                            "eqv": 125.0, 
-                            "qty": 1.0, 
-                            "value": 32.0, 
-                            "label": "bottle Beech-Nut Stage 3 (4 fl oz)"
+                            "value": 0.0, 
+                            "label": "roast (Yield from 1 raw roast, with refuse, weighing 504g)"
                         }
                     ], 
-                    "value": 26.0, 
+                    "value": 0.0, 
                     "dp": "", 
                     "sourcecode": "", 
                     "se": "", 
@@ -1187,37 +707,43 @@
                     "nutrient_id": 421, 
                     "measures": [
                         {
-                            "eqv": 31.2, 
-                            "qty": 1.0, 
-                            "value": 1.9, 
-                            "label": "fl oz"
+                            "eqv": 85.0, 
+                            "qty": 3.0, 
+                            "value": 67.7, 
+                            "label": "oz"
                         }, 
                         {
-                            "eqv": 127.0, 
+                            "eqv": 505.0, 
                             "qty": 1.0, 
-                            "value": 7.9, 
-                            "label": "jar"
-                        }, 
-                        {
-                            "eqv": 125.0, 
-                            "qty": 1.0, 
-                            "value": 7.8, 
-                            "label": "bottle Heinz Strained (4 fl oz)"
-                        }, 
-                        {
-                            "eqv": 125.0, 
-                            "qty": 1.0, 
-                            "value": 7.8, 
-                            "label": "bottle Gerber Second Foods (4 fl oz)"
-                        }, 
-                        {
-                            "eqv": 125.0, 
-                            "qty": 1.0, 
-                            "value": 7.8, 
-                            "label": "bottle Beech-Nut Stage 3 (4 fl oz)"
+                            "value": 402.5, 
+                            "label": "roast (Yield from 1 raw roast, with refuse, weighing 504g)"
                         }
                     ], 
-                    "value": 6.2, 
+                    "value": 79.7, 
+                    "dp": "", 
+                    "sourcecode": "", 
+                    "se": "", 
+                    "unit": "mg"
+                }, 
+                {
+                    "group": "Vitamins", 
+                    "name": "Betaine", 
+                    "nutrient_id": 454, 
+                    "measures": [
+                        {
+                            "eqv": 85.0, 
+                            "qty": 3.0, 
+                            "value": 2.6, 
+                            "label": "oz"
+                        }, 
+                        {
+                            "eqv": 505.0, 
+                            "qty": 1.0, 
+                            "value": 15.2, 
+                            "label": "roast (Yield from 1 raw roast, with refuse, weighing 504g)"
+                        }
+                    ], 
+                    "value": 3.0, 
                     "dp": "", 
                     "sourcecode": "", 
                     "se": "", 
@@ -1229,37 +755,19 @@
                     "nutrient_id": 418, 
                     "measures": [
                         {
-                            "eqv": 31.2, 
-                            "qty": 1.0, 
-                            "value": 0.0, 
-                            "label": "fl oz"
+                            "eqv": 85.0, 
+                            "qty": 3.0, 
+                            "value": 0.44, 
+                            "label": "oz"
                         }, 
                         {
-                            "eqv": 127.0, 
+                            "eqv": 505.0, 
                             "qty": 1.0, 
-                            "value": 0.0, 
-                            "label": "jar"
-                        }, 
-                        {
-                            "eqv": 125.0, 
-                            "qty": 1.0, 
-                            "value": 0.0, 
-                            "label": "bottle Heinz Strained (4 fl oz)"
-                        }, 
-                        {
-                            "eqv": 125.0, 
-                            "qty": 1.0, 
-                            "value": 0.0, 
-                            "label": "bottle Gerber Second Foods (4 fl oz)"
-                        }, 
-                        {
-                            "eqv": 125.0, 
-                            "qty": 1.0, 
-                            "value": 0.0, 
-                            "label": "bottle Beech-Nut Stage 3 (4 fl oz)"
+                            "value": 2.63, 
+                            "label": "roast (Yield from 1 raw roast, with refuse, weighing 504g)"
                         }
                     ], 
-                    "value": 0.0, 
+                    "value": 0.52, 
                     "dp": "", 
                     "sourcecode": "", 
                     "se": "", 
@@ -1271,34 +779,16 @@
                     "nutrient_id": 578, 
                     "measures": [
                         {
-                            "eqv": 31.2, 
-                            "qty": 1.0, 
+                            "eqv": 85.0, 
+                            "qty": 3.0, 
                             "value": 0.0, 
-                            "label": "fl oz"
+                            "label": "oz"
                         }, 
                         {
-                            "eqv": 127.0, 
+                            "eqv": 505.0, 
                             "qty": 1.0, 
                             "value": 0.0, 
-                            "label": "jar"
-                        }, 
-                        {
-                            "eqv": 125.0, 
-                            "qty": 1.0, 
-                            "value": 0.0, 
-                            "label": "bottle Heinz Strained (4 fl oz)"
-                        }, 
-                        {
-                            "eqv": 125.0, 
-                            "qty": 1.0, 
-                            "value": 0.0, 
-                            "label": "bottle Gerber Second Foods (4 fl oz)"
-                        }, 
-                        {
-                            "eqv": 125.0, 
-                            "qty": 1.0, 
-                            "value": 0.0, 
-                            "label": "bottle Beech-Nut Stage 3 (4 fl oz)"
+                            "label": "roast (Yield from 1 raw roast, with refuse, weighing 504g)"
                         }
                     ], 
                     "value": 0.0, 
@@ -1313,37 +803,19 @@
                     "nutrient_id": 320, 
                     "measures": [
                         {
-                            "eqv": 31.2, 
-                            "qty": 1.0, 
-                            "value": 1.0, 
-                            "label": "fl oz"
+                            "eqv": 85.0, 
+                            "qty": 3.0, 
+                            "value": 0.0, 
+                            "label": "oz"
                         }, 
                         {
-                            "eqv": 127.0, 
+                            "eqv": 505.0, 
                             "qty": 1.0, 
-                            "value": 4.0, 
-                            "label": "jar"
-                        }, 
-                        {
-                            "eqv": 125.0, 
-                            "qty": 1.0, 
-                            "value": 4.0, 
-                            "label": "bottle Heinz Strained (4 fl oz)"
-                        }, 
-                        {
-                            "eqv": 125.0, 
-                            "qty": 1.0, 
-                            "value": 4.0, 
-                            "label": "bottle Gerber Second Foods (4 fl oz)"
-                        }, 
-                        {
-                            "eqv": 125.0, 
-                            "qty": 1.0, 
-                            "value": 4.0, 
-                            "label": "bottle Beech-Nut Stage 3 (4 fl oz)"
+                            "value": 0.0, 
+                            "label": "roast (Yield from 1 raw roast, with refuse, weighing 504g)"
                         }
                     ], 
-                    "value": 3.0, 
+                    "value": 0.0, 
                     "dp": "", 
                     "sourcecode": "", 
                     "se": "", 
@@ -1355,34 +827,16 @@
                     "nutrient_id": 319, 
                     "measures": [
                         {
-                            "eqv": 31.2, 
-                            "qty": 1.0, 
+                            "eqv": 85.0, 
+                            "qty": 3.0, 
                             "value": 0.0, 
-                            "label": "fl oz"
+                            "label": "oz"
                         }, 
                         {
-                            "eqv": 127.0, 
+                            "eqv": 505.0, 
                             "qty": 1.0, 
                             "value": 0.0, 
-                            "label": "jar"
-                        }, 
-                        {
-                            "eqv": 125.0, 
-                            "qty": 1.0, 
-                            "value": 0.0, 
-                            "label": "bottle Heinz Strained (4 fl oz)"
-                        }, 
-                        {
-                            "eqv": 125.0, 
-                            "qty": 1.0, 
-                            "value": 0.0, 
-                            "label": "bottle Gerber Second Foods (4 fl oz)"
-                        }, 
-                        {
-                            "eqv": 125.0, 
-                            "qty": 1.0, 
-                            "value": 0.0, 
-                            "label": "bottle Beech-Nut Stage 3 (4 fl oz)"
+                            "label": "roast (Yield from 1 raw roast, with refuse, weighing 504g)"
                         }
                     ], 
                     "value": 0.0, 
@@ -1397,37 +851,19 @@
                     "nutrient_id": 321, 
                     "measures": [
                         {
-                            "eqv": 31.2, 
-                            "qty": 1.0, 
-                            "value": 3.0, 
-                            "label": "fl oz"
+                            "eqv": 85.0, 
+                            "qty": 3.0, 
+                            "value": 0.0, 
+                            "label": "oz"
                         }, 
                         {
-                            "eqv": 127.0, 
+                            "eqv": 505.0, 
                             "qty": 1.0, 
-                            "value": 11.0, 
-                            "label": "jar"
-                        }, 
-                        {
-                            "eqv": 125.0, 
-                            "qty": 1.0, 
-                            "value": 11.0, 
-                            "label": "bottle Heinz Strained (4 fl oz)"
-                        }, 
-                        {
-                            "eqv": 125.0, 
-                            "qty": 1.0, 
-                            "value": 11.0, 
-                            "label": "bottle Gerber Second Foods (4 fl oz)"
-                        }, 
-                        {
-                            "eqv": 125.0, 
-                            "qty": 1.0, 
-                            "value": 11.0, 
-                            "label": "bottle Beech-Nut Stage 3 (4 fl oz)"
+                            "value": 0.0, 
+                            "label": "roast (Yield from 1 raw roast, with refuse, weighing 504g)"
                         }
                     ], 
-                    "value": 9.0, 
+                    "value": 0.0, 
                     "dp": "", 
                     "sourcecode": "", 
                     "se": "", 
@@ -1439,37 +875,19 @@
                     "nutrient_id": 322, 
                     "measures": [
                         {
-                            "eqv": 31.2, 
-                            "qty": 1.0, 
-                            "value": 1.0, 
-                            "label": "fl oz"
+                            "eqv": 85.0, 
+                            "qty": 3.0, 
+                            "value": 0.0, 
+                            "label": "oz"
                         }, 
                         {
-                            "eqv": 127.0, 
+                            "eqv": 505.0, 
                             "qty": 1.0, 
-                            "value": 3.0, 
-                            "label": "jar"
-                        }, 
-                        {
-                            "eqv": 125.0, 
-                            "qty": 1.0, 
-                            "value": 2.0, 
-                            "label": "bottle Heinz Strained (4 fl oz)"
-                        }, 
-                        {
-                            "eqv": 125.0, 
-                            "qty": 1.0, 
-                            "value": 2.0, 
-                            "label": "bottle Gerber Second Foods (4 fl oz)"
-                        }, 
-                        {
-                            "eqv": 125.0, 
-                            "qty": 1.0, 
-                            "value": 2.0, 
-                            "label": "bottle Beech-Nut Stage 3 (4 fl oz)"
+                            "value": 0.0, 
+                            "label": "roast (Yield from 1 raw roast, with refuse, weighing 504g)"
                         }
                     ], 
-                    "value": 2.0, 
+                    "value": 0.0, 
                     "dp": "", 
                     "sourcecode": "", 
                     "se": "", 
@@ -1481,37 +899,19 @@
                     "nutrient_id": 334, 
                     "measures": [
                         {
-                            "eqv": 31.2, 
-                            "qty": 1.0, 
-                            "value": 15.0, 
-                            "label": "fl oz"
+                            "eqv": 85.0, 
+                            "qty": 3.0, 
+                            "value": 0.0, 
+                            "label": "oz"
                         }, 
                         {
-                            "eqv": 127.0, 
+                            "eqv": 505.0, 
                             "qty": 1.0, 
-                            "value": 60.0, 
-                            "label": "jar"
-                        }, 
-                        {
-                            "eqv": 125.0, 
-                            "qty": 1.0, 
-                            "value": 59.0, 
-                            "label": "bottle Heinz Strained (4 fl oz)"
-                        }, 
-                        {
-                            "eqv": 125.0, 
-                            "qty": 1.0, 
-                            "value": 59.0, 
-                            "label": "bottle Gerber Second Foods (4 fl oz)"
-                        }, 
-                        {
-                            "eqv": 125.0, 
-                            "qty": 1.0, 
-                            "value": 59.0, 
-                            "label": "bottle Beech-Nut Stage 3 (4 fl oz)"
+                            "value": 0.0, 
+                            "label": "roast (Yield from 1 raw roast, with refuse, weighing 504g)"
                         }
                     ], 
-                    "value": 47.0, 
+                    "value": 0.0, 
                     "dp": "", 
                     "sourcecode": "", 
                     "se": "", 
@@ -1523,40 +923,22 @@
                     "nutrient_id": 318, 
                     "measures": [
                         {
-                            "eqv": 31.2, 
-                            "qty": 1.0, 
-                            "value": 17.0, 
-                            "label": "fl oz"
+                            "eqv": 85.0, 
+                            "qty": 3.0, 
+                            "value": 2.0, 
+                            "label": "oz"
                         }, 
                         {
-                            "eqv": 127.0, 
+                            "eqv": 505.0, 
                             "qty": 1.0, 
-                            "value": 70.0, 
-                            "label": "jar"
-                        }, 
-                        {
-                            "eqv": 125.0, 
-                            "qty": 1.0, 
-                            "value": 69.0, 
-                            "label": "bottle Heinz Strained (4 fl oz)"
-                        }, 
-                        {
-                            "eqv": 125.0, 
-                            "qty": 1.0, 
-                            "value": 69.0, 
-                            "label": "bottle Gerber Second Foods (4 fl oz)"
-                        }, 
-                        {
-                            "eqv": 125.0, 
-                            "qty": 1.0, 
-                            "value": 69.0, 
-                            "label": "bottle Beech-Nut Stage 3 (4 fl oz)"
+                            "value": 10.0, 
+                            "label": "roast (Yield from 1 raw roast, with refuse, weighing 504g)"
                         }
                     ], 
-                    "value": 55.0, 
-                    "dp": 18, 
+                    "value": 2.0, 
+                    "dp": "", 
                     "sourcecode": "", 
-                    "se": "7.000", 
+                    "se": "", 
                     "unit": "IU"
                 }, 
                 {
@@ -1565,34 +947,16 @@
                     "nutrient_id": 337, 
                     "measures": [
                         {
-                            "eqv": 31.2, 
-                            "qty": 1.0, 
+                            "eqv": 85.0, 
+                            "qty": 3.0, 
                             "value": 0.0, 
-                            "label": "fl oz"
+                            "label": "oz"
                         }, 
                         {
-                            "eqv": 127.0, 
+                            "eqv": 505.0, 
                             "qty": 1.0, 
                             "value": 0.0, 
-                            "label": "jar"
-                        }, 
-                        {
-                            "eqv": 125.0, 
-                            "qty": 1.0, 
-                            "value": 0.0, 
-                            "label": "bottle Heinz Strained (4 fl oz)"
-                        }, 
-                        {
-                            "eqv": 125.0, 
-                            "qty": 1.0, 
-                            "value": 0.0, 
-                            "label": "bottle Gerber Second Foods (4 fl oz)"
-                        }, 
-                        {
-                            "eqv": 125.0, 
-                            "qty": 1.0, 
-                            "value": 0.0, 
-                            "label": "bottle Beech-Nut Stage 3 (4 fl oz)"
+                            "label": "roast (Yield from 1 raw roast, with refuse, weighing 504g)"
                         }
                     ], 
                     "value": 0.0, 
@@ -1607,37 +971,19 @@
                     "nutrient_id": 338, 
                     "measures": [
                         {
-                            "eqv": 31.2, 
-                            "qty": 1.0, 
-                            "value": 35.0, 
-                            "label": "fl oz"
+                            "eqv": 85.0, 
+                            "qty": 3.0, 
+                            "value": 0.0, 
+                            "label": "oz"
                         }, 
                         {
-                            "eqv": 127.0, 
+                            "eqv": 505.0, 
                             "qty": 1.0, 
-                            "value": 144.0, 
-                            "label": "jar"
-                        }, 
-                        {
-                            "eqv": 125.0, 
-                            "qty": 1.0, 
-                            "value": 141.0, 
-                            "label": "bottle Heinz Strained (4 fl oz)"
-                        }, 
-                        {
-                            "eqv": 125.0, 
-                            "qty": 1.0, 
-                            "value": 141.0, 
-                            "label": "bottle Gerber Second Foods (4 fl oz)"
-                        }, 
-                        {
-                            "eqv": 125.0, 
-                            "qty": 1.0, 
-                            "value": 141.0, 
-                            "label": "bottle Beech-Nut Stage 3 (4 fl oz)"
+                            "value": 0.0, 
+                            "label": "roast (Yield from 1 raw roast, with refuse, weighing 504g)"
                         }
                     ], 
-                    "value": 113.0, 
+                    "value": 0.0, 
                     "dp": "", 
                     "sourcecode": "", 
                     "se": "", 
@@ -1649,37 +995,19 @@
                     "nutrient_id": 323, 
                     "measures": [
                         {
-                            "eqv": 31.2, 
-                            "qty": 1.0, 
-                            "value": 0.01, 
-                            "label": "fl oz"
+                            "eqv": 85.0, 
+                            "qty": 3.0, 
+                            "value": 0.19, 
+                            "label": "oz"
                         }, 
                         {
-                            "eqv": 127.0, 
+                            "eqv": 505.0, 
                             "qty": 1.0, 
-                            "value": 0.05, 
-                            "label": "jar"
-                        }, 
-                        {
-                            "eqv": 125.0, 
-                            "qty": 1.0, 
-                            "value": 0.05, 
-                            "label": "bottle Heinz Strained (4 fl oz)"
-                        }, 
-                        {
-                            "eqv": 125.0, 
-                            "qty": 1.0, 
-                            "value": 0.05, 
-                            "label": "bottle Gerber Second Foods (4 fl oz)"
-                        }, 
-                        {
-                            "eqv": 125.0, 
-                            "qty": 1.0, 
-                            "value": 0.05, 
-                            "label": "bottle Beech-Nut Stage 3 (4 fl oz)"
+                            "value": 1.11, 
+                            "label": "roast (Yield from 1 raw roast, with refuse, weighing 504g)"
                         }
                     ], 
-                    "value": 0.04, 
+                    "value": 0.22, 
                     "dp": "", 
                     "sourcecode": "", 
                     "se": "", 
@@ -1691,34 +1019,88 @@
                     "nutrient_id": 573, 
                     "measures": [
                         {
-                            "eqv": 31.2, 
-                            "qty": 1.0, 
+                            "eqv": 85.0, 
+                            "qty": 3.0, 
                             "value": 0.0, 
-                            "label": "fl oz"
+                            "label": "oz"
                         }, 
                         {
-                            "eqv": 127.0, 
+                            "eqv": 505.0, 
                             "qty": 1.0, 
                             "value": 0.0, 
-                            "label": "jar"
+                            "label": "roast (Yield from 1 raw roast, with refuse, weighing 504g)"
+                        }
+                    ], 
+                    "value": 0.0, 
+                    "dp": "", 
+                    "sourcecode": "", 
+                    "se": "", 
+                    "unit": "mg"
+                }, 
+                {
+                    "group": "Vitamins", 
+                    "name": "Tocopherol, beta", 
+                    "nutrient_id": 341, 
+                    "measures": [
+                        {
+                            "eqv": 85.0, 
+                            "qty": 3.0, 
+                            "value": 0.0, 
+                            "label": "oz"
                         }, 
                         {
-                            "eqv": 125.0, 
+                            "eqv": 505.0, 
                             "qty": 1.0, 
                             "value": 0.0, 
-                            "label": "bottle Heinz Strained (4 fl oz)"
+                            "label": "roast (Yield from 1 raw roast, with refuse, weighing 504g)"
+                        }
+                    ], 
+                    "value": 0.0, 
+                    "dp": "", 
+                    "sourcecode": "", 
+                    "se": "", 
+                    "unit": "mg"
+                }, 
+                {
+                    "group": "Vitamins", 
+                    "name": "Tocopherol, gamma", 
+                    "nutrient_id": 342, 
+                    "measures": [
+                        {
+                            "eqv": 85.0, 
+                            "qty": 3.0, 
+                            "value": 0.03, 
+                            "label": "oz"
                         }, 
                         {
-                            "eqv": 125.0, 
+                            "eqv": 505.0, 
                             "qty": 1.0, 
+                            "value": 0.15, 
+                            "label": "roast (Yield from 1 raw roast, with refuse, weighing 504g)"
+                        }
+                    ], 
+                    "value": 0.03, 
+                    "dp": "", 
+                    "sourcecode": "", 
+                    "se": "", 
+                    "unit": "mg"
+                }, 
+                {
+                    "group": "Vitamins", 
+                    "name": "Tocopherol, delta", 
+                    "nutrient_id": 343, 
+                    "measures": [
+                        {
+                            "eqv": 85.0, 
+                            "qty": 3.0, 
                             "value": 0.0, 
-                            "label": "bottle Gerber Second Foods (4 fl oz)"
+                            "label": "oz"
                         }, 
                         {
-                            "eqv": 125.0, 
+                            "eqv": 505.0, 
                             "qty": 1.0, 
                             "value": 0.0, 
-                            "label": "bottle Beech-Nut Stage 3 (4 fl oz)"
+                            "label": "roast (Yield from 1 raw roast, with refuse, weighing 504g)"
                         }
                     ], 
                     "value": 0.0, 
@@ -1733,37 +1115,43 @@
                     "nutrient_id": 328, 
                     "measures": [
                         {
-                            "eqv": 31.2, 
-                            "qty": 1.0, 
-                            "value": 0.0, 
-                            "label": "fl oz"
+                            "eqv": 85.0, 
+                            "qty": 3.0, 
+                            "value": 0.3, 
+                            "label": "oz"
                         }, 
                         {
-                            "eqv": 127.0, 
+                            "eqv": 505.0, 
                             "qty": 1.0, 
-                            "value": 0.0, 
-                            "label": "jar"
-                        }, 
-                        {
-                            "eqv": 125.0, 
-                            "qty": 1.0, 
-                            "value": 0.0, 
-                            "label": "bottle Heinz Strained (4 fl oz)"
-                        }, 
-                        {
-                            "eqv": 125.0, 
-                            "qty": 1.0, 
-                            "value": 0.0, 
-                            "label": "bottle Gerber Second Foods (4 fl oz)"
-                        }, 
-                        {
-                            "eqv": 125.0, 
-                            "qty": 1.0, 
-                            "value": 0.0, 
-                            "label": "bottle Beech-Nut Stage 3 (4 fl oz)"
+                            "value": 1.5, 
+                            "label": "roast (Yield from 1 raw roast, with refuse, weighing 504g)"
                         }
                     ], 
-                    "value": 0.0, 
+                    "value": 0.3, 
+                    "dp": "", 
+                    "sourcecode": "", 
+                    "se": "", 
+                    "unit": "\u00b5g"
+                }, 
+                {
+                    "group": "Vitamins", 
+                    "name": "Vitamin D3 (cholecalciferol)", 
+                    "nutrient_id": 326, 
+                    "measures": [
+                        {
+                            "eqv": 85.0, 
+                            "qty": 3.0, 
+                            "value": 0.3, 
+                            "label": "oz"
+                        }, 
+                        {
+                            "eqv": 505.0, 
+                            "qty": 1.0, 
+                            "value": 1.5, 
+                            "label": "roast (Yield from 1 raw roast, with refuse, weighing 504g)"
+                        }
+                    ], 
+                    "value": 0.3, 
                     "dp": "", 
                     "sourcecode": "", 
                     "se": "", 
@@ -1775,37 +1163,19 @@
                     "nutrient_id": 324, 
                     "measures": [
                         {
-                            "eqv": 31.2, 
-                            "qty": 1.0, 
-                            "value": 0.0, 
-                            "label": "fl oz"
+                            "eqv": 85.0, 
+                            "qty": 3.0, 
+                            "value": 8.0, 
+                            "label": "oz"
                         }, 
                         {
-                            "eqv": 127.0, 
+                            "eqv": 505.0, 
                             "qty": 1.0, 
-                            "value": 0.0, 
-                            "label": "jar"
-                        }, 
-                        {
-                            "eqv": 125.0, 
-                            "qty": 1.0, 
-                            "value": 0.0, 
-                            "label": "bottle Heinz Strained (4 fl oz)"
-                        }, 
-                        {
-                            "eqv": 125.0, 
-                            "qty": 1.0, 
-                            "value": 0.0, 
-                            "label": "bottle Gerber Second Foods (4 fl oz)"
-                        }, 
-                        {
-                            "eqv": 125.0, 
-                            "qty": 1.0, 
-                            "value": 0.0, 
-                            "label": "bottle Beech-Nut Stage 3 (4 fl oz)"
+                            "value": 50.0, 
+                            "label": "roast (Yield from 1 raw roast, with refuse, weighing 504g)"
                         }
                     ], 
-                    "value": 0.0, 
+                    "value": 10.0, 
                     "dp": "", 
                     "sourcecode": "", 
                     "se": "", 
@@ -1817,37 +1187,19 @@
                     "nutrient_id": 430, 
                     "measures": [
                         {
-                            "eqv": 31.2, 
+                            "eqv": 85.0, 
+                            "qty": 3.0, 
+                            "value": 0.0, 
+                            "label": "oz"
+                        }, 
+                        {
+                            "eqv": 505.0, 
                             "qty": 1.0, 
                             "value": 0.0, 
-                            "label": "fl oz"
-                        }, 
-                        {
-                            "eqv": 127.0, 
-                            "qty": 1.0, 
-                            "value": 0.1, 
-                            "label": "jar"
-                        }, 
-                        {
-                            "eqv": 125.0, 
-                            "qty": 1.0, 
-                            "value": 0.1, 
-                            "label": "bottle Heinz Strained (4 fl oz)"
-                        }, 
-                        {
-                            "eqv": 125.0, 
-                            "qty": 1.0, 
-                            "value": 0.1, 
-                            "label": "bottle Gerber Second Foods (4 fl oz)"
-                        }, 
-                        {
-                            "eqv": 125.0, 
-                            "qty": 1.0, 
-                            "value": 0.1, 
-                            "label": "bottle Beech-Nut Stage 3 (4 fl oz)"
+                            "label": "roast (Yield from 1 raw roast, with refuse, weighing 504g)"
                         }
                     ], 
-                    "value": 0.1, 
+                    "value": 0.0, 
                     "dp": "", 
                     "sourcecode": "", 
                     "se": "", 
@@ -1859,37 +1211,19 @@
                     "nutrient_id": 606, 
                     "measures": [
                         {
-                            "eqv": 31.2, 
-                            "qty": 1.0, 
-                            "value": 0.011, 
-                            "label": "fl oz"
+                            "eqv": 85.0, 
+                            "qty": 3.0, 
+                            "value": 1.004, 
+                            "label": "oz"
                         }, 
                         {
-                            "eqv": 127.0, 
+                            "eqv": 505.0, 
                             "qty": 1.0, 
-                            "value": 0.044, 
-                            "label": "jar"
-                        }, 
-                        {
-                            "eqv": 125.0, 
-                            "qty": 1.0, 
-                            "value": 0.044, 
-                            "label": "bottle Heinz Strained (4 fl oz)"
-                        }, 
-                        {
-                            "eqv": 125.0, 
-                            "qty": 1.0, 
-                            "value": 0.044, 
-                            "label": "bottle Gerber Second Foods (4 fl oz)"
-                        }, 
-                        {
-                            "eqv": 125.0, 
-                            "qty": 1.0, 
-                            "value": 0.044, 
-                            "label": "bottle Beech-Nut Stage 3 (4 fl oz)"
+                            "value": 5.964, 
+                            "label": "roast (Yield from 1 raw roast, with refuse, weighing 504g)"
                         }
                     ], 
-                    "value": 0.035, 
+                    "value": 1.181, 
                     "dp": "", 
                     "sourcecode": "", 
                     "se": "", 
@@ -1901,34 +1235,16 @@
                     "nutrient_id": 607, 
                     "measures": [
                         {
-                            "eqv": 31.2, 
-                            "qty": 1.0, 
+                            "eqv": 85.0, 
+                            "qty": 3.0, 
                             "value": 0.0, 
-                            "label": "fl oz"
+                            "label": "oz"
                         }, 
                         {
-                            "eqv": 127.0, 
+                            "eqv": 505.0, 
                             "qty": 1.0, 
                             "value": 0.0, 
-                            "label": "jar"
-                        }, 
-                        {
-                            "eqv": 125.0, 
-                            "qty": 1.0, 
-                            "value": 0.0, 
-                            "label": "bottle Heinz Strained (4 fl oz)"
-                        }, 
-                        {
-                            "eqv": 125.0, 
-                            "qty": 1.0, 
-                            "value": 0.0, 
-                            "label": "bottle Gerber Second Foods (4 fl oz)"
-                        }, 
-                        {
-                            "eqv": 125.0, 
-                            "qty": 1.0, 
-                            "value": 0.0, 
-                            "label": "bottle Beech-Nut Stage 3 (4 fl oz)"
+                            "label": "roast (Yield from 1 raw roast, with refuse, weighing 504g)"
                         }
                     ], 
                     "value": 0.0, 
@@ -1943,34 +1259,16 @@
                     "nutrient_id": 608, 
                     "measures": [
                         {
-                            "eqv": 31.2, 
-                            "qty": 1.0, 
+                            "eqv": 85.0, 
+                            "qty": 3.0, 
                             "value": 0.0, 
-                            "label": "fl oz"
+                            "label": "oz"
                         }, 
                         {
-                            "eqv": 127.0, 
+                            "eqv": 505.0, 
                             "qty": 1.0, 
                             "value": 0.0, 
-                            "label": "jar"
-                        }, 
-                        {
-                            "eqv": 125.0, 
-                            "qty": 1.0, 
-                            "value": 0.0, 
-                            "label": "bottle Heinz Strained (4 fl oz)"
-                        }, 
-                        {
-                            "eqv": 125.0, 
-                            "qty": 1.0, 
-                            "value": 0.0, 
-                            "label": "bottle Gerber Second Foods (4 fl oz)"
-                        }, 
-                        {
-                            "eqv": 125.0, 
-                            "qty": 1.0, 
-                            "value": 0.0, 
-                            "label": "bottle Beech-Nut Stage 3 (4 fl oz)"
+                            "label": "roast (Yield from 1 raw roast, with refuse, weighing 504g)"
                         }
                     ], 
                     "value": 0.0, 
@@ -1985,34 +1283,16 @@
                     "nutrient_id": 609, 
                     "measures": [
                         {
-                            "eqv": 31.2, 
-                            "qty": 1.0, 
+                            "eqv": 85.0, 
+                            "qty": 3.0, 
                             "value": 0.0, 
-                            "label": "fl oz"
+                            "label": "oz"
                         }, 
                         {
-                            "eqv": 127.0, 
+                            "eqv": 505.0, 
                             "qty": 1.0, 
                             "value": 0.0, 
-                            "label": "jar"
-                        }, 
-                        {
-                            "eqv": 125.0, 
-                            "qty": 1.0, 
-                            "value": 0.0, 
-                            "label": "bottle Heinz Strained (4 fl oz)"
-                        }, 
-                        {
-                            "eqv": 125.0, 
-                            "qty": 1.0, 
-                            "value": 0.0, 
-                            "label": "bottle Gerber Second Foods (4 fl oz)"
-                        }, 
-                        {
-                            "eqv": 125.0, 
-                            "qty": 1.0, 
-                            "value": 0.0, 
-                            "label": "bottle Beech-Nut Stage 3 (4 fl oz)"
+                            "label": "roast (Yield from 1 raw roast, with refuse, weighing 504g)"
                         }
                     ], 
                     "value": 0.0, 
@@ -2027,37 +1307,19 @@
                     "nutrient_id": 610, 
                     "measures": [
                         {
-                            "eqv": 31.2, 
-                            "qty": 1.0, 
-                            "value": 0.0, 
-                            "label": "fl oz"
+                            "eqv": 85.0, 
+                            "qty": 3.0, 
+                            "value": 0.001, 
+                            "label": "oz"
                         }, 
                         {
-                            "eqv": 127.0, 
+                            "eqv": 505.0, 
                             "qty": 1.0, 
-                            "value": 0.0, 
-                            "label": "jar"
-                        }, 
-                        {
-                            "eqv": 125.0, 
-                            "qty": 1.0, 
-                            "value": 0.0, 
-                            "label": "bottle Heinz Strained (4 fl oz)"
-                        }, 
-                        {
-                            "eqv": 125.0, 
-                            "qty": 1.0, 
-                            "value": 0.0, 
-                            "label": "bottle Gerber Second Foods (4 fl oz)"
-                        }, 
-                        {
-                            "eqv": 125.0, 
-                            "qty": 1.0, 
-                            "value": 0.0, 
-                            "label": "bottle Beech-Nut Stage 3 (4 fl oz)"
+                            "value": 0.005, 
+                            "label": "roast (Yield from 1 raw roast, with refuse, weighing 504g)"
                         }
                     ], 
-                    "value": 0.0, 
+                    "value": 0.001, 
                     "dp": "", 
                     "sourcecode": "", 
                     "se": "", 
@@ -2069,37 +1331,19 @@
                     "nutrient_id": 611, 
                     "measures": [
                         {
-                            "eqv": 31.2, 
-                            "qty": 1.0, 
-                            "value": 0.0, 
-                            "label": "fl oz"
+                            "eqv": 85.0, 
+                            "qty": 3.0, 
+                            "value": 0.001, 
+                            "label": "oz"
                         }, 
                         {
-                            "eqv": 127.0, 
+                            "eqv": 505.0, 
                             "qty": 1.0, 
-                            "value": 0.0, 
-                            "label": "jar"
-                        }, 
-                        {
-                            "eqv": 125.0, 
-                            "qty": 1.0, 
-                            "value": 0.0, 
-                            "label": "bottle Heinz Strained (4 fl oz)"
-                        }, 
-                        {
-                            "eqv": 125.0, 
-                            "qty": 1.0, 
-                            "value": 0.0, 
-                            "label": "bottle Gerber Second Foods (4 fl oz)"
-                        }, 
-                        {
-                            "eqv": 125.0, 
-                            "qty": 1.0, 
-                            "value": 0.0, 
-                            "label": "bottle Beech-Nut Stage 3 (4 fl oz)"
+                            "value": 0.005, 
+                            "label": "roast (Yield from 1 raw roast, with refuse, weighing 504g)"
                         }
                     ], 
-                    "value": 0.0, 
+                    "value": 0.001, 
                     "dp": "", 
                     "sourcecode": "", 
                     "se": "", 
@@ -2111,37 +1355,43 @@
                     "nutrient_id": 612, 
                     "measures": [
                         {
-                            "eqv": 31.2, 
-                            "qty": 1.0, 
-                            "value": 0.0, 
-                            "label": "fl oz"
+                            "eqv": 85.0, 
+                            "qty": 3.0, 
+                            "value": 0.033, 
+                            "label": "oz"
                         }, 
                         {
-                            "eqv": 127.0, 
+                            "eqv": 505.0, 
                             "qty": 1.0, 
-                            "value": 0.0, 
-                            "label": "jar"
-                        }, 
-                        {
-                            "eqv": 125.0, 
-                            "qty": 1.0, 
-                            "value": 0.0, 
-                            "label": "bottle Heinz Strained (4 fl oz)"
-                        }, 
-                        {
-                            "eqv": 125.0, 
-                            "qty": 1.0, 
-                            "value": 0.0, 
-                            "label": "bottle Gerber Second Foods (4 fl oz)"
-                        }, 
-                        {
-                            "eqv": 125.0, 
-                            "qty": 1.0, 
-                            "value": 0.0, 
-                            "label": "bottle Beech-Nut Stage 3 (4 fl oz)"
+                            "value": 0.197, 
+                            "label": "roast (Yield from 1 raw roast, with refuse, weighing 504g)"
                         }
                     ], 
-                    "value": 0.0, 
+                    "value": 0.039, 
+                    "dp": "", 
+                    "sourcecode": "", 
+                    "se": "", 
+                    "unit": "g"
+                }, 
+                {
+                    "group": "Lipids", 
+                    "name": "15:0", 
+                    "nutrient_id": 652, 
+                    "measures": [
+                        {
+                            "eqv": 85.0, 
+                            "qty": 3.0, 
+                            "value": 0.001, 
+                            "label": "oz"
+                        }, 
+                        {
+                            "eqv": 505.0, 
+                            "qty": 1.0, 
+                            "value": 0.005, 
+                            "label": "roast (Yield from 1 raw roast, with refuse, weighing 504g)"
+                        }
+                    ], 
+                    "value": 0.001, 
                     "dp": "", 
                     "sourcecode": "", 
                     "se": "", 
@@ -2153,37 +1403,43 @@
                     "nutrient_id": 613, 
                     "measures": [
                         {
-                            "eqv": 31.2, 
-                            "qty": 1.0, 
-                            "value": 0.011, 
-                            "label": "fl oz"
+                            "eqv": 85.0, 
+                            "qty": 3.0, 
+                            "value": 0.616, 
+                            "label": "oz"
                         }, 
                         {
-                            "eqv": 127.0, 
+                            "eqv": 505.0, 
                             "qty": 1.0, 
-                            "value": 0.044, 
-                            "label": "jar"
-                        }, 
-                        {
-                            "eqv": 125.0, 
-                            "qty": 1.0, 
-                            "value": 0.044, 
-                            "label": "bottle Heinz Strained (4 fl oz)"
-                        }, 
-                        {
-                            "eqv": 125.0, 
-                            "qty": 1.0, 
-                            "value": 0.044, 
-                            "label": "bottle Gerber Second Foods (4 fl oz)"
-                        }, 
-                        {
-                            "eqv": 125.0, 
-                            "qty": 1.0, 
-                            "value": 0.044, 
-                            "label": "bottle Beech-Nut Stage 3 (4 fl oz)"
+                            "value": 3.661, 
+                            "label": "roast (Yield from 1 raw roast, with refuse, weighing 504g)"
                         }
                     ], 
-                    "value": 0.035, 
+                    "value": 0.725, 
+                    "dp": "", 
+                    "sourcecode": "", 
+                    "se": "", 
+                    "unit": "g"
+                }, 
+                {
+                    "group": "Lipids", 
+                    "name": "17:0", 
+                    "nutrient_id": 653, 
+                    "measures": [
+                        {
+                            "eqv": 85.0, 
+                            "qty": 3.0, 
+                            "value": 0.007, 
+                            "label": "oz"
+                        }, 
+                        {
+                            "eqv": 505.0, 
+                            "qty": 1.0, 
+                            "value": 0.04, 
+                            "label": "roast (Yield from 1 raw roast, with refuse, weighing 504g)"
+                        }
+                    ], 
+                    "value": 0.008, 
                     "dp": "", 
                     "sourcecode": "", 
                     "se": "", 
@@ -2195,34 +1451,64 @@
                     "nutrient_id": 614, 
                     "measures": [
                         {
-                            "eqv": 31.2, 
-                            "qty": 1.0, 
-                            "value": 0.0, 
-                            "label": "fl oz"
+                            "eqv": 85.0, 
+                            "qty": 3.0, 
+                            "value": 0.343, 
+                            "label": "oz"
                         }, 
                         {
-                            "eqv": 127.0, 
+                            "eqv": 505.0, 
                             "qty": 1.0, 
-                            "value": 0.0, 
-                            "label": "jar"
+                            "value": 2.04, 
+                            "label": "roast (Yield from 1 raw roast, with refuse, weighing 504g)"
+                        }
+                    ], 
+                    "value": 0.404, 
+                    "dp": "", 
+                    "sourcecode": "", 
+                    "se": "", 
+                    "unit": "g"
+                }, 
+                {
+                    "group": "Lipids", 
+                    "name": "20:0", 
+                    "nutrient_id": 615, 
+                    "measures": [
+                        {
+                            "eqv": 85.0, 
+                            "qty": 3.0, 
+                            "value": 0.003, 
+                            "label": "oz"
                         }, 
                         {
-                            "eqv": 125.0, 
+                            "eqv": 505.0, 
                             "qty": 1.0, 
+                            "value": 0.015, 
+                            "label": "roast (Yield from 1 raw roast, with refuse, weighing 504g)"
+                        }
+                    ], 
+                    "value": 0.003, 
+                    "dp": "", 
+                    "sourcecode": "", 
+                    "se": "", 
+                    "unit": "g"
+                }, 
+                {
+                    "group": "Lipids", 
+                    "name": "22:0", 
+                    "nutrient_id": 624, 
+                    "measures": [
+                        {
+                            "eqv": 85.0, 
+                            "qty": 3.0, 
                             "value": 0.0, 
-                            "label": "bottle Heinz Strained (4 fl oz)"
+                            "label": "oz"
                         }, 
                         {
-                            "eqv": 125.0, 
+                            "eqv": 505.0, 
                             "qty": 1.0, 
                             "value": 0.0, 
-                            "label": "bottle Gerber Second Foods (4 fl oz)"
-                        }, 
-                        {
-                            "eqv": 125.0, 
-                            "qty": 1.0, 
-                            "value": 0.0, 
-                            "label": "bottle Beech-Nut Stage 3 (4 fl oz)"
+                            "label": "roast (Yield from 1 raw roast, with refuse, weighing 504g)"
                         }
                     ], 
                     "value": 0.0, 
@@ -2237,37 +1523,67 @@
                     "nutrient_id": 645, 
                     "measures": [
                         {
-                            "eqv": 31.2, 
-                            "qty": 1.0, 
-                            "value": 0.016, 
-                            "label": "fl oz"
+                            "eqv": 85.0, 
+                            "qty": 3.0, 
+                            "value": 1.152, 
+                            "label": "oz"
                         }, 
                         {
-                            "eqv": 127.0, 
+                            "eqv": 505.0, 
                             "qty": 1.0, 
-                            "value": 0.064, 
-                            "label": "jar"
-                        }, 
-                        {
-                            "eqv": 125.0, 
-                            "qty": 1.0, 
-                            "value": 0.062, 
-                            "label": "bottle Heinz Strained (4 fl oz)"
-                        }, 
-                        {
-                            "eqv": 125.0, 
-                            "qty": 1.0, 
-                            "value": 0.062, 
-                            "label": "bottle Gerber Second Foods (4 fl oz)"
-                        }, 
-                        {
-                            "eqv": 125.0, 
-                            "qty": 1.0, 
-                            "value": 0.062, 
-                            "label": "bottle Beech-Nut Stage 3 (4 fl oz)"
+                            "value": 6.843, 
+                            "label": "roast (Yield from 1 raw roast, with refuse, weighing 504g)"
                         }
                     ], 
-                    "value": 0.05, 
+                    "value": 1.355, 
+                    "dp": "", 
+                    "sourcecode": "", 
+                    "se": "", 
+                    "unit": "g"
+                }, 
+                {
+                    "group": "Lipids", 
+                    "name": "14:1", 
+                    "nutrient_id": 625, 
+                    "measures": [
+                        {
+                            "eqv": 85.0, 
+                            "qty": 3.0, 
+                            "value": 0.0, 
+                            "label": "oz"
+                        }, 
+                        {
+                            "eqv": 505.0, 
+                            "qty": 1.0, 
+                            "value": 0.0, 
+                            "label": "roast (Yield from 1 raw roast, with refuse, weighing 504g)"
+                        }
+                    ], 
+                    "value": 0.0, 
+                    "dp": "", 
+                    "sourcecode": "", 
+                    "se": "", 
+                    "unit": "g"
+                }, 
+                {
+                    "group": "Lipids", 
+                    "name": "15:1", 
+                    "nutrient_id": 697, 
+                    "measures": [
+                        {
+                            "eqv": 85.0, 
+                            "qty": 3.0, 
+                            "value": 0.0, 
+                            "label": "oz"
+                        }, 
+                        {
+                            "eqv": 505.0, 
+                            "qty": 1.0, 
+                            "value": 0.0, 
+                            "label": "roast (Yield from 1 raw roast, with refuse, weighing 504g)"
+                        }
+                    ], 
+                    "value": 0.0, 
                     "dp": "", 
                     "sourcecode": "", 
                     "se": "", 
@@ -2279,37 +1595,43 @@
                     "nutrient_id": 626, 
                     "measures": [
                         {
-                            "eqv": 31.2, 
-                            "qty": 1.0, 
-                            "value": 0.002, 
-                            "label": "fl oz"
+                            "eqv": 85.0, 
+                            "qty": 3.0, 
+                            "value": 0.064, 
+                            "label": "oz"
                         }, 
                         {
-                            "eqv": 127.0, 
+                            "eqv": 505.0, 
                             "qty": 1.0, 
-                            "value": 0.006, 
-                            "label": "jar"
-                        }, 
-                        {
-                            "eqv": 125.0, 
-                            "qty": 1.0, 
-                            "value": 0.006, 
-                            "label": "bottle Heinz Strained (4 fl oz)"
-                        }, 
-                        {
-                            "eqv": 125.0, 
-                            "qty": 1.0, 
-                            "value": 0.006, 
-                            "label": "bottle Gerber Second Foods (4 fl oz)"
-                        }, 
-                        {
-                            "eqv": 125.0, 
-                            "qty": 1.0, 
-                            "value": 0.006, 
-                            "label": "bottle Beech-Nut Stage 3 (4 fl oz)"
+                            "value": 0.379, 
+                            "label": "roast (Yield from 1 raw roast, with refuse, weighing 504g)"
                         }
                     ], 
-                    "value": 0.005, 
+                    "value": 0.075, 
+                    "dp": "", 
+                    "sourcecode": "", 
+                    "se": "", 
+                    "unit": "g"
+                }, 
+                {
+                    "group": "Lipids", 
+                    "name": "17:1", 
+                    "nutrient_id": 687, 
+                    "measures": [
+                        {
+                            "eqv": 85.0, 
+                            "qty": 3.0, 
+                            "value": 0.0, 
+                            "label": "oz"
+                        }, 
+                        {
+                            "eqv": 505.0, 
+                            "qty": 1.0, 
+                            "value": 0.0, 
+                            "label": "roast (Yield from 1 raw roast, with refuse, weighing 504g)"
+                        }
+                    ], 
+                    "value": 0.0, 
                     "dp": "", 
                     "sourcecode": "", 
                     "se": "", 
@@ -2321,37 +1643,67 @@
                     "nutrient_id": 617, 
                     "measures": [
                         {
-                            "eqv": 31.2, 
-                            "qty": 1.0, 
-                            "value": 0.014, 
-                            "label": "fl oz"
+                            "eqv": 85.0, 
+                            "qty": 3.0, 
+                            "value": 1.07, 
+                            "label": "oz"
                         }, 
                         {
-                            "eqv": 127.0, 
+                            "eqv": 505.0, 
                             "qty": 1.0, 
-                            "value": 0.057, 
-                            "label": "jar"
-                        }, 
-                        {
-                            "eqv": 125.0, 
-                            "qty": 1.0, 
-                            "value": 0.056, 
-                            "label": "bottle Heinz Strained (4 fl oz)"
-                        }, 
-                        {
-                            "eqv": 125.0, 
-                            "qty": 1.0, 
-                            "value": 0.056, 
-                            "label": "bottle Gerber Second Foods (4 fl oz)"
-                        }, 
-                        {
-                            "eqv": 125.0, 
-                            "qty": 1.0, 
-                            "value": 0.056, 
-                            "label": "bottle Beech-Nut Stage 3 (4 fl oz)"
+                            "value": 6.358, 
+                            "label": "roast (Yield from 1 raw roast, with refuse, weighing 504g)"
                         }
                     ], 
-                    "value": 0.045, 
+                    "value": 1.259, 
+                    "dp": "", 
+                    "sourcecode": "", 
+                    "se": "", 
+                    "unit": "g"
+                }, 
+                {
+                    "group": "Lipids", 
+                    "name": "18:1 c", 
+                    "nutrient_id": 674, 
+                    "measures": [
+                        {
+                            "eqv": 85.0, 
+                            "qty": 3.0, 
+                            "value": 1.051, 
+                            "label": "oz"
+                        }, 
+                        {
+                            "eqv": 505.0, 
+                            "qty": 1.0, 
+                            "value": 6.247, 
+                            "label": "roast (Yield from 1 raw roast, with refuse, weighing 504g)"
+                        }
+                    ], 
+                    "value": 1.237, 
+                    "dp": "", 
+                    "sourcecode": "", 
+                    "se": "", 
+                    "unit": "g"
+                }, 
+                {
+                    "group": "Lipids", 
+                    "name": "18:1 t", 
+                    "nutrient_id": 663, 
+                    "measures": [
+                        {
+                            "eqv": 85.0, 
+                            "qty": 3.0, 
+                            "value": 0.02, 
+                            "label": "oz"
+                        }, 
+                        {
+                            "eqv": 505.0, 
+                            "qty": 1.0, 
+                            "value": 0.116, 
+                            "label": "roast (Yield from 1 raw roast, with refuse, weighing 504g)"
+                        }
+                    ], 
+                    "value": 0.023, 
                     "dp": "", 
                     "sourcecode": "", 
                     "se": "", 
@@ -2363,37 +1715,19 @@
                     "nutrient_id": 628, 
                     "measures": [
                         {
-                            "eqv": 31.2, 
-                            "qty": 1.0, 
-                            "value": 0.0, 
-                            "label": "fl oz"
+                            "eqv": 85.0, 
+                            "qty": 3.0, 
+                            "value": 0.018, 
+                            "label": "oz"
                         }, 
                         {
-                            "eqv": 127.0, 
+                            "eqv": 505.0, 
                             "qty": 1.0, 
-                            "value": 0.0, 
-                            "label": "jar"
-                        }, 
-                        {
-                            "eqv": 125.0, 
-                            "qty": 1.0, 
-                            "value": 0.0, 
-                            "label": "bottle Heinz Strained (4 fl oz)"
-                        }, 
-                        {
-                            "eqv": 125.0, 
-                            "qty": 1.0, 
-                            "value": 0.0, 
-                            "label": "bottle Gerber Second Foods (4 fl oz)"
-                        }, 
-                        {
-                            "eqv": 125.0, 
-                            "qty": 1.0, 
-                            "value": 0.0, 
-                            "label": "bottle Beech-Nut Stage 3 (4 fl oz)"
+                            "value": 0.106, 
+                            "label": "roast (Yield from 1 raw roast, with refuse, weighing 504g)"
                         }
                     ], 
-                    "value": 0.0, 
+                    "value": 0.021, 
                     "dp": "", 
                     "sourcecode": "", 
                     "se": "", 
@@ -2405,34 +1739,16 @@
                     "nutrient_id": 630, 
                     "measures": [
                         {
-                            "eqv": 31.2, 
-                            "qty": 1.0, 
+                            "eqv": 85.0, 
+                            "qty": 3.0, 
                             "value": 0.0, 
-                            "label": "fl oz"
+                            "label": "oz"
                         }, 
                         {
-                            "eqv": 127.0, 
+                            "eqv": 505.0, 
                             "qty": 1.0, 
                             "value": 0.0, 
-                            "label": "jar"
-                        }, 
-                        {
-                            "eqv": 125.0, 
-                            "qty": 1.0, 
-                            "value": 0.0, 
-                            "label": "bottle Heinz Strained (4 fl oz)"
-                        }, 
-                        {
-                            "eqv": 125.0, 
-                            "qty": 1.0, 
-                            "value": 0.0, 
-                            "label": "bottle Gerber Second Foods (4 fl oz)"
-                        }, 
-                        {
-                            "eqv": 125.0, 
-                            "qty": 1.0, 
-                            "value": 0.0, 
-                            "label": "bottle Beech-Nut Stage 3 (4 fl oz)"
+                            "label": "roast (Yield from 1 raw roast, with refuse, weighing 504g)"
                         }
                     ], 
                     "value": 0.0, 
@@ -2447,37 +1763,19 @@
                     "nutrient_id": 646, 
                     "measures": [
                         {
-                            "eqv": 31.2, 
-                            "qty": 1.0, 
-                            "value": 0.019, 
-                            "label": "fl oz"
+                            "eqv": 85.0, 
+                            "qty": 3.0, 
+                            "value": 0.478, 
+                            "label": "oz"
                         }, 
                         {
-                            "eqv": 127.0, 
+                            "eqv": 505.0, 
                             "qty": 1.0, 
-                            "value": 0.076, 
-                            "label": "jar"
-                        }, 
-                        {
-                            "eqv": 125.0, 
-                            "qty": 1.0, 
-                            "value": 0.075, 
-                            "label": "bottle Heinz Strained (4 fl oz)"
-                        }, 
-                        {
-                            "eqv": 125.0, 
-                            "qty": 1.0, 
-                            "value": 0.075, 
-                            "label": "bottle Gerber Second Foods (4 fl oz)"
-                        }, 
-                        {
-                            "eqv": 125.0, 
-                            "qty": 1.0, 
-                            "value": 0.075, 
-                            "label": "bottle Beech-Nut Stage 3 (4 fl oz)"
+                            "value": 2.838, 
+                            "label": "roast (Yield from 1 raw roast, with refuse, weighing 504g)"
                         }
                     ], 
-                    "value": 0.06, 
+                    "value": 0.562, 
                     "dp": "", 
                     "sourcecode": "", 
                     "se": "", 
@@ -2489,37 +1787,67 @@
                     "nutrient_id": 618, 
                     "measures": [
                         {
-                            "eqv": 31.2, 
-                            "qty": 1.0, 
-                            "value": 0.014, 
-                            "label": "fl oz"
+                            "eqv": 85.0, 
+                            "qty": 3.0, 
+                            "value": 0.405, 
+                            "label": "oz"
                         }, 
                         {
-                            "eqv": 127.0, 
+                            "eqv": 505.0, 
                             "qty": 1.0, 
-                            "value": 0.057, 
-                            "label": "jar"
-                        }, 
-                        {
-                            "eqv": 125.0, 
-                            "qty": 1.0, 
-                            "value": 0.056, 
-                            "label": "bottle Heinz Strained (4 fl oz)"
-                        }, 
-                        {
-                            "eqv": 125.0, 
-                            "qty": 1.0, 
-                            "value": 0.056, 
-                            "label": "bottle Gerber Second Foods (4 fl oz)"
-                        }, 
-                        {
-                            "eqv": 125.0, 
-                            "qty": 1.0, 
-                            "value": 0.056, 
-                            "label": "bottle Beech-Nut Stage 3 (4 fl oz)"
+                            "value": 2.404, 
+                            "label": "roast (Yield from 1 raw roast, with refuse, weighing 504g)"
                         }
                     ], 
-                    "value": 0.045, 
+                    "value": 0.476, 
+                    "dp": "", 
+                    "sourcecode": "", 
+                    "se": "", 
+                    "unit": "g"
+                }, 
+                {
+                    "group": "Lipids", 
+                    "name": "18:2 n-6 c,c", 
+                    "nutrient_id": 675, 
+                    "measures": [
+                        {
+                            "eqv": 85.0, 
+                            "qty": 3.0, 
+                            "value": 0.394, 
+                            "label": "oz"
+                        }, 
+                        {
+                            "eqv": 505.0, 
+                            "qty": 1.0, 
+                            "value": 2.338, 
+                            "label": "roast (Yield from 1 raw roast, with refuse, weighing 504g)"
+                        }
+                    ], 
+                    "value": 0.463, 
+                    "dp": "", 
+                    "sourcecode": "", 
+                    "se": "", 
+                    "unit": "g"
+                }, 
+                {
+                    "group": "Lipids", 
+                    "name": "18:2 t,t", 
+                    "nutrient_id": 669, 
+                    "measures": [
+                        {
+                            "eqv": 85.0, 
+                            "qty": 3.0, 
+                            "value": 0.011, 
+                            "label": "oz"
+                        }, 
+                        {
+                            "eqv": 505.0, 
+                            "qty": 1.0, 
+                            "value": 0.066, 
+                            "label": "roast (Yield from 1 raw roast, with refuse, weighing 504g)"
+                        }
+                    ], 
+                    "value": 0.013, 
                     "dp": "", 
                     "sourcecode": "", 
                     "se": "", 
@@ -2531,37 +1859,67 @@
                     "nutrient_id": 619, 
                     "measures": [
                         {
-                            "eqv": 31.2, 
-                            "qty": 1.0, 
-                            "value": 0.005, 
-                            "label": "fl oz"
+                            "eqv": 85.0, 
+                            "qty": 3.0, 
+                            "value": 0.014, 
+                            "label": "oz"
                         }, 
                         {
-                            "eqv": 127.0, 
+                            "eqv": 505.0, 
                             "qty": 1.0, 
-                            "value": 0.019, 
-                            "label": "jar"
-                        }, 
-                        {
-                            "eqv": 125.0, 
-                            "qty": 1.0, 
-                            "value": 0.019, 
-                            "label": "bottle Heinz Strained (4 fl oz)"
-                        }, 
-                        {
-                            "eqv": 125.0, 
-                            "qty": 1.0, 
-                            "value": 0.019, 
-                            "label": "bottle Gerber Second Foods (4 fl oz)"
-                        }, 
-                        {
-                            "eqv": 125.0, 
-                            "qty": 1.0, 
-                            "value": 0.019, 
-                            "label": "bottle Beech-Nut Stage 3 (4 fl oz)"
+                            "value": 0.081, 
+                            "label": "roast (Yield from 1 raw roast, with refuse, weighing 504g)"
                         }
                     ], 
-                    "value": 0.015, 
+                    "value": 0.016, 
+                    "dp": "", 
+                    "sourcecode": "", 
+                    "se": "", 
+                    "unit": "g"
+                }, 
+                {
+                    "group": "Lipids", 
+                    "name": "18:3 n-3 c,c,c (ALA)", 
+                    "nutrient_id": 851, 
+                    "measures": [
+                        {
+                            "eqv": 85.0, 
+                            "qty": 3.0, 
+                            "value": 0.014, 
+                            "label": "oz"
+                        }, 
+                        {
+                            "eqv": 505.0, 
+                            "qty": 1.0, 
+                            "value": 0.081, 
+                            "label": "roast (Yield from 1 raw roast, with refuse, weighing 504g)"
+                        }
+                    ], 
+                    "value": 0.016, 
+                    "dp": "", 
+                    "sourcecode": "", 
+                    "se": "", 
+                    "unit": "g"
+                }, 
+                {
+                    "group": "Lipids", 
+                    "name": "18:3 n-6 c,c,c", 
+                    "nutrient_id": 685, 
+                    "measures": [
+                        {
+                            "eqv": 85.0, 
+                            "qty": 3.0, 
+                            "value": 0.0, 
+                            "label": "oz"
+                        }, 
+                        {
+                            "eqv": 505.0, 
+                            "qty": 1.0, 
+                            "value": 0.0, 
+                            "label": "roast (Yield from 1 raw roast, with refuse, weighing 504g)"
+                        }
+                    ], 
+                    "value": 0.0, 
                     "dp": "", 
                     "sourcecode": "", 
                     "se": "", 
@@ -2573,37 +1931,67 @@
                     "nutrient_id": 627, 
                     "measures": [
                         {
-                            "eqv": 31.2, 
-                            "qty": 1.0, 
+                            "eqv": 85.0, 
+                            "qty": 3.0, 
                             "value": 0.0, 
-                            "label": "fl oz"
+                            "label": "oz"
                         }, 
                         {
-                            "eqv": 127.0, 
+                            "eqv": 505.0, 
                             "qty": 1.0, 
                             "value": 0.0, 
-                            "label": "jar"
-                        }, 
-                        {
-                            "eqv": 125.0, 
-                            "qty": 1.0, 
-                            "value": 0.0, 
-                            "label": "bottle Heinz Strained (4 fl oz)"
-                        }, 
-                        {
-                            "eqv": 125.0, 
-                            "qty": 1.0, 
-                            "value": 0.0, 
-                            "label": "bottle Gerber Second Foods (4 fl oz)"
-                        }, 
-                        {
-                            "eqv": 125.0, 
-                            "qty": 1.0, 
-                            "value": 0.0, 
-                            "label": "bottle Beech-Nut Stage 3 (4 fl oz)"
+                            "label": "roast (Yield from 1 raw roast, with refuse, weighing 504g)"
                         }
                     ], 
                     "value": 0.0, 
+                    "dp": "", 
+                    "sourcecode": "", 
+                    "se": "", 
+                    "unit": "g"
+                }, 
+                {
+                    "group": "Lipids", 
+                    "name": "20:2 n-6 c,c", 
+                    "nutrient_id": 672, 
+                    "measures": [
+                        {
+                            "eqv": 85.0, 
+                            "qty": 3.0, 
+                            "value": 0.012, 
+                            "label": "oz"
+                        }, 
+                        {
+                            "eqv": 505.0, 
+                            "qty": 1.0, 
+                            "value": 0.071, 
+                            "label": "roast (Yield from 1 raw roast, with refuse, weighing 504g)"
+                        }
+                    ], 
+                    "value": 0.014, 
+                    "dp": "", 
+                    "sourcecode": "", 
+                    "se": "", 
+                    "unit": "g"
+                }, 
+                {
+                    "group": "Lipids", 
+                    "name": "20:3 undifferentiated", 
+                    "nutrient_id": 689, 
+                    "measures": [
+                        {
+                            "eqv": 85.0, 
+                            "qty": 3.0, 
+                            "value": 0.001, 
+                            "label": "oz"
+                        }, 
+                        {
+                            "eqv": 505.0, 
+                            "qty": 1.0, 
+                            "value": 0.005, 
+                            "label": "roast (Yield from 1 raw roast, with refuse, weighing 504g)"
+                        }
+                    ], 
+                    "value": 0.001, 
                     "dp": "", 
                     "sourcecode": "", 
                     "se": "", 
@@ -2615,37 +2003,19 @@
                     "nutrient_id": 620, 
                     "measures": [
                         {
-                            "eqv": 31.2, 
-                            "qty": 1.0, 
-                            "value": 0.0, 
-                            "label": "fl oz"
+                            "eqv": 85.0, 
+                            "qty": 3.0, 
+                            "value": 0.046, 
+                            "label": "oz"
                         }, 
                         {
-                            "eqv": 127.0, 
+                            "eqv": 505.0, 
                             "qty": 1.0, 
-                            "value": 0.0, 
-                            "label": "jar"
-                        }, 
-                        {
-                            "eqv": 125.0, 
-                            "qty": 1.0, 
-                            "value": 0.0, 
-                            "label": "bottle Heinz Strained (4 fl oz)"
-                        }, 
-                        {
-                            "eqv": 125.0, 
-                            "qty": 1.0, 
-                            "value": 0.0, 
-                            "label": "bottle Gerber Second Foods (4 fl oz)"
-                        }, 
-                        {
-                            "eqv": 125.0, 
-                            "qty": 1.0, 
-                            "value": 0.0, 
-                            "label": "bottle Beech-Nut Stage 3 (4 fl oz)"
+                            "value": 0.273, 
+                            "label": "roast (Yield from 1 raw roast, with refuse, weighing 504g)"
                         }
                     ], 
-                    "value": 0.0, 
+                    "value": 0.054, 
                     "dp": "", 
                     "sourcecode": "", 
                     "se": "", 
@@ -2657,34 +2027,16 @@
                     "nutrient_id": 629, 
                     "measures": [
                         {
-                            "eqv": 31.2, 
-                            "qty": 1.0, 
+                            "eqv": 85.0, 
+                            "qty": 3.0, 
                             "value": 0.0, 
-                            "label": "fl oz"
+                            "label": "oz"
                         }, 
                         {
-                            "eqv": 127.0, 
+                            "eqv": 505.0, 
                             "qty": 1.0, 
                             "value": 0.0, 
-                            "label": "jar"
-                        }, 
-                        {
-                            "eqv": 125.0, 
-                            "qty": 1.0, 
-                            "value": 0.0, 
-                            "label": "bottle Heinz Strained (4 fl oz)"
-                        }, 
-                        {
-                            "eqv": 125.0, 
-                            "qty": 1.0, 
-                            "value": 0.0, 
-                            "label": "bottle Gerber Second Foods (4 fl oz)"
-                        }, 
-                        {
-                            "eqv": 125.0, 
-                            "qty": 1.0, 
-                            "value": 0.0, 
-                            "label": "bottle Beech-Nut Stage 3 (4 fl oz)"
+                            "label": "roast (Yield from 1 raw roast, with refuse, weighing 504g)"
                         }
                     ], 
                     "value": 0.0, 
@@ -2699,34 +2051,16 @@
                     "nutrient_id": 631, 
                     "measures": [
                         {
-                            "eqv": 31.2, 
-                            "qty": 1.0, 
+                            "eqv": 85.0, 
+                            "qty": 3.0, 
                             "value": 0.0, 
-                            "label": "fl oz"
+                            "label": "oz"
                         }, 
                         {
-                            "eqv": 127.0, 
+                            "eqv": 505.0, 
                             "qty": 1.0, 
                             "value": 0.0, 
-                            "label": "jar"
-                        }, 
-                        {
-                            "eqv": 125.0, 
-                            "qty": 1.0, 
-                            "value": 0.0, 
-                            "label": "bottle Heinz Strained (4 fl oz)"
-                        }, 
-                        {
-                            "eqv": 125.0, 
-                            "qty": 1.0, 
-                            "value": 0.0, 
-                            "label": "bottle Gerber Second Foods (4 fl oz)"
-                        }, 
-                        {
-                            "eqv": 125.0, 
-                            "qty": 1.0, 
-                            "value": 0.0, 
-                            "label": "bottle Beech-Nut Stage 3 (4 fl oz)"
+                            "label": "roast (Yield from 1 raw roast, with refuse, weighing 504g)"
                         }
                     ], 
                     "value": 0.0, 
@@ -2741,37 +2075,67 @@
                     "nutrient_id": 621, 
                     "measures": [
                         {
-                            "eqv": 31.2, 
-                            "qty": 1.0, 
+                            "eqv": 85.0, 
+                            "qty": 3.0, 
                             "value": 0.0, 
-                            "label": "fl oz"
+                            "label": "oz"
                         }, 
                         {
-                            "eqv": 127.0, 
+                            "eqv": 505.0, 
                             "qty": 1.0, 
                             "value": 0.0, 
-                            "label": "jar"
-                        }, 
-                        {
-                            "eqv": 125.0, 
-                            "qty": 1.0, 
-                            "value": 0.0, 
-                            "label": "bottle Heinz Strained (4 fl oz)"
-                        }, 
-                        {
-                            "eqv": 125.0, 
-                            "qty": 1.0, 
-                            "value": 0.0, 
-                            "label": "bottle Gerber Second Foods (4 fl oz)"
-                        }, 
-                        {
-                            "eqv": 125.0, 
-                            "qty": 1.0, 
-                            "value": 0.0, 
-                            "label": "bottle Beech-Nut Stage 3 (4 fl oz)"
+                            "label": "roast (Yield from 1 raw roast, with refuse, weighing 504g)"
                         }
                     ], 
                     "value": 0.0, 
+                    "dp": "", 
+                    "sourcecode": "", 
+                    "se": "", 
+                    "unit": "g"
+                }, 
+                {
+                    "group": "Lipids", 
+                    "name": "Fatty acids, total trans", 
+                    "nutrient_id": 605, 
+                    "measures": [
+                        {
+                            "eqv": 85.0, 
+                            "qty": 3.0, 
+                            "value": 0.031, 
+                            "label": "oz"
+                        }, 
+                        {
+                            "eqv": 505.0, 
+                            "qty": 1.0, 
+                            "value": 0.182, 
+                            "label": "roast (Yield from 1 raw roast, with refuse, weighing 504g)"
+                        }
+                    ], 
+                    "value": 0.036, 
+                    "dp": "", 
+                    "sourcecode": "", 
+                    "se": "", 
+                    "unit": "g"
+                }, 
+                {
+                    "group": "Lipids", 
+                    "name": "Fatty acids, total trans-monoenoic", 
+                    "nutrient_id": 693, 
+                    "measures": [
+                        {
+                            "eqv": 85.0, 
+                            "qty": 3.0, 
+                            "value": 0.02, 
+                            "label": "oz"
+                        }, 
+                        {
+                            "eqv": 505.0, 
+                            "qty": 1.0, 
+                            "value": 0.116, 
+                            "label": "roast (Yield from 1 raw roast, with refuse, weighing 504g)"
+                        }
+                    ], 
+                    "value": 0.023, 
                     "dp": "", 
                     "sourcecode": "", 
                     "se": "", 
@@ -2783,41 +2147,479 @@
                     "nutrient_id": 601, 
                     "measures": [
                         {
-                            "eqv": 31.2, 
-                            "qty": 1.0, 
-                            "value": 0.0, 
-                            "label": "fl oz"
+                            "eqv": 85.0, 
+                            "qty": 3.0, 
+                            "value": 55.0, 
+                            "label": "oz"
                         }, 
                         {
-                            "eqv": 127.0, 
+                            "eqv": 505.0, 
                             "qty": 1.0, 
-                            "value": 0.0, 
-                            "label": "jar"
-                        }, 
-                        {
-                            "eqv": 125.0, 
-                            "qty": 1.0, 
-                            "value": 0.0, 
-                            "label": "bottle Heinz Strained (4 fl oz)"
-                        }, 
-                        {
-                            "eqv": 125.0, 
-                            "qty": 1.0, 
-                            "value": 0.0, 
-                            "label": "bottle Gerber Second Foods (4 fl oz)"
-                        }, 
-                        {
-                            "eqv": 125.0, 
-                            "qty": 1.0, 
-                            "value": 0.0, 
-                            "label": "bottle Beech-Nut Stage 3 (4 fl oz)"
+                            "value": 328.0, 
+                            "label": "roast (Yield from 1 raw roast, with refuse, weighing 504g)"
                         }
                     ], 
-                    "value": 0.0, 
+                    "value": 65.0, 
                     "dp": "", 
                     "sourcecode": "", 
                     "se": "", 
                     "unit": "mg"
+                }, 
+                {
+                    "group": "Amino Acids", 
+                    "name": "Tryptophan", 
+                    "nutrient_id": 501, 
+                    "measures": [
+                        {
+                            "eqv": 85.0, 
+                            "qty": 3.0, 
+                            "value": 0.184, 
+                            "label": "oz"
+                        }, 
+                        {
+                            "eqv": 505.0, 
+                            "qty": 1.0, 
+                            "value": 1.096, 
+                            "label": "roast (Yield from 1 raw roast, with refuse, weighing 504g)"
+                        }
+                    ], 
+                    "value": 0.217, 
+                    "dp": "", 
+                    "sourcecode": "", 
+                    "se": "", 
+                    "unit": "g"
+                }, 
+                {
+                    "group": "Amino Acids", 
+                    "name": "Threonine", 
+                    "nutrient_id": 502, 
+                    "measures": [
+                        {
+                            "eqv": 85.0, 
+                            "qty": 3.0, 
+                            "value": 0.788, 
+                            "label": "oz"
+                        }, 
+                        {
+                            "eqv": 505.0, 
+                            "qty": 1.0, 
+                            "value": 4.681, 
+                            "label": "roast (Yield from 1 raw roast, with refuse, weighing 504g)"
+                        }
+                    ], 
+                    "value": 0.927, 
+                    "dp": "", 
+                    "sourcecode": "", 
+                    "se": "", 
+                    "unit": "g"
+                }, 
+                {
+                    "group": "Amino Acids", 
+                    "name": "Isoleucine", 
+                    "nutrient_id": 503, 
+                    "measures": [
+                        {
+                            "eqv": 85.0, 
+                            "qty": 3.0, 
+                            "value": 0.864, 
+                            "label": "oz"
+                        }, 
+                        {
+                            "eqv": 505.0, 
+                            "qty": 1.0, 
+                            "value": 5.131, 
+                            "label": "roast (Yield from 1 raw roast, with refuse, weighing 504g)"
+                        }
+                    ], 
+                    "value": 1.016, 
+                    "dp": "", 
+                    "sourcecode": "", 
+                    "se": "", 
+                    "unit": "g"
+                }, 
+                {
+                    "group": "Amino Acids", 
+                    "name": "Leucine", 
+                    "nutrient_id": 504, 
+                    "measures": [
+                        {
+                            "eqv": 85.0, 
+                            "qty": 3.0, 
+                            "value": 1.495, 
+                            "label": "oz"
+                        }, 
+                        {
+                            "eqv": 505.0, 
+                            "qty": 1.0, 
+                            "value": 8.883, 
+                            "label": "roast (Yield from 1 raw roast, with refuse, weighing 504g)"
+                        }
+                    ], 
+                    "value": 1.759, 
+                    "dp": "", 
+                    "sourcecode": "", 
+                    "se": "", 
+                    "unit": "g"
+                }, 
+                {
+                    "group": "Amino Acids", 
+                    "name": "Lysine", 
+                    "nutrient_id": 505, 
+                    "measures": [
+                        {
+                            "eqv": 85.0, 
+                            "qty": 3.0, 
+                            "value": 1.628, 
+                            "label": "oz"
+                        }, 
+                        {
+                            "eqv": 505.0, 
+                            "qty": 1.0, 
+                            "value": 9.671, 
+                            "label": "roast (Yield from 1 raw roast, with refuse, weighing 504g)"
+                        }
+                    ], 
+                    "value": 1.915, 
+                    "dp": "", 
+                    "sourcecode": "", 
+                    "se": "", 
+                    "unit": "g"
+                }, 
+                {
+                    "group": "Amino Acids", 
+                    "name": "Methionine", 
+                    "nutrient_id": 506, 
+                    "measures": [
+                        {
+                            "eqv": 85.0, 
+                            "qty": 3.0, 
+                            "value": 0.484, 
+                            "label": "oz"
+                        }, 
+                        {
+                            "eqv": 505.0, 
+                            "qty": 1.0, 
+                            "value": 2.873, 
+                            "label": "roast (Yield from 1 raw roast, with refuse, weighing 504g)"
+                        }
+                    ], 
+                    "value": 0.569, 
+                    "dp": "", 
+                    "sourcecode": "", 
+                    "se": "", 
+                    "unit": "g"
+                }, 
+                {
+                    "group": "Amino Acids", 
+                    "name": "Cystine", 
+                    "nutrient_id": 507, 
+                    "measures": [
+                        {
+                            "eqv": 85.0, 
+                            "qty": 3.0, 
+                            "value": 0.202, 
+                            "label": "oz"
+                        }, 
+                        {
+                            "eqv": 505.0, 
+                            "qty": 1.0, 
+                            "value": 1.202, 
+                            "label": "roast (Yield from 1 raw roast, with refuse, weighing 504g)"
+                        }
+                    ], 
+                    "value": 0.238, 
+                    "dp": "", 
+                    "sourcecode": "", 
+                    "se": "", 
+                    "unit": "g"
+                }, 
+                {
+                    "group": "Amino Acids", 
+                    "name": "Phenylalanine", 
+                    "nutrient_id": 508, 
+                    "measures": [
+                        {
+                            "eqv": 85.0, 
+                            "qty": 3.0, 
+                            "value": 0.738, 
+                            "label": "oz"
+                        }, 
+                        {
+                            "eqv": 505.0, 
+                            "qty": 1.0, 
+                            "value": 4.383, 
+                            "label": "roast (Yield from 1 raw roast, with refuse, weighing 504g)"
+                        }
+                    ], 
+                    "value": 0.868, 
+                    "dp": "", 
+                    "sourcecode": "", 
+                    "se": "", 
+                    "unit": "g"
+                }, 
+                {
+                    "group": "Amino Acids", 
+                    "name": "Tyrosine", 
+                    "nutrient_id": 509, 
+                    "measures": [
+                        {
+                            "eqv": 85.0, 
+                            "qty": 3.0, 
+                            "value": 0.668, 
+                            "label": "oz"
+                        }, 
+                        {
+                            "eqv": 505.0, 
+                            "qty": 1.0, 
+                            "value": 3.969, 
+                            "label": "roast (Yield from 1 raw roast, with refuse, weighing 504g)"
+                        }
+                    ], 
+                    "value": 0.786, 
+                    "dp": "", 
+                    "sourcecode": "", 
+                    "se": "", 
+                    "unit": "g"
+                }, 
+                {
+                    "group": "Amino Acids", 
+                    "name": "Valine", 
+                    "nutrient_id": 510, 
+                    "measures": [
+                        {
+                            "eqv": 85.0, 
+                            "qty": 3.0, 
+                            "value": 0.917, 
+                            "label": "oz"
+                        }, 
+                        {
+                            "eqv": 505.0, 
+                            "qty": 1.0, 
+                            "value": 5.449, 
+                            "label": "roast (Yield from 1 raw roast, with refuse, weighing 504g)"
+                        }
+                    ], 
+                    "value": 1.079, 
+                    "dp": "", 
+                    "sourcecode": "", 
+                    "se": "", 
+                    "unit": "g"
+                }, 
+                {
+                    "group": "Amino Acids", 
+                    "name": "Arginine", 
+                    "nutrient_id": 511, 
+                    "measures": [
+                        {
+                            "eqv": 85.0, 
+                            "qty": 3.0, 
+                            "value": 1.168, 
+                            "label": "oz"
+                        }, 
+                        {
+                            "eqv": 505.0, 
+                            "qty": 1.0, 
+                            "value": 6.939, 
+                            "label": "roast (Yield from 1 raw roast, with refuse, weighing 504g)"
+                        }
+                    ], 
+                    "value": 1.374, 
+                    "dp": "", 
+                    "sourcecode": "", 
+                    "se": "", 
+                    "unit": "g"
+                }, 
+                {
+                    "group": "Amino Acids", 
+                    "name": "Histidine", 
+                    "nutrient_id": 512, 
+                    "measures": [
+                        {
+                            "eqv": 85.0, 
+                            "qty": 3.0, 
+                            "value": 0.758, 
+                            "label": "oz"
+                        }, 
+                        {
+                            "eqv": 505.0, 
+                            "qty": 1.0, 
+                            "value": 4.505, 
+                            "label": "roast (Yield from 1 raw roast, with refuse, weighing 504g)"
+                        }
+                    ], 
+                    "value": 0.892, 
+                    "dp": "", 
+                    "sourcecode": "", 
+                    "se": "", 
+                    "unit": "g"
+                }, 
+                {
+                    "group": "Amino Acids", 
+                    "name": "Alanine", 
+                    "nutrient_id": 513, 
+                    "measures": [
+                        {
+                            "eqv": 85.0, 
+                            "qty": 3.0, 
+                            "value": 1.03, 
+                            "label": "oz"
+                        }, 
+                        {
+                            "eqv": 505.0, 
+                            "qty": 1.0, 
+                            "value": 6.121, 
+                            "label": "roast (Yield from 1 raw roast, with refuse, weighing 504g)"
+                        }
+                    ], 
+                    "value": 1.212, 
+                    "dp": "", 
+                    "sourcecode": "", 
+                    "se": "", 
+                    "unit": "g"
+                }, 
+                {
+                    "group": "Amino Acids", 
+                    "name": "Aspartic acid", 
+                    "nutrient_id": 514, 
+                    "measures": [
+                        {
+                            "eqv": 85.0, 
+                            "qty": 3.0, 
+                            "value": 1.717, 
+                            "label": "oz"
+                        }, 
+                        {
+                            "eqv": 505.0, 
+                            "qty": 1.0, 
+                            "value": 10.201, 
+                            "label": "roast (Yield from 1 raw roast, with refuse, weighing 504g)"
+                        }
+                    ], 
+                    "value": 2.02, 
+                    "dp": "", 
+                    "sourcecode": "", 
+                    "se": "", 
+                    "unit": "g"
+                }, 
+                {
+                    "group": "Amino Acids", 
+                    "name": "Glutamic acid", 
+                    "nutrient_id": 515, 
+                    "measures": [
+                        {
+                            "eqv": 85.0, 
+                            "qty": 3.0, 
+                            "value": 2.802, 
+                            "label": "oz"
+                        }, 
+                        {
+                            "eqv": 505.0, 
+                            "qty": 1.0, 
+                            "value": 16.645, 
+                            "label": "roast (Yield from 1 raw roast, with refuse, weighing 504g)"
+                        }
+                    ], 
+                    "value": 3.296, 
+                    "dp": "", 
+                    "sourcecode": "", 
+                    "se": "", 
+                    "unit": "g"
+                }, 
+                {
+                    "group": "Amino Acids", 
+                    "name": "Glycine", 
+                    "nutrient_id": 516, 
+                    "measures": [
+                        {
+                            "eqv": 85.0, 
+                            "qty": 3.0, 
+                            "value": 0.79, 
+                            "label": "oz"
+                        }, 
+                        {
+                            "eqv": 505.0, 
+                            "qty": 1.0, 
+                            "value": 4.696, 
+                            "label": "roast (Yield from 1 raw roast, with refuse, weighing 504g)"
+                        }
+                    ], 
+                    "value": 0.93, 
+                    "dp": "", 
+                    "sourcecode": "", 
+                    "se": "", 
+                    "unit": "g"
+                }, 
+                {
+                    "group": "Amino Acids", 
+                    "name": "Proline", 
+                    "nutrient_id": 517, 
+                    "measures": [
+                        {
+                            "eqv": 85.0, 
+                            "qty": 3.0, 
+                            "value": 0.71, 
+                            "label": "oz"
+                        }, 
+                        {
+                            "eqv": 505.0, 
+                            "qty": 1.0, 
+                            "value": 4.217, 
+                            "label": "roast (Yield from 1 raw roast, with refuse, weighing 504g)"
+                        }
+                    ], 
+                    "value": 0.835, 
+                    "dp": "", 
+                    "sourcecode": "", 
+                    "se": "", 
+                    "unit": "g"
+                }, 
+                {
+                    "group": "Amino Acids", 
+                    "name": "Serine", 
+                    "nutrient_id": 518, 
+                    "measures": [
+                        {
+                            "eqv": 85.0, 
+                            "qty": 3.0, 
+                            "value": 0.759, 
+                            "label": "oz"
+                        }, 
+                        {
+                            "eqv": 505.0, 
+                            "qty": 1.0, 
+                            "value": 4.51, 
+                            "label": "roast (Yield from 1 raw roast, with refuse, weighing 504g)"
+                        }
+                    ], 
+                    "value": 0.893, 
+                    "dp": "", 
+                    "sourcecode": "", 
+                    "se": "", 
+                    "unit": "g"
+                }, 
+                {
+                    "group": "Amino Acids", 
+                    "name": "Hydroxyproline", 
+                    "nutrient_id": 521, 
+                    "measures": [
+                        {
+                            "eqv": 85.0, 
+                            "qty": 3.0, 
+                            "value": 0.045, 
+                            "label": "oz"
+                        }, 
+                        {
+                            "eqv": 505.0, 
+                            "qty": 1.0, 
+                            "value": 0.268, 
+                            "label": "roast (Yield from 1 raw roast, with refuse, weighing 504g)"
+                        }
+                    ], 
+                    "value": 0.053, 
+                    "dp": "", 
+                    "sourcecode": "", 
+                    "se": "", 
+                    "unit": "g"
                 }, 
                 {
                     "group": "Other", 
@@ -2825,34 +2627,16 @@
                     "nutrient_id": 221, 
                     "measures": [
                         {
-                            "eqv": 31.2, 
-                            "qty": 1.0, 
+                            "eqv": 85.0, 
+                            "qty": 3.0, 
                             "value": 0.0, 
-                            "label": "fl oz"
+                            "label": "oz"
                         }, 
                         {
-                            "eqv": 127.0, 
+                            "eqv": 505.0, 
                             "qty": 1.0, 
                             "value": 0.0, 
-                            "label": "jar"
-                        }, 
-                        {
-                            "eqv": 125.0, 
-                            "qty": 1.0, 
-                            "value": 0.0, 
-                            "label": "bottle Heinz Strained (4 fl oz)"
-                        }, 
-                        {
-                            "eqv": 125.0, 
-                            "qty": 1.0, 
-                            "value": 0.0, 
-                            "label": "bottle Gerber Second Foods (4 fl oz)"
-                        }, 
-                        {
-                            "eqv": 125.0, 
-                            "qty": 1.0, 
-                            "value": 0.0, 
-                            "label": "bottle Beech-Nut Stage 3 (4 fl oz)"
+                            "label": "roast (Yield from 1 raw roast, with refuse, weighing 504g)"
                         }
                     ], 
                     "value": 0.0, 
@@ -2867,34 +2651,16 @@
                     "nutrient_id": 262, 
                     "measures": [
                         {
-                            "eqv": 31.2, 
-                            "qty": 1.0, 
+                            "eqv": 85.0, 
+                            "qty": 3.0, 
                             "value": 0.0, 
-                            "label": "fl oz"
+                            "label": "oz"
                         }, 
                         {
-                            "eqv": 127.0, 
+                            "eqv": 505.0, 
                             "qty": 1.0, 
                             "value": 0.0, 
-                            "label": "jar"
-                        }, 
-                        {
-                            "eqv": 125.0, 
-                            "qty": 1.0, 
-                            "value": 0.0, 
-                            "label": "bottle Heinz Strained (4 fl oz)"
-                        }, 
-                        {
-                            "eqv": 125.0, 
-                            "qty": 1.0, 
-                            "value": 0.0, 
-                            "label": "bottle Gerber Second Foods (4 fl oz)"
-                        }, 
-                        {
-                            "eqv": 125.0, 
-                            "qty": 1.0, 
-                            "value": 0.0, 
-                            "label": "bottle Beech-Nut Stage 3 (4 fl oz)"
+                            "label": "roast (Yield from 1 raw roast, with refuse, weighing 504g)"
                         }
                     ], 
                     "value": 0.0, 
@@ -2909,34 +2675,16 @@
                     "nutrient_id": 263, 
                     "measures": [
                         {
-                            "eqv": 31.2, 
-                            "qty": 1.0, 
+                            "eqv": 85.0, 
+                            "qty": 3.0, 
                             "value": 0.0, 
-                            "label": "fl oz"
+                            "label": "oz"
                         }, 
                         {
-                            "eqv": 127.0, 
+                            "eqv": 505.0, 
                             "qty": 1.0, 
                             "value": 0.0, 
-                            "label": "jar"
-                        }, 
-                        {
-                            "eqv": 125.0, 
-                            "qty": 1.0, 
-                            "value": 0.0, 
-                            "label": "bottle Heinz Strained (4 fl oz)"
-                        }, 
-                        {
-                            "eqv": 125.0, 
-                            "qty": 1.0, 
-                            "value": 0.0, 
-                            "label": "bottle Gerber Second Foods (4 fl oz)"
-                        }, 
-                        {
-                            "eqv": 125.0, 
-                            "qty": 1.0, 
-                            "value": 0.0, 
-                            "label": "bottle Beech-Nut Stage 3 (4 fl oz)"
+                            "label": "roast (Yield from 1 raw roast, with refuse, weighing 504g)"
                         }
                     ], 
                     "value": 0.0, 
@@ -2946,17 +2694,17 @@
                     "unit": "mg"
                 }
             ], 
-            "cf": 3.92, 
+            "cf": 3.87, 
             "nf": 6.25, 
-            "rd": "", 
-            "r": "0%", 
-            "pf": 3.36, 
+            "rd": "Connective tissue 5%", 
+            "r": "5%", 
+            "pf": 4.27, 
             "sn": "", 
-            "ff": 8.37, 
-            "fg": "Baby Foods", 
-            "sd": "BABYFOOD,JUICE,ORANGE", 
+            "ff": 9.02, 
+            "fg": "Pork Products", 
+            "sd": "PORK,FRSH,LOIN,TENDERLOIN,LN&FAT,RAW", 
             "ds": "Standard Reference", 
-            "name": "Babyfood, juice, orange"
+            "name": "Pork, fresh, loin, tenderloin, separable lean and fat, raw"
         }, 
         "sr": "28", 
         "sources": [], 

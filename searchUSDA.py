@@ -66,6 +66,10 @@ if __name__ == '__main__':
       print(item['ndbno'] + " : " + item['name'])
     choice=raw_input('Enter NDBNO to report: ')
     (code, dataJSON) = reportUSDA(choice, 'f')
+    if(code == 200):
+      #print(len(dataJSON['report']['food']['nutrients']))
+      for nutrient in dataJSON['report']['food']['nutrients']:
+        print(nutrient['name']) 
   else:
     print("Error in request: " + str(code))
     exit(-1)
