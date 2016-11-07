@@ -10,24 +10,18 @@
 
 """
 
-Class BloodPressure:
+class BloodPressure:
 
-  def __init__(self):
-    self.__systolic = 0
-    self.__diastolic = 0
-    self.__heartRate = 0
-
-  def __init__(self, systolic, diastolic):
+  def __init__(self, systolic, diastolic, heartRate=None):
     self.__systolic = systolic
     self.__diastolic = diastolic
-    self.__heartRate = 0
+    if(heartRate==None):
+      self.__heartRate = 0
+    else:
+      self.__heartRate = heartRate 
 
-  def __init__(self, systolic, diastolic, heartRate):
-    self.__systolic = systolic
-    self.__diastolic = diastolic
-    self.__heartRate = 0 
-
-  def toEntity():
+  def toEntity(self):
+    d=dict
     d["systolic"] = self.__systolic
     d["diastolic"] = self.__diastolic
     d["heartRate"] = self.__heartRate
