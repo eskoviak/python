@@ -5,7 +5,7 @@
   aspects of the reading (time of observation or method); that is left to the client to
   record.
 
-  There is no provision for inputing the units or converting them--they are assume to be
+  There is no provision for inputing the units or converting them--they are assumed to be
   mmHg for pressure and bpm (beats per minute) for the rate.
 
 """

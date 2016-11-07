@@ -4,7 +4,9 @@
 
 import datetime
 import json
-
+import sys
+sys.path.append('.')
+import healthFact
 
 def makeBPEntry(date, systolic, diastolic, hr):
     entry = dict()
@@ -21,5 +23,6 @@ def makeBPEntry(date, systolic, diastolic, hr):
     return entry
 
 if __name__ == '__main__':
-    entry = makeBPEntry(datetime.datetime.utcnow(), 123, 76, 60)
-    print(entry)
+  bp = bloodPressure.BloodPressure()
+
+  print(bp)

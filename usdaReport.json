@@ -2,8 +2,8 @@
     "report": {
         "food": {
             "manu": "", 
-            "cn": "URMIS #1623", 
-            "ndbno": "13055", 
+            "cn": "URMIS #3358, Pork tenderloin", 
+            "ndbno": "10218", 
             "nutrients": [
                 {
                     "group": "Proximates", 
@@ -13,22 +13,20 @@
                         {
                             "eqv": 85.0, 
                             "qty": 3.0, 
-                            "value": 45.38, 
+                            "value": 63.72, 
                             "label": "oz"
                         }, 
                         {
-                            "eqv": 350.0, 
+                            "eqv": 505.0, 
                             "qty": 1.0, 
-                            "value": 186.86, 
-                            "label": "steak"
+                            "value": 378.6, 
+                            "label": "roast (Yield from 1 raw roast, with refuse, weighing 504g)"
                         }
                     ], 
-                    "value": 53.39, 
-                    "dp": 10, 
-                    "sourcecode": [
-                        1
-                    ], 
-                    "se": "0.821", 
+                    "value": 74.97, 
+                    "dp": "", 
+                    "sourcecode": "", 
+                    "se": "", 
                     "unit": "g"
                 }, 
                 {
@@ -39,17 +37,17 @@
                         {
                             "eqv": 85.0, 
                             "qty": 3.0, 
-                            "value": 238.0, 
+                            "value": 102.0, 
                             "label": "oz"
                         }, 
                         {
-                            "eqv": 350.0, 
+                            "eqv": 505.0, 
                             "qty": 1.0, 
-                            "value": 980.0, 
-                            "label": "steak"
+                            "value": 606.0, 
+                            "label": "roast (Yield from 1 raw roast, with refuse, weighing 504g)"
                         }
                     ], 
-                    "value": 280.0, 
+                    "value": 120.0, 
                     "dp": "", 
                     "sourcecode": "", 
                     "se": "", 
@@ -63,17 +61,17 @@
                         {
                             "eqv": 85.0, 
                             "qty": 3.0, 
-                            "value": 997.0, 
+                            "value": 427.0, 
                             "label": "oz"
                         }, 
                         {
-                            "eqv": 350.0, 
+                            "eqv": 505.0, 
                             "qty": 1.0, 
-                            "value": 4106.0, 
-                            "label": "steak"
+                            "value": 2535.0, 
+                            "label": "roast (Yield from 1 raw roast, with refuse, weighing 504g)"
                         }
                     ], 
-                    "value": 1173.0, 
+                    "value": 502.0, 
                     "dp": "", 
                     "sourcecode": "", 
                     "se": "", 
@@ -87,22 +85,20 @@
                         {
                             "eqv": 85.0, 
                             "qty": 3.0, 
-                            "value": 24.62, 
+                            "value": 17.55, 
                             "label": "oz"
                         }, 
                         {
-                            "eqv": 350.0, 
+                            "eqv": 505.0, 
                             "qty": 1.0, 
-                            "value": 101.4, 
-                            "label": "steak"
+                            "value": 104.28, 
+                            "label": "roast (Yield from 1 raw roast, with refuse, weighing 504g)"
                         }
                     ], 
-                    "value": 28.97, 
-                    "dp": 10, 
-                    "sourcecode": [
-                        1
-                    ], 
-                    "se": "0.395", 
+                    "value": 20.65, 
+                    "dp": "", 
+                    "sourcecode": "", 
+                    "se": "", 
                     "unit": "g"
                 }, 
                 {
@@ -113,22 +109,20 @@
                         {
                             "eqv": 85.0, 
                             "qty": 3.0, 
-                            "value": 14.76, 
+                            "value": 3.0, 
                             "label": "oz"
                         }, 
                         {
-                            "eqv": 350.0, 
+                            "eqv": 505.0, 
                             "qty": 1.0, 
-                            "value": 60.8, 
-                            "label": "steak"
+                            "value": 17.83, 
+                            "label": "roast (Yield from 1 raw roast, with refuse, weighing 504g)"
                         }
                     ], 
-                    "value": 17.37, 
-                    "dp": 10, 
-                    "sourcecode": [
-                        1
-                    ], 
-                    "se": "0.877", 
+                    "value": 3.53, 
+                    "dp": "", 
+                    "sourcecode": "", 
+                    "se": "", 
                     "unit": "g"
                 }, 
                 {
@@ -139,22 +133,20 @@
                         {
                             "eqv": 85.0, 
                             "qty": 3.0, 
-                            "value": 0.79, 
+                            "value": 0.86, 
                             "label": "oz"
                         }, 
                         {
-                            "eqv": 350.0, 
+                            "eqv": 505.0, 
                             "qty": 1.0, 
-                            "value": 3.26, 
-                            "label": "steak"
+                            "value": 5.1, 
+                            "label": "roast (Yield from 1 raw roast, with refuse, weighing 504g)"
                         }
                     ], 
-                    "value": 0.93, 
-                    "dp": 10, 
-                    "sourcecode": [
-                        1
-                    ], 
-                    "se": "0.070", 
+                    "value": 1.01, 
+                    "dp": "", 
+                    "sourcecode": "", 
+                    "se": "", 
                     "unit": "g"
                 }, 
                 {
@@ -169,10 +161,10 @@
                             "label": "oz"
                         }, 
                         {
-                            "eqv": 350.0, 
+                            "eqv": 505.0, 
                             "qty": 1.0, 
                             "value": 0.0, 
-                            "label": "steak"
+                            "label": "roast (Yield from 1 raw roast, with refuse, weighing 504g)"
                         }
                     ], 
                     "value": 0.0, 
@@ -193,10 +185,10 @@
                             "label": "oz"
                         }, 
                         {
-                            "eqv": 350.0, 
+                            "eqv": 505.0, 
                             "qty": 1.0, 
                             "value": 0.0, 
-                            "label": "steak"
+                            "label": "roast (Yield from 1 raw roast, with refuse, weighing 504g)"
                         }
                     ], 
                     "value": 0.0, 
@@ -217,10 +209,10 @@
                             "label": "oz"
                         }, 
                         {
-                            "eqv": 350.0, 
+                            "eqv": 505.0, 
                             "qty": 1.0, 
                             "value": 0.0, 
-                            "label": "steak"
+                            "label": "roast (Yield from 1 raw roast, with refuse, weighing 504g)"
                         }
                     ], 
                     "value": 0.0, 
@@ -237,21 +229,19 @@
                         {
                             "eqv": 85.0, 
                             "qty": 3.0, 
-                            "value": 14.0, 
+                            "value": 5.0, 
                             "label": "oz"
                         }, 
                         {
-                            "eqv": 350.0, 
+                            "eqv": 505.0, 
                             "qty": 1.0, 
-                            "value": 60.0, 
-                            "label": "steak"
+                            "value": 30.0, 
+                            "label": "roast (Yield from 1 raw roast, with refuse, weighing 504g)"
                         }
                     ], 
-                    "value": 17.0, 
+                    "value": 6.0, 
                     "dp": "", 
-                    "sourcecode": [
-                        1
-                    ], 
+                    "sourcecode": "", 
                     "se": "", 
                     "unit": "mg"
                 }, 
@@ -263,21 +253,19 @@
                         {
                             "eqv": 85.0, 
                             "qty": 3.0, 
-                            "value": 2.04, 
+                            "value": 0.82, 
                             "label": "oz"
                         }, 
                         {
-                            "eqv": 350.0, 
+                            "eqv": 505.0, 
                             "qty": 1.0, 
-                            "value": 8.4, 
-                            "label": "steak"
+                            "value": 4.9, 
+                            "label": "roast (Yield from 1 raw roast, with refuse, weighing 504g)"
                         }
                     ], 
-                    "value": 2.4, 
+                    "value": 0.97, 
                     "dp": "", 
-                    "sourcecode": [
-                        1
-                    ], 
+                    "sourcecode": "", 
                     "se": "", 
                     "unit": "mg"
                 }, 
@@ -289,21 +277,19 @@
                         {
                             "eqv": 85.0, 
                             "qty": 3.0, 
-                            "value": 16.0, 
+                            "value": 23.0, 
                             "label": "oz"
                         }, 
                         {
-                            "eqv": 350.0, 
+                            "eqv": 505.0, 
                             "qty": 1.0, 
-                            "value": 66.0, 
-                            "label": "steak"
+                            "value": 136.0, 
+                            "label": "roast (Yield from 1 raw roast, with refuse, weighing 504g)"
                         }
                     ], 
-                    "value": 19.0, 
+                    "value": 27.0, 
                     "dp": "", 
-                    "sourcecode": [
-                        1
-                    ], 
+                    "sourcecode": "", 
                     "se": "", 
                     "unit": "mg"
                 }, 
@@ -315,21 +301,19 @@
                         {
                             "eqv": 85.0, 
                             "qty": 3.0, 
-                            "value": 153.0, 
+                            "value": 207.0, 
                             "label": "oz"
                         }, 
                         {
-                            "eqv": 350.0, 
+                            "eqv": 505.0, 
                             "qty": 1.0, 
-                            "value": 630.0, 
-                            "label": "steak"
+                            "value": 1227.0, 
+                            "label": "roast (Yield from 1 raw roast, with refuse, weighing 504g)"
                         }
                     ], 
-                    "value": 180.0, 
+                    "value": 243.0, 
                     "dp": "", 
-                    "sourcecode": [
-                        1
-                    ], 
+                    "sourcecode": "", 
                     "se": "", 
                     "unit": "mg"
                 }, 
@@ -341,21 +325,19 @@
                         {
                             "eqv": 85.0, 
                             "qty": 3.0, 
-                            "value": 201.0, 
+                            "value": 334.0, 
                             "label": "oz"
                         }, 
                         {
-                            "eqv": 350.0, 
+                            "eqv": 505.0, 
                             "qty": 1.0, 
-                            "value": 830.0, 
-                            "label": "steak"
+                            "value": 1985.0, 
+                            "label": "roast (Yield from 1 raw roast, with refuse, weighing 504g)"
                         }
                     ], 
-                    "value": 237.0, 
+                    "value": 393.0, 
                     "dp": "", 
-                    "sourcecode": [
-                        1
-                    ], 
+                    "sourcecode": "", 
                     "se": "", 
                     "unit": "mg"
                 }, 
@@ -367,21 +349,19 @@
                         {
                             "eqv": 85.0, 
                             "qty": 3.0, 
-                            "value": 42.0, 
+                            "value": 44.0, 
                             "label": "oz"
                         }, 
                         {
-                            "eqv": 350.0, 
+                            "eqv": 505.0, 
                             "qty": 1.0, 
-                            "value": 172.0, 
-                            "label": "steak"
+                            "value": 263.0, 
+                            "label": "roast (Yield from 1 raw roast, with refuse, weighing 504g)"
                         }
                     ], 
-                    "value": 49.0, 
+                    "value": 52.0, 
                     "dp": "", 
-                    "sourcecode": [
-                        1
-                    ], 
+                    "sourcecode": "", 
                     "se": "", 
                     "unit": "mg"
                 }, 
@@ -393,21 +373,19 @@
                         {
                             "eqv": 85.0, 
                             "qty": 3.0, 
-                            "value": 5.88, 
+                            "value": 1.59, 
                             "label": "oz"
                         }, 
                         {
-                            "eqv": 350.0, 
+                            "eqv": 505.0, 
                             "qty": 1.0, 
-                            "value": 24.22, 
-                            "label": "steak"
+                            "value": 9.44, 
+                            "label": "roast (Yield from 1 raw roast, with refuse, weighing 504g)"
                         }
                     ], 
-                    "value": 6.92, 
+                    "value": 1.87, 
                     "dp": "", 
-                    "sourcecode": [
-                        1
-                    ], 
+                    "sourcecode": "", 
                     "se": "", 
                     "unit": "mg"
                 }, 
@@ -423,17 +401,15 @@
                             "label": "oz"
                         }, 
                         {
-                            "eqv": 350.0, 
+                            "eqv": 505.0, 
                             "qty": 1.0, 
-                            "value": 0.315, 
-                            "label": "steak"
+                            "value": 0.449, 
+                            "label": "roast (Yield from 1 raw roast, with refuse, weighing 504g)"
                         }
                     ], 
-                    "value": 0.09, 
+                    "value": 0.089, 
                     "dp": "", 
-                    "sourcecode": [
-                        1
-                    ], 
+                    "sourcecode": "", 
                     "se": "", 
                     "unit": "mg"
                 }, 
@@ -445,21 +421,19 @@
                         {
                             "eqv": 85.0, 
                             "qty": 3.0, 
-                            "value": 0.008, 
+                            "value": 0.012, 
                             "label": "oz"
                         }, 
                         {
-                            "eqv": 350.0, 
+                            "eqv": 505.0, 
                             "qty": 1.0, 
-                            "value": 0.035, 
-                            "label": "steak"
+                            "value": 0.071, 
+                            "label": "roast (Yield from 1 raw roast, with refuse, weighing 504g)"
                         }
                     ], 
-                    "value": 0.01, 
+                    "value": 0.014, 
                     "dp": "", 
-                    "sourcecode": [
-                        1
-                    ], 
+                    "sourcecode": "", 
                     "se": "", 
                     "unit": "mg"
                 }, 
@@ -471,51 +445,20 @@
                         {
                             "eqv": 85.0, 
                             "qty": 3.0, 
-                            "value": 23.9, 
+                            "value": 25.8, 
                             "label": "oz"
                         }, 
                         {
-                            "eqv": 350.0, 
+                            "eqv": 505.0, 
                             "qty": 1.0, 
-                            "value": 98.4, 
-                            "label": "steak"
+                            "value": 153.0, 
+                            "label": "roast (Yield from 1 raw roast, with refuse, weighing 504g)"
                         }
                     ], 
-                    "value": 28.1, 
+                    "value": 30.3, 
                     "dp": "", 
-                    "sourcecode": [
-                        1
-                    ], 
+                    "sourcecode": "", 
                     "se": "", 
-                    "unit": "\u00b5g"
-                }, 
-                {
-                    "group": "Minerals", 
-                    "name": "Fluoride, F", 
-                    "nutrient_id": 313, 
-                    "measures": [
-                        {
-                            "eqv": 85.0, 
-                            "qty": 3.0, 
-                            "value": 19.0, 
-                            "label": "oz"
-                        }, 
-                        {
-                            "eqv": 350.0, 
-                            "qty": 1.0, 
-                            "value": 78.4, 
-                            "label": "steak"
-                        }
-                    ], 
-                    "value": 22.4, 
-                    "dp": 57, 
-                    "sourcecode": [
-                        2, 
-                        3, 
-                        4, 
-                        5
-                    ], 
-                    "se": "5.206", 
                     "unit": "\u00b5g"
                 }, 
                 {
@@ -530,10 +473,10 @@
                             "label": "oz"
                         }, 
                         {
-                            "eqv": 350.0, 
+                            "eqv": 505.0, 
                             "qty": 1.0, 
                             "value": 0.0, 
-                            "label": "steak"
+                            "label": "roast (Yield from 1 raw roast, with refuse, weighing 504g)"
                         }
                     ], 
                     "value": 0.0, 
@@ -550,21 +493,19 @@
                         {
                             "eqv": 85.0, 
                             "qty": 3.0, 
-                            "value": 0.054, 
+                            "value": 0.835, 
                             "label": "oz"
                         }, 
                         {
-                            "eqv": 350.0, 
+                            "eqv": 505.0, 
                             "qty": 1.0, 
-                            "value": 0.22, 
-                            "label": "steak"
+                            "value": 4.959, 
+                            "label": "roast (Yield from 1 raw roast, with refuse, weighing 504g)"
                         }
                     ], 
-                    "value": 0.063, 
+                    "value": 0.982, 
                     "dp": "", 
-                    "sourcecode": [
-                        1
-                    ], 
+                    "sourcecode": "", 
                     "se": "", 
                     "unit": "mg"
                 }, 
@@ -576,21 +517,19 @@
                         {
                             "eqv": 85.0, 
                             "qty": 3.0, 
-                            "value": 0.134, 
+                            "value": 0.286, 
                             "label": "oz"
                         }, 
                         {
-                            "eqv": 350.0, 
+                            "eqv": 505.0, 
                             "qty": 1.0, 
-                            "value": 0.553, 
-                            "label": "steak"
+                            "value": 1.702, 
+                            "label": "roast (Yield from 1 raw roast, with refuse, weighing 504g)"
                         }
                     ], 
-                    "value": 0.158, 
+                    "value": 0.337, 
                     "dp": "", 
-                    "sourcecode": [
-                        1
-                    ], 
+                    "sourcecode": "", 
                     "se": "", 
                     "unit": "mg"
                 }, 
@@ -602,21 +541,19 @@
                         {
                             "eqv": 85.0, 
                             "qty": 3.0, 
-                            "value": 3.549, 
+                            "value": 5.618, 
                             "label": "oz"
                         }, 
                         {
-                            "eqv": 350.0, 
+                            "eqv": 505.0, 
                             "qty": 1.0, 
-                            "value": 14.612, 
-                            "label": "steak"
+                            "value": 33.381, 
+                            "label": "roast (Yield from 1 raw roast, with refuse, weighing 504g)"
                         }
                     ], 
-                    "value": 4.175, 
+                    "value": 6.61, 
                     "dp": "", 
-                    "sourcecode": [
-                        1
-                    ], 
+                    "sourcecode": "", 
                     "se": "", 
                     "unit": "mg"
                 }, 
@@ -628,21 +565,19 @@
                         {
                             "eqv": 85.0, 
                             "qty": 3.0, 
-                            "value": 0.486, 
+                            "value": 0.711, 
                             "label": "oz"
                         }, 
                         {
-                            "eqv": 350.0, 
+                            "eqv": 505.0, 
                             "qty": 1.0, 
-                            "value": 2.002, 
-                            "label": "steak"
+                            "value": 4.227, 
+                            "label": "roast (Yield from 1 raw roast, with refuse, weighing 504g)"
                         }
                     ], 
-                    "value": 0.572, 
+                    "value": 0.837, 
                     "dp": "", 
-                    "sourcecode": [
-                        1
-                    ], 
+                    "sourcecode": "", 
                     "se": "", 
                     "unit": "mg"
                 }, 
@@ -654,21 +589,19 @@
                         {
                             "eqv": 85.0, 
                             "qty": 3.0, 
-                            "value": 0.242, 
+                            "value": 0.65, 
                             "label": "oz"
                         }, 
                         {
-                            "eqv": 350.0, 
+                            "eqv": 505.0, 
                             "qty": 1.0, 
-                            "value": 0.997, 
-                            "label": "steak"
+                            "value": 3.863, 
+                            "label": "roast (Yield from 1 raw roast, with refuse, weighing 504g)"
                         }
                     ], 
-                    "value": 0.285, 
+                    "value": 0.765, 
                     "dp": "", 
-                    "sourcecode": [
-                        1
-                    ], 
+                    "sourcecode": "", 
                     "se": "", 
                     "unit": "mg"
                 }, 
@@ -680,21 +613,19 @@
                         {
                             "eqv": 85.0, 
                             "qty": 3.0, 
-                            "value": 8.0, 
+                            "value": 0.0, 
                             "label": "oz"
                         }, 
                         {
-                            "eqv": 350.0, 
+                            "eqv": 505.0, 
                             "qty": 1.0, 
-                            "value": 32.0, 
-                            "label": "steak"
+                            "value": 0.0, 
+                            "label": "roast (Yield from 1 raw roast, with refuse, weighing 504g)"
                         }
                     ], 
-                    "value": 9.0, 
+                    "value": 0.0, 
                     "dp": "", 
-                    "sourcecode": [
-                        1
-                    ], 
+                    "sourcecode": "", 
                     "se": "", 
                     "unit": "\u00b5g"
                 }, 
@@ -710,10 +641,10 @@
                             "label": "oz"
                         }, 
                         {
-                            "eqv": 350.0, 
+                            "eqv": 505.0, 
                             "qty": 1.0, 
                             "value": 0.0, 
-                            "label": "steak"
+                            "label": "roast (Yield from 1 raw roast, with refuse, weighing 504g)"
                         }
                     ], 
                     "value": 0.0, 
@@ -730,17 +661,17 @@
                         {
                             "eqv": 85.0, 
                             "qty": 3.0, 
-                            "value": 8.0, 
+                            "value": 0.0, 
                             "label": "oz"
                         }, 
                         {
-                            "eqv": 350.0, 
+                            "eqv": 505.0, 
                             "qty": 1.0, 
-                            "value": 32.0, 
-                            "label": "steak"
+                            "value": 0.0, 
+                            "label": "roast (Yield from 1 raw roast, with refuse, weighing 504g)"
                         }
                     ], 
-                    "value": 9.0, 
+                    "value": 0.0, 
                     "dp": "", 
                     "sourcecode": "", 
                     "se": "", 
@@ -754,17 +685,17 @@
                         {
                             "eqv": 85.0, 
                             "qty": 3.0, 
-                            "value": 8.0, 
+                            "value": 0.0, 
                             "label": "oz"
                         }, 
                         {
-                            "eqv": 350.0, 
+                            "eqv": 505.0, 
                             "qty": 1.0, 
-                            "value": 32.0, 
-                            "label": "steak"
+                            "value": 0.0, 
+                            "label": "roast (Yield from 1 raw roast, with refuse, weighing 504g)"
                         }
                     ], 
-                    "value": 9.0, 
+                    "value": 0.0, 
                     "dp": "", 
                     "sourcecode": "", 
                     "se": "", 
@@ -778,17 +709,17 @@
                         {
                             "eqv": 85.0, 
                             "qty": 3.0, 
-                            "value": 93.8, 
+                            "value": 67.7, 
                             "label": "oz"
                         }, 
                         {
-                            "eqv": 350.0, 
+                            "eqv": 505.0, 
                             "qty": 1.0, 
-                            "value": 386.0, 
-                            "label": "steak"
+                            "value": 402.5, 
+                            "label": "roast (Yield from 1 raw roast, with refuse, weighing 504g)"
                         }
                     ], 
-                    "value": 110.3, 
+                    "value": 79.7, 
                     "dp": "", 
                     "sourcecode": "", 
                     "se": "", 
@@ -802,17 +733,17 @@
                         {
                             "eqv": 85.0, 
                             "qty": 3.0, 
-                            "value": 12.3, 
+                            "value": 2.6, 
                             "label": "oz"
                         }, 
                         {
-                            "eqv": 350.0, 
+                            "eqv": 505.0, 
                             "qty": 1.0, 
-                            "value": 50.8, 
-                            "label": "steak"
+                            "value": 15.2, 
+                            "label": "roast (Yield from 1 raw roast, with refuse, weighing 504g)"
                         }
                     ], 
-                    "value": 14.5, 
+                    "value": 3.0, 
                     "dp": "", 
                     "sourcecode": "", 
                     "se": "", 
@@ -826,21 +757,19 @@
                         {
                             "eqv": 85.0, 
                             "qty": 3.0, 
-                            "value": 1.63, 
+                            "value": 0.44, 
                             "label": "oz"
                         }, 
                         {
-                            "eqv": 350.0, 
+                            "eqv": 505.0, 
                             "qty": 1.0, 
-                            "value": 6.72, 
-                            "label": "steak"
+                            "value": 2.63, 
+                            "label": "roast (Yield from 1 raw roast, with refuse, weighing 504g)"
                         }
                     ], 
-                    "value": 1.92, 
+                    "value": 0.52, 
                     "dp": "", 
-                    "sourcecode": [
-                        1
-                    ], 
+                    "sourcecode": "", 
                     "se": "", 
                     "unit": "\u00b5g"
                 }, 
@@ -856,10 +785,10 @@
                             "label": "oz"
                         }, 
                         {
-                            "eqv": 350.0, 
+                            "eqv": 505.0, 
                             "qty": 1.0, 
                             "value": 0.0, 
-                            "label": "steak"
+                            "label": "roast (Yield from 1 raw roast, with refuse, weighing 504g)"
                         }
                     ], 
                     "value": 0.0, 
@@ -880,10 +809,10 @@
                             "label": "oz"
                         }, 
                         {
-                            "eqv": 350.0, 
+                            "eqv": 505.0, 
                             "qty": 1.0, 
                             "value": 0.0, 
-                            "label": "steak"
+                            "label": "roast (Yield from 1 raw roast, with refuse, weighing 504g)"
                         }
                     ], 
                     "value": 0.0, 
@@ -904,10 +833,10 @@
                             "label": "oz"
                         }, 
                         {
-                            "eqv": 350.0, 
+                            "eqv": 505.0, 
                             "qty": 1.0, 
                             "value": 0.0, 
-                            "label": "steak"
+                            "label": "roast (Yield from 1 raw roast, with refuse, weighing 504g)"
                         }
                     ], 
                     "value": 0.0, 
@@ -928,10 +857,10 @@
                             "label": "oz"
                         }, 
                         {
-                            "eqv": 350.0, 
+                            "eqv": 505.0, 
                             "qty": 1.0, 
                             "value": 0.0, 
-                            "label": "steak"
+                            "label": "roast (Yield from 1 raw roast, with refuse, weighing 504g)"
                         }
                     ], 
                     "value": 0.0, 
@@ -952,10 +881,10 @@
                             "label": "oz"
                         }, 
                         {
-                            "eqv": 350.0, 
+                            "eqv": 505.0, 
                             "qty": 1.0, 
                             "value": 0.0, 
-                            "label": "steak"
+                            "label": "roast (Yield from 1 raw roast, with refuse, weighing 504g)"
                         }
                     ], 
                     "value": 0.0, 
@@ -976,10 +905,10 @@
                             "label": "oz"
                         }, 
                         {
-                            "eqv": 350.0, 
+                            "eqv": 505.0, 
                             "qty": 1.0, 
                             "value": 0.0, 
-                            "label": "steak"
+                            "label": "roast (Yield from 1 raw roast, with refuse, weighing 504g)"
                         }
                     ], 
                     "value": 0.0, 
@@ -996,17 +925,17 @@
                         {
                             "eqv": 85.0, 
                             "qty": 3.0, 
-                            "value": 0.0, 
+                            "value": 2.0, 
                             "label": "oz"
                         }, 
                         {
-                            "eqv": 350.0, 
+                            "eqv": 505.0, 
                             "qty": 1.0, 
-                            "value": 0.0, 
-                            "label": "steak"
+                            "value": 10.0, 
+                            "label": "roast (Yield from 1 raw roast, with refuse, weighing 504g)"
                         }
                     ], 
-                    "value": 0.0, 
+                    "value": 2.0, 
                     "dp": "", 
                     "sourcecode": "", 
                     "se": "", 
@@ -1024,10 +953,10 @@
                             "label": "oz"
                         }, 
                         {
-                            "eqv": 350.0, 
+                            "eqv": 505.0, 
                             "qty": 1.0, 
                             "value": 0.0, 
-                            "label": "steak"
+                            "label": "roast (Yield from 1 raw roast, with refuse, weighing 504g)"
                         }
                     ], 
                     "value": 0.0, 
@@ -1048,10 +977,10 @@
                             "label": "oz"
                         }, 
                         {
-                            "eqv": 350.0, 
+                            "eqv": 505.0, 
                             "qty": 1.0, 
                             "value": 0.0, 
-                            "label": "steak"
+                            "label": "roast (Yield from 1 raw roast, with refuse, weighing 504g)"
                         }
                     ], 
                     "value": 0.0, 
@@ -1068,21 +997,19 @@
                         {
                             "eqv": 85.0, 
                             "qty": 3.0, 
-                            "value": 0.42, 
+                            "value": 0.19, 
                             "label": "oz"
                         }, 
                         {
-                            "eqv": 350.0, 
+                            "eqv": 505.0, 
                             "qty": 1.0, 
-                            "value": 1.75, 
-                            "label": "steak"
+                            "value": 1.11, 
+                            "label": "roast (Yield from 1 raw roast, with refuse, weighing 504g)"
                         }
                     ], 
-                    "value": 0.5, 
+                    "value": 0.22, 
                     "dp": "", 
-                    "sourcecode": [
-                        1
-                    ], 
+                    "sourcecode": "", 
                     "se": "", 
                     "unit": "mg"
                 }, 
@@ -1098,10 +1025,10 @@
                             "label": "oz"
                         }, 
                         {
-                            "eqv": 350.0, 
+                            "eqv": 505.0, 
                             "qty": 1.0, 
                             "value": 0.0, 
-                            "label": "steak"
+                            "label": "roast (Yield from 1 raw roast, with refuse, weighing 504g)"
                         }
                     ], 
                     "value": 0.0, 
@@ -1122,17 +1049,15 @@
                             "label": "oz"
                         }, 
                         {
-                            "eqv": 350.0, 
+                            "eqv": 505.0, 
                             "qty": 1.0, 
                             "value": 0.0, 
-                            "label": "steak"
+                            "label": "roast (Yield from 1 raw roast, with refuse, weighing 504g)"
                         }
                     ], 
                     "value": 0.0, 
                     "dp": "", 
-                    "sourcecode": [
-                        1
-                    ], 
+                    "sourcecode": "", 
                     "se": "", 
                     "unit": "mg"
                 }, 
@@ -1144,21 +1069,19 @@
                         {
                             "eqv": 85.0, 
                             "qty": 3.0, 
-                            "value": 0.0, 
+                            "value": 0.03, 
                             "label": "oz"
                         }, 
                         {
-                            "eqv": 350.0, 
+                            "eqv": 505.0, 
                             "qty": 1.0, 
-                            "value": 0.0, 
-                            "label": "steak"
+                            "value": 0.15, 
+                            "label": "roast (Yield from 1 raw roast, with refuse, weighing 504g)"
                         }
                     ], 
-                    "value": 0.0, 
+                    "value": 0.03, 
                     "dp": "", 
-                    "sourcecode": [
-                        1
-                    ], 
+                    "sourcecode": "", 
                     "se": "", 
                     "unit": "mg"
                 }, 
@@ -1174,17 +1097,15 @@
                             "label": "oz"
                         }, 
                         {
-                            "eqv": 350.0, 
+                            "eqv": 505.0, 
                             "qty": 1.0, 
                             "value": 0.0, 
-                            "label": "steak"
+                            "label": "roast (Yield from 1 raw roast, with refuse, weighing 504g)"
                         }
                     ], 
                     "value": 0.0, 
                     "dp": "", 
-                    "sourcecode": [
-                        1
-                    ], 
+                    "sourcecode": "", 
                     "se": "", 
                     "unit": "mg"
                 }, 
@@ -1200,10 +1121,10 @@
                             "label": "oz"
                         }, 
                         {
-                            "eqv": 350.0, 
+                            "eqv": 505.0, 
                             "qty": 1.0, 
-                            "value": 1.0, 
-                            "label": "steak"
+                            "value": 1.5, 
+                            "label": "roast (Yield from 1 raw roast, with refuse, weighing 504g)"
                         }
                     ], 
                     "value": 0.3, 
@@ -1224,10 +1145,10 @@
                             "label": "oz"
                         }, 
                         {
-                            "eqv": 350.0, 
+                            "eqv": 505.0, 
                             "qty": 1.0, 
-                            "value": 1.0, 
-                            "label": "steak"
+                            "value": 1.5, 
+                            "label": "roast (Yield from 1 raw roast, with refuse, weighing 504g)"
                         }
                     ], 
                     "value": 0.3, 
@@ -1244,17 +1165,17 @@
                         {
                             "eqv": 85.0, 
                             "qty": 3.0, 
-                            "value": 9.0, 
+                            "value": 8.0, 
                             "label": "oz"
                         }, 
                         {
-                            "eqv": 350.0, 
+                            "eqv": 505.0, 
                             "qty": 1.0, 
-                            "value": 38.0, 
-                            "label": "steak"
+                            "value": 50.0, 
+                            "label": "roast (Yield from 1 raw roast, with refuse, weighing 504g)"
                         }
                     ], 
-                    "value": 11.0, 
+                    "value": 10.0, 
                     "dp": "", 
                     "sourcecode": "", 
                     "se": "", 
@@ -1268,21 +1189,19 @@
                         {
                             "eqv": 85.0, 
                             "qty": 3.0, 
-                            "value": 1.5, 
+                            "value": 0.0, 
                             "label": "oz"
                         }, 
                         {
-                            "eqv": 350.0, 
+                            "eqv": 505.0, 
                             "qty": 1.0, 
-                            "value": 6.3, 
-                            "label": "steak"
+                            "value": 0.0, 
+                            "label": "roast (Yield from 1 raw roast, with refuse, weighing 504g)"
                         }
                     ], 
-                    "value": 1.8, 
+                    "value": 0.0, 
                     "dp": "", 
-                    "sourcecode": [
-                        1
-                    ], 
+                    "sourcecode": "", 
                     "se": "", 
                     "unit": "\u00b5g"
                 }, 
@@ -1294,17 +1213,17 @@
                         {
                             "eqv": 85.0, 
                             "qty": 3.0, 
-                            "value": 5.855, 
+                            "value": 1.004, 
                             "label": "oz"
                         }, 
                         {
-                            "eqv": 350.0, 
+                            "eqv": 505.0, 
                             "qty": 1.0, 
-                            "value": 24.108, 
-                            "label": "steak"
+                            "value": 5.964, 
+                            "label": "roast (Yield from 1 raw roast, with refuse, weighing 504g)"
                         }
                     ], 
-                    "value": 6.888, 
+                    "value": 1.181, 
                     "dp": "", 
                     "sourcecode": "", 
                     "se": "", 
@@ -1322,10 +1241,10 @@
                             "label": "oz"
                         }, 
                         {
-                            "eqv": 350.0, 
+                            "eqv": 505.0, 
                             "qty": 1.0, 
                             "value": 0.0, 
-                            "label": "steak"
+                            "label": "roast (Yield from 1 raw roast, with refuse, weighing 504g)"
                         }
                     ], 
                     "value": 0.0, 
@@ -1346,10 +1265,10 @@
                             "label": "oz"
                         }, 
                         {
-                            "eqv": 350.0, 
+                            "eqv": 505.0, 
                             "qty": 1.0, 
                             "value": 0.0, 
-                            "label": "steak"
+                            "label": "roast (Yield from 1 raw roast, with refuse, weighing 504g)"
                         }
                     ], 
                     "value": 0.0, 
@@ -1370,10 +1289,10 @@
                             "label": "oz"
                         }, 
                         {
-                            "eqv": 350.0, 
+                            "eqv": 505.0, 
                             "qty": 1.0, 
                             "value": 0.0, 
-                            "label": "steak"
+                            "label": "roast (Yield from 1 raw roast, with refuse, weighing 504g)"
                         }
                     ], 
                     "value": 0.0, 
@@ -1390,21 +1309,19 @@
                         {
                             "eqv": 85.0, 
                             "qty": 3.0, 
-                            "value": 0.042, 
+                            "value": 0.001, 
                             "label": "oz"
                         }, 
                         {
-                            "eqv": 350.0, 
+                            "eqv": 505.0, 
                             "qty": 1.0, 
-                            "value": 0.172, 
-                            "label": "steak"
+                            "value": 0.005, 
+                            "label": "roast (Yield from 1 raw roast, with refuse, weighing 504g)"
                         }
                     ], 
-                    "value": 0.049, 
+                    "value": 0.001, 
                     "dp": "", 
-                    "sourcecode": [
-                        1
-                    ], 
+                    "sourcecode": "", 
                     "se": "", 
                     "unit": "g"
                 }, 
@@ -1416,21 +1333,19 @@
                         {
                             "eqv": 85.0, 
                             "qty": 3.0, 
-                            "value": 0.039, 
+                            "value": 0.001, 
                             "label": "oz"
                         }, 
                         {
-                            "eqv": 350.0, 
+                            "eqv": 505.0, 
                             "qty": 1.0, 
-                            "value": 0.161, 
-                            "label": "steak"
+                            "value": 0.005, 
+                            "label": "roast (Yield from 1 raw roast, with refuse, weighing 504g)"
                         }
                     ], 
-                    "value": 0.046, 
+                    "value": 0.001, 
                     "dp": "", 
-                    "sourcecode": [
-                        1
-                    ], 
+                    "sourcecode": "", 
                     "se": "", 
                     "unit": "g"
                 }, 
@@ -1442,21 +1357,43 @@
                         {
                             "eqv": 85.0, 
                             "qty": 3.0, 
-                            "value": 0.468, 
+                            "value": 0.033, 
                             "label": "oz"
                         }, 
                         {
-                            "eqv": 350.0, 
+                            "eqv": 505.0, 
                             "qty": 1.0, 
-                            "value": 1.929, 
-                            "label": "steak"
+                            "value": 0.197, 
+                            "label": "roast (Yield from 1 raw roast, with refuse, weighing 504g)"
                         }
                     ], 
-                    "value": 0.551, 
+                    "value": 0.039, 
                     "dp": "", 
-                    "sourcecode": [
-                        1
+                    "sourcecode": "", 
+                    "se": "", 
+                    "unit": "g"
+                }, 
+                {
+                    "group": "Lipids", 
+                    "name": "15:0", 
+                    "nutrient_id": 652, 
+                    "measures": [
+                        {
+                            "eqv": 85.0, 
+                            "qty": 3.0, 
+                            "value": 0.001, 
+                            "label": "oz"
+                        }, 
+                        {
+                            "eqv": 505.0, 
+                            "qty": 1.0, 
+                            "value": 0.005, 
+                            "label": "roast (Yield from 1 raw roast, with refuse, weighing 504g)"
+                        }
                     ], 
+                    "value": 0.001, 
+                    "dp": "", 
+                    "sourcecode": "", 
                     "se": "", 
                     "unit": "g"
                 }, 
@@ -1468,21 +1405,43 @@
                         {
                             "eqv": 85.0, 
                             "qty": 3.0, 
-                            "value": 3.588, 
+                            "value": 0.616, 
                             "label": "oz"
                         }, 
                         {
-                            "eqv": 350.0, 
+                            "eqv": 505.0, 
                             "qty": 1.0, 
-                            "value": 14.774, 
-                            "label": "steak"
+                            "value": 3.661, 
+                            "label": "roast (Yield from 1 raw roast, with refuse, weighing 504g)"
                         }
                     ], 
-                    "value": 4.221, 
+                    "value": 0.725, 
                     "dp": "", 
-                    "sourcecode": [
-                        1
+                    "sourcecode": "", 
+                    "se": "", 
+                    "unit": "g"
+                }, 
+                {
+                    "group": "Lipids", 
+                    "name": "17:0", 
+                    "nutrient_id": 653, 
+                    "measures": [
+                        {
+                            "eqv": 85.0, 
+                            "qty": 3.0, 
+                            "value": 0.007, 
+                            "label": "oz"
+                        }, 
+                        {
+                            "eqv": 505.0, 
+                            "qty": 1.0, 
+                            "value": 0.04, 
+                            "label": "roast (Yield from 1 raw roast, with refuse, weighing 504g)"
+                        }
                     ], 
+                    "value": 0.008, 
+                    "dp": "", 
+                    "sourcecode": "", 
                     "se": "", 
                     "unit": "g"
                 }, 
@@ -1494,21 +1453,67 @@
                         {
                             "eqv": 85.0, 
                             "qty": 3.0, 
-                            "value": 1.718, 
+                            "value": 0.343, 
                             "label": "oz"
                         }, 
                         {
-                            "eqv": 350.0, 
+                            "eqv": 505.0, 
                             "qty": 1.0, 
-                            "value": 7.074, 
-                            "label": "steak"
+                            "value": 2.04, 
+                            "label": "roast (Yield from 1 raw roast, with refuse, weighing 504g)"
                         }
                     ], 
-                    "value": 2.021, 
+                    "value": 0.404, 
                     "dp": "", 
-                    "sourcecode": [
-                        1
+                    "sourcecode": "", 
+                    "se": "", 
+                    "unit": "g"
+                }, 
+                {
+                    "group": "Lipids", 
+                    "name": "20:0", 
+                    "nutrient_id": 615, 
+                    "measures": [
+                        {
+                            "eqv": 85.0, 
+                            "qty": 3.0, 
+                            "value": 0.003, 
+                            "label": "oz"
+                        }, 
+                        {
+                            "eqv": 505.0, 
+                            "qty": 1.0, 
+                            "value": 0.015, 
+                            "label": "roast (Yield from 1 raw roast, with refuse, weighing 504g)"
+                        }
                     ], 
+                    "value": 0.003, 
+                    "dp": "", 
+                    "sourcecode": "", 
+                    "se": "", 
+                    "unit": "g"
+                }, 
+                {
+                    "group": "Lipids", 
+                    "name": "22:0", 
+                    "nutrient_id": 624, 
+                    "measures": [
+                        {
+                            "eqv": 85.0, 
+                            "qty": 3.0, 
+                            "value": 0.0, 
+                            "label": "oz"
+                        }, 
+                        {
+                            "eqv": 505.0, 
+                            "qty": 1.0, 
+                            "value": 0.0, 
+                            "label": "roast (Yield from 1 raw roast, with refuse, weighing 504g)"
+                        }
+                    ], 
+                    "value": 0.0, 
+                    "dp": "", 
+                    "sourcecode": "", 
                     "se": "", 
                     "unit": "g"
                 }, 
@@ -1520,17 +1525,65 @@
                         {
                             "eqv": 85.0, 
                             "qty": 3.0, 
-                            "value": 6.359, 
+                            "value": 1.152, 
                             "label": "oz"
                         }, 
                         {
-                            "eqv": 350.0, 
+                            "eqv": 505.0, 
                             "qty": 1.0, 
-                            "value": 26.184, 
-                            "label": "steak"
+                            "value": 6.843, 
+                            "label": "roast (Yield from 1 raw roast, with refuse, weighing 504g)"
                         }
                     ], 
-                    "value": 7.481, 
+                    "value": 1.355, 
+                    "dp": "", 
+                    "sourcecode": "", 
+                    "se": "", 
+                    "unit": "g"
+                }, 
+                {
+                    "group": "Lipids", 
+                    "name": "14:1", 
+                    "nutrient_id": 625, 
+                    "measures": [
+                        {
+                            "eqv": 85.0, 
+                            "qty": 3.0, 
+                            "value": 0.0, 
+                            "label": "oz"
+                        }, 
+                        {
+                            "eqv": 505.0, 
+                            "qty": 1.0, 
+                            "value": 0.0, 
+                            "label": "roast (Yield from 1 raw roast, with refuse, weighing 504g)"
+                        }
+                    ], 
+                    "value": 0.0, 
+                    "dp": "", 
+                    "sourcecode": "", 
+                    "se": "", 
+                    "unit": "g"
+                }, 
+                {
+                    "group": "Lipids", 
+                    "name": "15:1", 
+                    "nutrient_id": 697, 
+                    "measures": [
+                        {
+                            "eqv": 85.0, 
+                            "qty": 3.0, 
+                            "value": 0.0, 
+                            "label": "oz"
+                        }, 
+                        {
+                            "eqv": 505.0, 
+                            "qty": 1.0, 
+                            "value": 0.0, 
+                            "label": "roast (Yield from 1 raw roast, with refuse, weighing 504g)"
+                        }
+                    ], 
+                    "value": 0.0, 
                     "dp": "", 
                     "sourcecode": "", 
                     "se": "", 
@@ -1544,21 +1597,43 @@
                         {
                             "eqv": 85.0, 
                             "qty": 3.0, 
-                            "value": 0.617, 
+                            "value": 0.064, 
                             "label": "oz"
                         }, 
                         {
-                            "eqv": 350.0, 
+                            "eqv": 505.0, 
                             "qty": 1.0, 
-                            "value": 2.541, 
-                            "label": "steak"
+                            "value": 0.379, 
+                            "label": "roast (Yield from 1 raw roast, with refuse, weighing 504g)"
                         }
                     ], 
-                    "value": 0.726, 
+                    "value": 0.075, 
                     "dp": "", 
-                    "sourcecode": [
-                        1
+                    "sourcecode": "", 
+                    "se": "", 
+                    "unit": "g"
+                }, 
+                {
+                    "group": "Lipids", 
+                    "name": "17:1", 
+                    "nutrient_id": 687, 
+                    "measures": [
+                        {
+                            "eqv": 85.0, 
+                            "qty": 3.0, 
+                            "value": 0.0, 
+                            "label": "oz"
+                        }, 
+                        {
+                            "eqv": 505.0, 
+                            "qty": 1.0, 
+                            "value": 0.0, 
+                            "label": "roast (Yield from 1 raw roast, with refuse, weighing 504g)"
+                        }
                     ], 
+                    "value": 0.0, 
+                    "dp": "", 
+                    "sourcecode": "", 
                     "se": "", 
                     "unit": "g"
                 }, 
@@ -1570,21 +1645,67 @@
                         {
                             "eqv": 85.0, 
                             "qty": 3.0, 
-                            "value": 5.718, 
+                            "value": 1.07, 
                             "label": "oz"
                         }, 
                         {
-                            "eqv": 350.0, 
+                            "eqv": 505.0, 
                             "qty": 1.0, 
-                            "value": 23.545, 
-                            "label": "steak"
+                            "value": 6.358, 
+                            "label": "roast (Yield from 1 raw roast, with refuse, weighing 504g)"
                         }
                     ], 
-                    "value": 6.727, 
+                    "value": 1.259, 
                     "dp": "", 
-                    "sourcecode": [
-                        1
+                    "sourcecode": "", 
+                    "se": "", 
+                    "unit": "g"
+                }, 
+                {
+                    "group": "Lipids", 
+                    "name": "18:1 c", 
+                    "nutrient_id": 674, 
+                    "measures": [
+                        {
+                            "eqv": 85.0, 
+                            "qty": 3.0, 
+                            "value": 1.051, 
+                            "label": "oz"
+                        }, 
+                        {
+                            "eqv": 505.0, 
+                            "qty": 1.0, 
+                            "value": 6.247, 
+                            "label": "roast (Yield from 1 raw roast, with refuse, weighing 504g)"
+                        }
                     ], 
+                    "value": 1.237, 
+                    "dp": "", 
+                    "sourcecode": "", 
+                    "se": "", 
+                    "unit": "g"
+                }, 
+                {
+                    "group": "Lipids", 
+                    "name": "18:1 t", 
+                    "nutrient_id": 663, 
+                    "measures": [
+                        {
+                            "eqv": 85.0, 
+                            "qty": 3.0, 
+                            "value": 0.02, 
+                            "label": "oz"
+                        }, 
+                        {
+                            "eqv": 505.0, 
+                            "qty": 1.0, 
+                            "value": 0.116, 
+                            "label": "roast (Yield from 1 raw roast, with refuse, weighing 504g)"
+                        }
+                    ], 
+                    "value": 0.023, 
+                    "dp": "", 
+                    "sourcecode": "", 
                     "se": "", 
                     "unit": "g"
                 }, 
@@ -1596,21 +1717,19 @@
                         {
                             "eqv": 85.0, 
                             "qty": 3.0, 
-                            "value": 0.024, 
+                            "value": 0.018, 
                             "label": "oz"
                         }, 
                         {
-                            "eqv": 350.0, 
+                            "eqv": 505.0, 
                             "qty": 1.0, 
-                            "value": 0.098, 
-                            "label": "steak"
+                            "value": 0.106, 
+                            "label": "roast (Yield from 1 raw roast, with refuse, weighing 504g)"
                         }
                     ], 
-                    "value": 0.028, 
+                    "value": 0.021, 
                     "dp": "", 
-                    "sourcecode": [
-                        1
-                    ], 
+                    "sourcecode": "", 
                     "se": "", 
                     "unit": "g"
                 }, 
@@ -1626,17 +1745,15 @@
                             "label": "oz"
                         }, 
                         {
-                            "eqv": 350.0, 
+                            "eqv": 505.0, 
                             "qty": 1.0, 
                             "value": 0.0, 
-                            "label": "steak"
+                            "label": "roast (Yield from 1 raw roast, with refuse, weighing 504g)"
                         }
                     ], 
                     "value": 0.0, 
                     "dp": "", 
-                    "sourcecode": [
-                        1
-                    ], 
+                    "sourcecode": "", 
                     "se": "", 
                     "unit": "g"
                 }, 
@@ -1648,17 +1765,17 @@
                         {
                             "eqv": 85.0, 
                             "qty": 3.0, 
-                            "value": 0.546, 
+                            "value": 0.478, 
                             "label": "oz"
                         }, 
                         {
-                            "eqv": 350.0, 
+                            "eqv": 505.0, 
                             "qty": 1.0, 
-                            "value": 2.247, 
-                            "label": "steak"
+                            "value": 2.838, 
+                            "label": "roast (Yield from 1 raw roast, with refuse, weighing 504g)"
                         }
                     ], 
-                    "value": 0.642, 
+                    "value": 0.562, 
                     "dp": "", 
                     "sourcecode": "", 
                     "se": "", 
@@ -1672,21 +1789,67 @@
                         {
                             "eqv": 85.0, 
                             "qty": 3.0, 
-                            "value": 0.367, 
+                            "value": 0.405, 
                             "label": "oz"
                         }, 
                         {
-                            "eqv": 350.0, 
+                            "eqv": 505.0, 
                             "qty": 1.0, 
-                            "value": 1.512, 
-                            "label": "steak"
+                            "value": 2.404, 
+                            "label": "roast (Yield from 1 raw roast, with refuse, weighing 504g)"
                         }
                     ], 
-                    "value": 0.432, 
+                    "value": 0.476, 
                     "dp": "", 
-                    "sourcecode": [
-                        1
+                    "sourcecode": "", 
+                    "se": "", 
+                    "unit": "g"
+                }, 
+                {
+                    "group": "Lipids", 
+                    "name": "18:2 n-6 c,c", 
+                    "nutrient_id": 675, 
+                    "measures": [
+                        {
+                            "eqv": 85.0, 
+                            "qty": 3.0, 
+                            "value": 0.394, 
+                            "label": "oz"
+                        }, 
+                        {
+                            "eqv": 505.0, 
+                            "qty": 1.0, 
+                            "value": 2.338, 
+                            "label": "roast (Yield from 1 raw roast, with refuse, weighing 504g)"
+                        }
                     ], 
+                    "value": 0.463, 
+                    "dp": "", 
+                    "sourcecode": "", 
+                    "se": "", 
+                    "unit": "g"
+                }, 
+                {
+                    "group": "Lipids", 
+                    "name": "18:2 t,t", 
+                    "nutrient_id": 669, 
+                    "measures": [
+                        {
+                            "eqv": 85.0, 
+                            "qty": 3.0, 
+                            "value": 0.011, 
+                            "label": "oz"
+                        }, 
+                        {
+                            "eqv": 505.0, 
+                            "qty": 1.0, 
+                            "value": 0.066, 
+                            "label": "roast (Yield from 1 raw roast, with refuse, weighing 504g)"
+                        }
+                    ], 
+                    "value": 0.013, 
+                    "dp": "", 
+                    "sourcecode": "", 
                     "se": "", 
                     "unit": "g"
                 }, 
@@ -1698,21 +1861,67 @@
                         {
                             "eqv": 85.0, 
                             "qty": 3.0, 
-                            "value": 0.161, 
+                            "value": 0.014, 
                             "label": "oz"
                         }, 
                         {
-                            "eqv": 350.0, 
+                            "eqv": 505.0, 
                             "qty": 1.0, 
-                            "value": 0.662, 
-                            "label": "steak"
+                            "value": 0.081, 
+                            "label": "roast (Yield from 1 raw roast, with refuse, weighing 504g)"
                         }
                     ], 
-                    "value": 0.189, 
+                    "value": 0.016, 
                     "dp": "", 
-                    "sourcecode": [
-                        1
+                    "sourcecode": "", 
+                    "se": "", 
+                    "unit": "g"
+                }, 
+                {
+                    "group": "Lipids", 
+                    "name": "18:3 n-3 c,c,c (ALA)", 
+                    "nutrient_id": 851, 
+                    "measures": [
+                        {
+                            "eqv": 85.0, 
+                            "qty": 3.0, 
+                            "value": 0.014, 
+                            "label": "oz"
+                        }, 
+                        {
+                            "eqv": 505.0, 
+                            "qty": 1.0, 
+                            "value": 0.081, 
+                            "label": "roast (Yield from 1 raw roast, with refuse, weighing 504g)"
+                        }
                     ], 
+                    "value": 0.016, 
+                    "dp": "", 
+                    "sourcecode": "", 
+                    "se": "", 
+                    "unit": "g"
+                }, 
+                {
+                    "group": "Lipids", 
+                    "name": "18:3 n-6 c,c,c", 
+                    "nutrient_id": 685, 
+                    "measures": [
+                        {
+                            "eqv": 85.0, 
+                            "qty": 3.0, 
+                            "value": 0.0, 
+                            "label": "oz"
+                        }, 
+                        {
+                            "eqv": 505.0, 
+                            "qty": 1.0, 
+                            "value": 0.0, 
+                            "label": "roast (Yield from 1 raw roast, with refuse, weighing 504g)"
+                        }
+                    ], 
+                    "value": 0.0, 
+                    "dp": "", 
+                    "sourcecode": "", 
                     "se": "", 
                     "unit": "g"
                 }, 
@@ -1728,17 +1937,63 @@
                             "label": "oz"
                         }, 
                         {
-                            "eqv": 350.0, 
+                            "eqv": 505.0, 
                             "qty": 1.0, 
                             "value": 0.0, 
-                            "label": "steak"
+                            "label": "roast (Yield from 1 raw roast, with refuse, weighing 504g)"
                         }
                     ], 
                     "value": 0.0, 
                     "dp": "", 
-                    "sourcecode": [
-                        1
+                    "sourcecode": "", 
+                    "se": "", 
+                    "unit": "g"
+                }, 
+                {
+                    "group": "Lipids", 
+                    "name": "20:2 n-6 c,c", 
+                    "nutrient_id": 672, 
+                    "measures": [
+                        {
+                            "eqv": 85.0, 
+                            "qty": 3.0, 
+                            "value": 0.012, 
+                            "label": "oz"
+                        }, 
+                        {
+                            "eqv": 505.0, 
+                            "qty": 1.0, 
+                            "value": 0.071, 
+                            "label": "roast (Yield from 1 raw roast, with refuse, weighing 504g)"
+                        }
                     ], 
+                    "value": 0.014, 
+                    "dp": "", 
+                    "sourcecode": "", 
+                    "se": "", 
+                    "unit": "g"
+                }, 
+                {
+                    "group": "Lipids", 
+                    "name": "20:3 undifferentiated", 
+                    "nutrient_id": 689, 
+                    "measures": [
+                        {
+                            "eqv": 85.0, 
+                            "qty": 3.0, 
+                            "value": 0.001, 
+                            "label": "oz"
+                        }, 
+                        {
+                            "eqv": 505.0, 
+                            "qty": 1.0, 
+                            "value": 0.005, 
+                            "label": "roast (Yield from 1 raw roast, with refuse, weighing 504g)"
+                        }
+                    ], 
+                    "value": 0.001, 
+                    "dp": "", 
+                    "sourcecode": "", 
                     "se": "", 
                     "unit": "g"
                 }, 
@@ -1750,21 +2005,19 @@
                         {
                             "eqv": 85.0, 
                             "qty": 3.0, 
-                            "value": 0.018, 
+                            "value": 0.046, 
                             "label": "oz"
                         }, 
                         {
-                            "eqv": 350.0, 
+                            "eqv": 505.0, 
                             "qty": 1.0, 
-                            "value": 0.074, 
-                            "label": "steak"
+                            "value": 0.273, 
+                            "label": "roast (Yield from 1 raw roast, with refuse, weighing 504g)"
                         }
                     ], 
-                    "value": 0.021, 
+                    "value": 0.054, 
                     "dp": "", 
-                    "sourcecode": [
-                        1
-                    ], 
+                    "sourcecode": "", 
                     "se": "", 
                     "unit": "g"
                 }, 
@@ -1780,17 +2033,15 @@
                             "label": "oz"
                         }, 
                         {
-                            "eqv": 350.0, 
+                            "eqv": 505.0, 
                             "qty": 1.0, 
                             "value": 0.0, 
-                            "label": "steak"
+                            "label": "roast (Yield from 1 raw roast, with refuse, weighing 504g)"
                         }
                     ], 
                     "value": 0.0, 
                     "dp": "", 
-                    "sourcecode": [
-                        1
-                    ], 
+                    "sourcecode": "", 
                     "se": "", 
                     "unit": "g"
                 }, 
@@ -1806,17 +2057,15 @@
                             "label": "oz"
                         }, 
                         {
-                            "eqv": 350.0, 
+                            "eqv": 505.0, 
                             "qty": 1.0, 
                             "value": 0.0, 
-                            "label": "steak"
+                            "label": "roast (Yield from 1 raw roast, with refuse, weighing 504g)"
                         }
                     ], 
                     "value": 0.0, 
                     "dp": "", 
-                    "sourcecode": [
-                        1
-                    ], 
+                    "sourcecode": "", 
                     "se": "", 
                     "unit": "g"
                 }, 
@@ -1832,17 +2081,63 @@
                             "label": "oz"
                         }, 
                         {
-                            "eqv": 350.0, 
+                            "eqv": 505.0, 
                             "qty": 1.0, 
                             "value": 0.0, 
-                            "label": "steak"
+                            "label": "roast (Yield from 1 raw roast, with refuse, weighing 504g)"
                         }
                     ], 
                     "value": 0.0, 
                     "dp": "", 
-                    "sourcecode": [
-                        1
+                    "sourcecode": "", 
+                    "se": "", 
+                    "unit": "g"
+                }, 
+                {
+                    "group": "Lipids", 
+                    "name": "Fatty acids, total trans", 
+                    "nutrient_id": 605, 
+                    "measures": [
+                        {
+                            "eqv": 85.0, 
+                            "qty": 3.0, 
+                            "value": 0.031, 
+                            "label": "oz"
+                        }, 
+                        {
+                            "eqv": 505.0, 
+                            "qty": 1.0, 
+                            "value": 0.182, 
+                            "label": "roast (Yield from 1 raw roast, with refuse, weighing 504g)"
+                        }
                     ], 
+                    "value": 0.036, 
+                    "dp": "", 
+                    "sourcecode": "", 
+                    "se": "", 
+                    "unit": "g"
+                }, 
+                {
+                    "group": "Lipids", 
+                    "name": "Fatty acids, total trans-monoenoic", 
+                    "nutrient_id": 693, 
+                    "measures": [
+                        {
+                            "eqv": 85.0, 
+                            "qty": 3.0, 
+                            "value": 0.02, 
+                            "label": "oz"
+                        }, 
+                        {
+                            "eqv": 505.0, 
+                            "qty": 1.0, 
+                            "value": 0.116, 
+                            "label": "roast (Yield from 1 raw roast, with refuse, weighing 504g)"
+                        }
+                    ], 
+                    "value": 0.023, 
+                    "dp": "", 
+                    "sourcecode": "", 
                     "se": "", 
                     "unit": "g"
                 }, 
@@ -1854,17 +2149,17 @@
                         {
                             "eqv": 85.0, 
                             "qty": 3.0, 
-                            "value": 91.0, 
+                            "value": 55.0, 
                             "label": "oz"
                         }, 
                         {
-                            "eqv": 350.0, 
+                            "eqv": 505.0, 
                             "qty": 1.0, 
-                            "value": 374.0, 
-                            "label": "steak"
+                            "value": 328.0, 
+                            "label": "roast (Yield from 1 raw roast, with refuse, weighing 504g)"
                         }
                     ], 
-                    "value": 107.0, 
+                    "value": 65.0, 
                     "dp": "", 
                     "sourcecode": "", 
                     "se": "", 
@@ -1878,22 +2173,19 @@
                         {
                             "eqv": 85.0, 
                             "qty": 3.0, 
-                            "value": 0.161, 
+                            "value": 0.184, 
                             "label": "oz"
                         }, 
                         {
-                            "eqv": 350.0, 
+                            "eqv": 505.0, 
                             "qty": 1.0, 
-                            "value": 0.665, 
-                            "label": "steak"
+                            "value": 1.096, 
+                            "label": "roast (Yield from 1 raw roast, with refuse, weighing 504g)"
                         }
                     ], 
-                    "value": 0.19, 
+                    "value": 0.217, 
                     "dp": "", 
-                    "sourcecode": [
-                        1, 
-                        6
-                    ], 
+                    "sourcecode": "", 
                     "se": "", 
                     "unit": "g"
                 }, 
@@ -1905,22 +2197,19 @@
                         {
                             "eqv": 85.0, 
                             "qty": 3.0, 
-                            "value": 0.983, 
+                            "value": 0.788, 
                             "label": "oz"
                         }, 
                         {
-                            "eqv": 350.0, 
+                            "eqv": 505.0, 
                             "qty": 1.0, 
-                            "value": 4.05, 
-                            "label": "steak"
+                            "value": 4.681, 
+                            "label": "roast (Yield from 1 raw roast, with refuse, weighing 504g)"
                         }
                     ], 
-                    "value": 1.157, 
+                    "value": 0.927, 
                     "dp": "", 
-                    "sourcecode": [
-                        1, 
-                        6
-                    ], 
+                    "sourcecode": "", 
                     "se": "", 
                     "unit": "g"
                 }, 
@@ -1932,22 +2221,19 @@
                         {
                             "eqv": 85.0, 
                             "qty": 3.0, 
-                            "value": 1.12, 
+                            "value": 0.864, 
                             "label": "oz"
                         }, 
                         {
-                            "eqv": 350.0, 
+                            "eqv": 505.0, 
                             "qty": 1.0, 
-                            "value": 4.613, 
-                            "label": "steak"
+                            "value": 5.131, 
+                            "label": "roast (Yield from 1 raw roast, with refuse, weighing 504g)"
                         }
                     ], 
-                    "value": 1.318, 
+                    "value": 1.016, 
                     "dp": "", 
-                    "sourcecode": [
-                        1, 
-                        6
-                    ], 
+                    "sourcecode": "", 
                     "se": "", 
                     "unit": "g"
                 }, 
@@ -1959,22 +2245,19 @@
                         {
                             "eqv": 85.0, 
                             "qty": 3.0, 
-                            "value": 1.958, 
+                            "value": 1.495, 
                             "label": "oz"
                         }, 
                         {
-                            "eqv": 350.0, 
+                            "eqv": 505.0, 
                             "qty": 1.0, 
-                            "value": 8.064, 
-                            "label": "steak"
+                            "value": 8.883, 
+                            "label": "roast (Yield from 1 raw roast, with refuse, weighing 504g)"
                         }
                     ], 
-                    "value": 2.304, 
+                    "value": 1.759, 
                     "dp": "", 
-                    "sourcecode": [
-                        1, 
-                        6
-                    ], 
+                    "sourcecode": "", 
                     "se": "", 
                     "unit": "g"
                 }, 
@@ -1986,22 +2269,19 @@
                         {
                             "eqv": 85.0, 
                             "qty": 3.0, 
-                            "value": 2.081, 
+                            "value": 1.628, 
                             "label": "oz"
                         }, 
                         {
-                            "eqv": 350.0, 
+                            "eqv": 505.0, 
                             "qty": 1.0, 
-                            "value": 8.568, 
-                            "label": "steak"
+                            "value": 9.671, 
+                            "label": "roast (Yield from 1 raw roast, with refuse, weighing 504g)"
                         }
                     ], 
-                    "value": 2.448, 
+                    "value": 1.915, 
                     "dp": "", 
-                    "sourcecode": [
-                        1, 
-                        6
-                    ], 
+                    "sourcecode": "", 
                     "se": "", 
                     "unit": "g"
                 }, 
@@ -2013,22 +2293,19 @@
                         {
                             "eqv": 85.0, 
                             "qty": 3.0, 
-                            "value": 0.641, 
+                            "value": 0.484, 
                             "label": "oz"
                         }, 
                         {
-                            "eqv": 350.0, 
+                            "eqv": 505.0, 
                             "qty": 1.0, 
-                            "value": 2.639, 
-                            "label": "steak"
+                            "value": 2.873, 
+                            "label": "roast (Yield from 1 raw roast, with refuse, weighing 504g)"
                         }
                     ], 
-                    "value": 0.754, 
+                    "value": 0.569, 
                     "dp": "", 
-                    "sourcecode": [
-                        1, 
-                        6
-                    ], 
+                    "sourcecode": "", 
                     "se": "", 
                     "unit": "g"
                 }, 
@@ -2040,22 +2317,19 @@
                         {
                             "eqv": 85.0, 
                             "qty": 3.0, 
-                            "value": 0.318, 
+                            "value": 0.202, 
                             "label": "oz"
                         }, 
                         {
-                            "eqv": 350.0, 
+                            "eqv": 505.0, 
                             "qty": 1.0, 
-                            "value": 1.309, 
-                            "label": "steak"
+                            "value": 1.202, 
+                            "label": "roast (Yield from 1 raw roast, with refuse, weighing 504g)"
                         }
                     ], 
-                    "value": 0.374, 
+                    "value": 0.238, 
                     "dp": "", 
-                    "sourcecode": [
-                        1, 
-                        6
-                    ], 
+                    "sourcecode": "", 
                     "se": "", 
                     "unit": "g"
                 }, 
@@ -2067,22 +2341,19 @@
                         {
                             "eqv": 85.0, 
                             "qty": 3.0, 
-                            "value": 0.972, 
+                            "value": 0.738, 
                             "label": "oz"
                         }, 
                         {
-                            "eqv": 350.0, 
+                            "eqv": 505.0, 
                             "qty": 1.0, 
-                            "value": 4.004, 
-                            "label": "steak"
+                            "value": 4.383, 
+                            "label": "roast (Yield from 1 raw roast, with refuse, weighing 504g)"
                         }
                     ], 
-                    "value": 1.144, 
+                    "value": 0.868, 
                     "dp": "", 
-                    "sourcecode": [
-                        1, 
-                        6
-                    ], 
+                    "sourcecode": "", 
                     "se": "", 
                     "unit": "g"
                 }, 
@@ -2094,22 +2365,19 @@
                         {
                             "eqv": 85.0, 
                             "qty": 3.0, 
-                            "value": 0.785, 
+                            "value": 0.668, 
                             "label": "oz"
                         }, 
                         {
-                            "eqv": 350.0, 
+                            "eqv": 505.0, 
                             "qty": 1.0, 
-                            "value": 3.23, 
-                            "label": "steak"
+                            "value": 3.969, 
+                            "label": "roast (Yield from 1 raw roast, with refuse, weighing 504g)"
                         }
                     ], 
-                    "value": 0.923, 
+                    "value": 0.786, 
                     "dp": "", 
-                    "sourcecode": [
-                        1, 
-                        6
-                    ], 
+                    "sourcecode": "", 
                     "se": "", 
                     "unit": "g"
                 }, 
@@ -2121,22 +2389,19 @@
                         {
                             "eqv": 85.0, 
                             "qty": 3.0, 
-                            "value": 1.221, 
+                            "value": 0.917, 
                             "label": "oz"
                         }, 
                         {
-                            "eqv": 350.0, 
+                            "eqv": 505.0, 
                             "qty": 1.0, 
-                            "value": 5.03, 
-                            "label": "steak"
+                            "value": 5.449, 
+                            "label": "roast (Yield from 1 raw roast, with refuse, weighing 504g)"
                         }
                     ], 
-                    "value": 1.437, 
+                    "value": 1.079, 
                     "dp": "", 
-                    "sourcecode": [
-                        1, 
-                        6
-                    ], 
+                    "sourcecode": "", 
                     "se": "", 
                     "unit": "g"
                 }, 
@@ -2148,22 +2413,19 @@
                         {
                             "eqv": 85.0, 
                             "qty": 3.0, 
-                            "value": 1.592, 
+                            "value": 1.168, 
                             "label": "oz"
                         }, 
                         {
-                            "eqv": 350.0, 
+                            "eqv": 505.0, 
                             "qty": 1.0, 
-                            "value": 6.555, 
-                            "label": "steak"
+                            "value": 6.939, 
+                            "label": "roast (Yield from 1 raw roast, with refuse, weighing 504g)"
                         }
                     ], 
-                    "value": 1.873, 
+                    "value": 1.374, 
                     "dp": "", 
-                    "sourcecode": [
-                        1, 
-                        6
-                    ], 
+                    "sourcecode": "", 
                     "se": "", 
                     "unit": "g"
                 }, 
@@ -2175,22 +2437,19 @@
                         {
                             "eqv": 85.0, 
                             "qty": 3.0, 
-                            "value": 0.786, 
+                            "value": 0.758, 
                             "label": "oz"
                         }, 
                         {
-                            "eqv": 350.0, 
+                            "eqv": 505.0, 
                             "qty": 1.0, 
-                            "value": 3.238, 
-                            "label": "steak"
+                            "value": 4.505, 
+                            "label": "roast (Yield from 1 raw roast, with refuse, weighing 504g)"
                         }
                     ], 
-                    "value": 0.925, 
+                    "value": 0.892, 
                     "dp": "", 
-                    "sourcecode": [
-                        1, 
-                        6
-                    ], 
+                    "sourcecode": "", 
                     "se": "", 
                     "unit": "g"
                 }, 
@@ -2202,22 +2461,19 @@
                         {
                             "eqv": 85.0, 
                             "qty": 3.0, 
-                            "value": 1.497, 
+                            "value": 1.03, 
                             "label": "oz"
                         }, 
                         {
-                            "eqv": 350.0, 
+                            "eqv": 505.0, 
                             "qty": 1.0, 
-                            "value": 6.163, 
-                            "label": "steak"
+                            "value": 6.121, 
+                            "label": "roast (Yield from 1 raw roast, with refuse, weighing 504g)"
                         }
                     ], 
-                    "value": 1.761, 
+                    "value": 1.212, 
                     "dp": "", 
-                    "sourcecode": [
-                        1, 
-                        6
-                    ], 
+                    "sourcecode": "", 
                     "se": "", 
                     "unit": "g"
                 }, 
@@ -2229,22 +2485,19 @@
                         {
                             "eqv": 85.0, 
                             "qty": 3.0, 
-                            "value": 2.243, 
+                            "value": 1.717, 
                             "label": "oz"
                         }, 
                         {
-                            "eqv": 350.0, 
+                            "eqv": 505.0, 
                             "qty": 1.0, 
-                            "value": 9.236, 
-                            "label": "steak"
+                            "value": 10.201, 
+                            "label": "roast (Yield from 1 raw roast, with refuse, weighing 504g)"
                         }
                     ], 
-                    "value": 2.639, 
+                    "value": 2.02, 
                     "dp": "", 
-                    "sourcecode": [
-                        1, 
-                        6
-                    ], 
+                    "sourcecode": "", 
                     "se": "", 
                     "unit": "g"
                 }, 
@@ -2256,22 +2509,19 @@
                         {
                             "eqv": 85.0, 
                             "qty": 3.0, 
-                            "value": 3.697, 
+                            "value": 2.802, 
                             "label": "oz"
                         }, 
                         {
-                            "eqv": 350.0, 
+                            "eqv": 505.0, 
                             "qty": 1.0, 
-                            "value": 15.222, 
-                            "label": "steak"
+                            "value": 16.645, 
+                            "label": "roast (Yield from 1 raw roast, with refuse, weighing 504g)"
                         }
                     ], 
-                    "value": 4.349, 
+                    "value": 3.296, 
                     "dp": "", 
-                    "sourcecode": [
-                        1, 
-                        6
-                    ], 
+                    "sourcecode": "", 
                     "se": "", 
                     "unit": "g"
                 }, 
@@ -2283,22 +2533,19 @@
                         {
                             "eqv": 85.0, 
                             "qty": 3.0, 
-                            "value": 1.499, 
+                            "value": 0.79, 
                             "label": "oz"
                         }, 
                         {
-                            "eqv": 350.0, 
+                            "eqv": 505.0, 
                             "qty": 1.0, 
-                            "value": 6.174, 
-                            "label": "steak"
+                            "value": 4.696, 
+                            "label": "roast (Yield from 1 raw roast, with refuse, weighing 504g)"
                         }
                     ], 
-                    "value": 1.764, 
+                    "value": 0.93, 
                     "dp": "", 
-                    "sourcecode": [
-                        1, 
-                        6
-                    ], 
+                    "sourcecode": "", 
                     "se": "", 
                     "unit": "g"
                 }, 
@@ -2310,22 +2557,19 @@
                         {
                             "eqv": 85.0, 
                             "qty": 3.0, 
-                            "value": 1.174, 
+                            "value": 0.71, 
                             "label": "oz"
                         }, 
                         {
-                            "eqv": 350.0, 
+                            "eqv": 505.0, 
                             "qty": 1.0, 
-                            "value": 4.834, 
-                            "label": "steak"
+                            "value": 4.217, 
+                            "label": "roast (Yield from 1 raw roast, with refuse, weighing 504g)"
                         }
                     ], 
-                    "value": 1.381, 
+                    "value": 0.835, 
                     "dp": "", 
-                    "sourcecode": [
-                        1, 
-                        6
-                    ], 
+                    "sourcecode": "", 
                     "se": "", 
                     "unit": "g"
                 }, 
@@ -2337,22 +2581,19 @@
                         {
                             "eqv": 85.0, 
                             "qty": 3.0, 
-                            "value": 0.97, 
+                            "value": 0.759, 
                             "label": "oz"
                         }, 
                         {
-                            "eqv": 350.0, 
+                            "eqv": 505.0, 
                             "qty": 1.0, 
-                            "value": 3.994, 
-                            "label": "steak"
+                            "value": 4.51, 
+                            "label": "roast (Yield from 1 raw roast, with refuse, weighing 504g)"
                         }
                     ], 
-                    "value": 1.141, 
+                    "value": 0.893, 
                     "dp": "", 
-                    "sourcecode": [
-                        1, 
-                        6
-                    ], 
+                    "sourcecode": "", 
                     "se": "", 
                     "unit": "g"
                 }, 
@@ -2364,17 +2605,17 @@
                         {
                             "eqv": 85.0, 
                             "qty": 3.0, 
-                            "value": 0.258, 
+                            "value": 0.045, 
                             "label": "oz"
                         }, 
                         {
-                            "eqv": 350.0, 
+                            "eqv": 505.0, 
                             "qty": 1.0, 
-                            "value": 1.064, 
-                            "label": "steak"
+                            "value": 0.268, 
+                            "label": "roast (Yield from 1 raw roast, with refuse, weighing 504g)"
                         }
                     ], 
-                    "value": 0.304, 
+                    "value": 0.053, 
                     "dp": "", 
                     "sourcecode": "", 
                     "se": "", 
@@ -2392,10 +2633,10 @@
                             "label": "oz"
                         }, 
                         {
-                            "eqv": 350.0, 
+                            "eqv": 505.0, 
                             "qty": 1.0, 
                             "value": 0.0, 
-                            "label": "steak"
+                            "label": "roast (Yield from 1 raw roast, with refuse, weighing 504g)"
                         }
                     ], 
                     "value": 0.0, 
@@ -2416,10 +2657,10 @@
                             "label": "oz"
                         }, 
                         {
-                            "eqv": 350.0, 
+                            "eqv": 505.0, 
                             "qty": 1.0, 
                             "value": 0.0, 
-                            "label": "steak"
+                            "label": "roast (Yield from 1 raw roast, with refuse, weighing 504g)"
                         }
                     ], 
                     "value": 0.0, 
@@ -2440,10 +2681,10 @@
                             "label": "oz"
                         }, 
                         {
-                            "eqv": 350.0, 
+                            "eqv": 505.0, 
                             "qty": 1.0, 
                             "value": 0.0, 
-                            "label": "steak"
+                            "label": "roast (Yield from 1 raw roast, with refuse, weighing 504g)"
                         }
                     ], 
                     "value": 0.0, 
@@ -2455,67 +2696,18 @@
             ], 
             "cf": 3.87, 
             "nf": 6.25, 
-            "rd": "", 
-            "r": "0%", 
+            "rd": "Connective tissue 5%", 
+            "r": "5%", 
             "pf": 4.27, 
             "sn": "", 
             "ff": 9.02, 
-            "fg": "Beef Products", 
-            "sd": "BEEF,BRISKET,FLAT HALF,LN & FAT,1/8\" FAT,SEL,CKD,BRSD", 
+            "fg": "Pork Products", 
+            "sd": "PORK,FRSH,LOIN,TENDERLOIN,LN&FAT,RAW", 
             "ds": "Standard Reference", 
-            "name": "Beef, brisket, flat half, separable lean and fat, trimmed to 1/8\" fat, select, cooked, braised"
+            "name": "Pork, fresh, loin, tenderloin, separable lean and fat, raw"
         }, 
         "sr": "28", 
-        "sources": [
-            {
-                "title": "Nutrient Content of Retail Beef Cuts with 1/8 inch Trim Beef", 
-                "vol": "Chicago", 
-                "year": "2000", 
-                "iss": "IL", 
-                "authors": "National Cattlemen's Beef Association (NCBA)", 
-                "id": 1
-            }, 
-            {
-                "title": "Dietary Intake of Fluoride Ashed (total fluoride) v. Unashed (inorganic fluoride) Analysis of Individual Foods", 
-                "vol": "49", 
-                "year": "1983", 
-                "iss": "", 
-                "authors": "Donald Taves", 
-                "id": 2
-            }, 
-            {
-                "title": "A Study of Fluoride Intake in New York State Residents", 
-                "vol": "", 
-                "year": "1988", 
-                "iss": "", 
-                "authors": "J.D.B. Featherstone, Carol Shields", 
-                "id": 3
-            }, 
-            {
-                "title": "Fluoride, Unpublished - Ophaug", 
-                "vol": "", 
-                "year": "", 
-                "iss": "", 
-                "authors": "Robert Ophaug", 
-                "id": 4
-            }, 
-            {
-                "title": "Unpublished data. NIDR/NIH, 1984", 
-                "vol": "", 
-                "year": "1984", 
-                "iss": "", 
-                "authors": "A. Kingman", 
-                "id": 5
-            }, 
-            {
-                "title": "Nutrient Content of Ground Beef", 
-                "vol": "", 
-                "year": "2000", 
-                "iss": "", 
-                "authors": "National Cattlemen's Beef Association (NCBA)", 
-                "id": 6
-            }
-        ], 
+        "sources": [], 
         "langual": [], 
         "footnotes": [], 
         "type": "Full"
