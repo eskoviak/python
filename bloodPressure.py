@@ -5,8 +5,8 @@
 import datetime
 import json
 import sys
-sys.path.append('.')
-import healthFact
+sys.path.append('./healthFact')
+import measurements
 
 # class BloodPressure:
 
@@ -40,6 +40,10 @@ def makeBPEntry(date, systolic, diastolic, hr):
     return entry
 
 if __name__ == '__main__':
-  bp = healthFact.BloodPressure(120,80)
+  bp = measurements.BloodPressure(120,80)
 
   print(json.dumps(bp.toEntity()))
+
+  w = measurements.Weight(100, 'lbm')
+  
+  print(w.__convert__('kg'))
