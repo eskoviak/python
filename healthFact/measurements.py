@@ -42,14 +42,22 @@ class BloodPressure:
 class Weight:
 
   def __init__(self, weight, unitsId=None):
-    self.value = float(weight)
+    self.__value = float(weight)
     if(unitsId==None):
-      self.units = 'lbm'
+      self.__units = 'lbm'
     else:
-      self.units=str(unitsId)
+      self.__units=str(unitsId)
 
   def __convert__(self, unitsId):
-    if(unitsId == 'lbm'):
-      return float(self.value)
-    else:
-      return float(self.value/2.204)
+    if(unitsId == self.__units):
+      return float(self.__value)
+    elif (unitsId == 'kg' and self.__units == 'lbm'):
+      return float(self.__value/2.204)
+    elif (unitsId == 'lbm' and self.__units == 'kg'):
+      return float(self.__value * 2.204)
+
+  def toEntity(self):
+    d = dict()
+    d['value']=self.__value
+    d['units']=self.__units
+    return d

@@ -47,3 +47,6 @@ if __name__ == '__main__':
   w = measurements.Weight(100, 'lbm')
   
   print(w.__convert__('kg'))
+  print(w.__convert__('lbm'))
+  print(json.dumps(w.toEntity()))
+  
