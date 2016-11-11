@@ -48,6 +48,11 @@ if __name__ == '__main__':
   
   print(w.__convert__('kg'))
   print(w.__convert__('lbm'))
+  try:
+    print(w.__convert__('g'))
+  except AttributeError:
+    print('Unknown units')
+    
   print(json.dumps(w.toEntity()))
 
   b = measurements.BodyFat(15.5)
