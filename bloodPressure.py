@@ -44,9 +44,15 @@ if __name__ == '__main__':
 
   print(json.dumps(bp.toEntity()))
 
-  w = measurements.Weight(100, 'lbm')
+  w = measurements.Weight(172.7, 'lbm')
   
   print(w.__convert__('kg'))
   print(w.__convert__('lbm'))
   print(json.dumps(w.toEntity()))
+
+  b = measurements.BodyFat(15.5)
+  print(json.dumps(b.toEntity()))
+
+  (lbm, bmr) = measurements.calcLBM(w,b)
+  print lbm, bmr
   
