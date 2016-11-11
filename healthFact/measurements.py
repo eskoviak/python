@@ -29,6 +29,13 @@ class Weight:
     else:
       self.__units=str(unitsId)
 
+  def __getitem__(self, key):
+    if(key == 'value'):
+      return self.__value
+    if(key == 'units'):
+      return self.__units
+    return None
+
   def __convert__(self, unitsId):
     if(unitsId == self.__units):
       return float(self.__value)
@@ -47,6 +54,13 @@ class BodyFat:
   def __init__(self, bodyFat):
     self.__units = '%'
     self.__value = bodyFat
+
+  def __getitem__(self, key):
+    if(key == 'value'):
+      return self.__value
+    if(key == 'units'):
+      return self.__units
+    return None
   
   def toEntity(self):
     d = dict()
@@ -56,10 +70,10 @@ class BodyFat:
     
 def calcLBM(Weight, BodyFat):
   if Weight['units'] == 'lbm':
-    factor = 21.6
-  else:
     factor = 9.8
+  else:
+    factor = 21.6
 
   LBM = Weight['value'] * (1 - (BodyFat['value']/100))
   BMR = LBM * factor + 370
-  return 
+  return (LBM, BMR)
