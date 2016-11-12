@@ -6,20 +6,31 @@
 """
 
 class BloodPressure:
-  def __init__(self, systolic, diastolic, heartRate=None):
-    self.__systolic = systolic
-    self.__diastolic = diastolic
-    if(heartRate==None):
-      self.__heartRate = 0
-    else:
-      self.__heartRate = heartRate 
+    """Class BloodPressure.
 
-  def toEntity(self):
-    d=dict()
-    d["systolic"] = self.__systolic
-    d["diastolic"] = self.__diastolic
-    d["heartRate"] = self.__heartRate
-    return d
+    This class represents a Blood pressure measurement, which consists of three values::
+
+        **Systolic Pressure:**  (the upper number)
+
+        **Diastolic Pressure:** (the lower number)
+
+        **Heart Rate:** The rate at which your heart is beating, in beats per minute (bpm).
+
+    """
+    def __init__(self, systolic, diastolic, heartRate=None):
+        self.__systolic = systolic
+        self.__diastolic = diastolic
+        if(heartRate==None):
+            self.__heartRate = 0
+        else:
+            self.__heartRate = heartRate 
+
+    def toEntity(self):
+        d=dict()
+        d["systolic"] = self.__systolic
+        d["diastolic"] = self.__diastolic
+        d["heartRate"] = self.__heartRate
+        return d
 
 class Weight:
   def __init__(self, weight, unitsId=None):
