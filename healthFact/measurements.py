@@ -4,6 +4,7 @@
   Contains classes which represent the basic units used for recording health facts
 
 """
+import standards
 
 class BloodPressure:
     """Class BloodPressure.
@@ -33,35 +34,42 @@ class BloodPressure:
         return d
 
 class Weight:
-  def __init__(self, weight, unitsId=None):
-    self.__value = float(weight)
-    if(unitsId==None):
-      self.__units = 'lbm'
-    else:
-      self.__units=str(unitsId)
+    """Class Weight
 
-  def __getitem__(self, key):
-    if(key == 'value'):
-      return self.__value
-    if(key == 'units'):
-      return self.__units
-    raise KeyError('Unknown key: ' + key)
+    This class represents a weight measurement
+
+    """
+    def __init__(self, weight, unitsId=None):
+        self.__value = float(weight)
+        if(unitsId==None):
+            self.__units = 'lbm'
+        if(unitsId in standards.dictWeight ):
+            self.__units = unitsId
+        else:
+            raise KeyError('Unknown units: ' + unitsId)
+   
+    def __getitem__(self, key):
+        if(key == 'value'):
+            return self.__value
+        if(key == 'units'):
+            return self.__units
+        raise KeyError('Unknown key: ' + key)
     
-  def __convert__(self, unitsId):
-    if(unitsId == self.__units):
-      return float(self.__value)
-    elif (unitsId == 'kg' and self.__units == 'lbm'):
-      return float(self.__value/2.204)
-    elif (unitsId == 'lbm' and self.__units == 'kg'):
-      return float(self.__value * 2.204)
-    else:
-      raise AttributeError('Unknown units identifier: '+unitsId)
+    def __convert__(self, unitsId):
+        if(unitsId == self.__units):
+            return float(self.__value)
+        elif (unitsId == 'kg' and self.__units == 'lbm'):
+            return float(self.__value/2.204)
+        elif (unitsId == 'lbm' and self.__units == 'kg'):
+            return float(self.__value * 2.204)
+        else:
+            raise AttributeError('Unknown units identifier: '+unitsId)
 
-  def toEntity(self):
-    d = dict()
-    d['value']=self.__value
-    d['units']=self.__units
-    return d
+    def toEntity(self):
+        d = dict()
+        d['value']=self.__value
+        d['units']=self.__units
+        return d
 
 class BodyFat:
   def __init__(self, bodyFat):

@@ -8,22 +8,6 @@ import sys
 sys.path.append('./healthFact')
 import measurements
 
-# class BloodPressure:
-
-#   def __init__(self, systolic, diastolic, heartRate=None):
-#     self.__systolic = systolic
-#     self.__diastolic = diastolic
-#     if(heartRate==None):
-#       self.__heartRate = 0
-#     else:
-#       self.__heartRate = heartRate 
-
-#   def toEntity(self):
-#     d=dict
-#     d["systolic"] = self.__systolic
-#     d["diastolic"] = self.__diastolic
-#     d["heartRate"] = self.__heartRate
-#     return d
 
 def makeBPEntry(date, systolic, diastolic, hr):
     entry = dict()
@@ -45,6 +29,11 @@ if __name__ == '__main__':
   print(json.dumps(bp.toEntity()))
 
   w = measurements.Weight(172.7, 'lbm')
+
+  try:
+    w1=measurements.Weight(172.7, 'g')
+  except KeyError as ke:
+    print (ke.message)
   
   print(w.__convert__('kg'))
   print(w.__convert__('lbm'))
