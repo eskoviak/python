@@ -1,0 +1,20 @@
+<IfbiEsbRequest>
+    <ClientName>AutoDataPrefill</ClientName>
+    <ClientVersion>1.0</ClientVersion>
+    <ClientPassword>UpwE6KuTMiJP0VSTg2tv0w==</ClientPassword>
+    <ServiceName>Auto-GetPolicyInfo</ServiceName>
+    <ServiceVersion>2.b</ServiceVersion>
+    <Payload>
+        <Auto-GetPolicyInfoRequest>
+            <KeyNumber>0008153452</KeyNumber>
+            <LineOfBusiness>APV</LineOfBusiness>
+            <EffectiveDate/>
+            <ExpirationDate/>
+            <QuoteSeqNumber>0</QuoteSeqNumber>
+            <BillingRequired>N</BillingRequired>
+            <PolicyRequired>Y</PolicyRequired>
+            <ClaimsRequired>N</ClaimsRequired>
+            <LegacyRequired>N</LegacyRequired>
+        </Auto-GetPolicyInfoRequest>
+    </Payload>
+</IfbiEsbRequest>
