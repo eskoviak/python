@@ -46,7 +46,7 @@ class Weight:
         if(unitsId in standards.dictWeight ):
             self.__units = unitsId
         else:
-            raise KeyError('Unknown units: ' + unitsId)
+            raise AttributeError('Unknown attribute: ' + unitsId)
    
     def __getitem__(self, key):
         if(key == 'value'):
