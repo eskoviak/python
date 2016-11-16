@@ -32,15 +32,15 @@ if __name__ == '__main__':
 
   try:
     w1=measurements.Weight(172.7, 'g')
-  except KeyError as ke:
-    print (ke.message)
+  except AttributeError as ae:
+    print (ae.message)
   
-  print(w.__convert__('kg'))
-  print(w.__convert__('lbm'))
   try:
-    print(w.__convert__('g'))
-  except AttributeError:
-    print('Unknown units')
+        print(w.__convert__('kg'))
+        print(w.__convert__('lbm'))
+        print(w.__convert__('g'))
+  except AttributeError as ae:
+        print(ae.message)
     
   print(json.dumps(w.toEntity()))
 
