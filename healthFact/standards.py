@@ -11,9 +11,9 @@ def convWeight(self, inValue, fromUnits, toUnits):
     unitsList = dictWeight.keys()
     if( fromUnits in unitsList and toUnits in unitsList):
         # convert inUnits to standard (kg)
-        inStd = inValue
+        return float(inValue * (dictWeight[fromUnits]/dictWeight[toUnits]))
     else:
-        raise KeyError('invalid units')
+        raise KeyError('weight units')
 
 # Length
 dictLength = dict()

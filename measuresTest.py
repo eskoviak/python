@@ -36,11 +36,11 @@ if __name__ == '__main__':
     print (ae.message)
   
   try:
-        print(w.__convert__('kg'))
-        print(w.__convert__('lbm'))
-        print(w.__convert__('g'))
-  except AttributeError as ae:
-        print(ae.message)
+        print(w.convert(1.0, 'kg', 'lbm'))
+        print(w.convert(1.0, 'lbm', 'kg'))
+        print(w.convert(1.0, 'g', 'kg'))
+  except KeyError as ke:
+        print(ke.message)
     
   print(json.dumps(w.toEntity()))
 

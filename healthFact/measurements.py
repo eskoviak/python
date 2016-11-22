@@ -55,15 +55,11 @@ class Weight:
             return self.__units
         raise KeyError('Unknown key: ' + key)
     
-    def __convert__(self, unitsId):
-        if(unitsId == self.__units):
-            return float(self.__value)
-        elif (unitsId == 'kg' and self.__units == 'lbm'):
-            return float(self.__value/2.204)
-        elif (unitsId == 'lbm' and self.__units == 'kg'):
-            return float(self.__value * 2.204)
-        else:
-            raise AttributeError('Unknown units identifier: '+unitsId)
+    def convert(self, value, fromUnits, toUnits):
+	try:
+		standards.convWeight(self, value, fromUnits, toUnits)
+	except KeyError as ke:
+		raise KeyError('Bad conversion: ' + ke.message)
 
     def toEntity(self):
         d = dict()
