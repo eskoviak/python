@@ -7,26 +7,12 @@ import json
 import sys
 sys.path.append('./healthFact')
 import measurements
-
-
-def makeBPEntry(date, systolic, diastolic, hr):
-    entry = dict()
-    entry['observationDate']=date
-    entry['source'] = u'Omron'
-    entry['type'] = u'BloodPressure'
-
-    values = dict()    
-    values['systolic'] = {'value' : systolic,'units':'mmHg'}
-    values['diastolic'] = {'value' : diastolic,'units':'mmHg'}
-    values['heartRate'] = {'value': hr,'units':'bpm'} 
-
-    entry['value'] = json.dumps(values)
-    return entry
+import datastoreDAO
 
 if __name__ == '__main__':
-  bp = measurements.BloodPressure(120,80)
+#  bp = measurements.BloodPressure(120,80)
 
-  print(json.dumps(bp.toEntity()))
+  datastoreDAO.makeBPEntry(datetime.datetime.today(), 120, 80, 60)
 
   w = measurements.Weight(172.7, 'lbm')
 

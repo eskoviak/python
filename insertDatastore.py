@@ -22,11 +22,10 @@ if __name__ == '__main__':
     entry = datastore.Entity(key=incomplete_key)
 
     entry.update({
-        'observationDate' : datetime.datetime(2016, 10, 27, 11, 30, 00),
+        'observationDate' : datetime.datetime.today(),
         'source' : u'Omron',
         'type' : u'Blood Pressure', 
-#        'value' : u"{ 'value' : 171.0, 'units' : 'lbm' }"
         'value' : (u"{[{'name' : 'systolic', { 'value' : 126, 'units' : 'mmHg'}},"
-                   u"{'name' : 'diastolic', { 'value' : 73, 'units' : 'mmHg'}}]}"))
+                   u"{'name' : 'diastolic', { 'value' : 73, 'units' : 'mmHg'}}]}")})
 
     client.put(entry)

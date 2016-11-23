@@ -57,7 +57,7 @@ class Weight:
     
     def convert(self, value, fromUnits, toUnits):
 	try:
-		standards.convWeight(self, value, fromUnits, toUnits)
+		return standards.convWeight(self, value, fromUnits, toUnits)
 	except KeyError as ke:
 		raise KeyError('Bad conversion: ' + ke.message)
 
