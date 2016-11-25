@@ -86,7 +86,7 @@ class BodyFat:
     return d
     
 def calcLBM(Weight, BodyFat):
-  if Weight['units'] == 'lbm':
+  if (Weight['units'] == 'lbm'or Weight['units'] == 'lb') :
     factor = 9.8
   else:
     factor = 21.6

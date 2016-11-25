@@ -1,4 +1,3 @@
-
 # datastore DAO file
 
 # [BEGIN IMPORTS]
@@ -12,25 +11,33 @@ import json
 from oauth2client.client import GoogleCredentials
 credentials = GoogleCredentials.get_application_default()
 
-def create_client(project_id, namespace='myhealth'):
+# [INSTATNCE VARIABLE]
+project_id = 'spartan-thunder-130321'
+stringValue = '{ "observation" : { "source" : {0}, "comments" : {1}, "value" : { {2} } } }' 
+# [END INSTATNCE VARIABLE]
+
+def __createClient(project_id, namespace='myhealth'):
     return datastore.Client(project_id, namespace, credentials=GoogleCredentials.get_application_default())
 
-def makeBPEntry(date, systolic, diastolic, hr=None, source='Omron'):
-    entryValue = measurements.BloodPressure(systolic, diastolic, hr)
-
-    # create the entry object
-    project_id = 'spartan-thunder-130321'
-    client = create_client(project_id)
+def createEntry():
+    client = __createClient(project_id)
     incomplete_key = client.key('healthFact')
-    entry = datastore.Entity(key=incomplete_key)
+    return client, datastore.Entity(key=incomplete_key)
+
+def makeBPEntry(date, systolic, diastolic, hr=None, source='Omron', comments=None):
+    entityValue = measurements.BloodPressure(systolic, diastolic, hr)
+
+    # create the client and entry objects
+    (client, entity) = createEntry()
 
     # populate the entry object
-    entry['observationDate']=date
-    entry['source'] = u'Omron'
-    entry['type'] = u'BloodPressure'
-    entry['value'] = json.dumps(entryValue.toEntity())
+    entity['observationDate']=date
+    entity['type'] = u'BloodPressure'
+#    entity['source'] = u'Omron'
+#    entity['comments'] = str(comments)
+    entity['value'] = stringValue.format(source, comments, json.dumps(entityValue.toEntity()))
 
     # write the datastore
-    client.put(entry)
+    client.put(entity)
 
 
