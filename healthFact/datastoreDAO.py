@@ -11,33 +11,68 @@ import json
 from oauth2client.client import GoogleCredentials
 credentials = GoogleCredentials.get_application_default()
 
-# [INSTATNCE VARIABLE]
+# [INSTATNCE VARIABLESs]
+#   -- Defaults
 project_id = 'spartan-thunder-130321'
-stringValue = '{ "observation" : { "source" : {0}, "comments" : {1}, "value" : { {2} } } }' 
-# [END INSTATNCE VARIABLE]
+namespace = 'myhealth'
+# [END INSTATNCE VARIABLES]
 
-def __createClient(project_id, namespace='myhealth'):
+def __createClient(project_id=project_id, namespace=myhealth):
     return datastore.Client(project_id, namespace, credentials=GoogleCredentials.get_application_default())
 
-def createEntry():
-    client = __createClient(project_id)
-    incomplete_key = client.key('healthFact')
-    return client, datastore.Entity(key=incomplete_key)
+def __createEntry():
+    # use defaults
+    client = __createClient()
+
+    # build the basic entity
+    entity = datastore.Entity(key=client.key('healthFact'))
+    entity['observationDate'] = datetime.datetime.today()
+    entity['type'] = None
+    entity['value'] = None
+    return client, entity
 
 def makeBPEntry(date, systolic, diastolic, hr=None, source='Omron', comments=None):
-    entityValue = measurements.BloodPressure(systolic, diastolic, hr)
+    if (systolic < 60 or systolic > 200 or diastolic < 60 or diastolic > 200):
+        raise AttributeError('observations out of range')
+    else: 
+        entityValue = measurements.BloodPressure(systolic, diastolic, hr)
 
     # create the client and entry objects
-    (client, entity) = createEntry()
+    (client, entity) = __createEntry()
 
     # populate the entry object
     entity['observationDate']=date
     entity['type'] = u'BloodPressure'
-#    entity['source'] = u'Omron'
-#    entity['comments'] = str(comments)
-    entity['value'] = stringValue.format(source, comments, json.dumps(entityValue.toEntity()))
+
+    # create the payload; write it to the entity as a JSON object
+    payload = dict()
+    payload['source'] = source
+    payload['comments'] = comments
+    payload['value'] = entityValue.toEntity()
+    entity['value'] = json.dumps(payload)
 
     # write the datastore
     client.put(entity)
 
+def makeWeightEntry(date, weight, units, bodyFat=None, source='Omron', comments=None):
+    entityValueW = measurements.Weight(weight, units)
+    if bodyFat != None:
+        entityValueBF = measurements.BodyFat(bodyFat)
+    else:
+        entityValueBF = None
+
+    # create the client and entry objects
+    (client, entity) = createEntry()
+     
+    # populate the entry object
+    entity['observationDate'] = date
+    entity['type'] = u'Weight/BodyFat'
+    payload = dict()
+    payload['source'] = source
+    payload['comments'] = comments
+    payload['value'] = '{"weight" :' + entityValueW.toEntity() + ',' +' "bodyFat" : ' + entityValueBF.toEntity() + '}' 
+    entity['value'] = json.dumps(payload)
+
+    # write the datastore
+    client.put(entity) 
 

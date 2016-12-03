@@ -13,6 +13,7 @@ if __name__ == '__main__':
 #  bp = measurements.BloodPressure(120,80)
 
   datastoreDAO.makeBPEntry(datetime.datetime.today(), 120, 80, 60)
+  datastoreDAO.makeWeightEntry(datetime.datetime.today(), 172, 'lbm', 14.2)
 
   w = measurements.Weight(172.7, 'lbm')
 
