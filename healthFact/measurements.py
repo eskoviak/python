@@ -78,7 +78,7 @@ class Weight:
         This only makes sense for weight, if weight is defined (not None)
 
         """
-	if self.__weight != None ):
+	if (self.__weight != None ):
             try:
               return standards.convWeight(self, fromUnits, toUnits)
             except KeyError as ke:

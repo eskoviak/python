@@ -17,7 +17,7 @@ project_id = 'spartan-thunder-130321'
 namespace = 'myhealth'
 # [END INSTATNCE VARIABLES]
 
-def __createClient(project_id=project_id, namespace=myhealth):
+def __createClient(project_id=project_id, namespace=namespace):
     return datastore.Client(project_id, namespace, credentials=GoogleCredentials.get_application_default())
 
 def __createEntry():
