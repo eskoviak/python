@@ -55,11 +55,11 @@ def makeBPEntry(date, systolic, diastolic, hr=None, source='Omron', comments=Non
     client.put(entity)
 
 def makeWeightEntry(date, weight, units, bodyFat=None, source='Omron', comments=None):
-    entityValueW = measurements.Weight(weight, units)
-    if bodyFat != None:
-        entityValueBF = measurements.BodyFat(bodyFat)
-    else:
-        entityValueBF = None
+    entityValueW = measurements.Weight(weight, units, bodyFat)
+#    if bodyFat != None:
+#        entityValueBF = measurements.BodyFat(bodyFat)
+#    else:
+#        entityValueBF = None
 
     # create the client and entry objects
     (client, entity) = createEntry()
