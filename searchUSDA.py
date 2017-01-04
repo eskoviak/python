@@ -80,4 +80,5 @@ if __name__ == '__main__':
     print ('Writing to usda.dat: '+ str(len(dataJSON)) + ' bytes')
     outfile.write(json.dumps(dataJSON,indent=4))
     outfile.close()
+    choice=raw_input('Press \'Enter\' to continue...')
   
