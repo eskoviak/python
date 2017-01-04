@@ -72,6 +72,7 @@ if __name__ == '__main__':
         print(nutrient['name']) 
   else:
     print("Error in request: " + str(code))
+    choice=raw_input('Press \'Enter\' to continue...')
     exit(-1)
 
   if(debug):
