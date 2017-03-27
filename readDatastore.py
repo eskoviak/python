@@ -15,7 +15,7 @@ def create_client(project_id, namespace):
 
 def get_obs(client):
     query = client.query(kind='healthFact')
-    query.order=('observationDate')
+    query.order=('obsDate')
 
     return list(query.fetch())
 
