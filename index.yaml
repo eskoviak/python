@@ -1,0 +1,7 @@
+indexes:
+  - kind: healthFact
+    ancestor: no
+    properties:
+      - name: source
+      - name: obsDate
+        direction: asc
