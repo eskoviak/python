@@ -41,8 +41,8 @@ def makeBPEntry(date, systolic, diastolic, hr=None, source='Omron', comments=Non
     (client, entity) = __createEntry()
 
     # populate the entry object
-    entity['observationDate']=date
-    entity['type'] = u'BloodPressure'
+    entity['obsDate']=date
+    entity['type'] = u'bp'
 
     # create the payload; write it to the entity as a JSON object
     payload = dict()

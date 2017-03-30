@@ -22,9 +22,9 @@ if __name__ == '__main__':
     entry = datastore.Entity(key=incomplete_key)
 
     entry.update({
-        'obsDate' : datetime.datetime(2017,03,27,11,20),
+        'obsDate' : datetime.datetime(2017,03,30,9,35),
         'source' : u'Aria',
-        'type' : u'weight', 
-        'observation' : u"{ 'weight' : 177.7, 'units' : 'lbm'}"
+        'type' : u'bodyFat', 
+        'observation' : u"{ 'bodyFat' : 21.3, 'units' : '%'}"
 	})
     client.put(entry)
