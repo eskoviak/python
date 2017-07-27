@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 
 import json
-import urllib
+import urllib.request
 import os
 import readConfig
 
@@ -26,7 +26,7 @@ def searchUSDA(criteria):
   if(debug):
     print("Search URI: " + url)
 
-  uriSocket = urllib.urlopen(url)
+  uriSocket = urllib.request.urlopen(url)
   respCode = uriSocket.getcode()
   if (respCode == 200):
     dataJSON = json.loads(uriSocket.read())
@@ -40,7 +40,7 @@ def reportUSDA(ndbno, type):
   if(debug):
     print("Search URI: " + url)
 
-  uriSocket = urllib.urlopen(url)
+  uriSocket = urllib.request.urlopen(url)
   respCode = uriSocket.getcode()
   if (respCode == 200):
     dataJSON = json.loads(uriSocket.read())
@@ -53,7 +53,7 @@ if __name__ == '__main__':
   # Get user's choice
   choice = ""
   while choice == "":
-    choice = raw_input('Enter search term: ')
+    choice = input('Enter search term: ')
   
   (code, dataJSON) = searchUSDA(choice)
   if(debug):  
@@ -64,7 +64,7 @@ if __name__ == '__main__':
   if(code == 200):
     for item in dataJSON['list']['item']:
       print(item['ndbno'] + " : " + item['name'])
-    choice=raw_input('Enter NDBNO to report: ')
+    choice=input('Enter NDBNO to report: ')
     (code, dataJSON) = reportUSDA(choice, 'f')
     if(code == 200):
       #print(len(dataJSON['report']['food']['nutrients']))
@@ -72,7 +72,7 @@ if __name__ == '__main__':
         print(nutrient['name']) 
   else:
     print("Error in request: " + str(code))
-    choice=raw_input('Press \'Enter\' to continue...')
+    choice=input('Press \'Enter\' to continue...')
     exit(-1)
 
   if(debug):
@@ -81,5 +81,5 @@ if __name__ == '__main__':
     print ('Writing to usda.dat: '+ str(len(dataJSON)) + ' bytes')
     outfile.write(json.dumps(dataJSON,indent=4))
     outfile.close()
-    choice=raw_input('Press \'Enter\' to continue...')
+    choice=input('Press \'Enter\' to continue...')
   
