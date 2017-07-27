@@ -4,11 +4,12 @@ import json
 import urllib.request
 import os
 import readConfig
+import argparse
 
 
 searchURITemplate='http://api.nal.usda.gov/ndb/search/?format=json&q={0}&sort=n&max=25&offset=0&api_key={1}'
 reportURITemplate='http://api.nal.usda.gov/ndb/reports/?ndbno={0}&type=f&format=json&api_key={1}'
-debug = True
+#debug = True
 
 def loadFile(filename):
   if(os.path.exsists(filename)):
@@ -50,6 +51,12 @@ def reportUSDA(ndbno, type):
 
 if __name__ == '__main__':
 
+  # Parse command line arguments
+  debug = False
+  parser=argparse.ArgumentParser(description='Searches USDA Database')
+  parser.add_argument('-d', '--debug', action='store_true' )
+  print(debug)
+
   # Get user's choice
   choice = ""
   while choice == "":
@@ -62,6 +69,8 @@ if __name__ == '__main__':
     print(dataJSON['list']['end'])
 
   if(code == 200):
+    print(dataJSON)
+    exit(-1)
     for item in dataJSON['list']['item']:
       print(item['ndbno'] + " : " + item['name'])
     choice=input('Enter NDBNO to report: ')
