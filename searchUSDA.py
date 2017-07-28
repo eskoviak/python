@@ -52,9 +52,10 @@ def reportUSDA(ndbno, type):
 if __name__ == '__main__':
 
   # Parse command line arguments
-  debug = False
+  debug = True
   parser=argparse.ArgumentParser(description='Searches USDA Database')
   parser.add_argument('-d', '--debug', action='store_true' )
+  parser.parse_args()
   print(debug)
 
   # Get user's choice
