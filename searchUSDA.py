@@ -31,6 +31,7 @@ def searchUSDA(criteria):
   respCode = uriSocket.getcode()
   if (respCode == 200):
     dataJSON = json.loads(uriSocket.read())
+    #  check that the data contains a valid
     return(respCode, dataJSON)
   else:
     return(respCode, "")
