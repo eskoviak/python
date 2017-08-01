@@ -31,7 +31,9 @@ def searchUSDA(criteria):
   respCode = uriSocket.getcode()
   if (respCode == 200):
     dataJSON = json.loads(uriSocket.read())
-    #  check that the data contains a valid
+    #  check that the data contains search data
+    #if(debug):
+    #  print(dataJSON)
     return(respCode, dataJSON)
   else:
     return(respCode, "")
@@ -68,19 +70,29 @@ if __name__ == '__main__':
   if(debug):  
     print("For search term: " + choice)
     print("Items Found: ")
-    print(dataJSON['list']['end'])
+    #print(dataJSON['list']['end'])
+    #exit(-1)
+
+
 
   if(code == 200):
-    print(dataJSON)
-    exit(-1)
-    for item in dataJSON['list']['item']:
-      print(item['ndbno'] + " : " + item['name'])
-    choice=input('Enter NDBNO to report: ')
-    (code, dataJSON) = reportUSDA(choice, 'f')
-    if(code == 200):
-      #print(len(dataJSON['report']['food']['nutrients']))
-      for nutrient in dataJSON['report']['food']['nutrients']:
-        print(nutrient['name']) 
+    
+    try:
+        #print(dataJSON)
+        #exit(-1)
+        for item in dataJSON['list']['item']:
+          print(item['ndbno'] + " : " + item['name'])
+        choice=input('Enter NDBNO to report: ')
+        (code, dataJSON) = reportUSDA(choice, 'f')
+        if(code == 200):
+            try:
+              #print(len(dataJSON['report']['food']['nutrients']))
+              for nutrient in dataJSON['report']['food']['nutrients']:
+                print(nutrient['name'])
+            except :
+              print('report is empty')
+    except KeyError as ke :
+        print('No matching items found') 
   else:
     print("Error in request: " + str(code))
     choice=input('Press \'Enter\' to continue...')
