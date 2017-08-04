@@ -1,4 +1,4 @@
-#!/usr/bin/env python
+#!/usr/bin/env python3
 
 import json
 import urllib.request
@@ -27,16 +27,15 @@ def searchUSDA(criteria):
   if(debug):
     print("Search URI: " + url)
 
-  uriSocket = urllib.request.urlopen(url)
-  respCode = uriSocket.getcode()
-  if (respCode == 200):
-    dataJSON = json.loads(uriSocket.read())
-    #  check that the data contains search data
-    #if(debug):
-    #  print(dataJSON)
+  uriSocket = urllib.request.Request(url)
+  try:
+    response = urllib.request.urlopen(uriSocket)
+    respCode = response.status
+    dataJSON = json.loads(str(response.read(), encoding='utf-8'))
     return(respCode, dataJSON)
-  else:
-    return(respCode, "")
+  except urllib.error.HTTPError as e:
+    print(e.code)
+    return(e.code, "")
 
 def reportUSDA(ndbno, type):
   key = readConfig.readKey('configuration.cfg', 'api.data.key.gov')
@@ -44,13 +43,14 @@ def reportUSDA(ndbno, type):
   if(debug):
     print("Search URI: " + url)
 
-  uriSocket = urllib.request.urlopen(url)
-  respCode = uriSocket.getcode()
-  if (respCode == 200):
-    dataJSON = json.loads(uriSocket.read())
+  uriSocket = urllib.request.Request(url)
+  try:
+    response = urllib.request.urlopen(uriSocket)
+    respCode = response.status
+    dataJSON = json.loads(str(response.read(), encoding='utf-8'))
     return(respCode, dataJSON)
-  else:
-    return(respCode, "")
+  except urllib.error.HTTPError as e:
+    return(e.code, "")
 
 if __name__ == '__main__':
 
@@ -69,24 +69,16 @@ if __name__ == '__main__':
   (code, dataJSON) = searchUSDA(choice)
   if(debug):  
     print("For search term: " + choice)
-    print("Items Found: ")
-    #print(dataJSON['list']['end'])
-    #exit(-1)
-
-
 
   if(code == 200):
     
     try:
-        #print(dataJSON)
-        #exit(-1)
         for item in dataJSON['list']['item']:
           print(item['ndbno'] + " : " + item['name'])
         choice=input('Enter NDBNO to report: ')
         (code, dataJSON) = reportUSDA(choice, 'f')
         if(code == 200):
             try:
-              #print(len(dataJSON['report']['food']['nutrients']))
               for nutrient in dataJSON['report']['food']['nutrients']:
                 print(nutrient['name'])
             except :
