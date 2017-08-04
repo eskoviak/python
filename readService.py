@@ -11,7 +11,7 @@ environments = {
     'localhost' : 'http://localhost:8181/api/policies/',
     'QAG' : 'https://karaf-g.infarmbureau.com:8443/api/policies/',
     'ESB' : 'http://esb2-dev.infarmbureau.com:9081/',
-    'RWSJAMS' : 'http://rwsjamswebcln/jams/get-api-agent'
+    'RWSJAMS' : 'http://rwsjamswebcln/JAMS/api/agent'
     }
 
 def loadFile(filename):
@@ -56,14 +56,16 @@ if __name__ == '__main__':
         pass
         
     print ('Call Url: ' + url)
-    response = urllib.request.urlopen(url).read()
-    #print(response)
+    #response = urllib.request.urlopen(url).read()
+    request = urllib.request.Request(url, headers={'Accept':'application/json'})
+    response = urllib.request.urlopen(request)
+    print(response.getheaders())
     
     #fileData = json.loads(response)
 
     # Write response to file
-    outfile = open('output.html', 'w')
-    print ('Writing to output.dat: '+ str(len(response)) + ' bytes')
+    outfile = open('output.json', 'w')
+    print ('Writing: '+ str(len(response)) + ' bytes')
     #outfile.write(json.dumps(fileData,indent=4))
     outfile.write(str(response))
     outfile.close()
