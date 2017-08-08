@@ -55,13 +55,14 @@ def reportUSDA(ndbno, type):
 if __name__ == '__main__':
 
   # Parse command line arguments
+  # TODO This doesn't work!
   debug = True
   parser=argparse.ArgumentParser(description='Searches USDA Database')
   parser.add_argument('-d', '--debug', action='store_true' )
   parser.parse_args()
   print(debug)
 
-  # Get user's choice
+  # Get user's criteria
   choice = ""
   while choice == "":
     choice = input('Enter search term: ')
@@ -69,6 +70,10 @@ if __name__ == '__main__':
   (code, dataJSON) = searchUSDA(choice)
   if(debug):  
     print("For search term: " + choice)
+    print("writing response to usda_search_response.json")
+    outfile = open('usda_search_response.json', 'w')
+    outfile.write(json.dumps(dataJSON, indent=4))
+    outfile.close
 
   if(code == 200):
     
@@ -78,11 +83,15 @@ if __name__ == '__main__':
         choice=input('Enter NDBNO to report: ')
         (code, dataJSON) = reportUSDA(choice, 'f')
         if(code == 200):
-            try:
-              for nutrient in dataJSON['report']['food']['nutrients']:
-                print(nutrient['name'])
-            except :
-              print('report is empty')
+          if(debug):
+              outfile = open('usda_report_response.json', 'w')
+              outfile.write(json.dumps(dataJSON, indent=4))
+              outfile.close      
+          try:
+            for nutrient in dataJSON['report']['food']['nutrients']:
+              print(nutrient['name'])
+          except :
+            print('report is empty')
     except KeyError as ke :
         print('No matching items found') 
   else:

@@ -1,0 +1,257 @@
+{
+    "report": {
+        "sr": "June, 2017",
+        "type": "Basic",
+        "food": {
+            "ndbno": "45029319",
+            "name": "ALBACORE SOLID WHITE TUNA IN WATER, UPC: 07011481",
+            "ds": "LI",
+            "ru": "g",
+            "ing": {
+                "desc": "ALBACORE WHITE TUNE, WATER, VEGETABLE BROTH (PEA AND CARROT EXTRACTS), SALT AND SODIUM PYROPHOSPHATE.",
+                "upd": "09/23/2016"
+            },
+            "nutrients": [
+                {
+                    "nutrient_id": "208",
+                    "name": "Energy",
+                    "derivation": "LCCS",
+                    "group": "Proximates",
+                    "unit": "kcal",
+                    "value": "125",
+                    "measures": [
+                        {
+                            "label": "cup",
+                            "eqv": 56.0,
+                            "eunit": "g",
+                            "qty": 0.25,
+                            "value": "70"
+                        }
+                    ]
+                },
+                {
+                    "nutrient_id": "203",
+                    "name": "Protein",
+                    "derivation": "LCCS",
+                    "group": "Proximates",
+                    "unit": "g",
+                    "value": "26.79",
+                    "measures": [
+                        {
+                            "label": "cup",
+                            "eqv": 56.0,
+                            "eunit": "g",
+                            "qty": 0.25,
+                            "value": "15.00"
+                        }
+                    ]
+                },
+                {
+                    "nutrient_id": "204",
+                    "name": "Total lipid (fat)",
+                    "derivation": "LCCS",
+                    "group": "Proximates",
+                    "unit": "g",
+                    "value": "1.79",
+                    "measures": [
+                        {
+                            "label": "cup",
+                            "eqv": 56.0,
+                            "eunit": "g",
+                            "qty": 0.25,
+                            "value": "1.00"
+                        }
+                    ]
+                },
+                {
+                    "nutrient_id": "205",
+                    "name": "Carbohydrate, by difference",
+                    "derivation": "LCCS",
+                    "group": "Proximates",
+                    "unit": "g",
+                    "value": "0.00",
+                    "measures": [
+                        {
+                            "label": "cup",
+                            "eqv": 56.0,
+                            "eunit": "g",
+                            "qty": 0.25,
+                            "value": "0.00"
+                        }
+                    ]
+                },
+                {
+                    "nutrient_id": "291",
+                    "name": "Fiber, total dietary",
+                    "derivation": "LCCS",
+                    "group": "Proximates",
+                    "unit": "g",
+                    "value": "0.0",
+                    "measures": [
+                        {
+                            "label": "cup",
+                            "eqv": 56.0,
+                            "eunit": "g",
+                            "qty": 0.25,
+                            "value": "0.0"
+                        }
+                    ]
+                },
+                {
+                    "nutrient_id": "269",
+                    "name": "Sugars, total",
+                    "derivation": "LCCS",
+                    "group": "Proximates",
+                    "unit": "g",
+                    "value": "0.00",
+                    "measures": [
+                        {
+                            "label": "cup",
+                            "eqv": 56.0,
+                            "eunit": "g",
+                            "qty": 0.25,
+                            "value": "0.00"
+                        }
+                    ]
+                },
+                {
+                    "nutrient_id": "301",
+                    "name": "Calcium, Ca",
+                    "derivation": "LCCD",
+                    "group": "Minerals",
+                    "unit": "mg",
+                    "value": "0",
+                    "measures": [
+                        {
+                            "label": "cup",
+                            "eqv": 56.0,
+                            "eunit": "g",
+                            "qty": 0.25,
+                            "value": "0"
+                        }
+                    ]
+                },
+                {
+                    "nutrient_id": "303",
+                    "name": "Iron, Fe",
+                    "derivation": "LCCD",
+                    "group": "Minerals",
+                    "unit": "mg",
+                    "value": "0.00",
+                    "measures": [
+                        {
+                            "label": "cup",
+                            "eqv": 56.0,
+                            "eunit": "g",
+                            "qty": 0.25,
+                            "value": "0.00"
+                        }
+                    ]
+                },
+                {
+                    "nutrient_id": "307",
+                    "name": "Sodium, Na",
+                    "derivation": "LCCS",
+                    "group": "Minerals",
+                    "unit": "mg",
+                    "value": "250",
+                    "measures": [
+                        {
+                            "label": "cup",
+                            "eqv": 56.0,
+                            "eunit": "g",
+                            "qty": 0.25,
+                            "value": "140"
+                        }
+                    ]
+                },
+                {
+                    "nutrient_id": "401",
+                    "name": "Vitamin C, total ascorbic acid",
+                    "derivation": "LCCD",
+                    "group": "Vitamins",
+                    "unit": "mg",
+                    "value": "0.0",
+                    "measures": [
+                        {
+                            "label": "cup",
+                            "eqv": 56.0,
+                            "eunit": "g",
+                            "qty": 0.25,
+                            "value": "0.0"
+                        }
+                    ]
+                },
+                {
+                    "nutrient_id": "318",
+                    "name": "Vitamin A, IU",
+                    "derivation": "LCCD",
+                    "group": "Vitamins",
+                    "unit": "IU",
+                    "value": "0",
+                    "measures": [
+                        {
+                            "label": "cup",
+                            "eqv": 56.0,
+                            "eunit": "g",
+                            "qty": 0.25,
+                            "value": "0"
+                        }
+                    ]
+                },
+                {
+                    "nutrient_id": "606",
+                    "name": "Fatty acids, total saturated",
+                    "derivation": "LCCS",
+                    "group": "Lipids",
+                    "unit": "g",
+                    "value": "0.000",
+                    "measures": [
+                        {
+                            "label": "cup",
+                            "eqv": 56.0,
+                            "eunit": "g",
+                            "qty": 0.25,
+                            "value": "0.000"
+                        }
+                    ]
+                },
+                {
+                    "nutrient_id": "605",
+                    "name": "Fatty acids, total trans",
+                    "derivation": "LCCS",
+                    "group": "Lipids",
+                    "unit": "g",
+                    "value": "0.000",
+                    "measures": [
+                        {
+                            "label": "cup",
+                            "eqv": 56.0,
+                            "eunit": "g",
+                            "qty": 0.25,
+                            "value": "0.000"
+                        }
+                    ]
+                },
+                {
+                    "nutrient_id": "601",
+                    "name": "Cholesterol",
+                    "derivation": "LCCS",
+                    "group": "Lipids",
+                    "unit": "mg",
+                    "value": "36",
+                    "measures": [
+                        {
+                            "label": "cup",
+                            "eqv": 56.0,
+                            "eunit": "g",
+                            "qty": 0.25,
+                            "value": "20"
+                        }
+                    ]
+                }
+            ]
+        },
+        "footnotes": []
+    }
+}
