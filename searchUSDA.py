@@ -7,7 +7,7 @@ import readConfig
 import argparse
 
 
-searchURITemplate='http://api.nal.usda.gov/ndb/search/?format=json&q={0}&sort=n&max=25&offset=0&api_key={1}'
+searchURITemplate='http://api.nal.usda.gov/ndb/search/?format=json&q={0}&sort=r&max=50&offset=0&api_key={1}'
 reportURITemplate='http://api.nal.usda.gov/ndb/reports/?ndbno={0}&type=f&format=json&api_key={1}'
 #debug = True
 
@@ -81,17 +81,18 @@ if __name__ == '__main__':
         for item in dataJSON['list']['item']:
           print(item['ndbno'] + " : " + item['name'])
         choice=input('Enter NDBNO to report: ')
-        (code, dataJSON) = reportUSDA(choice, 'f')
-        if(code == 200):
-          if(debug):
-              outfile = open('usda_report_response.json', 'w')
-              outfile.write(json.dumps(dataJSON, indent=4))
-              outfile.close      
-          try:
-            for nutrient in dataJSON['report']['food']['nutrients']:
-              print(nutrient['name'])
-          except :
-            print('report is empty')
+        if(len(choice) > 0):
+          (code, dataJSON) = reportUSDA(choice, 'f')
+          if(code == 200):
+            if(debug):
+                outfile = open('usda_report_response.json', 'w')
+                outfile.write(json.dumps(dataJSON, indent=4))
+                outfile.close      
+            try:
+              for nutrient in dataJSON['report']['food']['nutrients']:
+                print(nutrient['name'])
+            except :
+              print('report is empty')
     except KeyError as ke :
         print('No matching items found') 
   else:

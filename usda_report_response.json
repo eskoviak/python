@@ -1,15 +1,16 @@
 {
     "report": {
-        "sr": "June, 2017",
+        "sr": "December, 2017",
         "type": "Basic",
         "food": {
-            "ndbno": "45029319",
-            "name": "ALBACORE SOLID WHITE TUNA IN WATER, UPC: 07011481",
+            "ndbno": "45186019",
+            "name": "APRICOT GINGER GLAZED CARROTS, UPC: 815712012957",
             "ds": "LI",
+            "manu": "Fresh Food Manufacturing",
             "ru": "g",
             "ing": {
-                "desc": "ALBACORE WHITE TUNE, WATER, VEGETABLE BROTH (PEA AND CARROT EXTRACTS), SALT AND SODIUM PYROPHOSPHATE.",
-                "upd": "09/23/2016"
+                "desc": "CARROTS, WATER, ORANGE JUICE (WATER, ORANGE JUICE CONCENTRATE), LIGHT BROWN SUGAR (SUGAR, CANE SYRUPS), DRIED APRICOTS, SULFUR DIOXIDE (SULFITES)), CONTAINS 2% OR LESS OF CANOLA OIL, GINGER, BUTTER (CREAM), CORNSTARCH SPICES, SALT, PECANS.",
+                "upd": "07/14/2017"
             },
             "nutrients": [
                 {
@@ -18,14 +19,14 @@
                     "derivation": "LCCS",
                     "group": "Proximates",
                     "unit": "kcal",
-                    "value": "125",
+                    "value": "80",
                     "measures": [
                         {
                             "label": "cup",
-                            "eqv": 56.0,
+                            "eqv": 113.0,
                             "eunit": "g",
-                            "qty": 0.25,
-                            "value": "70"
+                            "qty": 0.75,
+                            "value": "90"
                         }
                     ]
                 },
@@ -35,14 +36,14 @@
                     "derivation": "LCCS",
                     "group": "Proximates",
                     "unit": "g",
-                    "value": "26.79",
+                    "value": "0.88",
                     "measures": [
                         {
                             "label": "cup",
-                            "eqv": 56.0,
+                            "eqv": 113.0,
                             "eunit": "g",
-                            "qty": 0.25,
-                            "value": "15.00"
+                            "qty": 0.75,
+                            "value": "0.99"
                         }
                     ]
                 },
@@ -52,14 +53,14 @@
                     "derivation": "LCCS",
                     "group": "Proximates",
                     "unit": "g",
-                    "value": "1.79",
+                    "value": "3.10",
                     "measures": [
                         {
                             "label": "cup",
-                            "eqv": 56.0,
+                            "eqv": 113.0,
                             "eunit": "g",
-                            "qty": 0.25,
-                            "value": "1.00"
+                            "qty": 0.75,
+                            "value": "3.50"
                         }
                     ]
                 },
@@ -69,14 +70,14 @@
                     "derivation": "LCCS",
                     "group": "Proximates",
                     "unit": "g",
-                    "value": "0.00",
+                    "value": "13.27",
                     "measures": [
                         {
                             "label": "cup",
-                            "eqv": 56.0,
+                            "eqv": 113.0,
                             "eunit": "g",
-                            "qty": 0.25,
-                            "value": "0.00"
+                            "qty": 0.75,
+                            "value": "15.00"
                         }
                     ]
                 },
@@ -86,14 +87,14 @@
                     "derivation": "LCCS",
                     "group": "Proximates",
                     "unit": "g",
-                    "value": "0.0",
+                    "value": "2.7",
                     "measures": [
                         {
                             "label": "cup",
-                            "eqv": 56.0,
+                            "eqv": 113.0,
                             "eunit": "g",
-                            "qty": 0.25,
-                            "value": "0.0"
+                            "qty": 0.75,
+                            "value": "3.1"
                         }
                     ]
                 },
@@ -103,14 +104,14 @@
                     "derivation": "LCCS",
                     "group": "Proximates",
                     "unit": "g",
-                    "value": "0.00",
+                    "value": "7.96",
                     "measures": [
                         {
                             "label": "cup",
-                            "eqv": 56.0,
+                            "eqv": 113.0,
                             "eunit": "g",
-                            "qty": 0.25,
-                            "value": "0.00"
+                            "qty": 0.75,
+                            "value": "8.99"
                         }
                     ]
                 },
@@ -120,14 +121,14 @@
                     "derivation": "LCCD",
                     "group": "Minerals",
                     "unit": "mg",
-                    "value": "0",
+                    "value": "35",
                     "measures": [
                         {
                             "label": "cup",
-                            "eqv": 56.0,
+                            "eqv": 113.0,
                             "eunit": "g",
-                            "qty": 0.25,
-                            "value": "0"
+                            "qty": 0.75,
+                            "value": "40"
                         }
                     ]
                 },
@@ -137,14 +138,14 @@
                     "derivation": "LCCD",
                     "group": "Minerals",
                     "unit": "mg",
-                    "value": "0.00",
+                    "value": "0.40",
                     "measures": [
                         {
                             "label": "cup",
-                            "eqv": 56.0,
+                            "eqv": 113.0,
                             "eunit": "g",
-                            "qty": 0.25,
-                            "value": "0.00"
+                            "qty": 0.75,
+                            "value": "0.45"
                         }
                     ]
                 },
@@ -154,14 +155,14 @@
                     "derivation": "LCCS",
                     "group": "Minerals",
                     "unit": "mg",
-                    "value": "250",
+                    "value": "186",
                     "measures": [
                         {
                             "label": "cup",
-                            "eqv": 56.0,
+                            "eqv": 113.0,
                             "eunit": "g",
-                            "qty": 0.25,
-                            "value": "140"
+                            "qty": 0.75,
+                            "value": "210"
                         }
                     ]
                 },
@@ -171,14 +172,14 @@
                     "derivation": "LCCD",
                     "group": "Vitamins",
                     "unit": "mg",
-                    "value": "0.0",
+                    "value": "3.9",
                     "measures": [
                         {
                             "label": "cup",
-                            "eqv": 56.0,
+                            "eqv": 113.0,
                             "eunit": "g",
-                            "qty": 0.25,
-                            "value": "0.0"
+                            "qty": 0.75,
+                            "value": "4.4"
                         }
                     ]
                 },
@@ -188,14 +189,14 @@
                     "derivation": "LCCD",
                     "group": "Vitamins",
                     "unit": "IU",
-                    "value": "0",
+                    "value": "14253",
                     "measures": [
                         {
                             "label": "cup",
-                            "eqv": 56.0,
+                            "eqv": 113.0,
                             "eunit": "g",
-                            "qty": 0.25,
-                            "value": "0"
+                            "qty": 0.75,
+                            "value": "16106"
                         }
                     ]
                 },
@@ -205,14 +206,14 @@
                     "derivation": "LCCS",
                     "group": "Lipids",
                     "unit": "g",
-                    "value": "0.000",
+                    "value": "0.880",
                     "measures": [
                         {
                             "label": "cup",
-                            "eqv": 56.0,
+                            "eqv": 113.0,
                             "eunit": "g",
-                            "qty": 0.25,
-                            "value": "0.000"
+                            "qty": 0.75,
+                            "value": "0.994"
                         }
                     ]
                 },
@@ -226,9 +227,9 @@
                     "measures": [
                         {
                             "label": "cup",
-                            "eqv": 56.0,
+                            "eqv": 113.0,
                             "eunit": "g",
-                            "qty": 0.25,
+                            "qty": 0.75,
                             "value": "0.000"
                         }
                     ]
@@ -239,14 +240,14 @@
                     "derivation": "LCCS",
                     "group": "Lipids",
                     "unit": "mg",
-                    "value": "36",
+                    "value": "4",
                     "measures": [
                         {
                             "label": "cup",
-                            "eqv": 56.0,
+                            "eqv": 113.0,
                             "eunit": "g",
-                            "qty": 0.25,
-                            "value": "20"
+                            "qty": 0.75,
+                            "value": "5"
                         }
                     ]
                 }
