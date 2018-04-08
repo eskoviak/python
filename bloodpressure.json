@@ -1,0 +1,9 @@
+{ "observationDate" : "2016-10-27 11:00:00",
+  "source" : "Omron",
+  "type" : "Blood Pressure",
+  "value" :
+    [ { "name" : "systolic", "value" : { "value" : 126, "units" : "mmHg" }},
+      { "name" : "diastolic", "value" : { "value" : 73, "units" : "mmHg" }},
+      { "name" : "rate", "value" : { "value" : 60, "units" : "bpm"}}
+    ]
+}

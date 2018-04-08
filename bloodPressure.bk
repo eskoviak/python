@@ -1,0 +1,22 @@
+#!/usr/bin/env python
+
+# File bloodPressure.py
+
+import datetime
+import json
+
+if __name__ == '__main__':
+    entry = dict()
+    entry['observationDate']=u'2016-10-27'
+    entry['source'] = u'Omron'
+    entry['type'] = u'BloodPressure'
+
+    values = dict()    
+    values['systolic'] = u"{'value':123,'units':'mmHg'}"
+    values['diastolic'] = u"{'value':76,'units':'mmHg'}"
+    values['heartRate'] = u"{'value':60,'units':'bpm'}" 
+
+    entry['value'] = values
+    print(entry)
+    print('====')
+    print(json.dumps(entry))

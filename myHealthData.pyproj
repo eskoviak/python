@@ -1,0 +1,74 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" DefaultTargets="Build">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{1f555237-8b93-47d3-9b9e-4ef703b052ce}</ProjectGuid>
+    <ProjectHome />
+    <StartupFile>calcBMR.py</StartupFile>
+    <SearchPath />
+    <WorkingDirectory>.</WorkingDirectory>
+    <OutputPath>.</OutputPath>
+    <ProjectTypeGuids>{888888a0-9f3d-457c-b088-3a5042f75d52}</ProjectTypeGuids>
+    <LaunchProvider>Standard Python launcher</LaunchProvider>
+    <InterpreterId>Global|PythonCore|3.6</InterpreterId>
+    <Name>myHealthData</Name>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)' == 'Debug'" />
+  <PropertyGroup Condition="'$(Configuration)' == 'Release'" />
+  <PropertyGroup>
+    <VisualStudioVersion Condition=" '$(VisualStudioVersion)' == '' ">10.0</VisualStudioVersion>
+  </PropertyGroup>
+  <ItemGroup>
+    <Content Include="alice.txt" />
+    <Content Include="constitution.txt" />
+    <Content Include="index.html" />
+    <Content Include="small.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="calcBMR.py" />
+    <Compile Include="clients.py" />
+    <Compile Include="curses1.py" />
+    <Compile Include="curses2.py" />
+    <Compile Include="dsStart.py" />
+    <Compile Include="haversine.py" />
+    <Compile Include="healthFact\datastoreDAO.py" />
+    <Compile Include="healthFact\measurements.py" />
+    <Compile Include="healthFact\standards.py" />
+    <Compile Include="hello.py" />
+    <Compile Include="helper.py" />
+    <Compile Include="insertDatastore.py" />
+    <Compile Include="list1.py" />
+    <Compile Include="list2.py" />
+    <Compile Include="measuresTest.py" />
+    <Compile Include="mimic.py" />
+    <Compile Include="point.py" />
+    <Compile Include="Python\list1.py" />
+    <Compile Include="Python\list2.py" />
+    <Compile Include="readConfig.py" />
+    <Compile Include="readDatastore.py" />
+    <Compile Include="readService.py" />
+    <Compile Include="readService2.py" />
+    <Compile Include="read_email.py" />
+    <Compile Include="searchUSDA.py" />
+    <Compile Include="string1.py" />
+    <Compile Include="string2.py" />
+    <Compile Include="testDatastore.py" />
+    <Compile Include="updateDatastore.py" />
+    <Compile Include="vXMLenv\bin\activate_this.py" />
+    <Compile Include="wendyAutoTest.py" />
+    <Compile Include="wordcount.py" />
+    <Compile Include="xml\basic_dict.py" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="healthFact" />
+    <Folder Include="Python" />
+    <Folder Include="vXMLenv\" />
+    <Folder Include="vXMLenv\bin" />
+    <Folder Include="xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <InterpreterReference Include="Global|PythonCore|3.6" />
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
+</Project>

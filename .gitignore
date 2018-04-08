@@ -1,1 +1,4 @@
 xerces-c-3.1.4/*
+*.pyc
+*.dat
+**/*.gz
