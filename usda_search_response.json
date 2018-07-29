@@ -1,21 +1,10 @@
 {
-    "list": {
-        "q": "890704002789",
-        "sr": "Legacy",
-        "ds": "any",
-        "start": 0,
-        "end": 1,
-        "total": 1,
-        "group": "",
-        "sort": "r",
-        "item": [
+    "errors": {
+        "error": [
             {
-                "offset": 0,
-                "group": "Branded Food Products Database",
-                "name": "GRASS-FED WHEY PROTEIN BAR, UPC: 890704002789",
-                "ndbno": "45204734",
-                "ds": "LI",
-                "manu": "Boundless Nutrition"
+                "status": 400,
+                "parameter": "results",
+                "message": "Your search resulted in zero results.Change your parameters and try again"
             }
         ]
     }
