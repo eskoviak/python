@@ -40,12 +40,13 @@ nutrientList = dict(Energy='208', Fat='204', Carbs='205', Protein='203')
 
 if(__name__ == '__main__'):
     test_ndbno = '45057514'
+    ratio = .32
     (ret,jsonResp) = reportUSDA(test_ndbno, 'f')
     if(debug):
         print(json.dumps(jsonResp))
 
     print(jsonResp['report']['food']['name'])
-    print(str.format("Per {0} grams:", 100))
+    print(str.format("Per {0} grams:", 100 * ratio))
     nutrientKeys = nutrientList.keys()
     nutrients=jsonResp['report']['food']['nutrients']   #should be the nutrients dict
     #print(getNutrientItem(nutrients, '208'))
@@ -56,7 +57,7 @@ if(__name__ == '__main__'):
         if(len(nutrientDetail) > 0):
             print(str.format("{0}\t\t{1}\t{2}",
                 nutrientDetail['name'],
-                nutrientDetail['value'],
+                float(nutrientDetail['value']) * ratio,
                 nutrientDetail['unit']))
 
   
