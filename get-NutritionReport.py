@@ -34,13 +34,12 @@ def getNutrientItem(nutrients, nutrientId):
     return ''
 
 def getNutrientMeasures(nutrients):
+    measuresList = []
     if(len(nutrients) > 0):
-        for nutrient in nutrients:
-            if(int(nutrient['nutrient_id']) == 208):
-                return nutrient['measures']
-        return ''
-    else:
-        return ''
+        nutrient = nutrients[0]
+        for measure in nutrient['measures']:
+            measuresList.append((measure['label'],measure['eqv']))
+    return measuresList
     
 # Globals
 nutrientList = dict(Energy='208', Fat='204', Carbs='205', Protein='203')
