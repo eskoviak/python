@@ -7,8 +7,18 @@ import sys
 import json
 import readConfig
 import urllib.request
+import io
 
 debug = False
+
+def loadfoodItemFile(filename):
+    try:
+        foodItem = json.load(io.open(filename))
+        return (0, foodItem)
+    except FileNotFoundError as fnf:
+        return (fnf.errno, '')
+
+
 
 def reportUSDA(ndbno, type):
   key = readConfig.readKey('configuration.cfg', 'api.data.key.gov')
@@ -41,13 +51,42 @@ def getNutrientMeasures(nutrients):
             measuresList.append((measure['label'],measure['eqv']))
     return measuresList
     
+def getCompositeNutrition(ingredientList):
+    if len(ingredientList) >0:
+        for ingredient in ingredientList:
+            (ndbNo, measure) = ingredient
+            (ret)
+
 # Globals
 nutrientList = dict(Energy='208', Fat='204', Carbs='205', Protein='203')
 
 
 if(__name__ == '__main__'):
-    #test_ndbno = '45057514'
-    test_ndbno = '09040' #bananas, raw
+    (ret, foodItem) = loadfoodItemFile("foodItemsTest1.json")
+    if ret == 0:
+        for ingredient in foodItem['ingredients']:
+            if debug:
+                print(ingredient['ndbNo'])
+            (ret, foodItemReport) = reportUSDA(ingredient['ndbNo'], 'f')
+            if debug:
+                print(ret, json.dumps(foodItemReport))
+            nutrients=foodItemReport['report']['food']['nutrients']   #should be the nutrients dict
+            measures = getNutrientMeasures(nutrients)
+            for measure in measures:
+                if ingredient['qtyMeasure'] in measure[0]:
+                    print("found")
+            
+            
+
+    else:
+        print('Error')
+
+
+
+"""     
+    #test_ndbno = '45057514'  # 
+    #test_ndbno = '09040' #bananas, raw
+    ingredientList = [('11457', 116), ('45198639', 214) ]
     ratio = .32
     (ret,jsonResp) = reportUSDA(test_ndbno, 'f')
     if(debug):
@@ -69,5 +108,5 @@ if(__name__ == '__main__'):
                 float(nutrientDetail['value']) * ratio,
                 nutrientDetail['unit']))
     print(getNutrientMeasures(nutrients))
-
+ """
   
