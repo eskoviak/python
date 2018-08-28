@@ -62,7 +62,7 @@ nutrientList = dict(Energy='208', Fat='204', Carbs='205', Protein='203')
 
 
 if(__name__ == '__main__'):
-    (ret, foodItem) = loadfoodItemFile("foodItemsTest1.json")
+    (ret, foodItem) = loadfoodItemFile("foodDiary8-28.json")
     if ret == 0:
         for ingredient in foodItem['ingredients']:
             if debug:
@@ -71,11 +71,28 @@ if(__name__ == '__main__'):
             if debug:
                 print(ret, json.dumps(foodItemReport))
             nutrients=foodItemReport['report']['food']['nutrients']   #should be the nutrients dict
-            measures = getNutrientMeasures(nutrients)
-            for measure in measures:
-                if ingredient['qtyMeasure'] in measure[0]:
-                    print("found")
-            
+            if ingredient['qtyMeasure'] == 'g':
+                ratio = float(ingredient['qty'])/100.0
+            else:
+                measures = getNutrientMeasures(nutrients)
+                found = False
+                for measure in measures:
+                    if ingredient['qtyMeasure'] in measure[0]:
+                        if found == True:
+                            print("found multiple measure matches--using first")
+                            break
+                        else:
+                            ratio = float(measure[1])/100.0
+                            found = True
+            print('Nutrient\tValue\tUnits')
+            for value in nutrientList.values():
+                nutrientDetail = getNutrientItem(nutrients, value)
+
+                if(len(nutrientDetail) > 0):
+                    print(str.format("{0}\t\t{1}\t{2}",
+                        nutrientDetail['name'],
+                        float(nutrientDetail['value']) * ratio,
+                        nutrientDetail['unit']))                
             
 
     else:

@@ -1,0 +1,258 @@
+{
+    "report": {
+        "sr": "July, 2018",
+        "type": "Basic",
+        "food": {
+            "ndbno": "45325002",
+            "name": "PROTEIN BAR, UPC: 749826126517",
+            "ds": "Label Insight",
+            "manu": "Rexall Sundown, Inc.",
+            "ru": "g",
+            "ing": {
+                "desc": "PROTEIN BLEND (MILK PROTEIN ISOLATE, WHEY PROTEIN ISOLATE, WHEY PROTEIN CONCENTRATE), CHOCOLATE FLAVORED COATING (MALTITOL, FRACTIONATED PALM KERNEL OIL, WHEY PROTEIN CONCENTRATE, COCOA [PROCESSED WITH ALKALI], CALCIUM CARBONATE, NATURAL FLAVORS, SOY LECITHIN, SUCRALOSE), HYDROLYZED COLLAGEN, GLYCERIN, COCOA POWDER, WATER, MILK CHOCOLATE DROPS (SUGAR, WHOLE MILK POWDER, CHOCOLATE LIQUOR, COCOA BUTTER, MILK FAT, SOY LECITHIN, NATURAL VANILLA FLAVOR), MALTITOL SYRUP, PEANUT FLOUR, NATURAL FLAVORS, SUCRALOSE, ALMOND BUTTER, SOY LECITHIN.",
+                "upd": "02/16/2018"
+            },
+            "nutrients": [
+                {
+                    "nutrient_id": "208",
+                    "name": "Energy",
+                    "derivation": "LCCS",
+                    "group": "Proximates",
+                    "unit": "kcal",
+                    "value": "360",
+                    "measures": [
+                        {
+                            "label": "BAR",
+                            "eqv": 50,
+                            "eunit": "g",
+                            "qty": 1,
+                            "value": "180"
+                        }
+                    ]
+                },
+                {
+                    "nutrient_id": "203",
+                    "name": "Protein",
+                    "derivation": "LCCS",
+                    "group": "Proximates",
+                    "unit": "g",
+                    "value": "42.00",
+                    "measures": [
+                        {
+                            "label": "BAR",
+                            "eqv": 50,
+                            "eunit": "g",
+                            "qty": 1,
+                            "value": "21.00"
+                        }
+                    ]
+                },
+                {
+                    "nutrient_id": "204",
+                    "name": "Total lipid (fat)",
+                    "derivation": "LCCS",
+                    "group": "Proximates",
+                    "unit": "g",
+                    "value": "9.00",
+                    "measures": [
+                        {
+                            "label": "BAR",
+                            "eqv": 50,
+                            "eunit": "g",
+                            "qty": 1,
+                            "value": "4.50"
+                        }
+                    ]
+                },
+                {
+                    "nutrient_id": "205",
+                    "name": "Carbohydrate, by difference",
+                    "derivation": "LCCS",
+                    "group": "Proximates",
+                    "unit": "g",
+                    "value": "34.00",
+                    "measures": [
+                        {
+                            "label": "BAR",
+                            "eqv": 50,
+                            "eunit": "g",
+                            "qty": 1,
+                            "value": "17.00"
+                        }
+                    ]
+                },
+                {
+                    "nutrient_id": "291",
+                    "name": "Fiber, total dietary",
+                    "derivation": "LCCS",
+                    "group": "Proximates",
+                    "unit": "g",
+                    "value": "4.0",
+                    "measures": [
+                        {
+                            "label": "BAR",
+                            "eqv": 50,
+                            "eunit": "g",
+                            "qty": 1,
+                            "value": "2.0"
+                        }
+                    ]
+                },
+                {
+                    "nutrient_id": "269",
+                    "name": "Sugars, total",
+                    "derivation": "LCCS",
+                    "group": "Proximates",
+                    "unit": "g",
+                    "value": "6.00",
+                    "measures": [
+                        {
+                            "label": "BAR",
+                            "eqv": 50,
+                            "eunit": "g",
+                            "qty": 1,
+                            "value": "3.00"
+                        }
+                    ]
+                },
+                {
+                    "nutrient_id": "301",
+                    "name": "Calcium, Ca",
+                    "derivation": "LCCD",
+                    "group": "Minerals",
+                    "unit": "mg",
+                    "value": "300",
+                    "measures": [
+                        {
+                            "label": "BAR",
+                            "eqv": 50,
+                            "eunit": "g",
+                            "qty": 1,
+                            "value": "150"
+                        }
+                    ]
+                },
+                {
+                    "nutrient_id": "303",
+                    "name": "Iron, Fe",
+                    "derivation": "LCCD",
+                    "group": "Minerals",
+                    "unit": "mg",
+                    "value": "3.60",
+                    "measures": [
+                        {
+                            "label": "BAR",
+                            "eqv": 50,
+                            "eunit": "g",
+                            "qty": 1,
+                            "value": "1.80"
+                        }
+                    ]
+                },
+                {
+                    "nutrient_id": "307",
+                    "name": "Sodium, Na",
+                    "derivation": "LCCS",
+                    "group": "Minerals",
+                    "unit": "mg",
+                    "value": "170",
+                    "measures": [
+                        {
+                            "label": "BAR",
+                            "eqv": 50,
+                            "eunit": "g",
+                            "qty": 1,
+                            "value": "85"
+                        }
+                    ]
+                },
+                {
+                    "nutrient_id": "401",
+                    "name": "Vitamin C, total ascorbic acid",
+                    "derivation": "LCCD",
+                    "group": "Vitamins",
+                    "unit": "mg",
+                    "value": "0.0",
+                    "measures": [
+                        {
+                            "label": "BAR",
+                            "eqv": 50,
+                            "eunit": "g",
+                            "qty": 1,
+                            "value": "0.0"
+                        }
+                    ]
+                },
+                {
+                    "nutrient_id": "318",
+                    "name": "Vitamin A, IU",
+                    "derivation": "LCCD",
+                    "group": "Vitamins",
+                    "unit": "IU",
+                    "value": "0",
+                    "measures": [
+                        {
+                            "label": "BAR",
+                            "eqv": 50,
+                            "eunit": "g",
+                            "qty": 1,
+                            "value": "0"
+                        }
+                    ]
+                },
+                {
+                    "nutrient_id": "606",
+                    "name": "Fatty acids, total saturated",
+                    "derivation": "LCCS",
+                    "group": "Lipids",
+                    "unit": "g",
+                    "value": "6.000",
+                    "measures": [
+                        {
+                            "label": "BAR",
+                            "eqv": 50,
+                            "eunit": "g",
+                            "qty": 1,
+                            "value": "3.000"
+                        }
+                    ]
+                },
+                {
+                    "nutrient_id": "605",
+                    "name": "Fatty acids, total trans",
+                    "derivation": "LCCS",
+                    "group": "Lipids",
+                    "unit": "g",
+                    "value": "0.000",
+                    "measures": [
+                        {
+                            "label": "BAR",
+                            "eqv": 50,
+                            "eunit": "g",
+                            "qty": 1,
+                            "value": "0.000"
+                        }
+                    ]
+                },
+                {
+                    "nutrient_id": "601",
+                    "name": "Cholesterol",
+                    "derivation": "LCCS",
+                    "group": "Lipids",
+                    "unit": "mg",
+                    "value": "20",
+                    "measures": [
+                        {
+                            "label": "BAR",
+                            "eqv": 50,
+                            "eunit": "g",
+                            "qty": 1,
+                            "value": "10"
+                        }
+                    ]
+                }
+            ]
+        },
+        "footnotes": []
+    }
+}
