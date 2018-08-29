@@ -57,12 +57,20 @@ def getCompositeNutrition(ingredientList):
             (ndbNo, measure) = ingredient
             (ret)
 
+def getIntakeRecord(nutrients, ratio):
+    intake = list()
+    for value in nutrientList.values():
+        nutrientDetail = getNutrientItem(nutrients, value)
+        if(len(nutrientDetail) > 0):
+            intake.append( (nutrientDetail['name'], float(nutrientDetail['value']) * ratio, nutrientDetail['unit']) )
+    return intake           
+
 # Globals
 nutrientList = dict(Energy='208', Fat='204', Carbs='205', Protein='203')
 
 
 if(__name__ == '__main__'):
-    (ret, foodItem) = loadfoodItemFile("foodDiary8-28.json")
+    (ret, foodItem) = loadfoodItemFile("foodDiary8-29.json")
     if ret == 0:
         for ingredient in foodItem['ingredients']:
             if debug:
@@ -84,17 +92,7 @@ if(__name__ == '__main__'):
                         else:
                             ratio = float(measure[1])/100.0
                             found = True
-            print('Nutrient\tValue\tUnits')
-            for value in nutrientList.values():
-                nutrientDetail = getNutrientItem(nutrients, value)
-
-                if(len(nutrientDetail) > 0):
-                    print(str.format("{0}\t\t{1}\t{2}",
-                        nutrientDetail['name'],
-                        float(nutrientDetail['value']) * ratio,
-                        nutrientDetail['unit']))                
-            
-
+            print( getIntakeRecord(nutrients, ratio))
     else:
         print('Error')
 

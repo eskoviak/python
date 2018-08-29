@@ -7,16 +7,16 @@
             "meal" : "Post Workout"
         },
         {
-            "ndbNo" : "45325002",
+            "ndbNo" : "12061",
             "qty" : 1.0,
-            "qtyMeasure" : "BAR",
+            "qtyMeasure" : "oz",
             "meal" : "Post Workout"
         },
         {
-            "ndbNo" : "45338541",
-            "qty" : 140,
-            "qtyMeasure" : "g",
-            "meal" : "Lunch"
+            "ndbNo" : "09112",
+            "qty" : 0.5,
+            "qtyMeasure" : "fruit",
+            "meal" : "Morning Snack"
         }
     ]
 }
