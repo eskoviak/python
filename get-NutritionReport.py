@@ -72,6 +72,7 @@ nutrientList = dict(Energy='208', Fat='204', Carbs='205', Protein='203')
 if(__name__ == '__main__'):
     (ret, foodItem) = loadfoodItemFile("foodDiary8-29.json")
     if ret == 0:
+
         for ingredient in foodItem['ingredients']:
             if debug:
                 print(ingredient['ndbNo'])
@@ -81,18 +82,24 @@ if(__name__ == '__main__'):
             nutrients=foodItemReport['report']['food']['nutrients']   #should be the nutrients dict
             if ingredient['qtyMeasure'] == 'g':
                 ratio = float(ingredient['qty'])/100.0
+                measureFullName = 'g'
             else:
                 measures = getNutrientMeasures(nutrients)
                 found = False
                 for measure in measures:
                     if ingredient['qtyMeasure'] in measure[0]:
+                        measureFullName = measure[0]
                         if found == True:
                             print("found multiple measure matches--using first")
                             break
                         else:
                             ratio = float(measure[1])/100.0
                             found = True
-            print( getIntakeRecord(nutrients, ratio))
+            #(name, value, unit) = getIntakeRecord(nutrients, ratio)
+            print(str('{0}; {1} {2}').format(  foodItemReport['report']['food']['name'],
+                ingredient['qty'], measureFullName ))
+            print(getIntakeRecord(nutrients, ratio))
+
     else:
         print('Error')
 
