@@ -1,4 +1,3 @@
-#
 # get-NutritionReport -- Accepts an USDA NDBNo from command line and gets
 # the nutrients specified in the nurtientList
 #
