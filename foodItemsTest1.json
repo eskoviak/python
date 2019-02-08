@@ -1,0 +1,14 @@
+{
+    "name" : "banana",
+    "noServiings" : 1,
+    "servingSize" : 0,
+    "servingUnit" : "large",
+    "ingredients" : [
+        {
+            "ndbNo" : "09040",
+            "qty" : 1.0,
+            "qtyMeasure" : "large",
+            "meal" : "Post Workout"
+        }
+    ]
+}
