@@ -1,16 +1,16 @@
 {
     "report": {
-        "sr": "v0.0 June, 2018",
+        "sr": "July, 2018",
         "type": "Basic",
         "food": {
-            "ndbno": "45204734",
-            "name": "GRASS-FED WHEY PROTEIN BAR, UPC: 890704002789",
+            "ndbno": "45325002",
+            "name": "PROTEIN BAR, UPC: 749826126517",
             "ds": "Label Insight",
-            "manu": "Boundless Nutrition",
+            "manu": "Rexall Sundown, Inc.",
             "ru": "g",
             "ing": {
-                "desc": "GRASS-FED WHEY PROTEIN (WHEY PROTEIN CONCENTRATE, WHEY PROTEIN ISOLATE), CHICORY FOOT FIBER, GLUTEN-FREE OATS, ORGANIC DARK CHOCOLATE (ORGANIC SUGAR, ORGANIC CHOCOLATE LIQUOR, ORGANIC COCOA BUTTER, ORGANIC SOY LECITHIN, ORGANIC VANILLA), ORGANIC TAPIOCA SYRUP, VEGETABLE GLYCERIN, ORGANIC SUNFLOWER OIL, ALMOND BUTTER, RESPONSIBLY-CAUGHT FISH OIL (ANCHOVY, SARDINE, TILAPIA), COCOA POWDER, NATURAL FLAVORS, SEA SALT, SUNFLOWER LECITHIN, TAPIOCA STARCH, MONK FRUIT EXTRACT.",
-                "upd": "04/28/2018"
+                "desc": "PROTEIN BLEND (MILK PROTEIN ISOLATE, WHEY PROTEIN ISOLATE, WHEY PROTEIN CONCENTRATE), CHOCOLATE FLAVORED COATING (MALTITOL, FRACTIONATED PALM KERNEL OIL, WHEY PROTEIN CONCENTRATE, COCOA [PROCESSED WITH ALKALI], CALCIUM CARBONATE, NATURAL FLAVORS, SOY LECITHIN, SUCRALOSE), HYDROLYZED COLLAGEN, GLYCERIN, COCOA POWDER, WATER, MILK CHOCOLATE DROPS (SUGAR, WHOLE MILK POWDER, CHOCOLATE LIQUOR, COCOA BUTTER, MILK FAT, SOY LECITHIN, NATURAL VANILLA FLAVOR), MALTITOL SYRUP, PEANUT FLOUR, NATURAL FLAVORS, SUCRALOSE, ALMOND BUTTER, SOY LECITHIN.",
+                "upd": "02/16/2018"
             },
             "nutrients": [
                 {
@@ -19,14 +19,14 @@
                     "derivation": "LCCS",
                     "group": "Proximates",
                     "unit": "kcal",
-                    "value": "380",
+                    "value": "360",
                     "measures": [
                         {
                             "label": "BAR",
-                            "eqv": 50.0,
+                            "eqv": 50,
                             "eunit": "g",
-                            "qty": 1.0,
-                            "value": "190"
+                            "qty": 1,
+                            "value": "180"
                         }
                     ]
                 },
@@ -36,14 +36,14 @@
                     "derivation": "LCCS",
                     "group": "Proximates",
                     "unit": "g",
-                    "value": "28.00",
+                    "value": "42.00",
                     "measures": [
                         {
                             "label": "BAR",
-                            "eqv": 50.0,
+                            "eqv": 50,
                             "eunit": "g",
-                            "qty": 1.0,
-                            "value": "14.00"
+                            "qty": 1,
+                            "value": "21.00"
                         }
                     ]
                 },
@@ -53,14 +53,14 @@
                     "derivation": "LCCS",
                     "group": "Proximates",
                     "unit": "g",
-                    "value": "14.00",
+                    "value": "9.00",
                     "measures": [
                         {
                             "label": "BAR",
-                            "eqv": 50.0,
+                            "eqv": 50,
                             "eunit": "g",
-                            "qty": 1.0,
-                            "value": "7.00"
+                            "qty": 1,
+                            "value": "4.50"
                         }
                     ]
                 },
@@ -70,14 +70,14 @@
                     "derivation": "LCCS",
                     "group": "Proximates",
                     "unit": "g",
-                    "value": "42.00",
+                    "value": "34.00",
                     "measures": [
                         {
                             "label": "BAR",
-                            "eqv": 50.0,
+                            "eqv": 50,
                             "eunit": "g",
-                            "qty": 1.0,
-                            "value": "21.00"
+                            "qty": 1,
+                            "value": "17.00"
                         }
                     ]
                 },
@@ -87,14 +87,14 @@
                     "derivation": "LCCS",
                     "group": "Proximates",
                     "unit": "g",
-                    "value": "14.0",
+                    "value": "4.0",
                     "measures": [
                         {
                             "label": "BAR",
-                            "eqv": 50.0,
+                            "eqv": 50,
                             "eunit": "g",
-                            "qty": 1.0,
-                            "value": "7.0"
+                            "qty": 1,
+                            "value": "2.0"
                         }
                     ]
                 },
@@ -104,14 +104,14 @@
                     "derivation": "LCCS",
                     "group": "Proximates",
                     "unit": "g",
-                    "value": "10.00",
+                    "value": "6.00",
                     "measures": [
                         {
                             "label": "BAR",
-                            "eqv": 50.0,
+                            "eqv": 50,
                             "eunit": "g",
-                            "qty": 1.0,
-                            "value": "5.00"
+                            "qty": 1,
+                            "value": "3.00"
                         }
                     ]
                 },
@@ -121,14 +121,14 @@
                     "derivation": "LCCD",
                     "group": "Minerals",
                     "unit": "mg",
-                    "value": "100",
+                    "value": "300",
                     "measures": [
                         {
                             "label": "BAR",
-                            "eqv": 50.0,
+                            "eqv": 50,
                             "eunit": "g",
-                            "qty": 1.0,
-                            "value": "50"
+                            "qty": 1,
+                            "value": "150"
                         }
                     ]
                 },
@@ -138,14 +138,14 @@
                     "derivation": "LCCD",
                     "group": "Minerals",
                     "unit": "mg",
-                    "value": "1.44",
+                    "value": "3.60",
                     "measures": [
                         {
                             "label": "BAR",
-                            "eqv": 50.0,
+                            "eqv": 50,
                             "eunit": "g",
-                            "qty": 1.0,
-                            "value": "0.72"
+                            "qty": 1,
+                            "value": "1.80"
                         }
                     ]
                 },
@@ -155,14 +155,14 @@
                     "derivation": "LCCS",
                     "group": "Minerals",
                     "unit": "mg",
-                    "value": "240",
+                    "value": "170",
                     "measures": [
                         {
                             "label": "BAR",
-                            "eqv": 50.0,
+                            "eqv": 50,
                             "eunit": "g",
-                            "qty": 1.0,
-                            "value": "120"
+                            "qty": 1,
+                            "value": "85"
                         }
                     ]
                 },
@@ -172,14 +172,14 @@
                     "derivation": "LCCD",
                     "group": "Vitamins",
                     "unit": "mg",
-                    "value": "48.0",
+                    "value": "0.0",
                     "measures": [
                         {
                             "label": "BAR",
-                            "eqv": 50.0,
+                            "eqv": 50,
                             "eunit": "g",
-                            "qty": 1.0,
-                            "value": "24.0"
+                            "qty": 1,
+                            "value": "0.0"
                         }
                     ]
                 },
@@ -193,9 +193,9 @@
                     "measures": [
                         {
                             "label": "BAR",
-                            "eqv": 50.0,
+                            "eqv": 50,
                             "eunit": "g",
-                            "qty": 1.0,
+                            "qty": 1,
                             "value": "0"
                         }
                     ]
@@ -206,14 +206,14 @@
                     "derivation": "LCCS",
                     "group": "Lipids",
                     "unit": "g",
-                    "value": "4.000",
+                    "value": "6.000",
                     "measures": [
                         {
                             "label": "BAR",
-                            "eqv": 50.0,
+                            "eqv": 50,
                             "eunit": "g",
-                            "qty": 1.0,
-                            "value": "2.000"
+                            "qty": 1,
+                            "value": "3.000"
                         }
                     ]
                 },
@@ -227,9 +227,9 @@
                     "measures": [
                         {
                             "label": "BAR",
-                            "eqv": 50.0,
+                            "eqv": 50,
                             "eunit": "g",
-                            "qty": 1.0,
+                            "qty": 1,
                             "value": "0.000"
                         }
                     ]
@@ -240,14 +240,14 @@
                     "derivation": "LCCS",
                     "group": "Lipids",
                     "unit": "mg",
-                    "value": "40",
+                    "value": "20",
                     "measures": [
                         {
                             "label": "BAR",
-                            "eqv": 50.0,
+                            "eqv": 50,
                             "eunit": "g",
-                            "qty": 1.0,
-                            "value": "20"
+                            "qty": 1,
+                            "value": "10"
                         }
                     ]
                 }

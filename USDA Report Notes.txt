@@ -1,0 +1,9 @@
+report.food.nutrients.nutrient_id in (203, 204, 208)
+  [
+  	203 :== Protein
+  	204 :== Total lipid (fat)
+  	208 :== Energy
+  ]
+
+       _.value :== the value of the nutrient per 100 g
+       _.unit :== the unit of the nutrient

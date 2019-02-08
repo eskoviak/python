@@ -111,5 +111,5 @@ def makeWeightEntry(date, weight, units, bodyFat=None, source='Omron', comments=
     client.put(entity) 
 
 if __name__ == '__main__':
-    print 'This module should not be called directly.  It is intended to be used as an\nimported module'
+    print ('This module should not be called directly.  It is intended to be used as an\nimported module')
 
