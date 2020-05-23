@@ -13,7 +13,7 @@ def readKey(fp, searchKey):
     if (line[0] == '#' or line.__len__ == 0):
       continue
 
-    (key,value) = line.split("=")
+    (key,value) = line.split("::")
     if ( key == searchKey):
       return value
 

@@ -1,16 +1,16 @@
 {
     "report": {
-        "sr": "v0.9 March, 2018",
+        "sr": "v0.0 June, 2018",
         "type": "Basic",
         "food": {
-            "ndbno": "45120992",
-            "name": "SKIPJACK CHUNK LIGHT TUNA IN WATER, UPC: 856007003052",
-            "ds": "LI",
-            "manu": "The Tuna Store, LLC",
+            "ndbno": "45204734",
+            "name": "GRASS-FED WHEY PROTEIN BAR, UPC: 890704002789",
+            "ds": "Label Insight",
+            "manu": "Boundless Nutrition",
             "ru": "g",
             "ing": {
-                "desc": "SKIPJACK TUNA, WATER, SALT.",
-                "upd": "03/10/2018"
+                "desc": "GRASS-FED WHEY PROTEIN (WHEY PROTEIN CONCENTRATE, WHEY PROTEIN ISOLATE), CHICORY FOOT FIBER, GLUTEN-FREE OATS, ORGANIC DARK CHOCOLATE (ORGANIC SUGAR, ORGANIC CHOCOLATE LIQUOR, ORGANIC COCOA BUTTER, ORGANIC SOY LECITHIN, ORGANIC VANILLA), ORGANIC TAPIOCA SYRUP, VEGETABLE GLYCERIN, ORGANIC SUNFLOWER OIL, ALMOND BUTTER, RESPONSIBLY-CAUGHT FISH OIL (ANCHOVY, SARDINE, TILAPIA), COCOA POWDER, NATURAL FLAVORS, SEA SALT, SUNFLOWER LECITHIN, TAPIOCA STARCH, MONK FRUIT EXTRACT.",
+                "upd": "04/28/2018"
             },
             "nutrients": [
                 {
@@ -19,14 +19,14 @@
                     "derivation": "LCCS",
                     "group": "Proximates",
                     "unit": "kcal",
-                    "value": "107",
+                    "value": "380",
                     "measures": [
                         {
-                            "label": "CUP | DRAINED, ABOUT",
-                            "eqv": 56.0,
+                            "label": "BAR",
+                            "eqv": 50.0,
                             "eunit": "g",
-                            "qty": 0.25,
-                            "value": "60"
+                            "qty": 1.0,
+                            "value": "190"
                         }
                     ]
                 },
@@ -36,14 +36,14 @@
                     "derivation": "LCCS",
                     "group": "Proximates",
                     "unit": "g",
-                    "value": "26.79",
+                    "value": "28.00",
                     "measures": [
                         {
-                            "label": "CUP | DRAINED, ABOUT",
-                            "eqv": 56.0,
+                            "label": "BAR",
+                            "eqv": 50.0,
                             "eunit": "g",
-                            "qty": 0.25,
-                            "value": "15.00"
+                            "qty": 1.0,
+                            "value": "14.00"
                         }
                     ]
                 },
@@ -53,48 +53,48 @@
                     "derivation": "LCCS",
                     "group": "Proximates",
                     "unit": "g",
-                    "value": "0.89",
+                    "value": "14.00",
                     "measures": [
                         {
-                            "label": "CUP | DRAINED, ABOUT",
-                            "eqv": 56.0,
+                            "label": "BAR",
+                            "eqv": 50.0,
                             "eunit": "g",
-                            "qty": 0.25,
-                            "value": "0.50"
+                            "qty": 1.0,
+                            "value": "7.00"
                         }
                     ]
                 },
                 {
                     "nutrient_id": "205",
                     "name": "Carbohydrate, by difference",
-                    "derivation": "LCCD",
+                    "derivation": "LCCS",
                     "group": "Proximates",
                     "unit": "g",
-                    "value": "0.00",
+                    "value": "42.00",
                     "measures": [
                         {
-                            "label": "CUP | DRAINED, ABOUT",
-                            "eqv": 56.0,
+                            "label": "BAR",
+                            "eqv": 50.0,
                             "eunit": "g",
-                            "qty": 0.25,
-                            "value": "0.00"
+                            "qty": 1.0,
+                            "value": "21.00"
                         }
                     ]
                 },
                 {
                     "nutrient_id": "291",
                     "name": "Fiber, total dietary",
-                    "derivation": "LCCD",
+                    "derivation": "LCCS",
                     "group": "Proximates",
                     "unit": "g",
-                    "value": "0.0",
+                    "value": "14.0",
                     "measures": [
                         {
-                            "label": "CUP | DRAINED, ABOUT",
-                            "eqv": 56.0,
+                            "label": "BAR",
+                            "eqv": 50.0,
                             "eunit": "g",
-                            "qty": 0.25,
-                            "value": "0.0"
+                            "qty": 1.0,
+                            "value": "7.0"
                         }
                     ]
                 },
@@ -104,14 +104,14 @@
                     "derivation": "LCCS",
                     "group": "Proximates",
                     "unit": "g",
-                    "value": "0.00",
+                    "value": "10.00",
                     "measures": [
                         {
-                            "label": "CUP | DRAINED, ABOUT",
-                            "eqv": 56.0,
+                            "label": "BAR",
+                            "eqv": 50.0,
                             "eunit": "g",
-                            "qty": 0.25,
-                            "value": "0.00"
+                            "qty": 1.0,
+                            "value": "5.00"
                         }
                     ]
                 },
@@ -121,14 +121,14 @@
                     "derivation": "LCCD",
                     "group": "Minerals",
                     "unit": "mg",
-                    "value": "0",
+                    "value": "100",
                     "measures": [
                         {
-                            "label": "CUP | DRAINED, ABOUT",
-                            "eqv": 56.0,
+                            "label": "BAR",
+                            "eqv": 50.0,
                             "eunit": "g",
-                            "qty": 0.25,
-                            "value": "0"
+                            "qty": 1.0,
+                            "value": "50"
                         }
                     ]
                 },
@@ -138,14 +138,14 @@
                     "derivation": "LCCD",
                     "group": "Minerals",
                     "unit": "mg",
-                    "value": "0.98",
+                    "value": "1.44",
                     "measures": [
                         {
-                            "label": "CUP | DRAINED, ABOUT",
-                            "eqv": 56.0,
+                            "label": "BAR",
+                            "eqv": 50.0,
                             "eunit": "g",
-                            "qty": 0.25,
-                            "value": "0.55"
+                            "qty": 1.0,
+                            "value": "0.72"
                         }
                     ]
                 },
@@ -155,14 +155,14 @@
                     "derivation": "LCCS",
                     "group": "Minerals",
                     "unit": "mg",
-                    "value": "321",
+                    "value": "240",
                     "measures": [
                         {
-                            "label": "CUP | DRAINED, ABOUT",
-                            "eqv": 56.0,
+                            "label": "BAR",
+                            "eqv": 50.0,
                             "eunit": "g",
-                            "qty": 0.25,
-                            "value": "180"
+                            "qty": 1.0,
+                            "value": "120"
                         }
                     ]
                 },
@@ -172,14 +172,14 @@
                     "derivation": "LCCD",
                     "group": "Vitamins",
                     "unit": "mg",
-                    "value": "0.0",
+                    "value": "48.0",
                     "measures": [
                         {
-                            "label": "CUP | DRAINED, ABOUT",
-                            "eqv": 56.0,
+                            "label": "BAR",
+                            "eqv": 50.0,
                             "eunit": "g",
-                            "qty": 0.25,
-                            "value": "0.0"
+                            "qty": 1.0,
+                            "value": "24.0"
                         }
                     ]
                 },
@@ -192,10 +192,10 @@
                     "value": "0",
                     "measures": [
                         {
-                            "label": "CUP | DRAINED, ABOUT",
-                            "eqv": 56.0,
+                            "label": "BAR",
+                            "eqv": 50.0,
                             "eunit": "g",
-                            "qty": 0.25,
+                            "qty": 1.0,
                             "value": "0"
                         }
                     ]
@@ -203,51 +203,17 @@
                 {
                     "nutrient_id": "606",
                     "name": "Fatty acids, total saturated",
-                    "derivation": "LCCD",
-                    "group": "Lipids",
-                    "unit": "g",
-                    "value": "0.000",
-                    "measures": [
-                        {
-                            "label": "CUP | DRAINED, ABOUT",
-                            "eqv": 56.0,
-                            "eunit": "g",
-                            "qty": 0.25,
-                            "value": "0.000"
-                        }
-                    ]
-                },
-                {
-                    "nutrient_id": "645",
-                    "name": "Fatty acids, total monounsaturated",
                     "derivation": "LCCS",
                     "group": "Lipids",
                     "unit": "g",
-                    "value": "0.000",
+                    "value": "4.000",
                     "measures": [
                         {
-                            "label": "CUP | DRAINED, ABOUT",
-                            "eqv": 56.0,
+                            "label": "BAR",
+                            "eqv": 50.0,
                             "eunit": "g",
-                            "qty": 0.25,
-                            "value": "0.000"
-                        }
-                    ]
-                },
-                {
-                    "nutrient_id": "646",
-                    "name": "Fatty acids, total polyunsaturated",
-                    "derivation": "LCCS",
-                    "group": "Lipids",
-                    "unit": "g",
-                    "value": "0.000",
-                    "measures": [
-                        {
-                            "label": "CUP | DRAINED, ABOUT",
-                            "eqv": 56.0,
-                            "eunit": "g",
-                            "qty": 0.25,
-                            "value": "0.000"
+                            "qty": 1.0,
+                            "value": "2.000"
                         }
                     ]
                 },
@@ -260,10 +226,10 @@
                     "value": "0.000",
                     "measures": [
                         {
-                            "label": "CUP | DRAINED, ABOUT",
-                            "eqv": 56.0,
+                            "label": "BAR",
+                            "eqv": 50.0,
                             "eunit": "g",
-                            "qty": 0.25,
+                            "qty": 1.0,
                             "value": "0.000"
                         }
                     ]
@@ -274,14 +240,14 @@
                     "derivation": "LCCS",
                     "group": "Lipids",
                     "unit": "mg",
-                    "value": "54",
+                    "value": "40",
                     "measures": [
                         {
-                            "label": "CUP | DRAINED, ABOUT",
-                            "eqv": 56.0,
+                            "label": "BAR",
+                            "eqv": 50.0,
                             "eunit": "g",
-                            "qty": 0.25,
-                            "value": "30"
+                            "qty": 1.0,
+                            "value": "20"
                         }
                     ]
                 }
