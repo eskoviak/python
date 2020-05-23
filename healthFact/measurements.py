@@ -78,11 +78,11 @@ class Weight:
         This only makes sense for weight, if weight is defined (not None)
 
         """
-	if (self.__weight != None ):
+        if (self.__weight != None ):
             try:
-              return standards.convWeight(self, fromUnits, toUnits)
+                return standards.convWeight(self, fromUnits, toUnits)
             except KeyError as ke:
-		raise KeyError('Bad conversion: ' + ke.message)
+                raise KeyError('Bad conversion: ' + ke.message)
 
     def toEntity(self):
         d = dict()

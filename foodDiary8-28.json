@@ -1,0 +1,22 @@
+{
+    "ingredients" : [
+        {
+            "ndbNo" : "09040",
+            "qty" : 1.0,
+            "qtyMeasure" : "large (8",
+            "meal" : "Post Workout"
+        },
+        {
+            "ndbNo" : "45325002",
+            "qty" : 1.0,
+            "qtyMeasure" : "BAR",
+            "meal" : "Post Workout"
+        },
+        {
+            "ndbNo" : "45338541",
+            "qty" : 140,
+            "qtyMeasure" : "g",
+            "meal" : "Lunch"
+        }
+    ]
+}

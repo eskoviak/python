@@ -1,9 +1,9 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-VisualStudioVersion = 15.0.26430.16
+VisualStudioVersion = 15.0.27428.2005
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "myHealthData", "myHealthData.pyproj", "{1F555237-8B93-47D3-9B9E-4EF703B052CE}"
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "python", "python.pyproj", "{6DD576A1-1D9B-4BC5-B9CC-2E24095C3926}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,10 +11,13 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{1F555237-8B93-47D3-9B9E-4EF703B052CE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{1F555237-8B93-47D3-9B9E-4EF703B052CE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6DD576A1-1D9B-4BC5-B9CC-2E24095C3926}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6DD576A1-1D9B-4BC5-B9CC-2E24095C3926}.Release|Any CPU.ActiveCfg = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {CDA9799B-C7BB-4CB5-B4DD-D422A38DCAF7}
 	EndGlobalSection
 EndGlobal

@@ -6,11 +6,6 @@ import os
 import readConfig
 import argparse
 
-
-searchURITemplate='http://api.nal.usda.gov/ndb/search/?format=json&q={0}&sort=r&max=50&offset=0&api_key={1}'
-reportURITemplate='http://api.nal.usda.gov/ndb/reports/?ndbno={0}&type=f&format=json&api_key={1}'
-#debug = True
-
 def loadFile(filename):
   if(os.path.exsists(filename)):
     infile = open(filename, 'r')
@@ -23,15 +18,14 @@ def loadFile(filename):
 def searchUSDA(criteria):
   choice.replace(' ', '%20')
   key = readConfig.readKey('configuration.cfg', 'api.data.key.gov')
-  url = searchURITemplate.format(choice,key)
-  if(debug):
-    print("Search URI: " + url)
-
+  url = (readConfig.readKey('configuration.cfg', 'SearchURITemplate')).format( key, criteria)
+  print(url)
   uriSocket = urllib.request.Request(url)
   try:
     response = urllib.request.urlopen(uriSocket)
     respCode = response.status
     dataJSON = json.loads(str(response.read(), encoding='utf-8'))
+
     return(respCode, dataJSON)
   except urllib.error.HTTPError as e:
     print(e.code)
@@ -48,14 +42,14 @@ def reportUSDA(ndbno, type):
     response = urllib.request.urlopen(uriSocket)
     respCode = response.status
     dataJSON = json.loads(str(response.read(), encoding='utf-8'))
-    return(respCode, dataJSON)
+    if('list' in dataJSON):
+      return(respCode, dataJSON)
+    else:
+      return(404, '')
   except urllib.error.HTTPError as e:
-    return(e.code, "")
+    return(e.code, '')
 
 if __name__ == '__main__':
-
-  # Parse command line arguments
-  # TODO This doesn't work!
   debug = True
   parser=argparse.ArgumentParser(description='Searches USDA Database')
   parser.add_argument('-d', '--debug', action='store_true' )

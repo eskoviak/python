@@ -35,5 +35,5 @@ if __name__ == '__main__':
   print(json.dumps(b.toEntity()))
 
   (lbm, bmr) = measurements.calcLBM(w,b)
-  print lbm, bmr
+  print (lbm, bmr)
   
