@@ -1,5 +1,5 @@
 # Polynomial Regression Example
-import numpy as mp
+import numpy as np
 import matplotlib.pyplot as plt
 import pandas as pd
 
