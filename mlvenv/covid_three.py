@@ -7,7 +7,7 @@ import sys
 import argparse
 
 parser = argparse.ArgumentParser(description='Get data from COVID 19 JHU Dataset')
-parser.add_argument('state', metavar='State', nargs=1, help='The state to display')
+parser.add_argument('fips', metavar='FIPS', nargs=1, type=int, help='The state to display')
 args = parser.parse_args()
 #print(args.state[0])
 #sys.exit()
@@ -29,30 +29,32 @@ dates = pd.to_datetime(dateColNames)
 months = mdates.MonthLocator()  # every month
 weeks = mdates.WeekdayLocator()
 months_fmt = mdates.DateFormatter('%Y-%m')
-
-fig, ax = plt.subplots()
+fig, (ax1, ax2) = plt.subplots(1, 2, sharex=True)
 #ax.plot('date', 'adj_close', data=data)
 
 # format the ticks
-ax.xaxis.set_major_locator(months)
-ax.xaxis.set_major_formatter(months_fmt)
-ax.xaxis.set_minor_locator(weeks)
+ax1.xaxis.set_major_locator(months)
+ax1.xaxis.set_major_formatter(months_fmt)
+ax1.xaxis.set_minor_locator(weeks)
 
 
 # Get y first so we know how many
-confirmed_state = dataset_confirmed.loc[dataset_confirmed['Province_State'] == args.state[0], dateColNames]
+confirmed_state = dataset_confirmed.loc[:, dateColNames]
 cum_confirmed = confirmed_state.sum()
 
-deaths_state = dataset_death.loc[dataset_death['Province_State'] == args.state[0], dateColNames]
+deaths_state = dataset_death.loc[:, dateColNames]
 cum_deaths = deaths_state.sum()
 
 cum_rate = cum_deaths / cum_confirmed
 
 
 # Set the Date Axis
-ax.stackplot(dates,cum_confirmed, cum_deaths, colors=('green', 'red'))
-plt.title(args.state[0])
+ax1.stackplot(dates,cum_confirmed, cum_deaths, labels=('Confirmed', 'Death'), colors=('green', 'red'))
+ax1.legend()
+ax2.plot(dates, cum_rate, color='blue')
+plt.title('FIPS '+str(args.fips[0]), loc='center')
 plt.xlabel('Date')
-plt.ylabel('Confirmed Cases')
+ax1.set_ylabel('Incidence')
+ax2.set_ylabel('Mobidity Rate')
 fig.autofmt_xdate()
 plt.show()
