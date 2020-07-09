@@ -20,6 +20,7 @@ while 1:
     if c == ord('q'):
         break
     elif c == curses.KEY_HOME:
+        stdscr.addstr(12,1, 'HOME KEY')
         x=y=0
 
 
