@@ -26,6 +26,7 @@ while 1:
 
     if c == ord('1'):
         scope = 'US'
+        scopeValue = b'United States'
         break
     elif c == ord('2'):
         scope = 'State'
