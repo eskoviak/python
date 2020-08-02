@@ -13,36 +13,20 @@ dateColNames = dataset_confirmed.columns[11:].values
 
 def getSeries ( scope, scopeValue):
     if scope == 'US':
-        confirmed = dataset_confirmed.loc[:, dateColNames]
-        cum_confirmed = confirmed.sum()
-
-        deaths = dataset_death.loc[:, dateColNames]
-        cum_deaths = deaths.sum()
-
+        cum_confirmed = (dataset_confirmed.loc[:, dateColNames]).sum()
+        cum_deaths = (dataset_death.loc[:, dateColNames]).sum()
         cum_rate = cum_deaths / cum_confirmed
-
         title = "US"
     elif scope == 'State':
-        confirmed = dataset_confirmed.loc[dataset_confirmed['Province_State'] == scopeValue, dateColNames]
-        cum_confirmed = confirmed.sum()
-
-        deaths = dataset_death.loc[dataset_confirmed['Province_State'] == scopeValue, dateColNames]
-        cum_deaths = deaths.sum()
-
+        cum_confirmed = (dataset_confirmed.loc[dataset_confirmed['Province_State'] == scopeValue, dateColNames]).sum()
+        cum_deaths = ( dataset_death.loc[dataset_confirmed['Province_State'] == scopeValue, dateColNames]).sum()
         cum_rate = cum_deaths / cum_confirmed
-
         title = scopeValue
     elif scope == 'County':
-        confirmed = dataset_confirmed.loc[dataset_confirmed['FIPS'] == int(scopeValue), dateColNames]
-        cum_confirmed = confirmed.sum()
-
-        deaths = dataset_death.loc[dataset_confirmed['FIPS'] == int(scopeValue), dateColNames]
-        cum_deaths = deaths.sum()
-
+        cum_confirmed = (dataset_confirmed.loc[dataset_confirmed['FIPS'] == int(scopeValue), dateColNames]).sum()
+        cum_deaths = (dataset_death.loc[dataset_confirmed['FIPS'] == int(scopeValue), dateColNames]).sum()
         cum_rate = cum_deaths / cum_confirmed
-
-        titledf = dataset_confirmed.loc[dataset_confirmed['FIPS'] == int(scopeValue)]
-        index = titledf.index[0]
+        index = (dataset_confirmed.loc[dataset_confirmed['FIPS'] == int(scopeValue)]).index[0]
         title = str(dataset_confirmed.at[index, 'Combined_Key'])
 
     return(cum_confirmed, cum_deaths, cum_rate, title)
@@ -97,9 +81,11 @@ def plot_daily(scope, scopeValue):
         prev = value
 
     ax1.bar(dates, daily_sum, color='blue')
+    ax2.semilogy(dates, daily_sum, color='red')
     fig.suptitle(title, ha='center')
     plt.xlabel('Date')
     ax1.set_ylabel('Cases/Day')
+    ax2.set_ylabel('LOG Cases/Day')
     fig.autofmt_xdate()
     fig.set_size_inches(16, 9)
     plt.show()
