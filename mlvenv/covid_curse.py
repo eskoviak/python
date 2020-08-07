@@ -36,7 +36,7 @@ def plot_cumulative (scope, scopeValue):
     months = mdates.MonthLocator()  # every month
     weeks = mdates.WeekdayLocator()
     months_fmt = mdates.DateFormatter('%Y-%m')
-    fig, (ax1, ax2) = plt.subplots(1, 2, sharex=True)
+    fig, ((ax1, ax2),(ax3, ax4)) = plt.subplots(2, 2, sharex=True)
 
     # format the ticks
     ax1.xaxis.set_major_locator(months)
