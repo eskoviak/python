@@ -91,7 +91,7 @@ if __name__ == '__main__':
             continue
         elif c == ord('3'):
             stdscr.addstr(10,1, 'Enter the FIPS code for the county: ')
-            plot('County', str(stdscr.getstr(112,1), 'utf-8'))
+            plot('County', str(stdscr.getstr(11,1), 'utf-8'))
             continue
         elif c == ord('q'):
             exit(0)
