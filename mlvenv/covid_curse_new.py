@@ -16,12 +16,14 @@ def plot(scope, scopeValue):
     months = mdates.MonthLocator()  # every month
     weeks = mdates.WeekdayLocator()
     months_fmt = mdates.DateFormatter('%Y-%m')
+    weeks_fmt = mdates.DateFormatter('%d')
     fig, ((ax1, ax2),(ax3, ax4)) = plt.subplots(2, 2, sharex=True)
 
     # format the ticks -- note:  formatting ax1 sets all of them
     ax1.xaxis.set_major_locator(months)
     ax1.xaxis.set_major_formatter(months_fmt)
     ax1.xaxis.set_minor_locator(weeks)
+    ax1.xaxis.set_minor_formatter(weeks_fmt)
 
     title = scopeValue
     if scope == 'US':
