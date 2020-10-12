@@ -34,8 +34,31 @@ def queryFdcid(fdcId):
       respCode = response.status
       dataJSON = json.loads(str(response.read(), encoding='utf-8'))
       #foodNutrients = dataJSON['foodNutrients']
-      
-      description = dataJSON['description']
+      #vector = '( description=' + dataJSON['description']
+      #vector += 'servingSize=' + dataJSON['servingSize']
+      #vector += 'servingSizeUnit=' + dataJSON['servingSizeUnit']
+      #vector += ')'
+      vector = dict(
+        description=dataJSON['description'],
+        servingSize= dataJSON['servingSize'],
+        servingSizeUnit=dataJSON['servingSizeUnit'],
+        calories=dataJSON['labelNutrients']['calories']['value'],
+        totalFat=dataJSON['labelNutrients']['fat']['value'],
+        saturatedFat=dataJSON['labelNutrients']['saturatedFat']['value'],
+        transfat=dataJSON['labelNutrients']['transFat']['value'],
+        cholesterol=dataJSON['labelNutrients']['cholesterol']['value'],
+        sodium=dataJSON['labelNutrients']['sodium']['value'],
+        carbohydrates=dataJSON['labelNutrients']['carbohydrates']['value'],
+        fiber=dataJSON['labelNutrients']['fiber']['value'],
+        sugars=dataJSON['labelNutrients']['sugars']['value'],
+        protein=dataJSON['labelNutrients']['protein']['value'],
+        calcium=dataJSON['labelNutrients']['calcium']['value'],
+        iron=dataJSON['labelNutrients']['iron']['value'],
+        )
+      #labelNutrients = dataJSON['labelNutrients']
+      #for labelNutrient in labelNutrients:
+
+      return(vector)
       #records = []
       #for foodNutrient in foodNutrients:
       #  id = foodNutrient['id']
@@ -46,7 +69,7 @@ def queryFdcid(fdcId):
       #return('{ "' +str(ingredient) +'": ' + json.dumps(records) + '}')
     except urllib.error.HTTPError as e:
       return(e.reason)
-    except:
-      return('{"message":"in other exception"}')
+    except TypeError:
+      return('Type Error caught')
   except FileNotFoundError as fnf:
     return (fnf.errno, '') 
